@@ -1,0 +1,338 @@
+# Chinese translations for scim_panel_vkb_gtk package.
+# Copyright (C) 2009 Intel Corporation.
+# This file is distributed under the same license as the scim_panel_vkb_gtk package.
+# raymond <raymond.liu@intel.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scim_panel_vkb_gtk 0.1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-19 10:32+0800\n"
+"PO-Revision-Date: 2009-06-18 10:37+0800\n"
+"Last-Translator: raymond <raymond.liu@intel.com>\n"
+"Language-Team: Chinese (simplified)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/scim-panel-vkb-gtk.cpp:1253
+msgid "SCIM Help"
+msgstr "SCIM 帮助"
+
+#: src/scim-panel-vkb-gtk.cpp:1270
+msgid "Smart Common Input Method"
+msgstr "智能通用输入法平台"
+
+#: src/scim-panel-vkb-gtk.cpp:1306
+msgid "Show a brief help about SCIM and the current input method."
+msgstr "显示关于 SCIM 和当前输入法的简单帮助."
+
+#: src/scim-panel-vkb-gtk.cpp:1311
+msgid "Show command menu."
+msgstr "显示命令菜单."
+
+#: src/scim-panel-vkb-gtk.cpp:2460
+msgid "Smart Common Input Method platform "
+msgstr "智能通用输入法平台"
+
+#: src/scim-panel-vkb-gtk.cpp:2462
+msgid ""
+"\n"
+"(C) 2002-2005 James Su <suzhe@tsinghua.org.cn>"
+msgstr ""
+"\n"
+"(C) 2002-2005 苏哲 <suzhe@tsinghua.org.cn>"
+
+#: src/scim-panel-vkb-gtk.cpp:2525
+msgid "Reload Configuration"
+msgstr "重新加载配置"
+
+#: src/scim-panel-vkb-gtk.cpp:2535
+msgid "Help ..."
+msgstr "帮助 ..."
+
+#: modules/SetupUI/scim_panel_setup.cpp:107
+msgid "Global Setup"
+msgstr "全局设置"
+
+#: modules/SetupUI/scim_panel_setup.cpp:112
+msgid "Setup the global options used by all the  panel setup modules."
+msgstr "设置面板模块的全局选项"
+
+#: modules/SetupUI/scim_panel_setup.cpp:147
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:463
+msgid "Options"
+msgstr "选项"
+
+#: modules/SetupUI/scim_panel_setup.cpp:161
+msgid "Setup Panel:"
+msgstr "设置面板："
+
+#: modules/SetupUI/scim_panel_setup.cpp:184
+msgid "You should choose your currently used panel program here "
+msgstr "在这里选择你当前使用的面板程序"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:120
+msgid "Virtual Keyboard"
+msgstr "虚拟键盘"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:125
+msgid "A panel daemon with VKB."
+msgstr "带虚拟键盘的面板守护进程"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:275
+msgid "IM Panel"
+msgstr "输入法面板"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:280
+msgid "ToolBar"
+msgstr "工具栏 "
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:292
+msgid "Show _input method icon"
+msgstr "显示输入法图标(_N)"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:299
+msgid "Show inp_ut method name"
+msgstr "显示输入法名称(_U)"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:311
+msgid "Hi_de timeout:"
+msgstr "隐藏超时(_D)："
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:325
+msgid "Show m_enu icon"
+msgstr "显示菜单图标(_E)"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:331
+msgid "Show _help icon"
+msgstr "显示帮助图标(_H)"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:337
+msgid "Show _property label"
+msgstr "显示属性标签(_P)"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:347
+msgid "Mode"
+msgstr "模式"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:356
+msgid "Enable virtual _keyboard"
+msgstr "使用虚拟键盘(_K)"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:368
+msgid "_Font:"
+msgstr "字体(_F)："
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:373
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:1040
+msgid "default"
+msgstr "默认"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:386
+msgid "Normal_Text:"
+msgstr "普通字体"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:405
+msgid "_NormalBG:"
+msgstr "普通背景色"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:423
+msgid "_ActiveText:"
+msgstr "高亮字体"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:441
+msgid "Active_BG:"
+msgstr "高亮背景色"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:458
+msgid "VKB"
+msgstr "虚拟键盘"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:474
+msgid "VKB _Program:"
+msgstr "虚拟键盘程序(_P)："
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:495
+msgid "Para_meters:"
+msgstr "虚拟键盘启动参数(_M)："
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:508
+msgid "Layout"
+msgstr "布局"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:525
+msgid "_Width:"
+msgstr "面板宽度(_W)："
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:545
+msgid "_Height:"
+msgstr "面板高度(_H)："
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:559
+msgid "_Dock panel"
+msgstr "面板置于屏幕边缘(_D)："
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:566
+msgid "_Extended VKB Panel"
+msgstr "扩展面板(_E)："
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:572
+msgid "Reset Default _Value"
+msgstr "恢复出厂设置(_V)"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:667
+msgid ""
+"The toolbar will be hidden out after this timeout is elapsed. This option is "
+"only valid when \"Always show\" is selected. Set to zero to disable this "
+"behavior."
+msgstr ""
+"超过此时间工具栏将会自动隐藏。此选项只有当\"永远\"被选择时方有效。设置为0可禁"
+"用自动隐藏"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:674
+msgid ""
+"If this option is checked, the input method icon will be showed on the "
+"toolbar."
+msgstr "如果选择本项，则输入法图标将会显示在工具栏上"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:678
+msgid ""
+"If this option is checked, the input method name will be showed on the "
+"toolbar."
+msgstr "如果选择本项，则输入法名称将会显示在工具栏上"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:683
+msgid "If this option is checked, the menu icon will be showed on the toolbar."
+msgstr "如果选择本项，则菜单图标将会显示在工具栏上"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:687
+msgid "If this option is checked, the help icon will be showed on the toolbar."
+msgstr "如果选择本项，则帮助图标将会显示在工具栏上"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:691
+msgid ""
+"If this option is checked, the text label of input method properties will be "
+"showed on the toolbar."
+msgstr "如果选择本项，则输入法属性标签将会显示在工具栏上"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:695
+msgid "The font setting will be used in the input and lookup table windows."
+msgstr "字体设置将被应用于输入界面和候选词表界面"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:699
+msgid "Set the virtual keyboard program"
+msgstr "设置虚拟键盘程序"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:702
+msgid "Set runtime parameters for the virtual keyboard program"
+msgstr "设置虚拟键盘程序运行参数"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:705
+msgid "Set vkb panel's width"
+msgstr "设置虚拟键盘面板宽度"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:708
+msgid "Set vkb panel's height"
+msgstr "设置虚拟键盘面板高度"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:711
+msgid ""
+"If this option is checked, the vkb panel will always be showed on the bottom "
+"of screen."
+msgstr "如果选择本项，则虚拟键盘面板将总是置于屏幕底部"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:715
+msgid ""
+"If this option is checked, the vkb panel will extend to the screen width no "
+"matter what window width you set."
+msgstr "如果选择本项，则虚拟键盘面板将扩展至与屏幕等宽，而忽略预设的面板宽度值"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:719
+msgid "Reset all the options to default value "
+msgstr "重设所有选项为默认值"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:722
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:728
+msgid "To choose the text color of input panel under normal stat."
+msgstr "选择输入面板中正常文字的颜色"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:725
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:731
+msgid "To choose the background color of input panel under normal stat."
+msgstr "选择输入面板的背景颜色"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:1037
+msgid "Select Interface Font"
+msgstr "选择界面字体"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:1083
+msgid "Select Virtual Keyboard Program"
+msgstr "选择虚拟键盘程序"
+
+#: modules/SetupUI/scim_panel_vkb_setup.cpp:1119
+msgid "Select Color"
+msgstr "选择颜色"
+
+#~ msgid "Stick/unstick the input window and the toolbar."
+#~ msgstr "粘住/放开 输入窗口和工具条."
+
+#~ msgid "Always"
+#~ msgstr "永远"
+
+#~ msgid "On demand"
+#~ msgstr "需要时"
+
+#~ msgid "Never"
+#~ msgstr "从不"
+
+#~ msgid "Show:"
+#~ msgstr "显示(_S)："
+
+#~ msgid ""
+#~ "If option \"Always\" is selected, the toolbar will always be shown on the "
+#~ "screen. If option \"On demand\" is selected, it will only be shown when "
+#~ "SCIM is activated. If option \"Never\" is selected, it will never be "
+#~ "shown."
+#~ msgstr ""
+#~ "如果选择\"永远\"，工具栏将总是显示在屏幕上；如果选择\"需要时\"，则只有当"
+#~ "SCIM激活时才显示工具栏；如果选择\"从不\"，则不会显示工具栏"
+
+#~ msgid "Show s_tick icon"
+#~ msgstr "显示粘住图标(_T)"
+
+#~ msgid "Misc"
+#~ msgstr "杂项"
+
+#~ msgid "Show tra_y icon"
+#~ msgstr "显示托盘图标(_Y)"
+
+#~ msgid "Stick _windows"
+#~ msgstr "粘住窗口(_W)"
+
+#~ msgid ""
+#~ "If this option is checked, the stick icon will be showed on the toolbar."
+#~ msgstr "如果选择本项，则粘住图标将会显示在工具栏上"
+
+#~ msgid ""
+#~ "If this option is checked, the tray icon will be showed on the desktop's "
+#~ "taskbar."
+#~ msgstr "如果选择本项，则托盘图标将会显示在桌面任务栏上"
+
+#~ msgid ""
+#~ "If this option is checked, the toolbar, input and lookup table windows "
+#~ "will be sticked to its original position."
+#~ msgstr ""
+#~ "如果选择本项，则工具栏，输入界面和候选词表界面将被固定在其初始的位置"
+
+#~ msgid "Hide the input window and the toolbar."
+#~ msgstr "隐藏输入法窗口和工具条"
+
+#~ msgid "Stick Windows"
+#~ msgstr "粘住窗口"
+
+#~ msgid "Hide Toolbar"
+#~ msgstr "隱藏工具条"
+
+#~ msgid "Exit"
+#~ msgstr "退出"

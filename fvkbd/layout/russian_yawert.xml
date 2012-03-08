@@ -1,0 +1,225 @@
+<!-- Russian phonetic YaWert layout -->
+<!-- Seems YaWert get several kinds of varity, this one fit for yawert in scim-tabel -->
+
+<keyboard num_of_modes="3" font="Droid Sans_bold_16" efont="Droid Sans_bold_12" ofont="Droid Sans_bold_24"
+panel_bgcolor="6a6a6a" key_bgcolor="303030" key_fgcolor="fcc536"
+pop_bgcolor="fcc536" pop_fgcolor="303030" key_extra_fgcolor="838383">
+
+	<mode id="0" name="default"/>
+	<mode id="1" name="CapsLock"/>
+	<mode id="2" name="symbol"/>
+
+	<panel layout="xy" x="0" y="0" width="800" height="196" key_shape="chamfer" dock="bottom">
+		<key x="4" y="5" width="55" height="58">
+			<action disp="↑" type="func">mode:1</action>
+			<action mode_id="1" disp="↑" type="func">mode:0</action>
+			<action mode_id="2" disp="↑" type="func">mode:0</action>
+		</key>   
+
+		<key x="65" y="5" width="55" height="58">
+			<action disp="q" sup_label="я">q</action>
+			<action mode_id="1" disp="Q" sup_label="Я">Q</action>
+			<action mode_id="2" disp="1">1</action>
+		</key>
+
+		<key x="126" y="5" width="55" height="58">
+			<action disp="w" sup_label="в">w</action>
+			<action mode_id="1" disp="W" sup_label="В">W</action>
+			<action mode_id="2" disp="2">2</action>
+		</key>
+
+		<key x="187" y="5" width="55" height="58">
+			<action disp="e">e</action>
+			<action mode_id="1" disp="E"></action>
+			<action mode_id="2" disp="3">3</action>
+		</key>
+
+		<key x="248" y="5" width="55" height="58">
+			<action disp="r" sup_label="р">r</action>
+			<action mode_id="1" disp="R" sup_label="Р">R</action>
+			<action mode_id="2" disp="4">4</action>
+		</key>
+
+		<key x="309" y="5" width="55" height="58">
+			<action disp="t" sup_label="т">t</action>
+			<action mode_id="1" disp="T" sup_label="Т">T</action>
+			<action mode_id="2" disp="5">5</action>
+		</key>
+
+		<key x="370" y="5" width="55" height="58">
+			<action disp="y" sup_label="ы">y</action>
+			<action mode_id="1" disp="Y" sup_label="Ы">Y</action>
+			<action mode_id="2" disp="6">6</action>
+		</key>
+
+		<key x="431" y="5" width="55" height="58">
+			<action disp="u" sup_label="у">u</action>
+			<action mode_id="1" disp="U" sup_label="У">U</action>
+			<action mode_id="2" disp="7">7</action>
+		</key>
+
+		<key x="492" y="5" width="55" height="58">
+			<action disp="i" sup_label="и">i</action>
+			<action mode_id="1" disp="I" sup_label="И">I</action>
+			<action mode_id="2" disp="8">8</action>
+		</key>
+
+		<key x="553" y="5" width="55" height="58">
+			<action disp="o">o</action>
+			<action mode_id="1" disp="O">O</action>
+			<action mode_id="2" disp="9">9</action>
+		</key>
+
+		<key x="614" y="5" width="55" height="58">
+			<action disp="p" sup_label="п">p</action>
+			<action mode_id="1" disp="P" sup_label="П">P</action>
+			<action mode_id="2" disp="0">0</action>
+		</key>
+
+		<key x="675" y="5" width="55" height="58">
+		<action disp="←" img="key_bs.png" img_dn="key_bs_dn.png" type="sym">BackSpace</action>
+		</key>
+
+		<key x="736" y="5" width="60" height="58">
+			<action img="key_set.png" img_dn="key_set_dn.png" disp="IM" type="script">toggle-scim-ime.py</action>
+		</key>
+
+		<!--next row-->
+
+		<key x="4" y="69" width="55" height="58">
+			<action disp="123" type="func">mode:2</action>
+			<action mode_id="2" disp="123" type="func">mode:0</action>
+		</key>
+
+		<key x="65" y="69" width="55" height="58">
+			<action disp="a">a</action>
+			<action mode_id="1" disp="A">A</action>
+			<action mode_id="2" disp="!">!</action>
+		</key>
+
+		<key x="126" y="69" width="55" height="58">
+			<action disp="s" sup_label="с">s</action>
+			<action mode_id="1" disp="S" sup_label="С">S</action>
+			<action mode_id="2" disp="/">/</action>
+		</key>
+
+		<key x="187" y="69" width="55" height="58">
+			<action disp="d" sup_label="д">d</action>
+			<action mode_id="1" disp="D" sup_label="Д">D</action>
+			<action mode_id="2" disp="`" sup_label="ю">`</action>
+		</key>
+
+		<key x="248" y="69" width="55" height="58">
+			<action disp="f" sup_label="ф">f</action>
+			<action mode_id="1" disp="F" sup_label="Ф">F</action>
+			<action mode_id="2" disp="~" sup_label="Ю">~</action>
+		</key>
+
+		<key x="309" y="69" width="55" height="58">
+			<action disp="g" sup_label="г">g</action>
+			<action mode_id="1" disp="G" sup_label="Г">G</action>
+			<action mode_id="2" disp="=" sup_label="ч" type="strings">= ( { 「 《 ﹤</action>
+		</key>
+
+		<key x="370" y="69" width="55" height="58">
+			<action disp="h" sup_label="х">h</action>
+			<action mode_id="1" disp="H" sup_label="Х">H</action>
+			<action mode_id="2" disp="+" sup_label="Ч" type="strings">+ ) } 」 》 ﹥</action>
+		</key>
+
+		<key x="431" y="69" width="55" height="58">
+			<action disp="j" sup_label="й">j</action>
+			<action mode_id="1" disp="J" sup_label="Й">J</action>
+			<action mode_id="2" disp="#" sup_label="ъ">#</action>
+		</key>
+
+		<key x="492" y="69" width="55" height="58">
+			<action disp="k" sup_label="к">k</action>
+			<action mode_id="1" disp="K" sup_label="К">K</action>
+			<action mode_id="2" disp="$" sup_label="Ъ" type="strings">$ £ € ¥</action>
+		</key>
+
+		<key x="553" y="69" width="55" height="58">
+			<action disp="l" sup_label="л">l</action>
+			<action mode_id="1" disp="L" sup_label="Л">L</action>
+			<action mode_id="2" disp="^" sup_label="ё">^</action>
+		</key>
+
+		<key x="614" y="69" width="55" height="58">
+			<action disp="[" sup_label="ш">[</action>
+			<action mode_id="1" disp="{" sup_label="Ш">{</action>
+			<action mode_id="2" disp="&amp;" sup_label="Ё">&amp;</action>
+		</key>
+
+		<key x="675" y="69" width="55" height="58">
+			<action disp="]" sup_label="щ">]</action>
+			<action mode_id="1" disp="}" sup_label="Щ">}</action>
+			<action mode_id="2" disp="?">?</action>
+		</key>
+
+		<key x="736" y="69" width="60" height="122" pop="none">
+			<action img="key_return.png" img_dn="key_return_dn.png" disp="◀┛" type="sym">Return</action>
+		</key>
+
+		<!--next row-->
+
+		<key x="4" y="133" width="55" height="58">
+			<action img="key_hide.png" img_dn="key_hide_dn.png" disp="↧" type="script">disable-scim.py</action>
+		</key>
+
+		<key x="65" y="133" width="55" height="58">
+			<action disp="z" sup_label="з">z</action>
+			<action mode_id="1" disp="Z" sup_label="З">Z</action>
+			<action mode_id="2" disp='"' type="strings">" “ ” ‘ ’</action>
+		</key>
+
+		<key x="126" y="133" width="55" height="58">
+			<action disp="x" sup_label="ь">x</action>
+			<action mode_id="1" disp="X" sup_label="Ь">X</action>
+			<action mode_id="2" disp="%">%</action>
+		</key>
+
+		<key x="187" y="133" width="55" height="58">
+			<action disp="c" sup_label="ц">c</action>
+			<action mode_id="1" disp="C" sup_label="Ц">C</action>
+			<action mode_id="2" disp="," type="strings">, &lt;</action>
+		</key>
+
+		<key x="248" y="133" width="55" height="58">
+			<action disp="v" sup_label="ж">v</action>
+			<action mode_id="1" disp="V" sup_label="Ж">V</action>
+			<action mode_id="2" disp="." type="strings">. &gt;</action>
+		</key>
+
+		<key x="309" y="133" width="55" height="58">
+			<action disp="b" sup_label="б">b</action>
+			<action mode_id="1" disp="B" sup_label="Б">B</action>
+			<action mode_id="2" disp="-" type="strings">- _</action>
+		</key>
+
+		<key x="370" y="133" width="55" height="58">
+			<action disp="n" sup_label="н">n</action>
+			<action mode_id="1" disp="N" sup_label="Н">N</action>
+			<action mode_id="2" disp=":" type="strings">: ;</action>
+		</key>
+
+		<key x="431" y="133" width="55" height="58">
+			<action disp="m" sup_label="м">m</action>
+			<action mode_id="1" disp="M" sup_label="М">M</action>
+			<action mode_id="2" disp=".com" type="strings" font="Droid Sans_bold_14" ofont="Droid Sans_bold_14">.com .net .org .edu</action>
+		</key>
+
+		<key x="492" y="133" width="175" height="58" pop="none">
+			<action disp=""> </action>
+		</key>
+
+		<key x="675" y="133" width="55" height="58">
+			<action disp="\" sup_label="э">\</action>
+			<action mode_id="1" disp="|" sup_label="Э">|</action>
+			<action mode_id="2" disp="@">@</action>
+		</key>
+
+
+	</panel>
+
+</keyboard>

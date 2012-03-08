@@ -1,0 +1,683 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/leo\/work\/jimu\/input_method\/fvkbd\/missing --run aclocal-1.11$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ALL_LINGUAS	Makefile	/^ALL_LINGUAS = zh_CN $/;"	m
+AMTAR	Makefile	/^AMTAR = ${SHELL} \/home\/leo\/work\/jimu\/input_method\/fvkbd\/missing --run tar$/;"	m
+AM_CFLAGS	Makefile	/^AM_CFLAGS = -pthread -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include -I\/usr\/include\/libxml2     -Wall -Werror -g3 -O0 -ggdb -DPKGDATADIR="\\"$(PKGDATADIR)\\""$/;"	m
+AR	Makefile	/^AR = ar$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/leo\/work\/jimu\/input_method\/fvkbd\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/leo\/work\/jimu\/input_method\/fvkbd\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/leo\/work\/jimu\/input_method\/fvkbd\/missing --run automake-1.11$/;"	m
+AWK	Makefile	/^AWK = gawk$/;"	m
+CATALOGS	Makefile	/^CATALOGS =  zh_CN.gmo$/;"	m
+CATOBJEXT	Makefile	/^CATOBJEXT = .gmo$/;"	m
+CC	Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2$/;"	m
+CLEANFILES	Makefile	/^CLEANFILES = *~$/;"	m
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+DATADIR	Makefile	/^DATADIR = $(datadir)$/;"	m
+DATADIRNAME	Makefile	/^DATADIRNAME = share$/;"	m
+DBG	fvkbd.h	41;"	d
+DEFAULT_DPI	misc-utility.h	22;"	d
+DEFAULT_EXTRA_FONT_FAMILY	fvkbd.c	49;"	d	file:
+DEFAULT_EXTRA_FONT_SIZE	fvkbd.c	50;"	d	file:
+DEFAULT_EXTRA_FONT_WEIGHT	fvkbd.c	51;"	d	file:
+DEFAULT_FONT_FAMILY	fvkbd.c	45;"	d	file:
+DEFAULT_FONT_SIZE	fvkbd.c	46;"	d	file:
+DEFAULT_FONT_WEIGHT	fvkbd.c	47;"	d	file:
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFAULT_KBD_BG_COLOR	fvkbd.c	/^KbdColor DEFAULT_KBD_BG_COLOR = {0x80, 0x80, 0x80, 0xFF};$/;"	v
+DEFAULT_KEY_BG_COLOR	fvkbd.c	/^KbdColor DEFAULT_KEY_BG_COLOR = {0x30, 0x30, 0x30, 0xFF};$/;"	v
+DEFAULT_KEY_EXTRA_FG_COLOR	fvkbd.c	/^KbdColor DEFAULT_KEY_EXTRA_FG_COLOR = {0x80, 0x80, 0x80, 0xFF};$/;"	v
+DEFAULT_KEY_FG_COLOR	fvkbd.c	/^KbdColor DEFAULT_KEY_FG_COLOR = {0xFF, 0xFF, 0x00, 0xFF};$/;"	v
+DEFAULT_KEY_POP_BG_COLOR	fvkbd.c	/^KbdColor DEFAULT_KEY_POP_BG_COLOR = {0xFF, 0xFF, 0x00, 0xFF};$/;"	v
+DEFAULT_KEY_POP_FG_COLOR	fvkbd.c	/^KbdColor DEFAULT_KEY_POP_FG_COLOR = {0x30, 0x30, 0x30, 0xFF};$/;"	v
+DEFAULT_LAYOUT_FILENAME	layout-utility.c	29;"	d	file:
+DEFAULT_POP_FONT_FAMILY	fvkbd.c	53;"	d	file:
+DEFAULT_POP_FONT_SIZE	fvkbd.c	54;"	d	file:
+DEFAULT_POP_FONT_WEIGHT	fvkbd.c	55;"	d	file:
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(libfvkbd_0.2_la_SOURCES)$/;"	m
+DSYMUTIL	Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	Makefile	/^DUMPBIN = $/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+FAKEKEY_CFLAGS	Makefile	/^FAKEKEY_CFLAGS =  $/;"	m
+FAKEKEY_LIBS	Makefile	/^FAKEKEY_LIBS = -lX11 -lXtst -lfakekey  $/;"	m
+FGREP	Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FLAG_FONT_INFO	fvkbd-base.h	/^	FLAG_FONT_INFO = 1 << 2$/;"	e	enum:__anon4
+FLAG_KEY_BG_FILE	fvkbd-base.h	/^	FLAG_KEY_BG_FILE = 1 << 1,$/;"	e	enum:__anon4
+FLAG_KEY_SHAPE_INFO	fvkbd-base.h	/^	FLAG_KEY_SHAPE_INFO = 1 << 0,$/;"	e	enum:__anon4
+FONT_DELIMITER	misc-utility.c	30;"	d	file:
+FONT_SPLIT_NUM	misc-utility.c	31;"	d	file:
+FVKBD_API_VERSION	Makefile	/^FVKBD_API_VERSION = 0.2$/;"	m
+FVKBD_CFLAGS	Makefile	/^FVKBD_CFLAGS = -pthread -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include -I\/usr\/include\/libxml2  $/;"	m
+FVKBD_IS_KEY	fvkbd-key.h	32;"	d
+FVKBD_IS_KEYBOARD	fvkbd-keyboard.h	32;"	d
+FVKBD_IS_KEYBOARD_CLASS	fvkbd-keyboard.h	33;"	d
+FVKBD_IS_KEY_CLASS	fvkbd-key.h	33;"	d
+FVKBD_IS_PANEL	fvkbd-panel.h	32;"	d
+FVKBD_IS_PANEL_CLASS	fvkbd-panel.h	33;"	d
+FVKBD_IS_PARSER	parser-utility-libxml.h	29;"	d
+FVKBD_IS_PARSER_CLASS	parser-utility-libxml.h	30;"	d
+FVKBD_IS_UNIT	fvkbd-base.h	30;"	d
+FVKBD_IS_UNIT_CLASS	fvkbd-base.h	31;"	d
+FVKBD_KEY	fvkbd-key.h	30;"	d
+FVKBD_KEYBOARD	fvkbd-keyboard.h	30;"	d
+FVKBD_KEYBOARD_CLASS	fvkbd-keyboard.h	31;"	d
+FVKBD_KEYBOARD_GET_CLASS	fvkbd-keyboard.h	34;"	d
+FVKBD_KEYBOARD_GET_PRIVATE	fvkbd-keyboard.c	32;"	d	file:
+FVKBD_KEY_CLASS	fvkbd-key.h	31;"	d
+FVKBD_KEY_GET_CLASS	fvkbd-key.h	34;"	d
+FVKBD_KEY_GET_PRIVATE	fvkbd-key.c	34;"	d	file:
+FVKBD_LIBS	Makefile	/^FVKBD_LIBS = -pthread -lgobject-2.0 -lgthread-2.0 -lrt -lglib-2.0 -lxml2  $/;"	m
+FVKBD_PANEL	fvkbd-panel.h	30;"	d
+FVKBD_PANEL_CLASS	fvkbd-panel.h	31;"	d
+FVKBD_PANEL_GET_CLASS	fvkbd-panel.h	34;"	d
+FVKBD_PANEL_GET_PRIVATE	fvkbd-panel.c	31;"	d	file:
+FVKBD_PARSER	parser-utility-libxml.h	27;"	d
+FVKBD_PARSER_CLASS	parser-utility-libxml.h	28;"	d
+FVKBD_PARSER_GET_CLASS	parser-utility-libxml.h	31;"	d
+FVKBD_PARSER_GET_PRIVATE	parser-utility-libxml.c	32;"	d	file:
+FVKBD_TYPE_KEY	fvkbd-key.h	29;"	d
+FVKBD_TYPE_KEYBOARD	fvkbd-keyboard.h	29;"	d
+FVKBD_TYPE_PANEL	fvkbd-panel.h	29;"	d
+FVKBD_TYPE_PARSER	parser-utility-libxml.h	26;"	d
+FVKBD_TYPE_UNIT	fvkbd-base.h	27;"	d
+FVKBD_UNIT	fvkbd-base.h	28;"	d
+FVKBD_UNIT_CLASS	fvkbd-base.h	29;"	d
+FVKBD_UNIT_FLAGS	fvkbd-base.h	41;"	d
+FVKBD_UNIT_GET_CLASS	fvkbd-base.h	32;"	d
+FVKBD_UNIT_HAS_FONT_INFO	fvkbd-base.h	44;"	d
+FVKBD_UNIT_HAS_KEY_BG_FILE	fvkbd-base.h	43;"	d
+FVKBD_UNIT_HAS_KEY_SHAPE_INFO	fvkbd-base.h	42;"	d
+FVKBD_UNIT_SET_FLAG	fvkbd-base.h	46;"	d
+FVKBD_UNIT_UNSET_FLAG	fvkbd-base.h	47;"	d
+FvkbdKey	fvkbd-key.h	/^typedef struct _FvkbdKey FvkbdKey;$/;"	t	typeref:struct:_FvkbdKey
+FvkbdKeyAction	fvkbd-key.h	/^typedef struct _FvkbdKeyAction FvkbdKeyAction;$/;"	t	typeref:struct:_FvkbdKeyAction
+FvkbdKeyClass	fvkbd-key.h	/^typedef struct _FvkbdKeyClass FvkbdKeyClass;$/;"	t	typeref:struct:_FvkbdKeyClass
+FvkbdKeyPrivate	fvkbd-key.h	/^typedef struct _FvkbdKeyPrivate FvkbdKeyPrivate;$/;"	t	typeref:struct:_FvkbdKeyPrivate
+FvkbdKeyboard	fvkbd-keyboard.h	/^typedef struct _FvkbdKeyboard FvkbdKeyboard;$/;"	t	typeref:struct:_FvkbdKeyboard
+FvkbdKeyboardClass	fvkbd-keyboard.h	/^typedef struct _FvkbdKeyboardClass FvkbdKeyboardClass;$/;"	t	typeref:struct:_FvkbdKeyboardClass
+FvkbdKeyboardMode	fvkbd-keyboard.c	/^typedef struct _FvkbdKeyboardMode FvkbdKeyboardMode;$/;"	t	typeref:struct:_FvkbdKeyboardMode	file:
+FvkbdKeyboardPrivate	fvkbd-keyboard.h	/^typedef struct _FvkbdKeyboardPrivate FvkbdKeyboardPrivate;$/;"	t	typeref:struct:_FvkbdKeyboardPrivate
+FvkbdPanel	fvkbd-panel.h	/^typedef struct _FvkbdPanel FvkbdPanel;$/;"	t	typeref:struct:_FvkbdPanel
+FvkbdPanelClass	fvkbd-panel.h	/^typedef struct _FvkbdPanelClass FvkbdPanelClass;$/;"	t	typeref:struct:_FvkbdPanelClass
+FvkbdPanelPrivate	fvkbd-panel.h	/^typedef struct _FvkbdPanelPrivate FvkbdPanelPrivate;$/;"	t	typeref:struct:_FvkbdPanelPrivate
+FvkbdParser	parser-utility-libxml.h	/^typedef struct _FvkbdParser FvkbdParser;$/;"	t	typeref:struct:_FvkbdParser
+FvkbdParserClass	parser-utility-libxml.h	/^typedef struct _FvkbdParserClass FvkbdParserClass;$/;"	t	typeref:struct:_FvkbdParserClass
+FvkbdParserPrivate	parser-utility-libxml.h	/^typedef struct _FvkbdParserPrivate FvkbdParserPrivate;$/;"	t	typeref:struct:_FvkbdParserPrivate
+FvkbdUnit	fvkbd-base.h	/^typedef struct _FvkbdUnit FvkbdUnit;$/;"	t	typeref:struct:_FvkbdUnit
+FvkbdUnitClass	fvkbd-base.h	/^typedef struct _FvkbdUnitClass FvkbdUnitClass;$/;"	t	typeref:struct:_FvkbdUnitClass
+FvkbdUnitFlags	fvkbd-base.h	/^} FvkbdUnitFlags;$/;"	t	typeref:enum:__anon4
+GETTEXT_PACKAGE	Makefile	/^GETTEXT_PACKAGE = fvkbd$/;"	m
+GMOFILES	Makefile	/^GMOFILES =  zh_CN.gmo$/;"	m
+GMSGFMT	Makefile	/^GMSGFMT = \/usr\/bin\/msgfmt$/;"	m
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+GTK_CFLAGS	Makefile	/^GTK_CFLAGS = -pthread -D_REENTRANT -I\/usr\/include\/gtk-2.0 -I\/usr\/lib\/gtk-2.0\/include -I\/usr\/include\/atk-1.0 -I\/usr\/include\/cairo -I\/usr\/include\/pango-1.0 -I\/usr\/include\/gio-unix-2.0\/ -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include -I\/usr\/include\/pixman-1 -I\/usr\/include\/freetype2 -I\/usr\/include\/directfb -I\/usr\/include\/libpng12 -I\/usr\/include\/unique-1.0  $/;"	m
+GTK_LIBS	Makefile	/^GTK_LIBS = -pthread -lunique-1.0 -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lgdk_pixbuf-2.0 -lm -lpangocairo-1.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lrt -lglib-2.0  $/;"	m
+IMG_DIR_NAME	misc-utility.c	265;"	d	file:
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTOBJEXT	Makefile	/^INSTOBJEXT = .mo$/;"	m
+INTLLIBS	Makefile	/^INTLLIBS = $/;"	m
+INTLTOOL_EXTRACT	Makefile	/^INTLTOOL_EXTRACT = \/usr\/bin\/intltool-extract$/;"	m
+INTLTOOL_MERGE	Makefile	/^INTLTOOL_MERGE = \/usr\/bin\/intltool-merge$/;"	m
+INTLTOOL_PERL	Makefile	/^INTLTOOL_PERL = \/usr\/bin\/perl$/;"	m
+INTLTOOL_UPDATE	Makefile	/^INTLTOOL_UPDATE = \/usr\/bin\/intltool-update$/;"	m
+KBD_COLOR_TYPE_KEY_BG	fvkbd-base.h	/^	KBD_COLOR_TYPE_KEY_BG,$/;"	e	enum:_KbdColorType
+KBD_COLOR_TYPE_KEY_EXTRA_FG	fvkbd-base.h	/^	KBD_COLOR_TYPE_KEY_EXTRA_FG,$/;"	e	enum:_KbdColorType
+KBD_COLOR_TYPE_KEY_FG	fvkbd-base.h	/^	KBD_COLOR_TYPE_KEY_FG,$/;"	e	enum:_KbdColorType
+KBD_COLOR_TYPE_KEY_POP_BG	fvkbd-base.h	/^	KBD_COLOR_TYPE_KEY_POP_BG,$/;"	e	enum:_KbdColorType
+KBD_COLOR_TYPE_KEY_POP_FG	fvkbd-base.h	/^	KBD_COLOR_TYPE_KEY_POP_FG,$/;"	e	enum:_KbdColorType
+KBD_COLOR_TYPE_NUMBER	fvkbd-base.h	/^	KBD_COLOR_TYPE_NUMBER$/;"	e	enum:_KbdColorType
+KBD_COLOR_TYPE_PANEL_BG	fvkbd-base.h	/^	KBD_COLOR_TYPE_PANEL_BG = 0,$/;"	e	enum:_KbdColorType
+KBD_FONT_TYPE_EXTRA	fvkbd-base.h	/^	KBD_FONT_TYPE_EXTRA,$/;"	e	enum:_KbdFontType
+KBD_FONT_TYPE_NORMAL	fvkbd-base.h	/^	KBD_FONT_TYPE_NORMAL = 0,$/;"	e	enum:_KbdFontType
+KBD_FONT_TYPE_NUMBER	fvkbd-base.h	/^	KBD_FONT_TYPE_NUMBER$/;"	e	enum:_KbdFontType
+KBD_FONT_TYPE_POP	fvkbd-base.h	/^	KBD_FONT_TYPE_POP,$/;"	e	enum:_KbdFontType
+KBD_FUNCTION	fvkbd-keyboard.c	/^	KBD_FUNCTION,$/;"	e	enum:__anon3	file:
+KBD_FUNC_EXIT	fvkbd-base.h	/^	KBD_FUNC_EXIT = 21,$/;"	e	enum:_KbdFuncType
+KBD_FUNC_LAST	fvkbd-base.h	/^	KBD_FUNC_LAST$/;"	e	enum:_KbdFuncType
+KBD_FUNC_MENU	fvkbd-base.h	/^	KBD_FUNC_MENU,$/;"	e	enum:_KbdFuncType
+KBD_FUNC_MODE_FIRST	fvkbd-base.h	/^	KBD_FUNC_MODE_FIRST = 11,$/;"	e	enum:_KbdFuncType
+KBD_FUNC_MODE_LAST	fvkbd-base.h	/^	KBD_FUNC_MODE_LAST,$/;"	e	enum:_KbdFuncType
+KBD_FUNC_MODE_NEXT	fvkbd-base.h	/^	KBD_FUNC_MODE_NEXT,$/;"	e	enum:_KbdFuncType
+KBD_FUNC_MODE_PREV	fvkbd-base.h	/^	KBD_FUNC_MODE_PREV,$/;"	e	enum:_KbdFuncType
+KBD_FUNC_MODE_SELECT	fvkbd-base.h	/^	KBD_FUNC_MODE_SELECT,$/;"	e	enum:_KbdFuncType
+KBD_FUNC_ModAlt	fvkbd-base.h	/^	KBD_FUNC_ModAlt,$/;"	e	enum:_KbdFuncType
+KBD_FUNC_ModCaps	fvkbd-base.h	/^	KBD_FUNC_ModCaps,$/;"	e	enum:_KbdFuncType
+KBD_FUNC_ModControl	fvkbd-base.h	/^	KBD_FUNC_ModControl,$/;"	e	enum:_KbdFuncType
+KBD_FUNC_ModShift	fvkbd-base.h	/^	KBD_FUNC_ModShift = 1,$/;"	e	enum:_KbdFuncType
+KBD_FUNC_NONE	fvkbd-base.h	/^	KBD_FUNC_NONE = 0,$/;"	e	enum:_KbdFuncType
+KBD_SHAPE_BITMAP_MASK	fvkbd-base.h	/^	KBD_SHAPE_BITMAP_MASK,$/;"	e	enum:_KbdShapeType
+KBD_SHAPE_CHAMFER	fvkbd-base.h	/^	KBD_SHAPE_CHAMFER,$/;"	e	enum:_KbdShapeType
+KBD_SHAPE_NONE	fvkbd-base.h	/^	KBD_SHAPE_NONE,$/;"	e	enum:_KbdShapeType
+KBD_SHAPE_NULL	fvkbd-base.h	/^	KBD_SHAPE_NULL = 0,$/;"	e	enum:_KbdShapeType
+KBD_SHAPE_NUMBER	fvkbd-base.h	/^	KBD_SHAPE_NUMBER$/;"	e	enum:_KbdShapeType
+KBD_UI_FUNC_LAST	fvkbd.h	/^	KBD_UI_FUNC_LAST$/;"	e	enum:_KbdUIFuncType
+KBD_UI_FUNC_NONE	fvkbd.h	/^	KBD_UI_FUNC_NONE = 0,$/;"	e	enum:_KbdUIFuncType
+KBD_UI_FUNC_QUIT	fvkbd.h	/^	KBD_UI_FUNC_QUIT = 1,$/;"	e	enum:_KbdUIFuncType
+KBD_UI_FUNC_SHOW_MENU	fvkbd.h	/^	KBD_UI_FUNC_SHOW_MENU,$/;"	e	enum:_KbdUIFuncType
+KEYBOARD_MODE_STATUS_ERROR	fvkbd-keyboard.h	/^	KEYBOARD_MODE_STATUS_ERROR = -1,$/;"	e	enum:__anon6
+KEYBOARD_MODE_STATUS_LOCK	fvkbd-keyboard.h	/^	KEYBOARD_MODE_STATUS_LOCK,$/;"	e	enum:__anon6
+KEYBOARD_MODE_STATUS_NORMAL	fvkbd-keyboard.h	/^	KEYBOARD_MODE_STATUS_NORMAL = 0,$/;"	e	enum:__anon6
+KEYBOARD_MODE_STATUS_NUMBER	fvkbd-keyboard.h	/^	KEYBOARD_MODE_STATUS_NUMBER$/;"	e	enum:__anon6
+KEYBOARD_MODE_STATUS_TEMP	fvkbd-keyboard.h	/^	KEYBOARD_MODE_STATUS_TEMP,$/;"	e	enum:__anon6
+KEY_ACTION_FUNC	fvkbd-key.h	/^	KEY_ACTION_FUNC,$/;"	e	enum:_KeyActionType
+KEY_ACTION_NONE	fvkbd-key.h	/^	KEY_ACTION_NONE = 0,$/;"	e	enum:_KeyActionType
+KEY_ACTION_SCRIPT	fvkbd-key.h	/^	KEY_ACTION_SCRIPT$/;"	e	enum:_KeyActionType
+KEY_ACTION_STRING	fvkbd-key.h	/^	KEY_ACTION_STRING,$/;"	e	enum:_KeyActionType
+KEY_ACTION_STRING_GROUP	fvkbd-key.h	/^	KEY_ACTION_STRING_GROUP,$/;"	e	enum:_KeyActionType
+KEY_ACTION_SYM	fvkbd-key.h	/^	KEY_ACTION_SYM,$/;"	e	enum:_KeyActionType
+KEY_DEFAULT_HEIGHT	fvkbd-key.h	51;"	d
+KEY_DEFAULT_WIDTH	fvkbd-key.h	50;"	d
+KbdColor	fvkbd-base.h	/^typedef struct _KbdColor KbdColor;$/;"	t	typeref:struct:_KbdColor
+KbdColorType	fvkbd-base.h	/^typedef enum _KbdColorType KbdColorType;$/;"	t	typeref:enum:_KbdColorType
+KbdFontInfo	fvkbd-base.h	/^typedef struct _KbdFontInfo KbdFontInfo;$/;"	t	typeref:struct:_KbdFontInfo
+KbdFontType	fvkbd-base.h	/^typedef enum _KbdFontType KbdFontType;$/;"	t	typeref:enum:_KbdFontType
+KbdFuncInfo	fvkbd-base.h	/^typedef struct _KbdFuncInfo KbdFuncInfo;$/;"	t	typeref:struct:_KbdFuncInfo
+KbdFuncType	fvkbd-base.h	/^typedef enum _KbdFuncType KbdFuncType;$/;"	t	typeref:enum:_KbdFuncType
+KbdShapeInfo	fvkbd-base.h	/^typedef struct _KbdShapeInfo KbdShapeInfo;$/;"	t	typeref:struct:_KbdShapeInfo
+KbdShapeType	fvkbd-base.h	/^typedef enum _KbdShapeType KbdShapeType;$/;"	t	typeref:enum:_KbdShapeType
+KbdUIFuncType	fvkbd.h	/^typedef enum _KbdUIFuncType KbdUIFuncType;$/;"	t	typeref:enum:_KbdUIFuncType
+KeyActionType	fvkbd-key.h	/^typedef enum _KeyActionType KeyActionType;$/;"	t	typeref:enum:_KeyActionType
+KeyFuncName	fvkbd-key.h	/^} KeyFuncName;$/;"	t	typeref:struct:__anon2
+KeyboardModeStatus	fvkbd-keyboard.h	/^} KeyboardModeStatus;$/;"	t	typeref:enum:__anon6
+LAST_SIGNAL	fvkbd-keyboard.c	/^	LAST_SIGNAL$/;"	e	enum:__anon3	file:
+LAYOUT_DOCK_BOTTOM	fvkbd-panel.h	/^	LAYOUT_DOCK_BOTTOM,$/;"	e	enum:_PanelDockType
+LAYOUT_DOCK_LEFT	fvkbd-panel.h	/^	LAYOUT_DOCK_LEFT,$/;"	e	enum:_PanelDockType
+LAYOUT_DOCK_NONE	fvkbd-panel.h	/^	LAYOUT_DOCK_NONE = 0,$/;"	e	enum:_PanelDockType
+LAYOUT_DOCK_RIGHT	fvkbd-panel.h	/^	LAYOUT_DOCK_RIGHT$/;"	e	enum:_PanelDockType
+LAYOUT_DOCK_TOP	fvkbd-panel.h	/^	LAYOUT_DOCK_TOP,$/;"	e	enum:_PanelDockType
+LAYOUT_EXT	layout-utility.c	32;"	d	file:
+LAYOUT_TYPE_ROW	fvkbd-panel.h	/^	LAYOUT_TYPE_ROW = 1,$/;"	e	enum:_PanelLayoutType
+LAYOUT_TYPE_XY	fvkbd-panel.h	/^	LAYOUT_TYPE_XY$/;"	e	enum:_PanelLayoutType
+LD	Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = $/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LINK	Makefile	/^LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LIPO	Makefile	/^LIPO = $/;"	m
+LN_S	Makefile	/^LN_S = ln -s$/;"	m
+LTCOMPILE	Makefile	/^LTCOMPILE = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBRARIES	Makefile	/^LTLIBRARIES = $(lib_LTLIBRARIES)$/;"	m
+LayoutFileInfo	layout-utility.h	/^typedef struct _LayoutFileInfo LayoutFileInfo;$/;"	t	typeref:struct:_LayoutFileInfo
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/leo\/work\/jimu\/input_method\/fvkbd\/missing --run makeinfo$/;"	m
+MAX_KEYBOARD_MODES	fvkbd-keyboard.c	168;"	d	file:
+MAX_LAYOUT_HISTORY	layout-utility.h	28;"	d
+MIN_KEYBOARD_MODES	fvkbd-keyboard.c	167;"	d	file:
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKINSTALLDIRS	Makefile	/^MKINSTALLDIRS = .\/mkinstalldirs$/;"	m
+MSGFMT	Makefile	/^MSGFMT = \/usr\/bin\/msgfmt$/;"	m
+MSGFMT_OPTS	Makefile	/^MSGFMT_OPTS = -c$/;"	m
+MSGMERGE	Makefile	/^MSGMERGE = \/usr\/bin\/msgmerge$/;"	m
+NM	Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NMEDIT	Makefile	/^NMEDIT = $/;"	m
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP = objdump$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OTOOL	Makefile	/^OTOOL = $/;"	m
+OTOOL64	Makefile	/^OTOOL64 = $/;"	m
+PACKAGE	Makefile	/^PACKAGE = fvkbd$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = fvkbd$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = fvkbd 0.2.3$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = fvkbd$/;"	m
+PACKAGE_URL	Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 0.2.3$/;"	m
+PANEL_DEFAULT_H_SPACING	fvkbd-panel.c	48;"	d	file:
+PANEL_DEFAULT_ROW_HEIGHT	fvkbd-panel.c	50;"	d	file:
+PANEL_DEFAULT_V_SPACING	fvkbd-panel.c	49;"	d	file:
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PKGDATADIR	Makefile	/^PKGDATADIR = $(datadir)\/fvkbd$/;"	m
+PKG_CONFIG	Makefile	/^PKG_CONFIG = \/usr\/bin\/pkg-config$/;"	m
+POFILES	Makefile	/^POFILES =  zh_CN.po$/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+POSUB	Makefile	/^POSUB = po$/;"	m
+PO_IN_DATADIR_FALSE	Makefile	/^PO_IN_DATADIR_FALSE = $/;"	m
+PO_IN_DATADIR_TRUE	Makefile	/^PO_IN_DATADIR_TRUE = $/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PanelDockType	fvkbd-panel.h	/^typedef enum _PanelDockType PanelDockType;$/;"	t	typeref:enum:_PanelDockType
+PanelLayoutType	fvkbd-panel.h	/^typedef enum _PanelLayoutType PanelLayoutType;$/;"	t	typeref:enum:_PanelLayoutType
+PanelParserData	fvkbd-panel.c	/^typedef struct _PanelParserData PanelParserData;$/;"	t	typeref:struct:_PanelParserData	file:
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+ROOT_NODE_NAME	fvkbd.c	33;"	d	file:
+SCRIPT_DIR_NAME	misc-utility.c	264;"	d	file:
+SED	Makefile	/^SED = \/bin\/sed$/;"	m
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
+SOURCES	Makefile	/^SOURCES = $(libfvkbd_0.2_la_SOURCES)$/;"	m
+STEP	fvkbd.h	46;"	d
+STRIP	Makefile	/^STRIP = strip$/;"	m
+TIMER_DESTROY	fvkbd.h	53;"	d
+TIMER_ELAPSED	fvkbd.h	54;"	d
+TIMER_NEW	fvkbd.h	51;"	d
+TIMER_STOP	fvkbd.h	52;"	d
+UNIT_FLAG_MASK	fvkbd-base.h	169;"	d
+UNIT_FLAG_SHIFT	fvkbd-base.h	173;"	d
+UNIT_SUBTYPE_MASK	fvkbd-base.h	168;"	d
+UNIT_SUBTYPE_PANEL_NORMAL	fvkbd-base.h	181;"	d
+UNIT_SUBTYPE_SHIFT	fvkbd-base.h	172;"	d
+UNIT_TYPE_KEY	fvkbd-base.h	178;"	d
+UNIT_TYPE_KEYBOARD	fvkbd-base.h	176;"	d
+UNIT_TYPE_MASK	fvkbd-base.h	167;"	d
+UNIT_TYPE_PANEL	fvkbd-base.h	177;"	d
+UNIT_TYPE_SHIFT	fvkbd-base.h	171;"	d
+USER_PKGDATA_DIR	layout-utility.c	30;"	d	file:
+USER_PKGDATA_DIR	misc-utility.c	263;"	d	file:
+USE_NLS	Makefile	/^USE_NLS = yes$/;"	m
+UnitParserFunc	fvkbd-base.h	/^typedef struct _UnitParserFunc UnitParserFunc;$/;"	t	typeref:struct:_UnitParserFunc
+VERSION	Makefile	/^VERSION = 0.2.3$/;"	m
+XGETTEXT	Makefile	/^XGETTEXT = \/usr\/bin\/xgettext$/;"	m
+_	fvkbd.h	48;"	d
+_FVKBD_BASE_H	fvkbd-base.h	18;"	d
+_FVKBD_H	fvkbd.h	18;"	d
+_FVKBD_KEYBOARD_H	fvkbd-keyboard.h	18;"	d
+_FVKBD_KEY_H	fvkbd-key.h	18;"	d
+_FVKBD_PANEL_H	fvkbd-panel.h	18;"	d
+_FvkbdKey	fvkbd-key.h	/^struct _FvkbdKey {$/;"	s
+_FvkbdKeyAction	fvkbd-key.h	/^struct _FvkbdKeyAction {$/;"	s
+_FvkbdKeyClass	fvkbd-key.h	/^struct _FvkbdKeyClass {$/;"	s
+_FvkbdKeyPrivate	fvkbd-key.c	/^struct _FvkbdKeyPrivate {$/;"	s	file:
+_FvkbdKeyboard	fvkbd-keyboard.h	/^struct _FvkbdKeyboard {$/;"	s
+_FvkbdKeyboardClass	fvkbd-keyboard.h	/^struct _FvkbdKeyboardClass {$/;"	s
+_FvkbdKeyboardMode	fvkbd-keyboard.c	/^struct _FvkbdKeyboardMode {$/;"	s	file:
+_FvkbdKeyboardPrivate	fvkbd-keyboard.c	/^struct _FvkbdKeyboardPrivate {$/;"	s	file:
+_FvkbdPanel	fvkbd-panel.h	/^struct _FvkbdPanel {$/;"	s
+_FvkbdPanelClass	fvkbd-panel.h	/^struct _FvkbdPanelClass {$/;"	s
+_FvkbdPanelPrivate	fvkbd-panel.c	/^struct _FvkbdPanelPrivate {$/;"	s	file:
+_FvkbdParser	parser-utility-libxml.h	/^struct _FvkbdParser {$/;"	s
+_FvkbdParserClass	parser-utility-libxml.h	/^struct _FvkbdParserClass {$/;"	s
+_FvkbdParserPrivate	parser-utility-libxml.c	/^struct _FvkbdParserPrivate$/;"	s	file:
+_FvkbdUnit	fvkbd-base.h	/^struct _FvkbdUnit {$/;"	s
+_FvkbdUnitClass	fvkbd-base.h	/^struct _FvkbdUnitClass {$/;"	s
+_KbdColor	fvkbd-base.h	/^struct _KbdColor {$/;"	s
+_KbdColorType	fvkbd-base.h	/^enum _KbdColorType {$/;"	g
+_KbdFontInfo	fvkbd-base.h	/^struct _KbdFontInfo {$/;"	s
+_KbdFontType	fvkbd-base.h	/^enum _KbdFontType {$/;"	g
+_KbdFuncInfo	fvkbd-base.h	/^struct _KbdFuncInfo {$/;"	s
+_KbdFuncType	fvkbd-base.h	/^enum _KbdFuncType {$/;"	g
+_KbdShapeInfo	fvkbd-base.h	/^struct _KbdShapeInfo {$/;"	s
+_KbdShapeType	fvkbd-base.h	/^enum _KbdShapeType {$/;"	g
+_KbdUIFuncType	fvkbd.h	/^enum _KbdUIFuncType {$/;"	g
+_KeyActionType	fvkbd-key.h	/^enum _KeyActionType {$/;"	g
+_LAYOUT_UTILITY_H	layout-utility.h	18;"	d
+_LayoutFileInfo	layout-utility.h	/^struct _LayoutFileInfo {$/;"	s
+_MISC_UTILITY_H	misc-utility.h	18;"	d
+_PARSER_UTILITY_LIBXML_H	parser-utility-libxml.h	18;"	d
+_PanelDockType	fvkbd-panel.h	/^enum _PanelDockType {$/;"	g
+_PanelLayoutType	fvkbd-panel.h	/^enum _PanelLayoutType {$/;"	g
+_PanelParserData	fvkbd-panel.c	/^struct _PanelParserData {$/;"	s	file:
+_UnitParserFunc	fvkbd-base.h	/^struct _UnitParserFunc {$/;"	s
+_fvkbd_boolean_handled_accumulator	misc-utility.c	/^_fvkbd_boolean_handled_accumulator (GSignalInvocationHint *ihint,$/;"	f
+_fvkbd_marshal_BOOLEAN__POINTER	misc-utility.c	/^_fvkbd_marshal_BOOLEAN__POINTER (GClosure *closure,$/;"	f
+_fvkbd_unit_get_font_full	fvkbd-base.c	/^_fvkbd_unit_get_font_full (FvkbdUnit *unit, KbdFontType type,$/;"	f	file:
+_fvkbd_unit_get_qdata_full	fvkbd-base.c	/^_fvkbd_unit_get_qdata_full(FvkbdUnit *unit, GQuark quark,$/;"	f
+a	fvkbd-base.h	/^	gchar a;$/;"	m	struct:_KbdColor
+abs_builddir	Makefile	/^abs_builddir = \/home\/leo\/work\/jimu\/input_method\/fvkbd\/src$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/leo\/work\/jimu\/input_method\/fvkbd\/src$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/leo\/work\/jimu\/input_method\/fvkbd$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/leo\/work\/jimu\/input_method\/fvkbd$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_DUMPBIN	Makefile	/^ac_ct_DUMPBIN = $/;"	m
+action_free_font_info	fvkbd-key.c	/^action_free_font_info(FvkbdKeyAction *action)$/;"	f	file:
+action_free_func	fvkbd-key.c	/^action_free_func(KbdFuncInfo *func)$/;"	f	file:
+action_str_to_func	fvkbd-key.c	/^action_str_to_func (FvkbdKeyAction *action, gchar *name)$/;"	f	file:
+actions	fvkbd-key.c	/^	GSList *actions;$/;"	m	struct:_FvkbdKeyPrivate	file:
+add_recent_layout_file	layout-utility.c	/^add_recent_layout_file(const gchar *new_name)$/;"	f
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/m4\/as-linguas.m4 \\$/;"	m
+am__base_list	Makefile	/^am__base_list = \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__install_max	Makefile	/^am__install_max = 40$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(libdir)"$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__mv	Makefile	/^am__mv = mv -f$/;"	m
+am__nobase_list	Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_strip	Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip_setup	Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__objects_1	Makefile	/^am__objects_1 = fvkbd.lo fvkbd-base.lo fvkbd-key.lo fvkbd-keyboard.lo \\$/;"	m
+am__objects_2	Makefile	/^am__objects_2 =$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__strip_dir	Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__tar	Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__untar	Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__vpath_adj	Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj_setup	Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am_libfvkbd_0.2_la_OBJECTS	Makefile	/^am_libfvkbd_0.2_la_OBJECTS = $(am__objects_1) \\$/;"	m
+b	fvkbd-base.h	/^	gchar b;$/;"	m	struct:_KbdColor
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+build	Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = i686$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = pc$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+children	fvkbd-panel.c	/^	GSList *children;$/;"	m	struct:_FvkbdPanelPrivate	file:
+color	fvkbd-base.h	/^	KbdColor *color[KBD_COLOR_TYPE_NUMBER];$/;"	m	struct:_FvkbdUnit
+cur	parser-utility-libxml.c	/^	xmlNodePtr cur;$/;"	m	struct:_FvkbdParserPrivate	file:
+current_mode	fvkbd-keyboard.c	/^	gint current_mode;$/;"	m	struct:_FvkbdKeyboardPrivate	file:
+current_x	fvkbd-panel.c	/^	gint current_x;$/;"	m	struct:_PanelParserData	file:
+current_y	fvkbd-panel.c	/^	gint current_y;$/;"	m	struct:_PanelParserData	file:
+data	fvkbd-base.h	/^	void *data;$/;"	m	struct:_KbdFuncInfo
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+disable_pop	fvkbd-key.c	/^	gboolean disable_pop;$/;"	m	struct:_FvkbdKeyPrivate	file:
+disp	fvkbd-key.h	/^	gchar *disp;$/;"	m	struct:_FvkbdKeyAction
+doc	parser-utility-libxml.c	/^	xmlDocPtr doc;$/;"	m	struct:_FvkbdParserPrivate	file:
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+dock	fvkbd-panel.c	/^	PanelDockType dock;$/;"	m	struct:_FvkbdPanelPrivate	file:
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+err	parser-utility-libxml.h	/^	gboolean err;$/;"	m	struct:_FvkbdParser
+err_msg	parser-utility-libxml.h	/^	char *err_msg;$/;"	m	struct:_FvkbdParser
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+family	fvkbd-base.h	/^	gchar *family;$/;"	m	struct:_KbdFontInfo
+file_exist	misc-utility.c	/^static inline int file_exist(gchar *filename)$/;"	f	file:
+file_readable	layout-utility.c	/^static inline int file_readable(gchar *filename)$/;"	f	file:
+filename	layout-utility.h	/^	gchar *filename;$/;"	m	struct:_LayoutFileInfo
+find_layout_file	layout-utility.c	/^find_layout_file(const gchar *filename)$/;"	f
+find_layout_files	layout-utility.c	/^find_layout_files(void)$/;"	f
+find_layout_files_in_path	layout-utility.c	/^find_layout_files_in_path(gchar *path)$/;"	f	file:
+flags	fvkbd-base.h	/^	guint16 flags;$/;"	m	struct:_FvkbdUnit
+font	fvkbd-base.h	/^	KbdFontInfo *font[KBD_FONT_TYPE_NUMBER];$/;"	m	struct:_FvkbdUnit
+font	fvkbd-key.h	/^	KbdFontInfo *font[KBD_FONT_TYPE_NUMBER];	\/\/there is rare case that a key need to use different font setting for different action mode.$/;"	m	struct:_FvkbdKeyAction
+func	fvkbd-key.h	/^		KbdFuncInfo func;$/;"	m	union:_FvkbdKeyAction::__anon1
+fvkbd_do_script	misc-utility.c	/^fvkbd_do_script(gchar *string)$/;"	f
+fvkbd_get_unit_flag	fvkbd-base.c	/^fvkbd_get_unit_flag(FvkbdUnit *unit)$/;"	f
+fvkbd_get_unit_subtype	fvkbd-base.c	/^fvkbd_get_unit_subtype(FvkbdUnit *unit)$/;"	f
+fvkbd_get_unit_type	fvkbd-base.c	/^fvkbd_get_unit_type(FvkbdUnit *unit)$/;"	f
+fvkbd_has_key_held	fvkbd-key.c	/^gboolean fvkbd_has_key_held = FALSE;$/;"	v
+fvkbd_key_action_free	fvkbd-key.c	/^fvkbd_key_action_free(FvkbdKeyAction *action)$/;"	f	file:
+fvkbd_key_class_init	fvkbd-key.c	/^fvkbd_key_class_init (FvkbdKeyClass *klass)$/;"	f	file:
+fvkbd_key_finalize	fvkbd-key.c	/^fvkbd_key_finalize (GObject *object)$/;"	f	file:
+fvkbd_key_get_action	fvkbd-key.c	/^fvkbd_key_get_action(FvkbdKey *self, gint id)$/;"	f
+fvkbd_key_get_disp	fvkbd-key.c	/^fvkbd_key_get_disp (FvkbdKey *self, gint id)$/;"	f
+fvkbd_key_get_image	fvkbd-key.c	/^fvkbd_key_get_image (FvkbdKey *self, gint id)$/;"	f
+fvkbd_key_get_position	fvkbd-key.c	/^fvkbd_key_get_position (FvkbdUnit *unit, gint *x, gint *y)$/;"	f	file:
+fvkbd_key_get_size	fvkbd-key.c	/^fvkbd_key_get_size (FvkbdUnit *unit, gint *w, gint *h)$/;"	f	file:
+fvkbd_key_init	fvkbd-key.c	/^fvkbd_key_init (FvkbdKey *self)$/;"	f	file:
+fvkbd_key_new	fvkbd-key.c	/^fvkbd_key_new (void)$/;"	f
+fvkbd_key_parse_xml	fvkbd-key.c	/^fvkbd_key_parse_xml (FvkbdUnit *unit, FvkbdParser *parser)$/;"	f	file:
+fvkbd_key_pop_notify_disabled	fvkbd-key.c	/^fvkbd_key_pop_notify_disabled(FvkbdKey *self)$/;"	f
+fvkbd_key_send_utf8_string	fvkbd-key.c	/^fvkbd_key_send_utf8_string(gchar *string)$/;"	f
+fvkbd_key_send_xkeysym	fvkbd-key.c	/^fvkbd_key_send_xkeysym(KeySym sym)$/;"	f
+fvkbd_key_set_position	fvkbd-key.c	/^fvkbd_key_set_position (FvkbdUnit *unit, gint x, gint y)$/;"	f	file:
+fvkbd_key_set_size	fvkbd-key.c	/^fvkbd_key_set_size (FvkbdUnit *unit, gint w, gint h)$/;"	f	file:
+fvkbd_keyboard_class_init	fvkbd-keyboard.c	/^fvkbd_keyboard_class_init (FvkbdKeyboardClass *klass)$/;"	f	file:
+fvkbd_keyboard_do_func	fvkbd-keyboard.c	/^fvkbd_keyboard_do_func (FvkbdKeyboard *keyboard, KbdFuncInfo *func)$/;"	f
+fvkbd_keyboard_finalize	fvkbd-keyboard.c	/^fvkbd_keyboard_finalize (GObject *object)$/;"	f	file:
+fvkbd_keyboard_get_current_mode	fvkbd-keyboard.c	/^fvkbd_keyboard_get_current_mode (FvkbdKeyboard *keyboard)$/;"	f
+fvkbd_keyboard_get_mode_status	fvkbd-keyboard.c	/^fvkbd_keyboard_get_mode_status(FvkbdKeyboard *keyboard)$/;"	f
+fvkbd_keyboard_get_modes_number	fvkbd-keyboard.c	/^fvkbd_keyboard_get_modes_number (FvkbdKeyboard *keyboard)$/;"	f
+fvkbd_keyboard_get_panels	fvkbd-keyboard.c	/^fvkbd_keyboard_get_panels (FvkbdKeyboard *keyboard)$/;"	f
+fvkbd_keyboard_get_previous_mode	fvkbd-keyboard.c	/^fvkbd_keyboard_get_previous_mode (FvkbdKeyboard *keyboard)$/;"	f
+fvkbd_keyboard_init	fvkbd-keyboard.c	/^fvkbd_keyboard_init (FvkbdKeyboard *self)$/;"	f	file:
+fvkbd_keyboard_new	fvkbd-keyboard.c	/^fvkbd_keyboard_new (void)$/;"	f
+fvkbd_keyboard_parse_xml	fvkbd-keyboard.c	/^static gboolean fvkbd_keyboard_parse_xml (FvkbdUnit *unit, FvkbdParser *parser)$/;"	f	file:
+fvkbd_keyboard_set_mode	fvkbd-keyboard.c	/^fvkbd_keyboard_set_mode (FvkbdKeyboard *keyboard, gint mode)$/;"	f
+fvkbd_keyboard_set_mode_status	fvkbd-keyboard.c	/^fvkbd_keyboard_set_mode_status(FvkbdKeyboard *keyboard, KeyboardModeStatus status)$/;"	f
+fvkbd_keyboard_signals	fvkbd-keyboard.c	/^static guint fvkbd_keyboard_signals[LAST_SIGNAL] = { 0 };$/;"	v	file:
+fvkbd_panel_class_init	fvkbd-panel.c	/^fvkbd_panel_class_init (FvkbdPanelClass *klass)$/;"	f	file:
+fvkbd_panel_finalize	fvkbd-panel.c	/^fvkbd_panel_finalize (GObject *object)$/;"	f	file:
+fvkbd_panel_get_children	fvkbd-panel.c	/^fvkbd_panel_get_children (FvkbdPanel *self)$/;"	f
+fvkbd_panel_get_docktype	fvkbd-panel.c	/^fvkbd_panel_get_docktype (FvkbdPanel *self)$/;"	f
+fvkbd_panel_get_img	fvkbd-panel.c	/^fvkbd_panel_get_img (FvkbdPanel *self)$/;"	f
+fvkbd_panel_get_position	fvkbd-panel.c	/^fvkbd_panel_get_position (FvkbdUnit *unit, gint *x, gint *y)$/;"	f	file:
+fvkbd_panel_get_size	fvkbd-panel.c	/^fvkbd_panel_get_size (FvkbdUnit *unit, gint *w, gint *h)$/;"	f	file:
+fvkbd_panel_init	fvkbd-panel.c	/^fvkbd_panel_init (FvkbdPanel *self)$/;"	f	file:
+fvkbd_panel_new	fvkbd-panel.c	/^fvkbd_panel_new (void)$/;"	f
+fvkbd_panel_parse_xml	fvkbd-panel.c	/^fvkbd_panel_parse_xml (FvkbdUnit *unit, FvkbdParser *parser)$/;"	f	file:
+fvkbd_panel_set_size	fvkbd-panel.c	/^fvkbd_panel_set_size (FvkbdUnit *unit, gint w, gint h)$/;"	f	file:
+fvkbd_parser_class_init	parser-utility-libxml.c	/^fvkbd_parser_class_init (FvkbdParserClass *klass)$/;"	f	file:
+fvkbd_parser_cleanup	parser-utility-libxml.c	/^fvkbd_parser_cleanup (FvkbdParser *parser)$/;"	f
+fvkbd_parser_element_enter	parser-utility-libxml.c	/^fvkbd_parser_element_enter (FvkbdParser *parser)$/;"	f
+fvkbd_parser_element_get_content	parser-utility-libxml.c	/^fvkbd_parser_element_get_content (FvkbdParser *parser)$/;"	f
+fvkbd_parser_element_match	parser-utility-libxml.c	/^fvkbd_parser_element_match (FvkbdParser *parser, gchar *name)$/;"	f
+fvkbd_parser_element_next	parser-utility-libxml.c	/^fvkbd_parser_element_next (FvkbdParser *parser)$/;"	f
+fvkbd_parser_finalize	parser-utility-libxml.c	/^fvkbd_parser_finalize(GObject *object)$/;"	f	file:
+fvkbd_parser_free_file	parser-utility-libxml.c	/^fvkbd_parser_free_file (FvkbdParser *parser)$/;"	f
+fvkbd_parser_get_attribute	parser-utility-libxml.c	/^fvkbd_parser_get_attribute (FvkbdParser *parser, gchar *name)$/;"	f
+fvkbd_parser_go_child_element	parser-utility-libxml.c	/^fvkbd_parser_go_child_element (FvkbdParser *parser)$/;"	f
+fvkbd_parser_go_parent_element	parser-utility-libxml.c	/^fvkbd_parser_go_parent_element (FvkbdParser *parser)$/;"	f
+fvkbd_parser_init	parser-utility-libxml.c	/^fvkbd_parser_init (FvkbdParser *self)$/;"	f	file:
+fvkbd_parser_load_file	parser-utility-libxml.c	/^fvkbd_parser_load_file (FvkbdParser *parser, const gchar *filename)$/;"	f
+fvkbd_parser_new	parser-utility-libxml.c	/^fvkbd_parser_new (void)$/;"	f
+fvkbd_parser_set_error	parser-utility-libxml.c	/^void fvkbd_parser_set_error (FvkbdParser *parser, gchar *err_msg)$/;"	f
+fvkbd_set_unit_flag	fvkbd-base.c	/^fvkbd_set_unit_flag(FvkbdUnit *unit, gint value)$/;"	f
+fvkbd_set_unit_subtype	fvkbd-base.c	/^fvkbd_set_unit_subtype(FvkbdUnit *unit, gint value)$/;"	f
+fvkbd_set_unit_type	fvkbd-base.c	/^fvkbd_set_unit_type(FvkbdUnit *unit, gint value)$/;"	f
+fvkbd_source_c	Makefile	/^fvkbd_source_c = \\$/;"	m
+fvkbd_source_h	Makefile	/^fvkbd_source_h = \\$/;"	m
+fvkbd_unit_class_init	fvkbd-base.c	/^fvkbd_unit_class_init (FvkbdUnitClass *klass)$/;"	f	file:
+fvkbd_unit_finalize	fvkbd-base.c	/^fvkbd_unit_finalize(GObject *object)$/;"	f	file:
+fvkbd_unit_get_color	fvkbd-base.c	/^fvkbd_unit_get_color (FvkbdUnit *unit, KbdColorType type)$/;"	f
+fvkbd_unit_get_font	fvkbd-base.c	/^fvkbd_unit_get_font (FvkbdUnit *unit, KbdFontType type)$/;"	f
+fvkbd_unit_get_font_recursive	fvkbd-base.c	/^fvkbd_unit_get_font_recursive (FvkbdUnit *unit, KbdFontType type,$/;"	f
+fvkbd_unit_get_parent	fvkbd-base.c	/^fvkbd_unit_get_parent (FvkbdUnit *unit)$/;"	f
+fvkbd_unit_get_position	fvkbd-base.c	/^fvkbd_unit_get_position (FvkbdUnit *unit, gint *x, gint *y)$/;"	f
+fvkbd_unit_get_qdata	fvkbd-base.c	/^fvkbd_unit_get_qdata(FvkbdUnit *unit, GQuark quark)$/;"	f
+fvkbd_unit_get_qdata_recursive	fvkbd-base.c	/^fvkbd_unit_get_qdata_recursive(FvkbdUnit *unit, GQuark quark,$/;"	f
+fvkbd_unit_get_size	fvkbd-base.c	/^fvkbd_unit_get_size (FvkbdUnit *unit, gint *w, gint *h)$/;"	f
+fvkbd_unit_get_ui_data	fvkbd-base.c	/^fvkbd_unit_get_ui_data (FvkbdUnit *unit)$/;"	f
+fvkbd_unit_init	fvkbd-base.c	/^fvkbd_unit_init (FvkbdUnit *fvkbd_unit)$/;"	f	file:
+fvkbd_unit_parse_xml	fvkbd-base.c	/^fvkbd_unit_parse_xml (FvkbdUnit *unit, FvkbdParser *parser)$/;"	f
+fvkbd_unit_real_get_color	fvkbd-base.c	/^fvkbd_unit_real_get_color (FvkbdUnit *unit, KbdColorType type)$/;"	f	file:
+fvkbd_unit_real_get_position	fvkbd-base.c	/^fvkbd_unit_real_get_position (FvkbdUnit *unit, gint *x, gint *y)$/;"	f	file:
+fvkbd_unit_real_get_size	fvkbd-base.c	/^fvkbd_unit_real_get_size (FvkbdUnit *unit, gint *w, gint *h)$/;"	f	file:
+fvkbd_unit_real_parse_xml	fvkbd-base.c	/^fvkbd_unit_real_parse_xml (FvkbdUnit *unit, FvkbdParser *parser)$/;"	f	file:
+fvkbd_unit_real_set_color	fvkbd-base.c	/^fvkbd_unit_real_set_color (FvkbdUnit *unit, KbdColorType type, KbdColor *color)$/;"	f
+fvkbd_unit_real_set_position	fvkbd-base.c	/^fvkbd_unit_real_set_position (FvkbdUnit *unit, gint x, gint y)$/;"	f	file:
+fvkbd_unit_real_set_size	fvkbd-base.c	/^fvkbd_unit_real_set_size (FvkbdUnit *unit, gint w, gint h)$/;"	f	file:
+fvkbd_unit_set_color	fvkbd-base.c	/^fvkbd_unit_set_color (FvkbdUnit *unit, KbdColorType type, KbdColor *color)$/;"	f
+fvkbd_unit_set_font	fvkbd-base.c	/^fvkbd_unit_set_font (FvkbdUnit *unit, KbdFontType type, KbdFontInfo *font)$/;"	f
+fvkbd_unit_set_parent	fvkbd-base.c	/^fvkbd_unit_set_parent (FvkbdUnit *unit, FvkbdUnit *parent)$/;"	f
+fvkbd_unit_set_position	fvkbd-base.c	/^fvkbd_unit_set_position (FvkbdUnit *unit, gint x, gint y)$/;"	f
+fvkbd_unit_set_qdata	fvkbd-base.c	/^fvkbd_unit_set_qdata(FvkbdUnit *unit, GQuark quark, gpointer data,$/;"	f
+fvkbd_unit_set_size	fvkbd-base.c	/^fvkbd_unit_set_size (FvkbdUnit *unit, gint w, gint h)$/;"	f
+fvkbd_unit_set_ui_data	fvkbd-base.c	/^fvkbd_unit_set_ui_data (FvkbdUnit *unit, void *data)$/;"	f
+g	fvkbd-base.h	/^	gchar g;$/;"	m	struct:_KbdColor
+get_color	fvkbd-base.h	/^	KbdColor * (*get_color)	(FvkbdUnit *unit, KbdColorType type);$/;"	m	struct:_FvkbdUnitClass
+get_fakekey_instance	misc-utility.c	/^get_fakekey_instance(void)$/;"	f
+get_layout_file_fullname	layout-utility.c	/^get_layout_file_fullname(const gchar *name)$/;"	f
+get_layout_file_lists	layout-utility.c	/^get_layout_file_lists(void)$/;"	f
+get_layout_history	layout-utility.c	/^get_layout_history(void)$/;"	f
+get_position	fvkbd-base.h	/^	gint (*get_position)		(FvkbdUnit *unit, gint *x, gint *y);$/;"	m	struct:_FvkbdUnitClass
+get_resolution	misc-utility.c	/^get_resolution(int *xres, int *yres)$/;"	f
+get_size	fvkbd-base.h	/^	gint (*get_size)		(FvkbdUnit *unit, gint *w, gint *h);$/;"	m	struct:_FvkbdUnitClass
+get_workarea	misc-utility.c	/^get_workarea(int *x, int *y, int *width, int *height)$/;"	f
+get_x_display	misc-utility.c	/^get_x_display(void)$/;"	f
+h_spacing	fvkbd-panel.c	/^	gint h_spacing;$/;"	m	struct:_PanelParserData	file:
+height	fvkbd-key.c	/^	gint height;$/;"	m	struct:_FvkbdKeyPrivate	file:
+height	fvkbd-panel.c	/^	gint height;$/;"	m	struct:_FvkbdPanelPrivate	file:
+host	Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = i686$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = pc$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+id	fvkbd-keyboard.c	/^	gint id;$/;"	m	struct:_FvkbdKeyboardMode	file:
+img	fvkbd-key.h	/^	gchar *img;			\/\/image for show on key$/;"	m	struct:_FvkbdKeyAction
+img	fvkbd-panel.c	/^	gchar *img;$/;"	m	struct:_FvkbdPanelPrivate	file:
+img_dn	fvkbd-key.h	/^	gchar *img_dn;			\/\/if img_dn is not set, show *img upon key press down$/;"	m	struct:_FvkbdKeyAction
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+install_sh	Makefile	/^install_sh = ${SHELL} \/home\/leo\/work\/jimu\/input_method\/fvkbd\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+kbd_cleanup	fvkbd.c	/^kbd_cleanup(void)$/;"	f
+kbd_default_efont_family	fvkbd.c	/^static gchar *kbd_default_efont_family = DEFAULT_EXTRA_FONT_FAMILY;$/;"	v	file:
+kbd_default_efont_size	fvkbd.c	/^static gint kbd_default_efont_size = DEFAULT_EXTRA_FONT_SIZE;$/;"	v	file:
+kbd_default_efont_weight	fvkbd.c	/^static gchar *kbd_default_efont_weight = DEFAULT_EXTRA_FONT_WEIGHT;$/;"	v	file:
+kbd_default_font_family	fvkbd.c	/^static gchar *kbd_default_font_family = DEFAULT_FONT_FAMILY;$/;"	v	file:
+kbd_default_font_size	fvkbd.c	/^static gint kbd_default_font_size = DEFAULT_FONT_SIZE;$/;"	v	file:
+kbd_default_font_weight	fvkbd.c	/^static gchar *kbd_default_font_weight = DEFAULT_FONT_WEIGHT;$/;"	v	file:
+kbd_default_ofont_family	fvkbd.c	/^static gchar *kbd_default_ofont_family = DEFAULT_POP_FONT_FAMILY;$/;"	v	file:
+kbd_default_ofont_size	fvkbd.c	/^static gint kbd_default_ofont_size = DEFAULT_POP_FONT_SIZE;$/;"	v	file:
+kbd_default_ofont_weight	fvkbd.c	/^static gchar *kbd_default_ofont_weight = DEFAULT_POP_FONT_WEIGHT;$/;"	v	file:
+kbd_get_default_font_family	fvkbd.c	/^kbd_get_default_font_family(KbdFontType type)$/;"	f
+kbd_get_default_font_size	fvkbd.c	/^kbd_get_default_font_size(KbdFontType type)$/;"	f
+kbd_get_default_font_weight	fvkbd.c	/^kbd_get_default_font_weight(KbdFontType type)$/;"	f
+kbd_get_default_kbd_bg_color	fvkbd.c	/^kbd_get_default_kbd_bg_color(void)$/;"	f
+kbd_get_default_key_bg_color	fvkbd.c	/^kbd_get_default_key_bg_color(void)$/;"	f
+kbd_get_default_key_extra_fg_color	fvkbd.c	/^kbd_get_default_key_extra_fg_color(void)$/;"	f
+kbd_get_default_key_fg_color	fvkbd.c	/^kbd_get_default_key_fg_color(void)$/;"	f
+kbd_get_default_key_pop_bg_color	fvkbd.c	/^kbd_get_default_key_pop_bg_color(void)$/;"	f
+kbd_get_default_key_pop_fg_color	fvkbd.c	/^kbd_get_default_key_pop_fg_color(void)$/;"	f
+kbd_init	fvkbd.c	/^kbd_init(gchar *layout_file)$/;"	f
+kbd_load_keyboard	fvkbd.c	/^kbd_load_keyboard(const gchar* name)$/;"	f
+kbd_parser	fvkbd.c	/^FvkbdParser *kbd_parser;$/;"	v
+kbd_shape_info_destroy	misc-utility.c	/^kbd_shape_info_destroy (KbdShapeInfo *info)$/;"	f
+kbd_str_to_color	misc-utility.c	/^kbd_str_to_color(gchar *str)$/;"	f
+key_action_find_by_id	fvkbd-key.c	/^key_action_find_by_id (GSList *lists, gint id)$/;"	f
+key_actions_insert_sort_unique	fvkbd-key.c	/^key_actions_insert_sort_unique (GSList **lists_p, FvkbdKeyAction *action)$/;"	f	file:
+key_element_parsers	fvkbd-key.c	/^static UnitParserFunc key_element_parsers[] = {$/;"	v	file:
+key_func_names	fvkbd-key.c	/^static KeyFuncName key_func_names[] = {$/;"	v	file:
+key_parse_action	fvkbd-key.c	/^key_parse_action (FvkbdUnit *unit, FvkbdParser *parser, void *data)$/;"	f	file:
+keyboard_element_parsers_1	fvkbd-keyboard.c	/^static UnitParserFunc keyboard_element_parsers_1[] = {$/;"	v	file:
+keyboard_element_parsers_2	fvkbd-keyboard.c	/^static UnitParserFunc keyboard_element_parsers_2[] = {$/;"	v	file:
+keyboard_parse_modes	fvkbd-keyboard.c	/^keyboard_parse_modes (FvkbdUnit *unit, FvkbdParser *parser, void *data)$/;"	f	file:
+keyboard_parse_panel	fvkbd-keyboard.c	/^keyboard_parse_panel (FvkbdUnit *unit, FvkbdParser *parser, void *data)$/;"	f	file:
+layout	fvkbd-panel.c	/^	PanelLayoutType layout;$/;"	m	struct:_FvkbdPanelPrivate	file:
+layout_files	layout-utility.c	/^static GSList *layout_files = NULL;$/;"	v	file:
+layout_name_history	layout-utility.c	/^static GSList *layout_name_history = NULL;$/;"	v	file:
+lib_LTLIBRARIES	Makefile	/^lib_LTLIBRARIES = libfvkbd-0.2.la$/;"	m
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libfvkbd_0.2_la_DEPENDENCIES	Makefile	/^libfvkbd_0.2_la_DEPENDENCIES =$/;"	m
+libfvkbd_0.2_la_LIBADD	Makefile	/^libfvkbd_0.2_la_LIBADD = -pthread -lgobject-2.0 -lgthread-2.0 -lrt -lglib-2.0 -lxml2   -lX11 -lXtst -lfakekey  $/;"	m
+libfvkbd_0.2_la_OBJECTS	Makefile	/^libfvkbd_0.2_la_OBJECTS =  \\$/;"	m
+libfvkbd_0.2_la_SOURCES	Makefile	/^libfvkbd_0.2_la_SOURCES = \\$/;"	m
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+locate_img_file	misc-utility.c	/^locate_img_file(gchar *filename)$/;"	f
+locate_script_file	misc-utility.c	/^locate_script_file(gchar *filename)$/;"	f
+lt_ECHO	Makefile	/^lt_ECHO = echo$/;"	m
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mask	fvkbd-base.h	/^		gchar *mask;$/;"	m	union:_KbdShapeInfo::__anon5
+max_x	fvkbd-panel.c	/^	gint max_x;$/;"	m	struct:_PanelParserData	file:
+max_y	fvkbd-panel.c	/^	gint max_y;$/;"	m	struct:_PanelParserData	file:
+mkdir_p	Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mode_id	fvkbd-key.h	/^	gint mode_id;$/;"	m	struct:_FvkbdKeyAction
+mode_status	fvkbd-keyboard.c	/^	KeyboardModeStatus mode_status;$/;"	m	struct:_FvkbdKeyboardPrivate	file:
+modes	fvkbd-keyboard.c	/^	GSList *modes;$/;"	m	struct:_FvkbdKeyboardPrivate	file:
+modes_num	fvkbd-keyboard.c	/^	gint modes_num;$/;"	m	struct:_FvkbdKeyboardPrivate	file:
+name	fvkbd-base.h	/^	gchar *name;$/;"	m	struct:_FvkbdUnit
+name	fvkbd-key.h	/^	gchar *name;$/;"	m	struct:__anon2
+name	fvkbd-keyboard.c	/^	gchar *name;$/;"	m	struct:_FvkbdKeyboardMode	file:
+name	layout-utility.h	/^	gchar *name;$/;"	m	struct:_LayoutFileInfo
+node_name	fvkbd-base.h	/^	gchar *node_name;$/;"	m	struct:_UnitParserFunc
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+panel_parse_key	fvkbd-panel.c	/^panel_parse_key (FvkbdUnit *unit, FvkbdParser *parser, void *data)$/;"	f	file:
+panel_parse_row	fvkbd-panel.c	/^panel_parse_row (FvkbdUnit *unit, FvkbdParser *parser, void *data)$/;"	f	file:
+panel_parse_space	fvkbd-panel.c	/^panel_parse_space (FvkbdUnit *unit, FvkbdParser *parser, void *data)$/;"	f	file:
+panel_row_parsers	fvkbd-panel.c	/^static UnitParserFunc panel_row_parsers[] = {$/;"	v	file:
+panel_xy_parsers	fvkbd-panel.c	/^static UnitParserFunc panel_xy_parsers[] = {$/;"	v	file:
+panels	fvkbd-keyboard.c	/^	GSList *panels;$/;"	m	struct:_FvkbdKeyboardPrivate	file:
+parent	fvkbd-base.h	/^	GObject parent;$/;"	m	struct:_FvkbdUnit
+parent	fvkbd-base.h	/^	GObjectClass parent;$/;"	m	struct:_FvkbdUnitClass
+parent	fvkbd-key.h	/^	FvkbdUnit parent;$/;"	m	struct:_FvkbdKey
+parent	fvkbd-key.h	/^	FvkbdUnitClass parent;$/;"	m	struct:_FvkbdKeyClass
+parent	fvkbd-keyboard.h	/^	FvkbdUnit parent;$/;"	m	struct:_FvkbdKeyboard
+parent	fvkbd-keyboard.h	/^	FvkbdUnitClass parent;$/;"	m	struct:_FvkbdKeyboardClass
+parent	fvkbd-panel.h	/^	FvkbdUnit parent;$/;"	m	struct:_FvkbdPanel
+parent	fvkbd-panel.h	/^	FvkbdUnitClass parent;$/;"	m	struct:_FvkbdPanelClass
+parent	parser-utility-libxml.h	/^	GObject parent;$/;"	m	struct:_FvkbdParser
+parent	parser-utility-libxml.h	/^	GObjectClass parent;$/;"	m	struct:_FvkbdParserClass
+parent_unit	fvkbd-base.h	/^	FvkbdUnit *parent_unit;$/;"	m	struct:_FvkbdUnit
+parse_font_property	misc-utility.c	/^parse_font_property(gchar *str, gchar *default_font_family, gchar *default_font_weight, gint default_font_size)$/;"	f
+parse_shape_data_property	misc-utility.c	/^parse_shape_data_property (KbdShapeInfo *info, gchar *str)$/;"	f
+parse_shape_info_property	misc-utility.c	/^parse_shape_info_property (gchar *str)$/;"	f
+parse_xml	fvkbd-base.h	/^	gboolean (*parse_xml)		(FvkbdUnit *unit, FvkbdParser *parser);$/;"	m	struct:_FvkbdUnitClass
+parser	fvkbd-base.h	/^	gboolean (*parser)			(FvkbdUnit *unit, FvkbdParser *parser, void *data);$/;"	m	struct:_UnitParserFunc
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/fvkbd$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/fvkbd$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/fvkbd$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/fvkbd$/;"	m
+prefix	Makefile	/^prefix = \/usr$/;"	m
+previous_mode	fvkbd-keyboard.c	/^	gint previous_mode;$/;"	m	struct:_FvkbdKeyboardPrivate	file:
+priv	fvkbd-key.h	/^	FvkbdKeyPrivate *priv;$/;"	m	struct:_FvkbdKey
+priv	fvkbd-keyboard.h	/^	FvkbdKeyboardPrivate *priv;$/;"	m	struct:_FvkbdKeyboard
+priv	fvkbd-panel.h	/^	FvkbdPanelPrivate *priv;$/;"	m	struct:_FvkbdPanel
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+quark_key_bg_file	fvkbd-base.c	/^GQuark quark_key_bg_file = 0;$/;"	v
+quark_key_shape_info	fvkbd-base.c	/^GQuark quark_key_shape_info = 0;$/;"	v
+r	fvkbd-base.h	/^	gchar r;$/;"	m	struct:_KbdColor
+row_height	fvkbd-panel.c	/^	gint row_height;$/;"	m	struct:_PanelParserData	file:
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+set_color	fvkbd-base.h	/^	void (*set_color)		(FvkbdUnit *unit, KbdColorType type, KbdColor *color);$/;"	m	struct:_FvkbdUnitClass
+set_position	fvkbd-base.h	/^	gint (*set_position)		(FvkbdUnit *unit, gint x, gint y);$/;"	m	struct:_FvkbdUnitClass
+set_size	fvkbd-base.h	/^	gint (*set_size)		(FvkbdUnit *unit, gint w, gint h);$/;"	m	struct:_FvkbdUnitClass
+shape_info	fvkbd-key.h	/^	KbdShapeInfo shape_info;$/;"	m	struct:_FvkbdKey
+shape_type	fvkbd-base.h	/^	KbdShapeType shape_type;$/;"	m	struct:_KbdShapeInfo
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+size	fvkbd-base.h	/^	gint size;$/;"	m	struct:_KbdFontInfo
+srcdir	Makefile	/^srcdir = .$/;"	m
+string	fvkbd-key.h	/^		gchar *string;$/;"	m	union:_FvkbdKeyAction::__anon1
+string_group	fvkbd-key.h	/^		gchar **string_group;$/;"	m	union:_FvkbdKeyAction::__anon1
+subdir	Makefile	/^subdir = src$/;"	m
+sup_label	fvkbd-key.h	/^	gchar *sup_label;$/;"	m	struct:_FvkbdKeyAction
+sym	fvkbd-key.h	/^		KeySym sym;$/;"	m	union:_FvkbdKeyAction::__anon1
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+the_xdpy	misc-utility.c	/^static Display *the_xdpy = NULL;$/;"	v	file:
+top_build_prefix	Makefile	/^top_build_prefix = ..\/$/;"	m
+top_builddir	Makefile	/^top_builddir = ..$/;"	m
+top_srcdir	Makefile	/^top_srcdir = ..$/;"	m
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+type	fvkbd-base.h	/^	KbdFuncType type;$/;"	m	struct:_KbdFuncInfo
+type	fvkbd-base.h	/^	gint type;$/;"	m	struct:_FvkbdUnit
+type	fvkbd-key.h	/^	KbdFuncType type;$/;"	m	struct:__anon2
+type	fvkbd-key.h	/^	KeyActionType type;$/;"	m	struct:_FvkbdKeyAction
+u	fvkbd-base.h	/^	} u;$/;"	m	struct:_KbdShapeInfo	typeref:union:_KbdShapeInfo::__anon5
+u	fvkbd-key.h	/^	} u;$/;"	m	struct:_FvkbdKeyAction	typeref:union:_FvkbdKeyAction::__anon1
+ui_data	fvkbd-base.h	/^	void *ui_data;$/;"	m	struct:_FvkbdUnit
+uid	fvkbd-base.h	/^	guint32 uid;$/;"	m	struct:_FvkbdUnit
+unique_font	fvkbd-key.h	/^	gboolean unique_font;$/;"	m	struct:_FvkbdKeyAction
+v_spacing	fvkbd-panel.c	/^	gint v_spacing;$/;"	m	struct:_PanelParserData	file:
+weight	fvkbd-base.h	/^	gchar *weight;$/;"	m	struct:_KbdFontInfo
+width	fvkbd-key.c	/^	gint width;$/;"	m	struct:_FvkbdKeyPrivate	file:
+width	fvkbd-panel.c	/^	gint width;$/;"	m	struct:_FvkbdPanelPrivate	file:
+x	fvkbd-key.c	/^	gint x;$/;"	m	struct:_FvkbdKeyPrivate	file:
+x	fvkbd-panel.c	/^	gint x;$/;"	m	struct:_FvkbdPanelPrivate	file:
+y	fvkbd-key.c	/^	gint y;$/;"	m	struct:_FvkbdKeyPrivate	file:
+y	fvkbd-panel.c	/^	gint y;$/;"	m	struct:_FvkbdPanelPrivate	file:

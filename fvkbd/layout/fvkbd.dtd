@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT keyboard (mode+,panel+)>
+
+<!--  color format: "RRGGBB" -->
+<!--  color keyword in keyboard is the default value for children, say panel and key -->
+
+<!--  font format: "font-family_weight_size" e.g. "Sans_bold_12" -->
+<!--  font: font for key, efont: font for sublabel on key, ofont: font for key popup window -->
+<!--  font/efont/ofont keyword in keyboard is the default value for children, say panel and key -->
+
+<!--  shape format: "none" "chamfer" "bitmap" -->
+<!--  shape_data format: when shape set to "bitmap": location of bitmap mask file -->
+
+<!ATTLIST keyboard
+          num_of_modes CDATA #REQUIRED
+          font CDATA #IMPLIED
+          efont CDATA #IMPLIED
+          ofont CDATA #IMPLIED
+          panel_bgcolor CDATA #IMPLIED
+          key_bgcolor CDATA #IMPLIED
+          key_fgcolor CDATA #IMPLIED
+          pop_bgcolor CDATA #IMPLIED
+          pop_fgcolor CDATA #IMPLIED
+          key_extra_fgcolor CDATA #IMPLIED>
+
+<!ELEMENT mode (hint?)>
+<!ATTLIST mode
+          id ID #REQUIRED
+          name CDATA #REQUIRED>
+
+<!ELEMENT hint (#PCDATA)>
+
+<!ELEMENT panel (new_row|space|key)+>
+
+
+<!-- key_xxx keyword in panel is the default property for the key in this panel -->
+<!ATTLIST panel
+          layout (row|xy) #REQUIRED
+          x CDATA "0"
+          y CDATA "0"
+          width CDATA #IMPLIED
+          height CDATA #IMPLIED
+          dock (bottom|top|left|right|none) "none"
+          key_shape CDATA #IMPLIED
+          key_shape_data CDATA #IMPLIED
+          img CDATA #IMPLIED
+          key_bg_img CDATA #IMPLIED
+          font CDATA #IMPLIED
+          efont CDATA #IMPLIED
+          ofont CDATA #IMPLIED
+          bgcolor CDATA #IMPLIED
+          key_bgcolor CDATA #IMPLIED
+          key_fgcolor CDATA #IMPLIED
+          pop_bgcolor CDATA #IMPLIED
+          pop_fgcolor CDATA #IMPLIED
+          key_extra_fgcolor CDATA #IMPLIED>
+
+<!ELEMENT new_row EMPTY>
+<!ELEMENT space EMPTY>
+<!ATTLIST space
+          width CDATA #IMPLIED>
+
+<!ELEMENT key (action+)>
+<!ATTLIST key
+          id ID #IMPLIED
+          x CDATA #IMPLIED
+          y CDATA #IMPLIED
+          width CDATA #IMPLIED
+          height CDATA #IMPLIED
+          font CDATA #IMPLIED
+          shape CDATA #IMPLIED
+          shape_data CDATA #IMPLIED
+          bg_img CDATA #IMPLIED
+          efont CDATA #IMPLIED
+          ofont CDATA #IMPLIED
+          bgcolor CDATA #IMPLIED
+          fgcolor CDATA #IMPLIED
+          pop_bgcolor CDATA #IMPLIED
+          pop_fgcolor CDATA #IMPLIED
+          extra_fgcolor CDATA #IMPLIED>
+
+<!-- You should try to avoid setting font related info in action -->
+<!-- Use them only when you really need to specific font info for different actions -->
+<!-- Say, the action label is too long to be displayed for certain action -->
+
+<!-- img for display a image on button, it will override the disp info -->
+<!-- when img is set, img_dn is used for showing another image upon key press down -->
+
+<!ELEMENT action (#PCDATA)>
+<!ATTLIST action
+          mode_id IDREF #REQUIRED
+          type (string|strings|sym|func|script) "string"
+          disp CDATA #IMPLIED
+          img CDATA #IMPLIED
+          img_dn CDATA #IMPLIED
+          font CDATA #IMPLIED
+          efont CDATA #IMPLIED
+          ofont CDATA #IMPLIED>
+
+
+

@@ -1,0 +1,260 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/leo\/work\/jimu\/input_method\/fvkbd\/missing --run aclocal-1.11$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ALL_LINGUAS	Makefile	/^ALL_LINGUAS = zh_CN $/;"	m
+AMTAR	Makefile	/^AMTAR = ${SHELL} \/home\/leo\/work\/jimu\/input_method\/fvkbd\/missing --run tar$/;"	m
+AM_CFLAGS	Makefile	/^AM_CFLAGS = -pthread -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include -I\/usr\/include\/libxml2   -pthread -D_REENTRANT -I\/usr\/include\/gtk-2.0 -I\/usr\/lib\/gtk-2.0\/include -I\/usr\/include\/atk-1.0 -I\/usr\/include\/cairo -I\/usr\/include\/pango-1.0 -I\/usr\/include\/gio-unix-2.0\/ -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include -I\/usr\/include\/pixman-1 -I\/usr\/include\/freetype2 -I\/usr\/include\/directfb -I\/usr\/include\/libpng12 -I\/usr\/include\/unique-1.0    -Wall -Werror -g3 -O0 -ggdb$/;"	m
+AR	Makefile	/^AR = ar$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/leo\/work\/jimu\/input_method\/fvkbd\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/leo\/work\/jimu\/input_method\/fvkbd\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/leo\/work\/jimu\/input_method\/fvkbd\/missing --run automake-1.11$/;"	m
+AWK	Makefile	/^AWK = gawk$/;"	m
+CATALOGS	Makefile	/^CATALOGS =  zh_CN.gmo$/;"	m
+CATOBJEXT	Makefile	/^CATOBJEXT = .gmo$/;"	m
+CC	Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2$/;"	m
+CLEANFILES	Makefile	/^CLEANFILES = *~ fvkbd-gtk.desktop$/;"	m
+COMMAND_LAYOUT	fvkbd-ui-gtk.c	/^	COMMAND_LAYOUT = 1$/;"	e	enum:__anon1	file:
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+DATA	Makefile	/^DATA = $(dist_application_DATA) $(dist_icon_DATA)$/;"	m
+DATADIR	Makefile	/^DATADIR = $(datadir)$/;"	m
+DATADIRNAME	Makefile	/^DATADIRNAME = share$/;"	m
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(am__dist_application_DATA_DIST) \\$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(am__fvkbd_gtk_SOURCES_DIST)$/;"	m
+DSYMUTIL	Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	Makefile	/^DUMPBIN = $/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+EXTRA_DIST	Makefile	/^EXTRA_DIST = fvkbd-gtk.desktop.in$/;"	m
+FAKEKEY_CFLAGS	Makefile	/^FAKEKEY_CFLAGS =  $/;"	m
+FAKEKEY_LIBS	Makefile	/^FAKEKEY_LIBS = -lX11 -lXtst -lfakekey  $/;"	m
+FGREP	Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FVKBD_API_VERSION	Makefile	/^FVKBD_API_VERSION = 0.2$/;"	m
+FVKBD_CFLAGS	Makefile	/^FVKBD_CFLAGS = -pthread -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include -I\/usr\/include\/libxml2  $/;"	m
+FVKBD_LIBS	Makefile	/^FVKBD_LIBS = -pthread -lgobject-2.0 -lgthread-2.0 -lrt -lglib-2.0 -lxml2  $/;"	m
+GETTEXT_PACKAGE	Makefile	/^GETTEXT_PACKAGE = fvkbd$/;"	m
+GMOFILES	Makefile	/^GMOFILES =  zh_CN.gmo$/;"	m
+GMSGFMT	Makefile	/^GMSGFMT = \/usr\/bin\/msgfmt$/;"	m
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+GTK_CFLAGS	Makefile	/^GTK_CFLAGS = -pthread -D_REENTRANT -I\/usr\/include\/gtk-2.0 -I\/usr\/lib\/gtk-2.0\/include -I\/usr\/include\/atk-1.0 -I\/usr\/include\/cairo -I\/usr\/include\/pango-1.0 -I\/usr\/include\/gio-unix-2.0\/ -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include -I\/usr\/include\/pixman-1 -I\/usr\/include\/freetype2 -I\/usr\/include\/directfb -I\/usr\/include\/libpng12 -I\/usr\/include\/unique-1.0  $/;"	m
+GTK_LIBS	Makefile	/^GTK_LIBS = -pthread -lunique-1.0 -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lgdk_pixbuf-2.0 -lm -lpangocairo-1.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lrt -lglib-2.0  $/;"	m
+INCLUDES	Makefile	/^INCLUDES = -I$(top_srcdir) -I$(top_srcdir)\/src -I$(top_srcdir)\/ui\/gtk$/;"	m
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTOBJEXT	Makefile	/^INSTOBJEXT = .mo$/;"	m
+INTLLIBS	Makefile	/^INTLLIBS = $/;"	m
+INTLTOOL_EXTRACT	Makefile	/^INTLTOOL_EXTRACT = \/usr\/bin\/intltool-extract$/;"	m
+INTLTOOL_MERGE	Makefile	/^INTLTOOL_MERGE = \/usr\/bin\/intltool-merge$/;"	m
+INTLTOOL_PERL	Makefile	/^INTLTOOL_PERL = \/usr\/bin\/perl$/;"	m
+INTLTOOL_UPDATE	Makefile	/^INTLTOOL_UPDATE = \/usr\/bin\/intltool-update$/;"	m
+KbdWindow	fvkbd-ui-gtk.c	/^typedef struct _KbdWindow KbdWindow;$/;"	t	typeref:struct:_KbdWindow	file:
+LD	Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = $/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LINK	Makefile	/^LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LIPO	Makefile	/^LIPO = $/;"	m
+LN_S	Makefile	/^LN_S = ln -s$/;"	m
+LTCOMPILE	Makefile	/^LTCOMPILE = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/leo\/work\/jimu\/input_method\/fvkbd\/missing --run makeinfo$/;"	m
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKINSTALLDIRS	Makefile	/^MKINSTALLDIRS = .\/mkinstalldirs$/;"	m
+MSGFMT	Makefile	/^MSGFMT = \/usr\/bin\/msgfmt$/;"	m
+MSGFMT_OPTS	Makefile	/^MSGFMT_OPTS = -c$/;"	m
+MSGMERGE	Makefile	/^MSGMERGE = \/usr\/bin\/msgmerge$/;"	m
+NM	Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NMEDIT	Makefile	/^NMEDIT = $/;"	m
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP = objdump$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OTOOL	Makefile	/^OTOOL = $/;"	m
+OTOOL64	Makefile	/^OTOOL64 = $/;"	m
+PACKAGE	Makefile	/^PACKAGE = fvkbd$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = fvkbd$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = fvkbd 0.2.3$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = fvkbd$/;"	m
+PACKAGE_URL	Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 0.2.3$/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PKG_CONFIG	Makefile	/^PKG_CONFIG = \/usr\/bin\/pkg-config$/;"	m
+POFILES	Makefile	/^POFILES =  zh_CN.po$/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+POSUB	Makefile	/^POSUB = po$/;"	m
+PO_IN_DATADIR_FALSE	Makefile	/^PO_IN_DATADIR_FALSE = $/;"	m
+PO_IN_DATADIR_TRUE	Makefile	/^PO_IN_DATADIR_TRUE = $/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PROGRAMS	Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+SED	Makefile	/^SED = \/bin\/sed$/;"	m
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
+SOURCES	Makefile	/^SOURCES = $(fvkbd_gtk_SOURCES)$/;"	m
+STRIP	Makefile	/^STRIP = strip$/;"	m
+USE_NLS	Makefile	/^USE_NLS = yes$/;"	m
+VERSION	Makefile	/^VERSION = 0.2.3$/;"	m
+XGETTEXT	Makefile	/^XGETTEXT = \/usr\/bin\/xgettext$/;"	m
+_KbdWindow	fvkbd-ui-gtk.c	/^struct _KbdWindow {$/;"	s	file:
+_cmd_menu	fvkbd-ui-gtk.c	/^static GtkWidget *_cmd_menu = NULL;$/;"	v	file:
+_cmd_menu_activated	fvkbd-ui-gtk.c	/^static gboolean _cmd_menu_activated = FALSE;$/;"	v	file:
+_fvkbd_opts	fvkbd-ui-gtk.c	/^struct _fvkbd_opts {$/;"	s	file:
+_gtk_ui_change_layout	fvkbd-ui-gtk.c	/^_gtk_ui_change_layout(const gchar* name)$/;"	f	file:
+_kbd_data	fvkbd-ui-gtk.c	/^struct _kbd_data {$/;"	s	file:
+_panel_window_drag_x	fvkbd-ui-gtk.c	/^static gint _panel_window_drag_x;$/;"	v	file:
+_panel_window_drag_y	fvkbd-ui-gtk.c	/^static gint _panel_window_drag_y;$/;"	v	file:
+_panel_window_draging	fvkbd-ui-gtk.c	/^static gboolean _panel_window_draging = FALSE;$/;"	v	file:
+abs_builddir	Makefile	/^abs_builddir = \/home\/leo\/work\/jimu\/input_method\/fvkbd\/app\/gtk$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/leo\/work\/jimu\/input_method\/fvkbd\/app\/gtk$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/leo\/work\/jimu\/input_method\/fvkbd$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/leo\/work\/jimu\/input_method\/fvkbd$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_DUMPBIN	Makefile	/^ac_ct_DUMPBIN = $/;"	m
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/m4\/as-linguas.m4 \\$/;"	m
+am__base_list	Makefile	/^am__base_list = \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__dist_application_DATA_DIST	Makefile	/^am__dist_application_DATA_DIST = fvkbd-gtk.desktop$/;"	m
+am__dist_icon_DATA_DIST	Makefile	/^am__dist_icon_DATA_DIST = fvkbd-gtk.png$/;"	m
+am__fvkbd_gtk_SOURCES_DIST	Makefile	/^am__fvkbd_gtk_SOURCES_DIST = fvkbd-ui-gtk.c$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__install_max	Makefile	/^am__install_max = 40$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)" "$(DESTDIR)$(applicationdir)" \\$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__mv	Makefile	/^am__mv = mv -f$/;"	m
+am__nobase_list	Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_strip	Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip_setup	Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__strip_dir	Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__tar	Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__untar	Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__vpath_adj	Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj_setup	Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am_fvkbd_gtk_OBJECTS	Makefile	/^am_fvkbd_gtk_OBJECTS =  \\$/;"	m
+applicationdir	Makefile	/^applicationdir = $(datadir)\/applications$/;"	m
+bin_PROGRAMS	Makefile	/^bin_PROGRAMS = fvkbd-gtk$(EXEEXT)$/;"	m
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+build	Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = i686$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_panel_window	fvkbd-ui-gtk.c	/^build_panel_window (FvkbdGtkUI *ui)$/;"	f	file:
+build_panel_windows	fvkbd-ui-gtk.c	/^build_panel_windows (FvkbdGtkUI *ui)$/;"	f	file:
+build_triplet	Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = pc$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+cmd_menu_deactivate_cb	fvkbd-ui-gtk.c	/^cmd_menu_deactivate_cb (GtkWidget *item, gpointer user_data)$/;"	f	file:
+cmd_menu_exit_activate_cb	fvkbd-ui-gtk.c	/^cmd_menu_exit_activate_cb (GtkWidget *item, gpointer user_data)$/;"	f	file:
+cmd_menu_layout_item_activate_cb	fvkbd-ui-gtk.c	/^cmd_menu_layout_item_activate_cb (GtkWidget *item, gpointer user_data)$/;"	f	file:
+current_layout	fvkbd-ui-gtk.c	/^static gchar *current_layout = NULL;$/;"	v	file:
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+desktop_in_files	Makefile	/^desktop_in_files = fvkbd-gtk.desktop.in$/;"	m
+destroy_panel_windows	fvkbd-ui-gtk.c	/^destroy_panel_windows (void)$/;"	f	file:
+dist_application_DATA	Makefile	/^dist_application_DATA = $(desktop_in_files:.desktop.in=.desktop)$/;"	m
+dist_icon_DATA	Makefile	/^dist_icon_DATA = fvkbd-gtk.png$/;"	m
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+dock	fvkbd-ui-gtk.c	/^	gboolean dock;$/;"	m	struct:_fvkbd_opts	file:
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+embedded	fvkbd-ui-gtk.c	/^	gboolean embedded;$/;"	m	struct:_fvkbd_opts	file:
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+fvkbd_gtk_DEPENDENCIES	Makefile	/^fvkbd_gtk_DEPENDENCIES = $(top_builddir)\/src\/libfvkbd-0.2.la \\$/;"	m
+fvkbd_gtk_LDADD	Makefile	/^fvkbd_gtk_LDADD = -pthread -lunique-1.0 -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lgdk_pixbuf-2.0 -lm -lpangocairo-1.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lrt -lglib-2.0   \\$/;"	m
+fvkbd_gtk_OBJECTS	Makefile	/^fvkbd_gtk_OBJECTS = $(am_fvkbd_gtk_OBJECTS)$/;"	m
+fvkbd_gtk_SOURCES	Makefile	/^fvkbd_gtk_SOURCES = \\$/;"	m
+gtk_ui_get_cmd_menu	fvkbd-ui-gtk.c	/^gtk_ui_get_cmd_menu(void)$/;"	f	file:
+gtk_ui_kbd_func_cb	fvkbd-ui-gtk.c	/^gtk_ui_kbd_func_cb(FvkbdKeyboard *keyboard, KbdFuncInfo *func, FvkbdKeyboardGtkUI *ui)$/;"	f	file:
+gtk_ui_quit	fvkbd-ui-gtk.c	/^gtk_ui_quit(void)$/;"	f	file:
+gtk_ui_show_menu	fvkbd-ui-gtk.c	/^gtk_ui_show_menu(void)$/;"	f	file:
+host	Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = i686$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = pc$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+icondir	Makefile	/^icondir = $(datadir)\/pixmaps$/;"	m
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+install_sh	Makefile	/^install_sh = ${SHELL} \/home\/leo\/work\/jimu\/input_method\/fvkbd\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+kbd_data	fvkbd-ui-gtk.c	/^static struct _kbd_data kbd_data;$/;"	v	typeref:struct:_kbd_data	file:
+kbd_initialized	fvkbd-ui-gtk.c	/^static gboolean kbd_initialized = FALSE;$/;"	v	file:
+kbd_windows	fvkbd-ui-gtk.c	/^	GSList *kbd_windows;$/;"	m	struct:_kbd_data	file:
+layout_file	fvkbd-ui-gtk.c	/^	gchar *layout_file;$/;"	m	struct:_fvkbd_opts	file:
+layout_history_menu_items	fvkbd-ui-gtk.c	/^static GtkWidget * layout_history_menu_items[MAX_LAYOUT_HISTORY];$/;"	v	file:
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+lt_ECHO	Makefile	/^lt_ECHO = echo$/;"	m
+main	fvkbd-ui-gtk.c	/^main(int argc, char* argv[])$/;"	f
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mkdir_p	Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+opt_entries	fvkbd-ui-gtk.c	/^static GOptionEntry opt_entries[] = {$/;"	v	file:
+opts	fvkbd-ui-gtk.c	/^static struct _fvkbd_opts opts;$/;"	v	typeref:struct:_fvkbd_opts	file:
+panel_plug_embedded	fvkbd-ui-gtk.c	/^panel_plug_embedded(GtkWidget * plug)$/;"	f	file:
+panel_window_click	fvkbd-ui-gtk.c	/^panel_window_click (GtkWidget *window, GdkEventButton *event, gboolean button_press)$/;"	f	file:
+panel_window_motion_cb	fvkbd-ui-gtk.c	/^panel_window_motion_cb (GtkWidget *window, GdkEventMotion *event, gpointer user_data)$/;"	f	file:
+panel_window_move_end	fvkbd-ui-gtk.c	/^panel_window_move_end (GtkWidget *window, GdkEventButton *event, gpointer user_data)$/;"	f	file:
+panel_window_move_start	fvkbd-ui-gtk.c	/^panel_window_move_start (GtkWidget *window, GdkEventButton *event, gpointer user_data)$/;"	f	file:
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/fvkbd$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/fvkbd$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/fvkbd$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/fvkbd$/;"	m
+plug_window	fvkbd-ui-gtk.c	/^	GtkWidget *plug_window;$/;"	m	struct:_kbd_data	file:
+prefix	Makefile	/^prefix = \/usr$/;"	m
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+show_plug_window	fvkbd-ui-gtk.c	/^	gboolean show_plug_window;$/;"	m	struct:_kbd_data	file:
+srcdir	Makefile	/^srcdir = .$/;"	m
+subdir	Makefile	/^subdir = app\/gtk$/;"	m
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+the_keyboard_ui	fvkbd-ui-gtk.c	/^FvkbdGtkUI *the_keyboard_ui = NULL;$/;"	v
+top_build_prefix	Makefile	/^top_build_prefix = ..\/..\/$/;"	m
+top_builddir	Makefile	/^top_builddir = ..\/..$/;"	m
+top_srcdir	Makefile	/^top_srcdir = ..\/..$/;"	m
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+unique_app_cb	fvkbd-ui-gtk.c	/^unique_app_cb (UniqueApp *app, gint command, UniqueMessageData *data,$/;"	f	file:
+window	fvkbd-ui-gtk.c	/^	GtkWidget *window;$/;"	m	struct:_KbdWindow	file:

@@ -1,0 +1,3 @@
+src/scim-panel-vkb-gtk.cpp
+modules/SetupUI/scim_panel_setup.cpp
+modules/SetupUI/scim_panel_vkb_setup.cpp

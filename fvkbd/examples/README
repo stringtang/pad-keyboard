@@ -1,0 +1,4 @@
+
+The layout dir contains sample keyboard layout xml files for your reference
+
+The image dir contains image files needed by these sample layout files, you need to copy them to ~/.fvkbd/images/ dir so that they can be located, or you can modify the example layout file to assign the absolute path of the images.

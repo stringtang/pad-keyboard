@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+_Name=Soft Keyboard
+_Comment=A Flexible On Screen Virtual Keyboard
+Exec=fvkbd-gtk -l keyboard-s.xml
+Categories=GTK;Application;Utility;
+Icon=fvkbd-gtk
+Type=Application

@@ -1,0 +1,837 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+COMMAND_LAYOUT	./app/gtk/fvkbd-ui-gtk.c	/^	COMMAND_LAYOUT = 1$/;"	e	enum:__anon1	file:
+CandidateItem	./ui/gtk/fvkbd-pop-win.c	/^typedef struct _CandidateItem CandidateItem;$/;"	t	typeref:struct:_CandidateItem	file:
+DBG	./src/fvkbd.h	41;"	d
+DEFAULT_CHAMFER_SIZE	./ui/gtk/fvkbd-key-ui-gtk.c	36;"	d	file:
+DEFAULT_DPI	./src/misc-utility.h	22;"	d
+DEFAULT_EXTRA_FONT_FAMILY	./src/fvkbd.c	49;"	d	file:
+DEFAULT_EXTRA_FONT_SIZE	./src/fvkbd.c	50;"	d	file:
+DEFAULT_EXTRA_FONT_WEIGHT	./src/fvkbd.c	51;"	d	file:
+DEFAULT_FONT_FAMILY	./src/fvkbd.c	45;"	d	file:
+DEFAULT_FONT_SIZE	./src/fvkbd.c	46;"	d	file:
+DEFAULT_FONT_WEIGHT	./src/fvkbd.c	47;"	d	file:
+DEFAULT_KBD_BG_COLOR	./src/fvkbd.c	/^KbdColor DEFAULT_KBD_BG_COLOR = {0x80, 0x80, 0x80, 0xFF};$/;"	v
+DEFAULT_KEY_BG_COLOR	./src/fvkbd.c	/^KbdColor DEFAULT_KEY_BG_COLOR = {0x30, 0x30, 0x30, 0xFF};$/;"	v
+DEFAULT_KEY_EXTRA_FG_COLOR	./src/fvkbd.c	/^KbdColor DEFAULT_KEY_EXTRA_FG_COLOR = {0x80, 0x80, 0x80, 0xFF};$/;"	v
+DEFAULT_KEY_FG_COLOR	./src/fvkbd.c	/^KbdColor DEFAULT_KEY_FG_COLOR = {0xFF, 0xFF, 0x00, 0xFF};$/;"	v
+DEFAULT_KEY_POP_BG_COLOR	./src/fvkbd.c	/^KbdColor DEFAULT_KEY_POP_BG_COLOR = {0xFF, 0xFF, 0x00, 0xFF};$/;"	v
+DEFAULT_KEY_POP_FG_COLOR	./src/fvkbd.c	/^KbdColor DEFAULT_KEY_POP_FG_COLOR = {0x30, 0x30, 0x30, 0xFF};$/;"	v
+DEFAULT_LAYOUT_FILENAME	./src/layout-utility.c	29;"	d	file:
+DEFAULT_POP_FONT_FAMILY	./src/fvkbd.c	53;"	d	file:
+DEFAULT_POP_FONT_SIZE	./src/fvkbd.c	54;"	d	file:
+DEFAULT_POP_FONT_WEIGHT	./src/fvkbd.c	55;"	d	file:
+ENABLE_NLS	./config.h	8;"	d
+FLAG_FONT_INFO	./src/fvkbd-base.h	/^	FLAG_FONT_INFO = 1 << 2$/;"	e	enum:__anon9
+FLAG_KEY_BG_FILE	./src/fvkbd-base.h	/^	FLAG_KEY_BG_FILE = 1 << 1,$/;"	e	enum:__anon9
+FLAG_KEY_BG_PIXMAP	./ui/gtk/gtk-ui-base.h	/^	FLAG_KEY_BG_PIXMAP = 1 << 1,$/;"	e	enum:__anon3
+FLAG_KEY_SHAPE_BITMAP	./ui/gtk/gtk-ui-base.h	/^	FLAG_KEY_SHAPE_BITMAP = 1 << 0,$/;"	e	enum:__anon3
+FLAG_KEY_SHAPE_INFO	./src/fvkbd-base.h	/^	FLAG_KEY_SHAPE_INFO = 1 << 0,$/;"	e	enum:__anon9
+FLAG_UI_FONT_DESCS	./ui/gtk/gtk-ui-base.h	/^	FLAG_UI_FONT_DESCS = 1 << 2	$/;"	e	enum:__anon3
+FONT_DELIMITER	./src/misc-utility.c	30;"	d	file:
+FONT_SPLIT_NUM	./src/misc-utility.c	31;"	d	file:
+FVKBD_GTK_UI	./ui/gtk/gtk-ui-base.h	28;"	d
+FVKBD_GTK_UI_CLASS	./ui/gtk/gtk-ui-base.h	29;"	d
+FVKBD_GTK_UI_GET_CLASS	./ui/gtk/gtk-ui-base.h	32;"	d
+FVKBD_IS_GTK_UI	./ui/gtk/gtk-ui-base.h	30;"	d
+FVKBD_IS_GTK_UI_CLASS	./ui/gtk/gtk-ui-base.h	31;"	d
+FVKBD_IS_KEY	./src/fvkbd-key.h	32;"	d
+FVKBD_IS_KEYBOARD	./src/fvkbd-keyboard.h	32;"	d
+FVKBD_IS_KEYBOARD_CLASS	./src/fvkbd-keyboard.h	33;"	d
+FVKBD_IS_KEYBOARD_GTK_UI	./ui/gtk/fvkbd-keyboard-ui-gtk.h	30;"	d
+FVKBD_IS_KEYBOARD_GTK_UI_CLASS	./ui/gtk/fvkbd-keyboard-ui-gtk.h	31;"	d
+FVKBD_IS_KEY_CLASS	./src/fvkbd-key.h	33;"	d
+FVKBD_IS_KEY_GTK_UI	./ui/gtk/fvkbd-key-ui-gtk.h	31;"	d
+FVKBD_IS_KEY_GTK_UI_CLASS	./ui/gtk/fvkbd-key-ui-gtk.h	32;"	d
+FVKBD_IS_PANEL	./src/fvkbd-panel.h	32;"	d
+FVKBD_IS_PANEL_CLASS	./src/fvkbd-panel.h	33;"	d
+FVKBD_IS_PANEL_GTK_UI	./ui/gtk/fvkbd-panel-ui-gtk.h	58;"	d
+FVKBD_IS_PANEL_GTK_UI_CLASS	./ui/gtk/fvkbd-panel-ui-gtk.h	59;"	d
+FVKBD_IS_PARSER	./src/parser-utility-libxml.h	29;"	d
+FVKBD_IS_PARSER_CLASS	./src/parser-utility-libxml.h	30;"	d
+FVKBD_IS_UNIT	./src/fvkbd-base.h	30;"	d
+FVKBD_IS_UNIT_CLASS	./src/fvkbd-base.h	31;"	d
+FVKBD_KEY	./src/fvkbd-key.h	30;"	d
+FVKBD_KEYBOARD	./src/fvkbd-keyboard.h	30;"	d
+FVKBD_KEYBOARD_CLASS	./src/fvkbd-keyboard.h	31;"	d
+FVKBD_KEYBOARD_GET_CLASS	./src/fvkbd-keyboard.h	34;"	d
+FVKBD_KEYBOARD_GET_PRIVATE	./src/fvkbd-keyboard.c	32;"	d	file:
+FVKBD_KEYBOARD_GTK_UI	./ui/gtk/fvkbd-keyboard-ui-gtk.h	28;"	d
+FVKBD_KEYBOARD_GTK_UI_CLASS	./ui/gtk/fvkbd-keyboard-ui-gtk.h	29;"	d
+FVKBD_KEYBOARD_GTK_UI_GET_CLASS	./ui/gtk/fvkbd-keyboard-ui-gtk.h	32;"	d
+FVKBD_KEYBOARD_GTK_UI_GET_PRIVATE	./ui/gtk/fvkbd-keyboard-ui-gtk.c	33;"	d	file:
+FVKBD_KEY_CLASS	./src/fvkbd-key.h	31;"	d
+FVKBD_KEY_GET_CLASS	./src/fvkbd-key.h	34;"	d
+FVKBD_KEY_GET_PRIVATE	./src/fvkbd-key.c	34;"	d	file:
+FVKBD_KEY_GTK_UI	./ui/gtk/fvkbd-key-ui-gtk.h	29;"	d
+FVKBD_KEY_GTK_UI_CLASS	./ui/gtk/fvkbd-key-ui-gtk.h	30;"	d
+FVKBD_KEY_GTK_UI_GET_CLASS	./ui/gtk/fvkbd-key-ui-gtk.h	33;"	d
+FVKBD_KEY_GTK_UI_GET_PRIVATE	./ui/gtk/fvkbd-key-ui-gtk.c	46;"	d	file:
+FVKBD_PANEL	./src/fvkbd-panel.h	30;"	d
+FVKBD_PANEL_CLASS	./src/fvkbd-panel.h	31;"	d
+FVKBD_PANEL_GET_CLASS	./src/fvkbd-panel.h	34;"	d
+FVKBD_PANEL_GET_PRIVATE	./src/fvkbd-panel.c	31;"	d	file:
+FVKBD_PANEL_GTK_UI	./ui/gtk/fvkbd-panel-ui-gtk.h	56;"	d
+FVKBD_PANEL_GTK_UI_CLASS	./ui/gtk/fvkbd-panel-ui-gtk.h	57;"	d
+FVKBD_PANEL_GTK_UI_GET_CLASS	./ui/gtk/fvkbd-panel-ui-gtk.h	60;"	d
+FVKBD_PANEL_GTK_UI_GET_PRIVATE	./ui/gtk/fvkbd-panel-ui-gtk.c	42;"	d	file:
+FVKBD_PARSER	./src/parser-utility-libxml.h	27;"	d
+FVKBD_PARSER_CLASS	./src/parser-utility-libxml.h	28;"	d
+FVKBD_PARSER_GET_CLASS	./src/parser-utility-libxml.h	31;"	d
+FVKBD_PARSER_GET_PRIVATE	./src/parser-utility-libxml.c	32;"	d	file:
+FVKBD_TYPE_GTK_UI	./ui/gtk/gtk-ui-base.h	27;"	d
+FVKBD_TYPE_KEY	./src/fvkbd-key.h	29;"	d
+FVKBD_TYPE_KEYBOARD	./src/fvkbd-keyboard.h	29;"	d
+FVKBD_TYPE_KEYBOARD_GTK_UI	./ui/gtk/fvkbd-keyboard-ui-gtk.h	27;"	d
+FVKBD_TYPE_KEY_GTK_UI	./ui/gtk/fvkbd-key-ui-gtk.h	28;"	d
+FVKBD_TYPE_PANEL	./src/fvkbd-panel.h	29;"	d
+FVKBD_TYPE_PANEL_GTK_UI	./ui/gtk/fvkbd-panel-ui-gtk.h	55;"	d
+FVKBD_TYPE_PARSER	./src/parser-utility-libxml.h	26;"	d
+FVKBD_TYPE_UNIT	./src/fvkbd-base.h	27;"	d
+FVKBD_UI_FLAGS	./ui/gtk/gtk-ui-base.h	41;"	d
+FVKBD_UI_HAS_FONT_DESCS	./ui/gtk/gtk-ui-base.h	44;"	d
+FVKBD_UI_HAS_KEY_BG_PIXMAP	./ui/gtk/gtk-ui-base.h	43;"	d
+FVKBD_UI_HAS_KEY_SHAPE_BITMAP	./ui/gtk/gtk-ui-base.h	42;"	d
+FVKBD_UI_SET_FLAG	./ui/gtk/gtk-ui-base.h	46;"	d
+FVKBD_UI_UNSET_FLAG	./ui/gtk/gtk-ui-base.h	47;"	d
+FVKBD_UNIT	./src/fvkbd-base.h	28;"	d
+FVKBD_UNIT_CLASS	./src/fvkbd-base.h	29;"	d
+FVKBD_UNIT_FLAGS	./src/fvkbd-base.h	41;"	d
+FVKBD_UNIT_GET_CLASS	./src/fvkbd-base.h	32;"	d
+FVKBD_UNIT_HAS_FONT_INFO	./src/fvkbd-base.h	44;"	d
+FVKBD_UNIT_HAS_KEY_BG_FILE	./src/fvkbd-base.h	43;"	d
+FVKBD_UNIT_HAS_KEY_SHAPE_INFO	./src/fvkbd-base.h	42;"	d
+FVKBD_UNIT_SET_FLAG	./src/fvkbd-base.h	46;"	d
+FVKBD_UNIT_UNSET_FLAG	./src/fvkbd-base.h	47;"	d
+FvkbdGtkUI	./ui/gtk/gtk-ui-base.h	/^typedef struct _FvkbdGtkUI FvkbdGtkUI;$/;"	t	typeref:struct:_FvkbdGtkUI
+FvkbdGtkUIClass	./ui/gtk/gtk-ui-base.h	/^typedef struct _FvkbdGtkUIClass FvkbdGtkUIClass;$/;"	t	typeref:struct:_FvkbdGtkUIClass
+FvkbdKey	./src/fvkbd-key.h	/^typedef struct _FvkbdKey FvkbdKey;$/;"	t	typeref:struct:_FvkbdKey
+FvkbdKeyAction	./src/fvkbd-key.h	/^typedef struct _FvkbdKeyAction FvkbdKeyAction;$/;"	t	typeref:struct:_FvkbdKeyAction
+FvkbdKeyClass	./src/fvkbd-key.h	/^typedef struct _FvkbdKeyClass FvkbdKeyClass;$/;"	t	typeref:struct:_FvkbdKeyClass
+FvkbdKeyGtkUI	./ui/gtk/fvkbd-key-ui-gtk.h	/^typedef struct _FvkbdKeyGtkUI FvkbdKeyGtkUI;$/;"	t	typeref:struct:_FvkbdKeyGtkUI
+FvkbdKeyGtkUIClass	./ui/gtk/fvkbd-key-ui-gtk.h	/^typedef struct _FvkbdKeyGtkUIClass FvkbdKeyGtkUIClass;$/;"	t	typeref:struct:_FvkbdKeyGtkUIClass
+FvkbdKeyGtkUIPrivate	./ui/gtk/fvkbd-key-ui-gtk.c	/^typedef struct _FvkbdKeyGtkUIPrivate FvkbdKeyGtkUIPrivate;$/;"	t	typeref:struct:_FvkbdKeyGtkUIPrivate	file:
+FvkbdKeyPrivate	./src/fvkbd-key.h	/^typedef struct _FvkbdKeyPrivate FvkbdKeyPrivate;$/;"	t	typeref:struct:_FvkbdKeyPrivate
+FvkbdKeyboard	./src/fvkbd-keyboard.h	/^typedef struct _FvkbdKeyboard FvkbdKeyboard;$/;"	t	typeref:struct:_FvkbdKeyboard
+FvkbdKeyboardClass	./src/fvkbd-keyboard.h	/^typedef struct _FvkbdKeyboardClass FvkbdKeyboardClass;$/;"	t	typeref:struct:_FvkbdKeyboardClass
+FvkbdKeyboardGtkUI	./ui/gtk/fvkbd-keyboard-ui-gtk.h	/^typedef struct _FvkbdKeyboardGtkUI FvkbdKeyboardGtkUI;$/;"	t	typeref:struct:_FvkbdKeyboardGtkUI
+FvkbdKeyboardGtkUIClass	./ui/gtk/fvkbd-keyboard-ui-gtk.h	/^typedef struct _FvkbdKeyboardGtkUIClass FvkbdKeyboardGtkUIClass;$/;"	t	typeref:struct:_FvkbdKeyboardGtkUIClass
+FvkbdKeyboardGtkUIPrivate	./ui/gtk/fvkbd-keyboard-ui-gtk.c	/^typedef struct _FvkbdKeyboardGtkUIPrivate FvkbdKeyboardGtkUIPrivate;$/;"	t	typeref:struct:_FvkbdKeyboardGtkUIPrivate	file:
+FvkbdKeyboardMode	./src/fvkbd-keyboard.c	/^typedef struct _FvkbdKeyboardMode FvkbdKeyboardMode;$/;"	t	typeref:struct:_FvkbdKeyboardMode	file:
+FvkbdKeyboardPrivate	./src/fvkbd-keyboard.h	/^typedef struct _FvkbdKeyboardPrivate FvkbdKeyboardPrivate;$/;"	t	typeref:struct:_FvkbdKeyboardPrivate
+FvkbdPanel	./src/fvkbd-panel.h	/^typedef struct _FvkbdPanel FvkbdPanel;$/;"	t	typeref:struct:_FvkbdPanel
+FvkbdPanelClass	./src/fvkbd-panel.h	/^typedef struct _FvkbdPanelClass FvkbdPanelClass;$/;"	t	typeref:struct:_FvkbdPanelClass
+FvkbdPanelGtkUI	./ui/gtk/fvkbd-panel-ui-gtk.h	/^typedef struct _FvkbdPanelGtkUI FvkbdPanelGtkUI;$/;"	t	typeref:struct:_FvkbdPanelGtkUI
+FvkbdPanelGtkUIClass	./ui/gtk/fvkbd-panel-ui-gtk.h	/^typedef struct _FvkbdPanelGtkUIClass FvkbdPanelGtkUIClass;$/;"	t	typeref:struct:_FvkbdPanelGtkUIClass
+FvkbdPanelGtkUIPrivate	./ui/gtk/fvkbd-panel-ui-gtk.c	/^typedef struct _FvkbdPanelGtkUIPrivate FvkbdPanelGtkUIPrivate;$/;"	t	typeref:struct:_FvkbdPanelGtkUIPrivate	file:
+FvkbdPanelPrivate	./src/fvkbd-panel.h	/^typedef struct _FvkbdPanelPrivate FvkbdPanelPrivate;$/;"	t	typeref:struct:_FvkbdPanelPrivate
+FvkbdParser	./src/parser-utility-libxml.h	/^typedef struct _FvkbdParser FvkbdParser;$/;"	t	typeref:struct:_FvkbdParser
+FvkbdParserClass	./src/parser-utility-libxml.h	/^typedef struct _FvkbdParserClass FvkbdParserClass;$/;"	t	typeref:struct:_FvkbdParserClass
+FvkbdParserPrivate	./src/parser-utility-libxml.h	/^typedef struct _FvkbdParserPrivate FvkbdParserPrivate;$/;"	t	typeref:struct:_FvkbdParserPrivate
+FvkbdUIFlags	./ui/gtk/gtk-ui-base.h	/^} FvkbdUIFlags;$/;"	t	typeref:enum:__anon3
+FvkbdUnit	./src/fvkbd-base.h	/^typedef struct _FvkbdUnit FvkbdUnit;$/;"	t	typeref:struct:_FvkbdUnit
+FvkbdUnitClass	./src/fvkbd-base.h	/^typedef struct _FvkbdUnitClass FvkbdUnitClass;$/;"	t	typeref:struct:_FvkbdUnitClass
+FvkbdUnitFlags	./src/fvkbd-base.h	/^} FvkbdUnitFlags;$/;"	t	typeref:enum:__anon9
+GETTEXT_PACKAGE	./config.h	14;"	d
+GTK_IS_VKB_BUTTON	./ui/gtk/gtk-vkb-button.h	31;"	d
+GTK_IS_VKB_BUTTON_CLASS	./ui/gtk/gtk-vkb-button.h	32;"	d
+GTK_IS_VKB_PANEL	./ui/gtk/fvkbd-panel-ui-gtk.h	31;"	d
+GTK_IS_VKB_PANEL_CLASS	./ui/gtk/fvkbd-panel-ui-gtk.h	32;"	d
+GTK_TYPE_VKB_BUTTON	./ui/gtk/gtk-vkb-button.h	28;"	d
+GTK_TYPE_VKB_PANEL	./ui/gtk/fvkbd-panel-ui-gtk.h	28;"	d
+GTK_VKB_BUTTON	./ui/gtk/gtk-vkb-button.h	29;"	d
+GTK_VKB_BUTTON_CLASS	./ui/gtk/gtk-vkb-button.h	30;"	d
+GTK_VKB_BUTTON_GET_CLASS	./ui/gtk/gtk-vkb-button.h	33;"	d
+GTK_VKB_BUTTON_GET_PRIVATE	./ui/gtk/gtk-vkb-button.c	28;"	d	file:
+GTK_VKB_PANEL	./ui/gtk/fvkbd-panel-ui-gtk.h	29;"	d
+GTK_VKB_PANEL_CLASS	./ui/gtk/fvkbd-panel-ui-gtk.h	30;"	d
+GTK_VKB_PANEL_GET_CLASS	./ui/gtk/fvkbd-panel-ui-gtk.h	33;"	d
+GTK_VKB_PANEL_GET_PRIVATE	./ui/gtk/fvkbd-panel-ui-gtk.c	32;"	d	file:
+GtkVkbButton	./ui/gtk/gtk-vkb-button.h	/^typedef struct _GtkVkbButton GtkVkbButton;$/;"	t	typeref:struct:_GtkVkbButton
+GtkVkbButtonClass	./ui/gtk/gtk-vkb-button.h	/^typedef struct _GtkVkbButtonClass GtkVkbButtonClass;$/;"	t	typeref:struct:_GtkVkbButtonClass
+GtkVkbButtonPrivate	./ui/gtk/gtk-vkb-button.h	/^typedef struct _GtkVkbButtonPrivate GtkVkbButtonPrivate;$/;"	t	typeref:struct:_GtkVkbButtonPrivate
+GtkVkbPanel	./ui/gtk/fvkbd-panel-ui-gtk.h	/^typedef struct _GtkVkbPanel GtkVkbPanel;$/;"	t	typeref:struct:_GtkVkbPanel
+GtkVkbPanelClass	./ui/gtk/fvkbd-panel-ui-gtk.h	/^typedef struct _GtkVkbPanelClass GtkVkbPanelClass;$/;"	t	typeref:struct:_GtkVkbPanelClass
+GtkVkbPanelPrivate	./ui/gtk/fvkbd-panel-ui-gtk.c	/^typedef struct _GtkVkbPanelPrivate GtkVkbPanelPrivate;$/;"	t	typeref:struct:_GtkVkbPanelPrivate	file:
+HAVE_BIND_TEXTDOMAIN_CODESET	./config.h	17;"	d
+HAVE_DCGETTEXT	./config.h	20;"	d
+HAVE_DLFCN_H	./config.h	23;"	d
+HAVE_GETTEXT	./config.h	26;"	d
+HAVE_INTTYPES_H	./config.h	29;"	d
+HAVE_LC_MESSAGES	./config.h	32;"	d
+HAVE_LOCALE_H	./config.h	35;"	d
+HAVE_MEMORY_H	./config.h	38;"	d
+HAVE_STDINT_H	./config.h	41;"	d
+HAVE_STDLIB_H	./config.h	44;"	d
+HAVE_STRINGS_H	./config.h	47;"	d
+HAVE_STRING_H	./config.h	50;"	d
+HAVE_SYS_STAT_H	./config.h	53;"	d
+HAVE_SYS_TYPES_H	./config.h	56;"	d
+HAVE_UNISTD_H	./config.h	59;"	d
+IMG_DIR_NAME	./src/misc-utility.c	265;"	d	file:
+KBD_COLOR_TYPE_KEY_BG	./src/fvkbd-base.h	/^	KBD_COLOR_TYPE_KEY_BG,$/;"	e	enum:_KbdColorType
+KBD_COLOR_TYPE_KEY_EXTRA_FG	./src/fvkbd-base.h	/^	KBD_COLOR_TYPE_KEY_EXTRA_FG,$/;"	e	enum:_KbdColorType
+KBD_COLOR_TYPE_KEY_FG	./src/fvkbd-base.h	/^	KBD_COLOR_TYPE_KEY_FG,$/;"	e	enum:_KbdColorType
+KBD_COLOR_TYPE_KEY_POP_BG	./src/fvkbd-base.h	/^	KBD_COLOR_TYPE_KEY_POP_BG,$/;"	e	enum:_KbdColorType
+KBD_COLOR_TYPE_KEY_POP_FG	./src/fvkbd-base.h	/^	KBD_COLOR_TYPE_KEY_POP_FG,$/;"	e	enum:_KbdColorType
+KBD_COLOR_TYPE_NUMBER	./src/fvkbd-base.h	/^	KBD_COLOR_TYPE_NUMBER$/;"	e	enum:_KbdColorType
+KBD_COLOR_TYPE_PANEL_BG	./src/fvkbd-base.h	/^	KBD_COLOR_TYPE_PANEL_BG = 0,$/;"	e	enum:_KbdColorType
+KBD_FONT_TYPE_EXTRA	./src/fvkbd-base.h	/^	KBD_FONT_TYPE_EXTRA,$/;"	e	enum:_KbdFontType
+KBD_FONT_TYPE_NORMAL	./src/fvkbd-base.h	/^	KBD_FONT_TYPE_NORMAL = 0,$/;"	e	enum:_KbdFontType
+KBD_FONT_TYPE_NUMBER	./src/fvkbd-base.h	/^	KBD_FONT_TYPE_NUMBER$/;"	e	enum:_KbdFontType
+KBD_FONT_TYPE_POP	./src/fvkbd-base.h	/^	KBD_FONT_TYPE_POP,$/;"	e	enum:_KbdFontType
+KBD_FUNCTION	./src/fvkbd-keyboard.c	/^	KBD_FUNCTION,$/;"	e	enum:__anon5	file:
+KBD_FUNC_EXIT	./src/fvkbd-base.h	/^	KBD_FUNC_EXIT = 21,$/;"	e	enum:_KbdFuncType
+KBD_FUNC_LAST	./src/fvkbd-base.h	/^	KBD_FUNC_LAST$/;"	e	enum:_KbdFuncType
+KBD_FUNC_MENU	./src/fvkbd-base.h	/^	KBD_FUNC_MENU,$/;"	e	enum:_KbdFuncType
+KBD_FUNC_MODE_FIRST	./src/fvkbd-base.h	/^	KBD_FUNC_MODE_FIRST = 11,$/;"	e	enum:_KbdFuncType
+KBD_FUNC_MODE_LAST	./src/fvkbd-base.h	/^	KBD_FUNC_MODE_LAST,$/;"	e	enum:_KbdFuncType
+KBD_FUNC_MODE_NEXT	./src/fvkbd-base.h	/^	KBD_FUNC_MODE_NEXT,$/;"	e	enum:_KbdFuncType
+KBD_FUNC_MODE_PREV	./src/fvkbd-base.h	/^	KBD_FUNC_MODE_PREV,$/;"	e	enum:_KbdFuncType
+KBD_FUNC_MODE_SELECT	./src/fvkbd-base.h	/^	KBD_FUNC_MODE_SELECT,$/;"	e	enum:_KbdFuncType
+KBD_FUNC_ModAlt	./src/fvkbd-base.h	/^	KBD_FUNC_ModAlt,$/;"	e	enum:_KbdFuncType
+KBD_FUNC_ModCaps	./src/fvkbd-base.h	/^	KBD_FUNC_ModCaps,$/;"	e	enum:_KbdFuncType
+KBD_FUNC_ModControl	./src/fvkbd-base.h	/^	KBD_FUNC_ModControl,$/;"	e	enum:_KbdFuncType
+KBD_FUNC_ModShift	./src/fvkbd-base.h	/^	KBD_FUNC_ModShift = 1,$/;"	e	enum:_KbdFuncType
+KBD_FUNC_NONE	./src/fvkbd-base.h	/^	KBD_FUNC_NONE = 0,$/;"	e	enum:_KbdFuncType
+KBD_SHAPE_BITMAP_MASK	./src/fvkbd-base.h	/^	KBD_SHAPE_BITMAP_MASK,$/;"	e	enum:_KbdShapeType
+KBD_SHAPE_CHAMFER	./src/fvkbd-base.h	/^	KBD_SHAPE_CHAMFER,$/;"	e	enum:_KbdShapeType
+KBD_SHAPE_NONE	./src/fvkbd-base.h	/^	KBD_SHAPE_NONE,$/;"	e	enum:_KbdShapeType
+KBD_SHAPE_NULL	./src/fvkbd-base.h	/^	KBD_SHAPE_NULL = 0,$/;"	e	enum:_KbdShapeType
+KBD_SHAPE_NUMBER	./src/fvkbd-base.h	/^	KBD_SHAPE_NUMBER$/;"	e	enum:_KbdShapeType
+KBD_UI_FUNC_LAST	./src/fvkbd.h	/^	KBD_UI_FUNC_LAST$/;"	e	enum:_KbdUIFuncType
+KBD_UI_FUNC_NONE	./src/fvkbd.h	/^	KBD_UI_FUNC_NONE = 0,$/;"	e	enum:_KbdUIFuncType
+KBD_UI_FUNC_QUIT	./src/fvkbd.h	/^	KBD_UI_FUNC_QUIT = 1,$/;"	e	enum:_KbdUIFuncType
+KBD_UI_FUNC_SHOW_MENU	./src/fvkbd.h	/^	KBD_UI_FUNC_SHOW_MENU,$/;"	e	enum:_KbdUIFuncType
+KEYBOARD_MODE_STATUS_ERROR	./src/fvkbd-keyboard.h	/^	KEYBOARD_MODE_STATUS_ERROR = -1,$/;"	e	enum:__anon6
+KEYBOARD_MODE_STATUS_LOCK	./src/fvkbd-keyboard.h	/^	KEYBOARD_MODE_STATUS_LOCK,$/;"	e	enum:__anon6
+KEYBOARD_MODE_STATUS_NORMAL	./src/fvkbd-keyboard.h	/^	KEYBOARD_MODE_STATUS_NORMAL = 0,$/;"	e	enum:__anon6
+KEYBOARD_MODE_STATUS_NUMBER	./src/fvkbd-keyboard.h	/^	KEYBOARD_MODE_STATUS_NUMBER$/;"	e	enum:__anon6
+KEYBOARD_MODE_STATUS_TEMP	./src/fvkbd-keyboard.h	/^	KEYBOARD_MODE_STATUS_TEMP,$/;"	e	enum:__anon6
+KEY_ACTION_FUNC	./src/fvkbd-key.h	/^	KEY_ACTION_FUNC,$/;"	e	enum:_KeyActionType
+KEY_ACTION_NONE	./src/fvkbd-key.h	/^	KEY_ACTION_NONE = 0,$/;"	e	enum:_KeyActionType
+KEY_ACTION_SCRIPT	./src/fvkbd-key.h	/^	KEY_ACTION_SCRIPT$/;"	e	enum:_KeyActionType
+KEY_ACTION_STRING	./src/fvkbd-key.h	/^	KEY_ACTION_STRING,$/;"	e	enum:_KeyActionType
+KEY_ACTION_STRING_GROUP	./src/fvkbd-key.h	/^	KEY_ACTION_STRING_GROUP,$/;"	e	enum:_KeyActionType
+KEY_ACTION_SYM	./src/fvkbd-key.h	/^	KEY_ACTION_SYM,$/;"	e	enum:_KeyActionType
+KEY_DEFAULT_HEIGHT	./src/fvkbd-key.h	51;"	d
+KEY_DEFAULT_WIDTH	./src/fvkbd-key.h	50;"	d
+KbdColor	./src/fvkbd-base.h	/^typedef struct _KbdColor KbdColor;$/;"	t	typeref:struct:_KbdColor
+KbdColorType	./src/fvkbd-base.h	/^typedef enum _KbdColorType KbdColorType;$/;"	t	typeref:enum:_KbdColorType
+KbdFontInfo	./src/fvkbd-base.h	/^typedef struct _KbdFontInfo KbdFontInfo;$/;"	t	typeref:struct:_KbdFontInfo
+KbdFontType	./src/fvkbd-base.h	/^typedef enum _KbdFontType KbdFontType;$/;"	t	typeref:enum:_KbdFontType
+KbdFuncInfo	./src/fvkbd-base.h	/^typedef struct _KbdFuncInfo KbdFuncInfo;$/;"	t	typeref:struct:_KbdFuncInfo
+KbdFuncType	./src/fvkbd-base.h	/^typedef enum _KbdFuncType KbdFuncType;$/;"	t	typeref:enum:_KbdFuncType
+KbdShapeInfo	./src/fvkbd-base.h	/^typedef struct _KbdShapeInfo KbdShapeInfo;$/;"	t	typeref:struct:_KbdShapeInfo
+KbdShapeType	./src/fvkbd-base.h	/^typedef enum _KbdShapeType KbdShapeType;$/;"	t	typeref:enum:_KbdShapeType
+KbdUIFuncType	./src/fvkbd.h	/^typedef enum _KbdUIFuncType KbdUIFuncType;$/;"	t	typeref:enum:_KbdUIFuncType
+KbdWindow	./app/gtk/fvkbd-ui-gtk.c	/^typedef struct _KbdWindow KbdWindow;$/;"	t	typeref:struct:_KbdWindow	file:
+KeyActionType	./src/fvkbd-key.h	/^typedef enum _KeyActionType KeyActionType;$/;"	t	typeref:enum:_KeyActionType
+KeyFuncName	./src/fvkbd-key.h	/^} KeyFuncName;$/;"	t	typeref:struct:__anon8
+KeyboardModeStatus	./src/fvkbd-keyboard.h	/^} KeyboardModeStatus;$/;"	t	typeref:enum:__anon6
+LAST_SIGNAL	./src/fvkbd-keyboard.c	/^	LAST_SIGNAL$/;"	e	enum:__anon5	file:
+LAST_SIGNAL	./ui/gtk/gtk-vkb-button.c	/^	LAST_SIGNAL$/;"	e	enum:__anon4	file:
+LAYOUT_DOCK_BOTTOM	./src/fvkbd-panel.h	/^	LAYOUT_DOCK_BOTTOM,$/;"	e	enum:_PanelDockType
+LAYOUT_DOCK_LEFT	./src/fvkbd-panel.h	/^	LAYOUT_DOCK_LEFT,$/;"	e	enum:_PanelDockType
+LAYOUT_DOCK_NONE	./src/fvkbd-panel.h	/^	LAYOUT_DOCK_NONE = 0,$/;"	e	enum:_PanelDockType
+LAYOUT_DOCK_RIGHT	./src/fvkbd-panel.h	/^	LAYOUT_DOCK_RIGHT$/;"	e	enum:_PanelDockType
+LAYOUT_DOCK_TOP	./src/fvkbd-panel.h	/^	LAYOUT_DOCK_TOP,$/;"	e	enum:_PanelDockType
+LAYOUT_EXT	./src/layout-utility.c	32;"	d	file:
+LAYOUT_TYPE_ROW	./src/fvkbd-panel.h	/^	LAYOUT_TYPE_ROW = 1,$/;"	e	enum:_PanelLayoutType
+LAYOUT_TYPE_XY	./src/fvkbd-panel.h	/^	LAYOUT_TYPE_XY$/;"	e	enum:_PanelLayoutType
+LT_OBJDIR	./config.h	63;"	d
+LayoutFileInfo	./src/layout-utility.h	/^typedef struct _LayoutFileInfo LayoutFileInfo;$/;"	t	typeref:struct:_LayoutFileInfo
+MAX_KEYBOARD_MODES	./src/fvkbd-keyboard.c	168;"	d	file:
+MAX_LAYOUT_HISTORY	./src/layout-utility.h	28;"	d
+MAX_POP_WIN_ITEMS	./ui/gtk/fvkbd-pop-win.h	24;"	d
+MIN_KEYBOARD_MODES	./src/fvkbd-keyboard.c	167;"	d	file:
+PACKAGE	./config.h	66;"	d
+PACKAGE_BUGREPORT	./config.h	69;"	d
+PACKAGE_NAME	./config.h	72;"	d
+PACKAGE_STRING	./config.h	75;"	d
+PACKAGE_TARNAME	./config.h	78;"	d
+PACKAGE_URL	./config.h	81;"	d
+PACKAGE_VERSION	./config.h	84;"	d
+PANEL_DEFAULT_H_SPACING	./src/fvkbd-panel.c	48;"	d	file:
+PANEL_DEFAULT_ROW_HEIGHT	./src/fvkbd-panel.c	50;"	d	file:
+PANEL_DEFAULT_V_SPACING	./src/fvkbd-panel.c	49;"	d	file:
+POP_WIN	./ui/gtk/fvkbd-pop-win.c	/^static PopWinData *POP_WIN = NULL;$/;"	v	file:
+PRESSED	./ui/gtk/gtk-vkb-button.c	/^	PRESSED,$/;"	e	enum:__anon4	file:
+PanelDockType	./src/fvkbd-panel.h	/^typedef enum _PanelDockType PanelDockType;$/;"	t	typeref:enum:_PanelDockType
+PanelLayoutType	./src/fvkbd-panel.h	/^typedef enum _PanelLayoutType PanelLayoutType;$/;"	t	typeref:enum:_PanelLayoutType
+PanelParserData	./src/fvkbd-panel.c	/^typedef struct _PanelParserData PanelParserData;$/;"	t	typeref:struct:_PanelParserData	file:
+PopWinData	./ui/gtk/fvkbd-pop-win.c	/^typedef struct _PopWinData PopWinData;$/;"	t	typeref:struct:_PopWinData	file:
+RELEASED	./ui/gtk/gtk-vkb-button.c	/^	RELEASED,$/;"	e	enum:__anon4	file:
+ROOT_NODE_NAME	./src/fvkbd.c	33;"	d	file:
+SCRIPT_DIR_NAME	./src/misc-utility.c	264;"	d	file:
+STDC_HEADERS	./config.h	87;"	d
+STEP	./src/fvkbd.h	46;"	d
+TIMER_DESTROY	./src/fvkbd.h	53;"	d
+TIMER_ELAPSED	./src/fvkbd.h	54;"	d
+TIMER_NEW	./src/fvkbd.h	51;"	d
+TIMER_STOP	./src/fvkbd.h	52;"	d
+UNIT_FLAG_MASK	./src/fvkbd-base.h	169;"	d
+UNIT_FLAG_SHIFT	./src/fvkbd-base.h	173;"	d
+UNIT_SUBTYPE_MASK	./src/fvkbd-base.h	168;"	d
+UNIT_SUBTYPE_PANEL_NORMAL	./src/fvkbd-base.h	181;"	d
+UNIT_SUBTYPE_SHIFT	./src/fvkbd-base.h	172;"	d
+UNIT_TYPE_KEY	./src/fvkbd-base.h	178;"	d
+UNIT_TYPE_KEYBOARD	./src/fvkbd-base.h	176;"	d
+UNIT_TYPE_MASK	./src/fvkbd-base.h	167;"	d
+UNIT_TYPE_PANEL	./src/fvkbd-base.h	177;"	d
+UNIT_TYPE_SHIFT	./src/fvkbd-base.h	171;"	d
+USER_PKGDATA_DIR	./src/layout-utility.c	30;"	d	file:
+USER_PKGDATA_DIR	./src/misc-utility.c	263;"	d	file:
+UnitParserFunc	./src/fvkbd-base.h	/^typedef struct _UnitParserFunc UnitParserFunc;$/;"	t	typeref:struct:_UnitParserFunc
+VERSION	./config.h	90;"	d
+VS_IMAGE	./ui/gtk/fvkbd-pop-win.c	58;"	d	file:
+_	./src/fvkbd.h	48;"	d
+_CandidateItem	./ui/gtk/fvkbd-pop-win.c	/^struct _CandidateItem {$/;"	s	file:
+_FVKBD_BASE_H	./src/fvkbd-base.h	18;"	d
+_FVKBD_H	./src/fvkbd.h	18;"	d
+_FVKBD_KEYBOARD_H	./src/fvkbd-keyboard.h	18;"	d
+_FVKBD_KEYBOARD_UI_GTK_H	./ui/gtk/fvkbd-keyboard-ui-gtk.h	18;"	d
+_FVKBD_KEY_H	./src/fvkbd-key.h	18;"	d
+_FVKBD_KEY_UI_GTK_H	./ui/gtk/fvkbd-key-ui-gtk.h	18;"	d
+_FVKBD_PANEL_H	./src/fvkbd-panel.h	18;"	d
+_FVKBD_PANEL_UI_GTK_H	./ui/gtk/fvkbd-panel-ui-gtk.h	18;"	d
+_FVKBD_POP_WIN_H	./ui/gtk/fvkbd-pop-win.h	18;"	d
+_FvkbdGtkUI	./ui/gtk/gtk-ui-base.h	/^struct _FvkbdGtkUI {$/;"	s
+_FvkbdGtkUIClass	./ui/gtk/gtk-ui-base.h	/^struct _FvkbdGtkUIClass {$/;"	s
+_FvkbdKey	./src/fvkbd-key.h	/^struct _FvkbdKey {$/;"	s
+_FvkbdKeyAction	./src/fvkbd-key.h	/^struct _FvkbdKeyAction {$/;"	s
+_FvkbdKeyClass	./src/fvkbd-key.h	/^struct _FvkbdKeyClass {$/;"	s
+_FvkbdKeyGtkUI	./ui/gtk/fvkbd-key-ui-gtk.h	/^struct _FvkbdKeyGtkUI$/;"	s
+_FvkbdKeyGtkUIClass	./ui/gtk/fvkbd-key-ui-gtk.h	/^struct _FvkbdKeyGtkUIClass$/;"	s
+_FvkbdKeyGtkUIPrivate	./ui/gtk/fvkbd-key-ui-gtk.c	/^struct _FvkbdKeyGtkUIPrivate {$/;"	s	file:
+_FvkbdKeyPrivate	./src/fvkbd-key.c	/^struct _FvkbdKeyPrivate {$/;"	s	file:
+_FvkbdKeyboard	./src/fvkbd-keyboard.h	/^struct _FvkbdKeyboard {$/;"	s
+_FvkbdKeyboardClass	./src/fvkbd-keyboard.h	/^struct _FvkbdKeyboardClass {$/;"	s
+_FvkbdKeyboardGtkUI	./ui/gtk/fvkbd-keyboard-ui-gtk.h	/^struct _FvkbdKeyboardGtkUI$/;"	s
+_FvkbdKeyboardGtkUIClass	./ui/gtk/fvkbd-keyboard-ui-gtk.h	/^struct _FvkbdKeyboardGtkUIClass$/;"	s
+_FvkbdKeyboardGtkUIPrivate	./ui/gtk/fvkbd-keyboard-ui-gtk.c	/^struct _FvkbdKeyboardGtkUIPrivate {$/;"	s	file:
+_FvkbdKeyboardMode	./src/fvkbd-keyboard.c	/^struct _FvkbdKeyboardMode {$/;"	s	file:
+_FvkbdKeyboardPrivate	./src/fvkbd-keyboard.c	/^struct _FvkbdKeyboardPrivate {$/;"	s	file:
+_FvkbdPanel	./src/fvkbd-panel.h	/^struct _FvkbdPanel {$/;"	s
+_FvkbdPanelClass	./src/fvkbd-panel.h	/^struct _FvkbdPanelClass {$/;"	s
+_FvkbdPanelGtkUI	./ui/gtk/fvkbd-panel-ui-gtk.h	/^struct _FvkbdPanelGtkUI$/;"	s
+_FvkbdPanelGtkUIClass	./ui/gtk/fvkbd-panel-ui-gtk.h	/^struct _FvkbdPanelGtkUIClass$/;"	s
+_FvkbdPanelGtkUIPrivate	./ui/gtk/fvkbd-panel-ui-gtk.c	/^struct _FvkbdPanelGtkUIPrivate {$/;"	s	file:
+_FvkbdPanelPrivate	./src/fvkbd-panel.c	/^struct _FvkbdPanelPrivate {$/;"	s	file:
+_FvkbdParser	./src/parser-utility-libxml.h	/^struct _FvkbdParser {$/;"	s
+_FvkbdParserClass	./src/parser-utility-libxml.h	/^struct _FvkbdParserClass {$/;"	s
+_FvkbdParserPrivate	./src/parser-utility-libxml.c	/^struct _FvkbdParserPrivate$/;"	s	file:
+_FvkbdUnit	./src/fvkbd-base.h	/^struct _FvkbdUnit {$/;"	s
+_FvkbdUnitClass	./src/fvkbd-base.h	/^struct _FvkbdUnitClass {$/;"	s
+_GTK_MISC_UTILITY_H	./ui/gtk/gtk-misc-utility.h	18;"	d
+_GTK_UI_BASE_H	./ui/gtk/gtk-ui-base.h	18;"	d
+_GTK_VKB_BUTTON_H	./ui/gtk/gtk-vkb-button.h	18;"	d
+_GtkVkbButton	./ui/gtk/gtk-vkb-button.h	/^struct _GtkVkbButton$/;"	s
+_GtkVkbButtonClass	./ui/gtk/gtk-vkb-button.h	/^struct _GtkVkbButtonClass$/;"	s
+_GtkVkbButtonPrivate	./ui/gtk/gtk-vkb-button.c	/^struct _GtkVkbButtonPrivate {$/;"	s	file:
+_GtkVkbPanel	./ui/gtk/fvkbd-panel-ui-gtk.h	/^struct _GtkVkbPanel$/;"	s
+_GtkVkbPanelClass	./ui/gtk/fvkbd-panel-ui-gtk.h	/^struct _GtkVkbPanelClass$/;"	s
+_GtkVkbPanelPrivate	./ui/gtk/fvkbd-panel-ui-gtk.c	/^struct _GtkVkbPanelPrivate {$/;"	s	file:
+_KbdColor	./src/fvkbd-base.h	/^struct _KbdColor {$/;"	s
+_KbdColorType	./src/fvkbd-base.h	/^enum _KbdColorType {$/;"	g
+_KbdFontInfo	./src/fvkbd-base.h	/^struct _KbdFontInfo {$/;"	s
+_KbdFontType	./src/fvkbd-base.h	/^enum _KbdFontType {$/;"	g
+_KbdFuncInfo	./src/fvkbd-base.h	/^struct _KbdFuncInfo {$/;"	s
+_KbdFuncType	./src/fvkbd-base.h	/^enum _KbdFuncType {$/;"	g
+_KbdShapeInfo	./src/fvkbd-base.h	/^struct _KbdShapeInfo {$/;"	s
+_KbdShapeType	./src/fvkbd-base.h	/^enum _KbdShapeType {$/;"	g
+_KbdUIFuncType	./src/fvkbd.h	/^enum _KbdUIFuncType {$/;"	g
+_KbdWindow	./app/gtk/fvkbd-ui-gtk.c	/^struct _KbdWindow {$/;"	s	file:
+_KeyActionType	./src/fvkbd-key.h	/^enum _KeyActionType {$/;"	g
+_LAYOUT_UTILITY_H	./src/layout-utility.h	18;"	d
+_LayoutFileInfo	./src/layout-utility.h	/^struct _LayoutFileInfo {$/;"	s
+_MISC_UTILITY_H	./src/misc-utility.h	18;"	d
+_PARSER_UTILITY_LIBXML_H	./src/parser-utility-libxml.h	18;"	d
+_PIXMAP_UTILITY_H	./ui/gtk/pixmap-utility.h	18;"	d
+_PanelDockType	./src/fvkbd-panel.h	/^enum _PanelDockType {$/;"	g
+_PanelLayoutType	./src/fvkbd-panel.h	/^enum _PanelLayoutType {$/;"	g
+_PanelParserData	./src/fvkbd-panel.c	/^struct _PanelParserData {$/;"	s	file:
+_PopWinData	./ui/gtk/fvkbd-pop-win.c	/^struct _PopWinData {$/;"	s	file:
+_UnitParserFunc	./src/fvkbd-base.h	/^struct _UnitParserFunc {$/;"	s
+_cmd_menu	./app/gtk/fvkbd-ui-gtk.c	/^static GtkWidget *_cmd_menu = NULL;$/;"	v	file:
+_cmd_menu_activated	./app/gtk/fvkbd-ui-gtk.c	/^static gboolean _cmd_menu_activated = FALSE;$/;"	v	file:
+_create_key_label	./ui/gtk/fvkbd-key-ui-gtk.c	/^_create_key_label (FvkbdKeyGtkUI *key_ui, gint id, KeyboardModeStatus status)$/;"	f	file:
+_fvkbd_boolean_handled_accumulator	./src/misc-utility.c	/^_fvkbd_boolean_handled_accumulator (GSignalInvocationHint *ihint,$/;"	f
+_fvkbd_gtk_ui_get_qdata_full	./ui/gtk/gtk-ui-base.c	/^_fvkbd_gtk_ui_get_qdata_full (FvkbdGtkUI *ui, GQuark quark,$/;"	f
+_fvkbd_marshal_BOOLEAN__POINTER	./src/misc-utility.c	/^_fvkbd_marshal_BOOLEAN__POINTER (GClosure *closure,$/;"	f
+_fvkbd_opts	./app/gtk/fvkbd-ui-gtk.c	/^struct _fvkbd_opts {$/;"	s	file:
+_fvkbd_panel_allocate_child	./ui/gtk/fvkbd-panel-ui-gtk.c	/^_fvkbd_panel_allocate_child (FvkbdPanelGtkUI *panel_ui, int x_offset, int y_offset,$/;"	f	file:
+_fvkbd_unit_get_font_full	./src/fvkbd-base.c	/^_fvkbd_unit_get_font_full (FvkbdUnit *unit, KbdFontType type,$/;"	f	file:
+_fvkbd_unit_get_qdata_full	./src/fvkbd-base.c	/^_fvkbd_unit_get_qdata_full(FvkbdUnit *unit, GQuark quark,$/;"	f
+_get_bitmap_gc	./ui/gtk/pixmap-utility.c	/^_get_bitmap_gc(void)$/;"	f	file:
+_get_chamfered_rectangle_bitmap	./ui/gtk/pixmap-utility.c	/^_get_chamfered_rectangle_bitmap(gint width, gint height, gint corner)$/;"	f	file:
+_gtk_ui_change_layout	./app/gtk/fvkbd-ui-gtk.c	/^_gtk_ui_change_layout(const gchar* name)$/;"	f	file:
+_kbd_data	./app/gtk/fvkbd-ui-gtk.c	/^struct _kbd_data {$/;"	s	file:
+_key_gtk_ui_func_handlers	./ui/gtk/fvkbd-key-ui-gtk.c	/^_key_gtk_ui_func_handlers(FvkbdKeyGtkUI *key_ui, FvkbdKeyAction *action, void *data)$/;"	f	file:
+_key_gtk_ui_get_current_action	./ui/gtk/fvkbd-key-ui-gtk.c	/^_key_gtk_ui_get_current_action(FvkbdKeyGtkUI *key_ui)$/;"	f	file:
+_load_and_scale_pixbuf	./ui/gtk/gtk-misc-utility.c	/^_load_and_scale_pixbuf (const gchar *file, gfloat x_ratio, gfloat y_ratio)$/;"	f	file:
+_panel_allocate_default_key_shape_bitmap	./ui/gtk/fvkbd-panel-ui-gtk.c	/^_panel_allocate_default_key_shape_bitmap (FvkbdPanelGtkUI *panel_ui, KbdShapeInfo *info)$/;"	f	file:
+_panel_gtk_ui_allocate_resources	./ui/gtk/fvkbd-panel-ui-gtk.c	/^_panel_gtk_ui_allocate_resources (FvkbdGtkUI *ui)$/;"	f	file:
+_panel_window_drag_x	./app/gtk/fvkbd-ui-gtk.c	/^static gint _panel_window_drag_x;$/;"	v	file:
+_panel_window_drag_y	./app/gtk/fvkbd-ui-gtk.c	/^static gint _panel_window_drag_y;$/;"	v	file:
+_panel_window_draging	./app/gtk/fvkbd-ui-gtk.c	/^static gboolean _panel_window_draging = FALSE;$/;"	v	file:
+_toggle_key_img	./ui/gtk/fvkbd-key-ui-gtk.c	/^_toggle_key_img (FvkbdKeyGtkUI *key_ui, gboolean down)$/;"	f	file:
+_update_key_label	./ui/gtk/fvkbd-key-ui-gtk.c	/^_update_key_label (FvkbdKeyGtkUI *key_ui, gint id, KeyboardModeStatus status)$/;"	f	file:
+a	./src/fvkbd-base.h	/^	gchar a;$/;"	m	struct:_KbdColor
+action_font_descs	./ui/gtk/fvkbd-key-ui-gtk.c	/^	PangoFontDescription *action_font_descs[KBD_FONT_TYPE_NUMBER];$/;"	m	struct:_FvkbdKeyGtkUIPrivate	file:
+action_free_font_info	./src/fvkbd-key.c	/^action_free_font_info(FvkbdKeyAction *action)$/;"	f	file:
+action_free_func	./src/fvkbd-key.c	/^action_free_func(KbdFuncInfo *func)$/;"	f	file:
+action_str_to_func	./src/fvkbd-key.c	/^action_str_to_func (FvkbdKeyAction *action, gchar *name)$/;"	f	file:
+actions	./src/fvkbd-key.c	/^	GSList *actions;$/;"	m	struct:_FvkbdKeyPrivate	file:
+add_recent_layout_file	./src/layout-utility.c	/^add_recent_layout_file(const gchar *new_name)$/;"	f
+allocate	./ui/gtk/gtk-ui-base.h	/^	gboolean (*allocate)		(FvkbdGtkUI *ui, gint x, gint y, gfloat x_ratio, gfloat y_ratio);$/;"	m	struct:_FvkbdGtkUIClass
+b	./src/fvkbd-base.h	/^	gchar b;$/;"	m	struct:_KbdColor
+bg_pixmap	./ui/gtk/gtk-vkb-button.h	/^	GdkPixmap *bg_pixmap;$/;"	m	struct:_GtkVkbButton
+bgcolor	./ui/gtk/gtk-vkb-button.h	/^	GdkColor bgcolor[5];$/;"	m	struct:_GtkVkbButton
+build	./ui/gtk/gtk-ui-base.h	/^	gboolean (*build)		(FvkbdGtkUI *ui, GtkWidget **widget);$/;"	m	struct:_FvkbdGtkUIClass
+build_panel_window	./app/gtk/fvkbd-ui-gtk.c	/^build_panel_window (FvkbdGtkUI *ui)$/;"	f	file:
+build_panel_windows	./app/gtk/fvkbd-ui-gtk.c	/^build_panel_windows (FvkbdGtkUI *ui)$/;"	f	file:
+candidate_item_clicked_cb	./ui/gtk/fvkbd-pop-win.c	/^candidate_item_clicked_cb(GtkButton *button, CandidateItem *item)$/;"	f	file:
+candidate_items	./ui/gtk/fvkbd-pop-win.c	/^static CandidateItem candidate_items[MAX_POP_WIN_ITEMS];$/;"	v	file:
+children	./src/fvkbd-panel.c	/^	GSList *children;$/;"	m	struct:_FvkbdPanelPrivate	file:
+children	./ui/gtk/fvkbd-keyboard-ui-gtk.h	/^	GSList *children;$/;"	m	struct:_FvkbdKeyboardGtkUI
+children	./ui/gtk/fvkbd-panel-ui-gtk.h	/^	GSList *children;$/;"	m	struct:_FvkbdPanelGtkUI
+cmd_menu_deactivate_cb	./app/gtk/fvkbd-ui-gtk.c	/^cmd_menu_deactivate_cb (GtkWidget *item, gpointer user_data)$/;"	f	file:
+cmd_menu_exit_activate_cb	./app/gtk/fvkbd-ui-gtk.c	/^cmd_menu_exit_activate_cb (GtkWidget *item, gpointer user_data)$/;"	f	file:
+cmd_menu_layout_item_activate_cb	./app/gtk/fvkbd-ui-gtk.c	/^cmd_menu_layout_item_activate_cb (GtkWidget *item, gpointer user_data)$/;"	f	file:
+color	./src/fvkbd-base.h	/^	KbdColor *color[KBD_COLOR_TYPE_NUMBER];$/;"	m	struct:_FvkbdUnit
+colormap	./ui/gtk/gtk-vkb-button.h	/^	GdkColormap *colormap;$/;"	m	struct:_GtkVkbButton
+cur	./src/parser-utility-libxml.c	/^	xmlNodePtr cur;$/;"	m	struct:_FvkbdParserPrivate	file:
+current_layout	./app/gtk/fvkbd-ui-gtk.c	/^static gchar *current_layout = NULL;$/;"	v	file:
+current_mode	./src/fvkbd-keyboard.c	/^	gint current_mode;$/;"	m	struct:_FvkbdKeyboardPrivate	file:
+current_x	./src/fvkbd-panel.c	/^	gint current_x;$/;"	m	struct:_PanelParserData	file:
+current_y	./src/fvkbd-panel.c	/^	gint current_y;$/;"	m	struct:_PanelParserData	file:
+data	./src/fvkbd-base.h	/^	void *data;$/;"	m	struct:_KbdFuncInfo
+destroy	./ui/gtk/gtk-ui-base.h	/^	gboolean (*destroy)		(FvkbdGtkUI *ui);$/;"	m	struct:_FvkbdGtkUIClass
+destroy_panel_windows	./app/gtk/fvkbd-ui-gtk.c	/^destroy_panel_windows (void)$/;"	f	file:
+disable_pop	./src/fvkbd-key.c	/^	gboolean disable_pop;$/;"	m	struct:_FvkbdKeyPrivate	file:
+disp	./src/fvkbd-key.h	/^	gchar *disp;$/;"	m	struct:_FvkbdKeyAction
+disp	./ui/gtk/fvkbd-pop-win.c	/^	gchar *disp;$/;"	m	struct:_CandidateItem	file:
+doc	./src/parser-utility-libxml.c	/^	xmlDocPtr doc;$/;"	m	struct:_FvkbdParserPrivate	file:
+dock	./app/gtk/fvkbd-ui-gtk.c	/^	gboolean dock;$/;"	m	struct:_fvkbd_opts	file:
+dock	./src/fvkbd-panel.c	/^	PanelDockType dock;$/;"	m	struct:_FvkbdPanelPrivate	file:
+dummy_height_widget	./ui/gtk/fvkbd-pop-win.c	/^	GtkWidget *dummy_height_widget;$/;"	m	struct:_PopWinData	file:
+dummy_width_widget	./ui/gtk/fvkbd-pop-win.c	/^	GtkWidget *dummy_width_widget;$/;"	m	struct:_CandidateItem	file:
+embedded	./app/gtk/fvkbd-ui-gtk.c	/^	gboolean embedded;$/;"	m	struct:_fvkbd_opts	file:
+err	./src/parser-utility-libxml.h	/^	gboolean err;$/;"	m	struct:_FvkbdParser
+err_msg	./src/parser-utility-libxml.h	/^	char *err_msg;$/;"	m	struct:_FvkbdParser
+family	./src/fvkbd-base.h	/^	gchar *family;$/;"	m	struct:_KbdFontInfo
+file_exist	./src/misc-utility.c	/^static inline int file_exist(gchar *filename)$/;"	f	file:
+file_readable	./src/layout-utility.c	/^static inline int file_readable(gchar *filename)$/;"	f	file:
+filename	./src/layout-utility.h	/^	gchar *filename;$/;"	m	struct:_LayoutFileInfo
+find_layout_file	./src/layout-utility.c	/^find_layout_file(const gchar *filename)$/;"	f
+find_layout_files	./src/layout-utility.c	/^find_layout_files(void)$/;"	f
+find_layout_files_in_path	./src/layout-utility.c	/^find_layout_files_in_path(gchar *path)$/;"	f	file:
+flags	./src/fvkbd-base.h	/^	guint16 flags;$/;"	m	struct:_FvkbdUnit
+flags	./ui/gtk/gtk-ui-base.h	/^	guint16 flags;$/;"	m	struct:_FvkbdGtkUI
+font	./src/fvkbd-base.h	/^	KbdFontInfo *font[KBD_FONT_TYPE_NUMBER];$/;"	m	struct:_FvkbdUnit
+font	./src/fvkbd-key.h	/^	KbdFontInfo *font[KBD_FONT_TYPE_NUMBER];	\/\/there is rare case that a key need to use different font setting for different action mode.$/;"	m	struct:_FvkbdKeyAction
+free_ui_font_descs	./ui/gtk/gtk-misc-utility.c	/^free_ui_font_descs (PangoFontDescription **descs)$/;"	f
+free_vkb_button_resources	./ui/gtk/gtk-vkb-button.c	/^static void free_vkb_button_resources (GtkVkbButton *button)$/;"	f	file:
+func	./src/fvkbd-key.h	/^		KbdFuncInfo func;$/;"	m	union:_FvkbdKeyAction::__anon7
+func	./ui/gtk/fvkbd-pop-win.c	/^		KbdFuncInfo func;$/;"	m	union:_CandidateItem::__anon2	file:
+fvkbd_do_script	./src/misc-utility.c	/^fvkbd_do_script(gchar *string)$/;"	f
+fvkbd_get_unit_flag	./src/fvkbd-base.c	/^fvkbd_get_unit_flag(FvkbdUnit *unit)$/;"	f
+fvkbd_get_unit_subtype	./src/fvkbd-base.c	/^fvkbd_get_unit_subtype(FvkbdUnit *unit)$/;"	f
+fvkbd_get_unit_type	./src/fvkbd-base.c	/^fvkbd_get_unit_type(FvkbdUnit *unit)$/;"	f
+fvkbd_gtk_ui_allocate	./ui/gtk/gtk-ui-base.c	/^fvkbd_gtk_ui_allocate (FvkbdGtkUI *ui, gint x, gint y, gfloat x_ratio, gfloat y_ratio)$/;"	f
+fvkbd_gtk_ui_build	./ui/gtk/gtk-ui-base.c	/^fvkbd_gtk_ui_build (FvkbdGtkUI *ui, GtkWidget **widget)$/;"	f
+fvkbd_gtk_ui_class_init	./ui/gtk/gtk-ui-base.c	/^fvkbd_gtk_ui_class_init (FvkbdGtkUIClass *klass)$/;"	f	file:
+fvkbd_gtk_ui_destroy	./ui/gtk/gtk-ui-base.c	/^fvkbd_gtk_ui_destroy (FvkbdGtkUI *ui)$/;"	f
+fvkbd_gtk_ui_finalize	./ui/gtk/gtk-ui-base.c	/^fvkbd_gtk_ui_finalize(GObject *object)$/;"	f	file:
+fvkbd_gtk_ui_get_parent	./ui/gtk/gtk-ui-base.c	/^fvkbd_gtk_ui_get_parent (FvkbdGtkUI *ui)$/;"	f
+fvkbd_gtk_ui_get_qdata	./ui/gtk/gtk-ui-base.c	/^fvkbd_gtk_ui_get_qdata (FvkbdGtkUI *ui, GQuark quark)$/;"	f
+fvkbd_gtk_ui_get_qdata_recursive	./ui/gtk/gtk-ui-base.c	/^fvkbd_gtk_ui_get_qdata_recursive (FvkbdGtkUI *ui, GQuark quark,$/;"	f
+fvkbd_gtk_ui_get_ratio	./ui/gtk/gtk-ui-base.c	/^fvkbd_gtk_ui_get_ratio (FvkbdGtkUI *ui, gfloat *x_ratio, gfloat *y_ratio)$/;"	f
+fvkbd_gtk_ui_get_unit	./ui/gtk/gtk-ui-base.c	/^fvkbd_gtk_ui_get_unit (FvkbdGtkUI *ui)$/;"	f
+fvkbd_gtk_ui_get_widget	./ui/gtk/gtk-ui-base.c	/^fvkbd_gtk_ui_get_widget (FvkbdGtkUI *ui)$/;"	f
+fvkbd_gtk_ui_init	./ui/gtk/gtk-ui-base.c	/^fvkbd_gtk_ui_init (FvkbdGtkUI *ui)$/;"	f	file:
+fvkbd_gtk_ui_real_allocate	./ui/gtk/gtk-ui-base.c	/^fvkbd_gtk_ui_real_allocate (FvkbdGtkUI *ui, gint x, gint y, gfloat x_ratio, gfloat y_ratio)$/;"	f	file:
+fvkbd_gtk_ui_real_build	./ui/gtk/gtk-ui-base.c	/^fvkbd_gtk_ui_real_build (FvkbdGtkUI *ui, GtkWidget **widget)$/;"	f	file:
+fvkbd_gtk_ui_real_destroy	./ui/gtk/gtk-ui-base.c	/^fvkbd_gtk_ui_real_destroy (FvkbdGtkUI *ui)$/;"	f	file:
+fvkbd_gtk_ui_set_mode	./ui/gtk/gtk-ui-base.c	/^fvkbd_gtk_ui_set_mode (FvkbdGtkUI *ui, gint id)$/;"	f
+fvkbd_gtk_ui_set_parent	./ui/gtk/gtk-ui-base.c	/^fvkbd_gtk_ui_set_parent (FvkbdGtkUI *ui, FvkbdGtkUI *parent)$/;"	f
+fvkbd_gtk_ui_set_qdata	./ui/gtk/gtk-ui-base.c	/^fvkbd_gtk_ui_set_qdata(FvkbdGtkUI *ui, GQuark quark, gpointer data,$/;"	f
+fvkbd_gtk_ui_set_ratio	./ui/gtk/gtk-ui-base.c	/^fvkbd_gtk_ui_set_ratio (FvkbdGtkUI *ui, gfloat x_ratio, gfloat y_ratio)$/;"	f
+fvkbd_gtk_ui_set_unit	./ui/gtk/gtk-ui-base.c	/^fvkbd_gtk_ui_set_unit (FvkbdGtkUI *ui, FvkbdUnit *unit)$/;"	f
+fvkbd_gtk_ui_set_widget	./ui/gtk/gtk-ui-base.c	/^fvkbd_gtk_ui_set_widget (FvkbdGtkUI *ui, GtkWidget *widget)$/;"	f
+fvkbd_has_key_held	./src/fvkbd-key.c	/^gboolean fvkbd_has_key_held = FALSE;$/;"	v
+fvkbd_key_action_free	./src/fvkbd-key.c	/^fvkbd_key_action_free(FvkbdKeyAction *action)$/;"	f	file:
+fvkbd_key_class_init	./src/fvkbd-key.c	/^fvkbd_key_class_init (FvkbdKeyClass *klass)$/;"	f	file:
+fvkbd_key_finalize	./src/fvkbd-key.c	/^fvkbd_key_finalize (GObject *object)$/;"	f	file:
+fvkbd_key_get_action	./src/fvkbd-key.c	/^fvkbd_key_get_action(FvkbdKey *self, gint id)$/;"	f
+fvkbd_key_get_disp	./src/fvkbd-key.c	/^fvkbd_key_get_disp (FvkbdKey *self, gint id)$/;"	f
+fvkbd_key_get_image	./src/fvkbd-key.c	/^fvkbd_key_get_image (FvkbdKey *self, gint id)$/;"	f
+fvkbd_key_get_position	./src/fvkbd-key.c	/^fvkbd_key_get_position (FvkbdUnit *unit, gint *x, gint *y)$/;"	f	file:
+fvkbd_key_get_size	./src/fvkbd-key.c	/^fvkbd_key_get_size (FvkbdUnit *unit, gint *w, gint *h)$/;"	f	file:
+fvkbd_key_gtk_pressed_cb	./ui/gtk/fvkbd-key-ui-gtk.c	/^fvkbd_key_gtk_pressed_cb(GtkVkbButton *button, FvkbdKeyGtkUI *key_ui)$/;"	f	file:
+fvkbd_key_gtk_released_cb	./ui/gtk/fvkbd-key-ui-gtk.c	/^fvkbd_key_gtk_released_cb(GtkVkbButton *button, FvkbdKeyGtkUI *key_ui)$/;"	f	file:
+fvkbd_key_gtk_size_allocate_cb	./ui/gtk/fvkbd-key-ui-gtk.c	/^fvkbd_key_gtk_size_allocate_cb (GtkVkbButton *button,$/;"	f	file:
+fvkbd_key_gtk_ui_allocate	./ui/gtk/fvkbd-key-ui-gtk.c	/^fvkbd_key_gtk_ui_allocate (FvkbdGtkUI *ui, gint x, gint y, gfloat x_ratio, gfloat y_ratio)$/;"	f	file:
+fvkbd_key_gtk_ui_build	./ui/gtk/fvkbd-key-ui-gtk.c	/^fvkbd_key_gtk_ui_build (FvkbdGtkUI *ui, GtkWidget **widget)$/;"	f	file:
+fvkbd_key_gtk_ui_class_init	./ui/gtk/fvkbd-key-ui-gtk.c	/^fvkbd_key_gtk_ui_class_init (FvkbdKeyGtkUIClass *klass)$/;"	f	file:
+fvkbd_key_gtk_ui_destroy	./ui/gtk/fvkbd-key-ui-gtk.c	/^fvkbd_key_gtk_ui_destroy (FvkbdGtkUI *ui)$/;"	f	file:
+fvkbd_key_gtk_ui_init	./ui/gtk/fvkbd-key-ui-gtk.c	/^fvkbd_key_gtk_ui_init (FvkbdKeyGtkUI *self)$/;"	f	file:
+fvkbd_key_gtk_ui_new	./ui/gtk/fvkbd-key-ui-gtk.c	/^fvkbd_key_gtk_ui_new (FvkbdUnit *unit)$/;"	f
+fvkbd_key_gtk_ui_set_mode	./ui/gtk/fvkbd-key-ui-gtk.c	/^fvkbd_key_gtk_ui_set_mode (FvkbdGtkUI *ui, gint id)$/;"	f	file:
+fvkbd_key_init	./src/fvkbd-key.c	/^fvkbd_key_init (FvkbdKey *self)$/;"	f	file:
+fvkbd_key_new	./src/fvkbd-key.c	/^fvkbd_key_new (void)$/;"	f
+fvkbd_key_parse_xml	./src/fvkbd-key.c	/^fvkbd_key_parse_xml (FvkbdUnit *unit, FvkbdParser *parser)$/;"	f	file:
+fvkbd_key_pop_notify_disabled	./src/fvkbd-key.c	/^fvkbd_key_pop_notify_disabled(FvkbdKey *self)$/;"	f
+fvkbd_key_send_utf8_string	./src/fvkbd-key.c	/^fvkbd_key_send_utf8_string(gchar *string)$/;"	f
+fvkbd_key_send_xkeysym	./src/fvkbd-key.c	/^fvkbd_key_send_xkeysym(KeySym sym)$/;"	f
+fvkbd_key_set_position	./src/fvkbd-key.c	/^fvkbd_key_set_position (FvkbdUnit *unit, gint x, gint y)$/;"	f	file:
+fvkbd_key_set_size	./src/fvkbd-key.c	/^fvkbd_key_set_size (FvkbdUnit *unit, gint w, gint h)$/;"	f	file:
+fvkbd_key_settle_bg_image	./ui/gtk/fvkbd-key-ui-gtk.c	/^fvkbd_key_settle_bg_image (FvkbdKeyGtkUI *key_ui, GtkWidget *key_widget)$/;"	f	file:
+fvkbd_key_settle_color	./ui/gtk/fvkbd-key-ui-gtk.c	/^fvkbd_key_settle_color (FvkbdKeyGtkUI *key_ui, GtkWidget *key_widget)$/;"	f	file:
+fvkbd_key_settle_font	./ui/gtk/fvkbd-key-ui-gtk.c	/^fvkbd_key_settle_font (FvkbdKeyGtkUI *key_ui, GtkWidget *key_widget)$/;"	f	file:
+fvkbd_key_shape_mask_bitmap	./ui/gtk/fvkbd-key-ui-gtk.c	/^fvkbd_key_shape_mask_bitmap (FvkbdKeyGtkUI *key_ui, GtkWidget *key_widget,$/;"	f	file:
+fvkbd_key_shape_mask_chamfer	./ui/gtk/fvkbd-key-ui-gtk.c	/^fvkbd_key_shape_mask_chamfer (FvkbdKeyGtkUI *key_ui, GtkWidget *key_widget)$/;"	f	file:
+fvkbd_key_shape_mask_none	./ui/gtk/fvkbd-key-ui-gtk.c	/^fvkbd_key_shape_mask_none (FvkbdKeyGtkUI *key_ui, GtkWidget *key_widget)$/;"	f	file:
+fvkbd_keyboard_class_init	./src/fvkbd-keyboard.c	/^fvkbd_keyboard_class_init (FvkbdKeyboardClass *klass)$/;"	f	file:
+fvkbd_keyboard_do_func	./src/fvkbd-keyboard.c	/^fvkbd_keyboard_do_func (FvkbdKeyboard *keyboard, KbdFuncInfo *func)$/;"	f
+fvkbd_keyboard_finalize	./src/fvkbd-keyboard.c	/^fvkbd_keyboard_finalize (GObject *object)$/;"	f	file:
+fvkbd_keyboard_get_current_mode	./src/fvkbd-keyboard.c	/^fvkbd_keyboard_get_current_mode (FvkbdKeyboard *keyboard)$/;"	f
+fvkbd_keyboard_get_mode_status	./src/fvkbd-keyboard.c	/^fvkbd_keyboard_get_mode_status(FvkbdKeyboard *keyboard)$/;"	f
+fvkbd_keyboard_get_modes_number	./src/fvkbd-keyboard.c	/^fvkbd_keyboard_get_modes_number (FvkbdKeyboard *keyboard)$/;"	f
+fvkbd_keyboard_get_panels	./src/fvkbd-keyboard.c	/^fvkbd_keyboard_get_panels (FvkbdKeyboard *keyboard)$/;"	f
+fvkbd_keyboard_get_previous_mode	./src/fvkbd-keyboard.c	/^fvkbd_keyboard_get_previous_mode (FvkbdKeyboard *keyboard)$/;"	f
+fvkbd_keyboard_gtk_ui_allocate	./ui/gtk/fvkbd-keyboard-ui-gtk.c	/^fvkbd_keyboard_gtk_ui_allocate (FvkbdGtkUI *ui, gint x, gint y,$/;"	f	file:
+fvkbd_keyboard_gtk_ui_build	./ui/gtk/fvkbd-keyboard-ui-gtk.c	/^fvkbd_keyboard_gtk_ui_build (FvkbdGtkUI *ui, GtkWidget **widget)$/;"	f	file:
+fvkbd_keyboard_gtk_ui_class_init	./ui/gtk/fvkbd-keyboard-ui-gtk.c	/^fvkbd_keyboard_gtk_ui_class_init (FvkbdKeyboardGtkUIClass *klass)$/;"	f	file:
+fvkbd_keyboard_gtk_ui_destroy	./ui/gtk/fvkbd-keyboard-ui-gtk.c	/^fvkbd_keyboard_gtk_ui_destroy (FvkbdGtkUI *ui)$/;"	f	file:
+fvkbd_keyboard_gtk_ui_finalize	./ui/gtk/fvkbd-keyboard-ui-gtk.c	/^fvkbd_keyboard_gtk_ui_finalize (GObject *object)$/;"	f	file:
+fvkbd_keyboard_gtk_ui_get_keyboard	./ui/gtk/fvkbd-keyboard-ui-gtk.c	/^fvkbd_keyboard_gtk_ui_get_keyboard (void)$/;"	f
+fvkbd_keyboard_gtk_ui_get_ui	./ui/gtk/fvkbd-keyboard-ui-gtk.c	/^fvkbd_keyboard_gtk_ui_get_ui (void)$/;"	f
+fvkbd_keyboard_gtk_ui_init	./ui/gtk/fvkbd-keyboard-ui-gtk.c	/^fvkbd_keyboard_gtk_ui_init (FvkbdKeyboardGtkUI *self)$/;"	f	file:
+fvkbd_keyboard_gtk_ui_new	./ui/gtk/fvkbd-keyboard-ui-gtk.c	/^fvkbd_keyboard_gtk_ui_new (FvkbdUnit *unit)$/;"	f
+fvkbd_keyboard_gtk_ui_set_mode	./ui/gtk/fvkbd-keyboard-ui-gtk.c	/^fvkbd_keyboard_gtk_ui_set_mode (FvkbdGtkUI *ui, gint id)$/;"	f	file:
+fvkbd_keyboard_init	./src/fvkbd-keyboard.c	/^fvkbd_keyboard_init (FvkbdKeyboard *self)$/;"	f	file:
+fvkbd_keyboard_new	./src/fvkbd-keyboard.c	/^fvkbd_keyboard_new (void)$/;"	f
+fvkbd_keyboard_parse_xml	./src/fvkbd-keyboard.c	/^static gboolean fvkbd_keyboard_parse_xml (FvkbdUnit *unit, FvkbdParser *parser)$/;"	f	file:
+fvkbd_keyboard_set_mode	./src/fvkbd-keyboard.c	/^fvkbd_keyboard_set_mode (FvkbdKeyboard *keyboard, gint mode)$/;"	f
+fvkbd_keyboard_set_mode_status	./src/fvkbd-keyboard.c	/^fvkbd_keyboard_set_mode_status(FvkbdKeyboard *keyboard, KeyboardModeStatus status)$/;"	f
+fvkbd_keyboard_signals	./src/fvkbd-keyboard.c	/^static guint fvkbd_keyboard_signals[LAST_SIGNAL] = { 0 };$/;"	v	file:
+fvkbd_panel_class_init	./src/fvkbd-panel.c	/^fvkbd_panel_class_init (FvkbdPanelClass *klass)$/;"	f	file:
+fvkbd_panel_finalize	./src/fvkbd-panel.c	/^fvkbd_panel_finalize (GObject *object)$/;"	f	file:
+fvkbd_panel_get_children	./src/fvkbd-panel.c	/^fvkbd_panel_get_children (FvkbdPanel *self)$/;"	f
+fvkbd_panel_get_docktype	./src/fvkbd-panel.c	/^fvkbd_panel_get_docktype (FvkbdPanel *self)$/;"	f
+fvkbd_panel_get_img	./src/fvkbd-panel.c	/^fvkbd_panel_get_img (FvkbdPanel *self)$/;"	f
+fvkbd_panel_get_position	./src/fvkbd-panel.c	/^fvkbd_panel_get_position (FvkbdUnit *unit, gint *x, gint *y)$/;"	f	file:
+fvkbd_panel_get_size	./src/fvkbd-panel.c	/^fvkbd_panel_get_size (FvkbdUnit *unit, gint *w, gint *h)$/;"	f	file:
+fvkbd_panel_gtk_ui_allocate	./ui/gtk/fvkbd-panel-ui-gtk.c	/^fvkbd_panel_gtk_ui_allocate (FvkbdGtkUI *ui, gint x, gint y, gfloat x_ratio, gfloat y_ratio)$/;"	f	file:
+fvkbd_panel_gtk_ui_build	./ui/gtk/fvkbd-panel-ui-gtk.c	/^fvkbd_panel_gtk_ui_build (FvkbdGtkUI *ui, GtkWidget **widget)$/;"	f	file:
+fvkbd_panel_gtk_ui_class_init	./ui/gtk/fvkbd-panel-ui-gtk.c	/^fvkbd_panel_gtk_ui_class_init (FvkbdPanelGtkUIClass *klass)$/;"	f	file:
+fvkbd_panel_gtk_ui_destroy	./ui/gtk/fvkbd-panel-ui-gtk.c	/^fvkbd_panel_gtk_ui_destroy (FvkbdGtkUI *ui)$/;"	f	file:
+fvkbd_panel_gtk_ui_init	./ui/gtk/fvkbd-panel-ui-gtk.c	/^fvkbd_panel_gtk_ui_init (FvkbdPanelGtkUI *self)$/;"	f	file:
+fvkbd_panel_gtk_ui_new	./ui/gtk/fvkbd-panel-ui-gtk.c	/^fvkbd_panel_gtk_ui_new (FvkbdUnit *unit)$/;"	f
+fvkbd_panel_gtk_ui_set_mode	./ui/gtk/fvkbd-panel-ui-gtk.c	/^fvkbd_panel_gtk_ui_set_mode (FvkbdGtkUI *ui, gint id)$/;"	f	file:
+fvkbd_panel_init	./src/fvkbd-panel.c	/^fvkbd_panel_init (FvkbdPanel *self)$/;"	f	file:
+fvkbd_panel_new	./src/fvkbd-panel.c	/^fvkbd_panel_new (void)$/;"	f
+fvkbd_panel_parse_xml	./src/fvkbd-panel.c	/^fvkbd_panel_parse_xml (FvkbdUnit *unit, FvkbdParser *parser)$/;"	f	file:
+fvkbd_panel_set_size	./src/fvkbd-panel.c	/^fvkbd_panel_set_size (FvkbdUnit *unit, gint w, gint h)$/;"	f	file:
+fvkbd_parser_class_init	./src/parser-utility-libxml.c	/^fvkbd_parser_class_init (FvkbdParserClass *klass)$/;"	f	file:
+fvkbd_parser_cleanup	./src/parser-utility-libxml.c	/^fvkbd_parser_cleanup (FvkbdParser *parser)$/;"	f
+fvkbd_parser_element_enter	./src/parser-utility-libxml.c	/^fvkbd_parser_element_enter (FvkbdParser *parser)$/;"	f
+fvkbd_parser_element_get_content	./src/parser-utility-libxml.c	/^fvkbd_parser_element_get_content (FvkbdParser *parser)$/;"	f
+fvkbd_parser_element_match	./src/parser-utility-libxml.c	/^fvkbd_parser_element_match (FvkbdParser *parser, gchar *name)$/;"	f
+fvkbd_parser_element_next	./src/parser-utility-libxml.c	/^fvkbd_parser_element_next (FvkbdParser *parser)$/;"	f
+fvkbd_parser_finalize	./src/parser-utility-libxml.c	/^fvkbd_parser_finalize(GObject *object)$/;"	f	file:
+fvkbd_parser_free_file	./src/parser-utility-libxml.c	/^fvkbd_parser_free_file (FvkbdParser *parser)$/;"	f
+fvkbd_parser_get_attribute	./src/parser-utility-libxml.c	/^fvkbd_parser_get_attribute (FvkbdParser *parser, gchar *name)$/;"	f
+fvkbd_parser_go_child_element	./src/parser-utility-libxml.c	/^fvkbd_parser_go_child_element (FvkbdParser *parser)$/;"	f
+fvkbd_parser_go_parent_element	./src/parser-utility-libxml.c	/^fvkbd_parser_go_parent_element (FvkbdParser *parser)$/;"	f
+fvkbd_parser_init	./src/parser-utility-libxml.c	/^fvkbd_parser_init (FvkbdParser *self)$/;"	f	file:
+fvkbd_parser_load_file	./src/parser-utility-libxml.c	/^fvkbd_parser_load_file (FvkbdParser *parser, const gchar *filename)$/;"	f
+fvkbd_parser_new	./src/parser-utility-libxml.c	/^fvkbd_parser_new (void)$/;"	f
+fvkbd_parser_set_error	./src/parser-utility-libxml.c	/^void fvkbd_parser_set_error (FvkbdParser *parser, gchar *err_msg)$/;"	f
+fvkbd_set_unit_flag	./src/fvkbd-base.c	/^fvkbd_set_unit_flag(FvkbdUnit *unit, gint value)$/;"	f
+fvkbd_set_unit_subtype	./src/fvkbd-base.c	/^fvkbd_set_unit_subtype(FvkbdUnit *unit, gint value)$/;"	f
+fvkbd_set_unit_type	./src/fvkbd-base.c	/^fvkbd_set_unit_type(FvkbdUnit *unit, gint value)$/;"	f
+fvkbd_unit_class_init	./src/fvkbd-base.c	/^fvkbd_unit_class_init (FvkbdUnitClass *klass)$/;"	f	file:
+fvkbd_unit_finalize	./src/fvkbd-base.c	/^fvkbd_unit_finalize(GObject *object)$/;"	f	file:
+fvkbd_unit_get_color	./src/fvkbd-base.c	/^fvkbd_unit_get_color (FvkbdUnit *unit, KbdColorType type)$/;"	f
+fvkbd_unit_get_font	./src/fvkbd-base.c	/^fvkbd_unit_get_font (FvkbdUnit *unit, KbdFontType type)$/;"	f
+fvkbd_unit_get_font_recursive	./src/fvkbd-base.c	/^fvkbd_unit_get_font_recursive (FvkbdUnit *unit, KbdFontType type,$/;"	f
+fvkbd_unit_get_parent	./src/fvkbd-base.c	/^fvkbd_unit_get_parent (FvkbdUnit *unit)$/;"	f
+fvkbd_unit_get_position	./src/fvkbd-base.c	/^fvkbd_unit_get_position (FvkbdUnit *unit, gint *x, gint *y)$/;"	f
+fvkbd_unit_get_qdata	./src/fvkbd-base.c	/^fvkbd_unit_get_qdata(FvkbdUnit *unit, GQuark quark)$/;"	f
+fvkbd_unit_get_qdata_recursive	./src/fvkbd-base.c	/^fvkbd_unit_get_qdata_recursive(FvkbdUnit *unit, GQuark quark,$/;"	f
+fvkbd_unit_get_size	./src/fvkbd-base.c	/^fvkbd_unit_get_size (FvkbdUnit *unit, gint *w, gint *h)$/;"	f
+fvkbd_unit_get_ui_data	./src/fvkbd-base.c	/^fvkbd_unit_get_ui_data (FvkbdUnit *unit)$/;"	f
+fvkbd_unit_init	./src/fvkbd-base.c	/^fvkbd_unit_init (FvkbdUnit *fvkbd_unit)$/;"	f	file:
+fvkbd_unit_parse_xml	./src/fvkbd-base.c	/^fvkbd_unit_parse_xml (FvkbdUnit *unit, FvkbdParser *parser)$/;"	f
+fvkbd_unit_real_get_color	./src/fvkbd-base.c	/^fvkbd_unit_real_get_color (FvkbdUnit *unit, KbdColorType type)$/;"	f	file:
+fvkbd_unit_real_get_position	./src/fvkbd-base.c	/^fvkbd_unit_real_get_position (FvkbdUnit *unit, gint *x, gint *y)$/;"	f	file:
+fvkbd_unit_real_get_size	./src/fvkbd-base.c	/^fvkbd_unit_real_get_size (FvkbdUnit *unit, gint *w, gint *h)$/;"	f	file:
+fvkbd_unit_real_parse_xml	./src/fvkbd-base.c	/^fvkbd_unit_real_parse_xml (FvkbdUnit *unit, FvkbdParser *parser)$/;"	f	file:
+fvkbd_unit_real_set_color	./src/fvkbd-base.c	/^fvkbd_unit_real_set_color (FvkbdUnit *unit, KbdColorType type, KbdColor *color)$/;"	f
+fvkbd_unit_real_set_position	./src/fvkbd-base.c	/^fvkbd_unit_real_set_position (FvkbdUnit *unit, gint x, gint y)$/;"	f	file:
+fvkbd_unit_real_set_size	./src/fvkbd-base.c	/^fvkbd_unit_real_set_size (FvkbdUnit *unit, gint w, gint h)$/;"	f	file:
+fvkbd_unit_set_color	./src/fvkbd-base.c	/^fvkbd_unit_set_color (FvkbdUnit *unit, KbdColorType type, KbdColor *color)$/;"	f
+fvkbd_unit_set_font	./src/fvkbd-base.c	/^fvkbd_unit_set_font (FvkbdUnit *unit, KbdFontType type, KbdFontInfo *font)$/;"	f
+fvkbd_unit_set_parent	./src/fvkbd-base.c	/^fvkbd_unit_set_parent (FvkbdUnit *unit, FvkbdUnit *parent)$/;"	f
+fvkbd_unit_set_position	./src/fvkbd-base.c	/^fvkbd_unit_set_position (FvkbdUnit *unit, gint x, gint y)$/;"	f
+fvkbd_unit_set_qdata	./src/fvkbd-base.c	/^fvkbd_unit_set_qdata(FvkbdUnit *unit, GQuark quark, gpointer data,$/;"	f
+fvkbd_unit_set_size	./src/fvkbd-base.c	/^fvkbd_unit_set_size (FvkbdUnit *unit, gint w, gint h)$/;"	f
+fvkbd_unit_set_ui_data	./src/fvkbd-base.c	/^fvkbd_unit_set_ui_data (FvkbdUnit *unit, void *data)$/;"	f
+g	./src/fvkbd-base.h	/^	gchar g;$/;"	m	struct:_KbdColor
+get_chamfered_rectangle_bitmap	./ui/gtk/pixmap-utility.c	/^get_chamfered_rectangle_bitmap (gint width, gint height, gint corner)$/;"	f
+get_color	./src/fvkbd-base.h	/^	KbdColor * (*get_color)	(FvkbdUnit *unit, KbdColorType type);$/;"	m	struct:_FvkbdUnitClass
+get_fakekey_instance	./src/misc-utility.c	/^get_fakekey_instance(void)$/;"	f
+get_gdkcolor	./ui/gtk/gtk-misc-utility.c	/^get_gdkcolor (FvkbdUnit *unit, KbdColorType type, GdkColor *color)$/;"	f
+get_gdkcolor_reverse	./ui/gtk/gtk-misc-utility.c	/^get_gdkcolor_reverse (FvkbdUnit *unit, KbdColorType type, GdkColor *color)$/;"	f
+get_key_pango_font_description	./ui/gtk/fvkbd-key-ui-gtk.c	/^get_key_pango_font_description (FvkbdKeyGtkUI *key_ui, KbdFontType type)$/;"	f	file:
+get_layout_file_fullname	./src/layout-utility.c	/^get_layout_file_fullname(const gchar *name)$/;"	f
+get_layout_file_lists	./src/layout-utility.c	/^get_layout_file_lists(void)$/;"	f
+get_layout_history	./src/layout-utility.c	/^get_layout_history(void)$/;"	f
+get_pango_font_description_from_info	./ui/gtk/gtk-misc-utility.c	/^get_pango_font_description_from_info (gchar *font_family, gchar *font_weight, gint font_size)$/;"	f	file:
+get_pop_win	./ui/gtk/fvkbd-pop-win.c	/^get_pop_win(void)$/;"	f	file:
+get_pop_window	./ui/gtk/fvkbd-pop-win.c	/^get_pop_window(void)$/;"	f
+get_position	./src/fvkbd-base.h	/^	gint (*get_position)		(FvkbdUnit *unit, gint *x, gint *y);$/;"	m	struct:_FvkbdUnitClass
+get_resolution	./src/misc-utility.c	/^get_resolution(int *xres, int *yres)$/;"	f
+get_scaled_pango_font_description	./ui/gtk/gtk-misc-utility.c	/^get_scaled_pango_font_description (KbdFontInfo *font, gfloat x_ratio, gfloat y_ratio)$/;"	f
+get_size	./src/fvkbd-base.h	/^	gint (*get_size)		(FvkbdUnit *unit, gint *w, gint *h);$/;"	m	struct:_FvkbdUnitClass
+get_workarea	./src/misc-utility.c	/^get_workarea(int *x, int *y, int *width, int *height)$/;"	f
+get_x_display	./src/misc-utility.c	/^get_x_display(void)$/;"	f
+gtk_real_vkb_button_pressed	./ui/gtk/gtk-vkb-button.c	/^gtk_real_vkb_button_pressed (GtkVkbButton *button)$/;"	f	file:
+gtk_real_vkb_button_released	./ui/gtk/gtk-vkb-button.c	/^gtk_real_vkb_button_released (GtkVkbButton *button)$/;"	f	file:
+gtk_ui_get_cmd_menu	./app/gtk/fvkbd-ui-gtk.c	/^gtk_ui_get_cmd_menu(void)$/;"	f	file:
+gtk_ui_kbd_func_cb	./app/gtk/fvkbd-ui-gtk.c	/^gtk_ui_kbd_func_cb(FvkbdKeyboard *keyboard, KbdFuncInfo *func, FvkbdKeyboardGtkUI *ui)$/;"	f	file:
+gtk_ui_quit	./app/gtk/fvkbd-ui-gtk.c	/^gtk_ui_quit(void)$/;"	f	file:
+gtk_ui_show_menu	./app/gtk/fvkbd-ui-gtk.c	/^gtk_ui_show_menu(void)$/;"	f	file:
+gtk_vkb_button_class_init	./ui/gtk/gtk-vkb-button.c	/^gtk_vkb_button_class_init (GtkVkbButtonClass *klass)$/;"	f	file:
+gtk_vkb_button_expose	./ui/gtk/gtk-vkb-button.c	/^gtk_vkb_button_expose (GtkWidget *widget, GdkEventExpose *event)$/;"	f	file:
+gtk_vkb_button_finalize	./ui/gtk/gtk-vkb-button.c	/^gtk_vkb_button_finalize (GObject *object)$/;"	f	file:
+gtk_vkb_button_init	./ui/gtk/gtk-vkb-button.c	/^gtk_vkb_button_init (GtkVkbButton *self)$/;"	f	file:
+gtk_vkb_button_new	./ui/gtk/gtk-vkb-button.c	/^gtk_vkb_button_new (void)$/;"	f
+gtk_vkb_button_press	./ui/gtk/gtk-vkb-button.c	/^gtk_vkb_button_press (GtkWidget *widget, GdkEventButton *event)$/;"	f	file:
+gtk_vkb_button_realize	./ui/gtk/gtk-vkb-button.c	/^gtk_vkb_button_realize (GtkWidget *widget)$/;"	f	file:
+gtk_vkb_button_release	./ui/gtk/gtk-vkb-button.c	/^gtk_vkb_button_release (GtkWidget *widget, GdkEventButton *event)$/;"	f	file:
+gtk_vkb_button_size_allocate	./ui/gtk/gtk-vkb-button.c	/^gtk_vkb_button_size_allocate (GtkWidget *widget, GtkAllocation *allocation)$/;"	f	file:
+gtk_vkb_button_size_request	./ui/gtk/gtk-vkb-button.c	/^gtk_vkb_button_size_request (GtkWidget *widget, GtkRequisition *requisition)$/;"	f	file:
+gtk_vkb_button_unrealize	./ui/gtk/gtk-vkb-button.c	/^gtk_vkb_button_unrealize (GtkWidget *widget)$/;"	f	file:
+gtk_vkb_panel_class_init	./ui/gtk/fvkbd-panel-ui-gtk.c	/^gtk_vkb_panel_class_init (GtkVkbPanelClass *klass)$/;"	f	file:
+gtk_vkb_panel_init	./ui/gtk/fvkbd-panel-ui-gtk.c	/^gtk_vkb_panel_init (GtkVkbPanel *self)$/;"	f	file:
+gtk_vkb_panel_new	./ui/gtk/fvkbd-panel-ui-gtk.c	/^gtk_vkb_panel_new (FvkbdPanel *panel)$/;"	f
+gtk_vkb_panel_size_allocate	./ui/gtk/fvkbd-panel-ui-gtk.c	/^gtk_vkb_panel_size_allocate (GtkWidget *widget, GtkAllocation *allocation)$/;"	f	file:
+h_spacing	./src/fvkbd-panel.c	/^	gint h_spacing;$/;"	m	struct:_PanelParserData	file:
+height	./src/fvkbd-key.c	/^	gint height;$/;"	m	struct:_FvkbdKeyPrivate	file:
+height	./src/fvkbd-panel.c	/^	gint height;$/;"	m	struct:_FvkbdPanelPrivate	file:
+hide_pop_window	./ui/gtk/fvkbd-key-ui-gtk.c	/^hide_pop_window(void)$/;"	f	file:
+hide_pop_window_cb	./ui/gtk/fvkbd-key-ui-gtk.c	/^hide_pop_window_cb(FvkbdKeyGtkUI *ui)$/;"	f	file:
+id	./src/fvkbd-keyboard.c	/^	gint id;$/;"	m	struct:_FvkbdKeyboardMode	file:
+img	./src/fvkbd-key.h	/^	gchar *img;			\/\/image for show on key$/;"	m	struct:_FvkbdKeyAction
+img	./src/fvkbd-panel.c	/^	gchar *img;$/;"	m	struct:_FvkbdPanelPrivate	file:
+img	./ui/gtk/fvkbd-key-ui-gtk.c	/^	GtkWidget *img;$/;"	m	struct:_FvkbdKeyGtkUIPrivate	file:
+img_dn	./src/fvkbd-key.h	/^	gchar *img_dn;			\/\/if img_dn is not set, show *img upon key press down$/;"	m	struct:_FvkbdKeyAction
+img_dn	./ui/gtk/fvkbd-key-ui-gtk.c	/^	GtkWidget *img_dn;$/;"	m	struct:_FvkbdKeyGtkUIPrivate	file:
+init_candidate_items	./ui/gtk/fvkbd-pop-win.c	/^init_candidate_items(void)$/;"	f	file:
+init_pop_win	./ui/gtk/fvkbd-pop-win.c	/^init_pop_win(void)$/;"	f	file:
+kbd_cleanup	./src/fvkbd.c	/^kbd_cleanup(void)$/;"	f
+kbd_data	./app/gtk/fvkbd-ui-gtk.c	/^static struct _kbd_data kbd_data;$/;"	v	typeref:struct:_kbd_data	file:
+kbd_default_efont_family	./src/fvkbd.c	/^static gchar *kbd_default_efont_family = DEFAULT_EXTRA_FONT_FAMILY;$/;"	v	file:
+kbd_default_efont_size	./src/fvkbd.c	/^static gint kbd_default_efont_size = DEFAULT_EXTRA_FONT_SIZE;$/;"	v	file:
+kbd_default_efont_weight	./src/fvkbd.c	/^static gchar *kbd_default_efont_weight = DEFAULT_EXTRA_FONT_WEIGHT;$/;"	v	file:
+kbd_default_font_family	./src/fvkbd.c	/^static gchar *kbd_default_font_family = DEFAULT_FONT_FAMILY;$/;"	v	file:
+kbd_default_font_size	./src/fvkbd.c	/^static gint kbd_default_font_size = DEFAULT_FONT_SIZE;$/;"	v	file:
+kbd_default_font_weight	./src/fvkbd.c	/^static gchar *kbd_default_font_weight = DEFAULT_FONT_WEIGHT;$/;"	v	file:
+kbd_default_ofont_family	./src/fvkbd.c	/^static gchar *kbd_default_ofont_family = DEFAULT_POP_FONT_FAMILY;$/;"	v	file:
+kbd_default_ofont_size	./src/fvkbd.c	/^static gint kbd_default_ofont_size = DEFAULT_POP_FONT_SIZE;$/;"	v	file:
+kbd_default_ofont_weight	./src/fvkbd.c	/^static gchar *kbd_default_ofont_weight = DEFAULT_POP_FONT_WEIGHT;$/;"	v	file:
+kbd_get_default_font_family	./src/fvkbd.c	/^kbd_get_default_font_family(KbdFontType type)$/;"	f
+kbd_get_default_font_size	./src/fvkbd.c	/^kbd_get_default_font_size(KbdFontType type)$/;"	f
+kbd_get_default_font_weight	./src/fvkbd.c	/^kbd_get_default_font_weight(KbdFontType type)$/;"	f
+kbd_get_default_kbd_bg_color	./src/fvkbd.c	/^kbd_get_default_kbd_bg_color(void)$/;"	f
+kbd_get_default_key_bg_color	./src/fvkbd.c	/^kbd_get_default_key_bg_color(void)$/;"	f
+kbd_get_default_key_extra_fg_color	./src/fvkbd.c	/^kbd_get_default_key_extra_fg_color(void)$/;"	f
+kbd_get_default_key_fg_color	./src/fvkbd.c	/^kbd_get_default_key_fg_color(void)$/;"	f
+kbd_get_default_key_pop_bg_color	./src/fvkbd.c	/^kbd_get_default_key_pop_bg_color(void)$/;"	f
+kbd_get_default_key_pop_fg_color	./src/fvkbd.c	/^kbd_get_default_key_pop_fg_color(void)$/;"	f
+kbd_init	./src/fvkbd.c	/^kbd_init(gchar *layout_file)$/;"	f
+kbd_initialized	./app/gtk/fvkbd-ui-gtk.c	/^static gboolean kbd_initialized = FALSE;$/;"	v	file:
+kbd_load_keyboard	./src/fvkbd.c	/^kbd_load_keyboard(const gchar* name)$/;"	f
+kbd_pango_font_description	./ui/gtk/gtk-misc-utility.c	/^PangoFontDescription *kbd_pango_font_description = NULL;$/;"	v
+kbd_parser	./src/fvkbd.c	/^FvkbdParser *kbd_parser;$/;"	v
+kbd_shape_info_destroy	./src/misc-utility.c	/^kbd_shape_info_destroy (KbdShapeInfo *info)$/;"	f
+kbd_str_to_color	./src/misc-utility.c	/^kbd_str_to_color(gchar *str)$/;"	f
+kbd_windows	./app/gtk/fvkbd-ui-gtk.c	/^	GSList *kbd_windows;$/;"	m	struct:_kbd_data	file:
+kbdcolor_to_gdkcolor	./ui/gtk/gtk-misc-utility.c	/^kbdcolor_to_gdkcolor (KbdColor *kc, GdkColor *color)$/;"	f
+key_action_find_by_id	./src/fvkbd-key.c	/^key_action_find_by_id (GSList *lists, gint id)$/;"	f
+key_actions_insert_sort_unique	./src/fvkbd-key.c	/^key_actions_insert_sort_unique (GSList **lists_p, FvkbdKeyAction *action)$/;"	f	file:
+key_element_parsers	./src/fvkbd-key.c	/^static UnitParserFunc key_element_parsers[] = {$/;"	v	file:
+key_func_names	./src/fvkbd-key.c	/^static KeyFuncName key_func_names[] = {$/;"	v	file:
+key_parse_action	./src/fvkbd-key.c	/^key_parse_action (FvkbdUnit *unit, FvkbdParser *parser, void *data)$/;"	f	file:
+keyboard_element_parsers_1	./src/fvkbd-keyboard.c	/^static UnitParserFunc keyboard_element_parsers_1[] = {$/;"	v	file:
+keyboard_element_parsers_2	./src/fvkbd-keyboard.c	/^static UnitParserFunc keyboard_element_parsers_2[] = {$/;"	v	file:
+keyboard_parse_modes	./src/fvkbd-keyboard.c	/^keyboard_parse_modes (FvkbdUnit *unit, FvkbdParser *parser, void *data)$/;"	f	file:
+keyboard_parse_panel	./src/fvkbd-keyboard.c	/^keyboard_parse_panel (FvkbdUnit *unit, FvkbdParser *parser, void *data)$/;"	f	file:
+keyboard_ui_change_mode	./ui/gtk/fvkbd-keyboard-ui-gtk.c	/^keyboard_ui_change_mode (FvkbdKeyboardGtkUI *keyboard_ui, gint id,$/;"	f
+keyboard_ui_resume_default_mode	./ui/gtk/fvkbd-keyboard-ui-gtk.c	/^keyboard_ui_resume_default_mode (FvkbdKeyboardGtkUI *keyboard_ui)$/;"	f
+keyboard_ui_resume_previous_mode	./ui/gtk/fvkbd-keyboard-ui-gtk.c	/^keyboard_ui_resume_previous_mode (FvkbdKeyboardGtkUI *keyboard_ui)$/;"	f
+label	./ui/gtk/fvkbd-pop-win.c	/^	GtkWidget *label;$/;"	m	struct:_CandidateItem	file:
+latest_mode_key_id	./ui/gtk/fvkbd-key-ui-gtk.c	/^static guint32 latest_mode_key_id = 0;$/;"	v	file:
+layout	./src/fvkbd-panel.c	/^	PanelLayoutType layout;$/;"	m	struct:_FvkbdPanelPrivate	file:
+layout_file	./app/gtk/fvkbd-ui-gtk.c	/^	gchar *layout_file;$/;"	m	struct:_fvkbd_opts	file:
+layout_files	./src/layout-utility.c	/^static GSList *layout_files = NULL;$/;"	v	file:
+layout_history_menu_items	./app/gtk/fvkbd-ui-gtk.c	/^static GtkWidget * layout_history_menu_items[MAX_LAYOUT_HISTORY];$/;"	v	file:
+layout_name_history	./src/layout-utility.c	/^static GSList *layout_name_history = NULL;$/;"	v	file:
+load_and_scale_bitmap	./ui/gtk/gtk-misc-utility.c	/^load_and_scale_bitmap (const gchar *file, gfloat x_ratio, gfloat y_ratio)$/;"	f
+load_and_scale_img	./ui/gtk/gtk-misc-utility.c	/^load_and_scale_img (const gchar *file, gfloat x_ratio, gfloat y_ratio)$/;"	f
+load_and_scale_pixmap_and_mask	./ui/gtk/gtk-misc-utility.c	/^load_and_scale_pixmap_and_mask (const gchar *file, gfloat x_ratio, gfloat y_ratio,$/;"	f
+locate_img_file	./src/misc-utility.c	/^locate_img_file(gchar *filename)$/;"	f
+locate_script_file	./src/misc-utility.c	/^locate_script_file(gchar *filename)$/;"	f
+longpress_detected	./ui/gtk/fvkbd-key-ui-gtk.c	/^static gboolean longpress_detected = FALSE;$/;"	v	file:
+longpress_detected_cb	./ui/gtk/fvkbd-key-ui-gtk.c	/^longpress_detected_cb(FvkbdKeyGtkUI *key_ui)$/;"	f	file:
+longpress_timeout_id	./ui/gtk/fvkbd-key-ui-gtk.c	/^static guint longpress_timeout_id = 0;$/;"	v	file:
+longpress_timeout_val	./ui/gtk/fvkbd-key-ui-gtk.c	/^static guint longpress_timeout_val = 800;$/;"	v	file:
+main	./app/gtk/fvkbd-ui-gtk.c	/^main(int argc, char* argv[])$/;"	f
+main_label	./ui/gtk/fvkbd-key-ui-gtk.c	/^	GtkWidget *main_label;$/;"	m	struct:_FvkbdKeyGtkUIPrivate	file:
+mask	./src/fvkbd-base.h	/^		gchar *mask;$/;"	m	union:_KbdShapeInfo::__anon10
+mask	./ui/gtk/gtk-vkb-button.c	/^	GdkBitmap	*mask;$/;"	m	struct:_GtkVkbButtonPrivate	file:
+max_x	./src/fvkbd-panel.c	/^	gint max_x;$/;"	m	struct:_PanelParserData	file:
+max_y	./src/fvkbd-panel.c	/^	gint max_y;$/;"	m	struct:_PanelParserData	file:
+mode_id	./src/fvkbd-key.h	/^	gint mode_id;$/;"	m	struct:_FvkbdKeyAction
+mode_status	./src/fvkbd-keyboard.c	/^	KeyboardModeStatus mode_status;$/;"	m	struct:_FvkbdKeyboardPrivate	file:
+modes	./src/fvkbd-keyboard.c	/^	GSList *modes;$/;"	m	struct:_FvkbdKeyboardPrivate	file:
+modes_num	./src/fvkbd-keyboard.c	/^	gint modes_num;$/;"	m	struct:_FvkbdKeyboardPrivate	file:
+name	./src/fvkbd-base.h	/^	gchar *name;$/;"	m	struct:_FvkbdUnit
+name	./src/fvkbd-key.h	/^	gchar *name;$/;"	m	struct:__anon8
+name	./src/fvkbd-keyboard.c	/^	gchar *name;$/;"	m	struct:_FvkbdKeyboardMode	file:
+name	./src/layout-utility.h	/^	gchar *name;$/;"	m	struct:_LayoutFileInfo
+node_name	./src/fvkbd-base.h	/^	gchar *node_name;$/;"	m	struct:_UnitParserFunc
+opt_entries	./app/gtk/fvkbd-ui-gtk.c	/^static GOptionEntry opt_entries[] = {$/;"	v	file:
+opts	./app/gtk/fvkbd-ui-gtk.c	/^static struct _fvkbd_opts opts;$/;"	v	typeref:struct:_fvkbd_opts	file:
+panel_container_on_realize	./ui/gtk/fvkbd-panel-ui-gtk.c	/^panel_container_on_realize (GtkWidget *widget, gpointer data)$/;"	f	file:
+panel_container_on_size_allocate	./ui/gtk/fvkbd-panel-ui-gtk.c	/^panel_container_on_size_allocate (GtkWidget *widget, GtkAllocation *allocation, gpointer data)$/;"	f	file:
+panel_parse_key	./src/fvkbd-panel.c	/^panel_parse_key (FvkbdUnit *unit, FvkbdParser *parser, void *data)$/;"	f	file:
+panel_parse_row	./src/fvkbd-panel.c	/^panel_parse_row (FvkbdUnit *unit, FvkbdParser *parser, void *data)$/;"	f	file:
+panel_parse_space	./src/fvkbd-panel.c	/^panel_parse_space (FvkbdUnit *unit, FvkbdParser *parser, void *data)$/;"	f	file:
+panel_plug_embedded	./app/gtk/fvkbd-ui-gtk.c	/^panel_plug_embedded(GtkWidget * plug)$/;"	f	file:
+panel_row_parsers	./src/fvkbd-panel.c	/^static UnitParserFunc panel_row_parsers[] = {$/;"	v	file:
+panel_unit	./ui/gtk/fvkbd-panel-ui-gtk.h	/^	FvkbdPanel *panel_unit;$/;"	m	struct:_GtkVkbPanel
+panel_window_click	./app/gtk/fvkbd-ui-gtk.c	/^panel_window_click (GtkWidget *window, GdkEventButton *event, gboolean button_press)$/;"	f	file:
+panel_window_motion_cb	./app/gtk/fvkbd-ui-gtk.c	/^panel_window_motion_cb (GtkWidget *window, GdkEventMotion *event, gpointer user_data)$/;"	f	file:
+panel_window_move_end	./app/gtk/fvkbd-ui-gtk.c	/^panel_window_move_end (GtkWidget *window, GdkEventButton *event, gpointer user_data)$/;"	f	file:
+panel_window_move_start	./app/gtk/fvkbd-ui-gtk.c	/^panel_window_move_start (GtkWidget *window, GdkEventButton *event, gpointer user_data)$/;"	f	file:
+panel_xy_parsers	./src/fvkbd-panel.c	/^static UnitParserFunc panel_xy_parsers[] = {$/;"	v	file:
+panels	./src/fvkbd-keyboard.c	/^	GSList *panels;$/;"	m	struct:_FvkbdKeyboardPrivate	file:
+parent	./src/fvkbd-base.h	/^	GObject parent;$/;"	m	struct:_FvkbdUnit
+parent	./src/fvkbd-base.h	/^	GObjectClass parent;$/;"	m	struct:_FvkbdUnitClass
+parent	./src/fvkbd-key.h	/^	FvkbdUnit parent;$/;"	m	struct:_FvkbdKey
+parent	./src/fvkbd-key.h	/^	FvkbdUnitClass parent;$/;"	m	struct:_FvkbdKeyClass
+parent	./src/fvkbd-keyboard.h	/^	FvkbdUnit parent;$/;"	m	struct:_FvkbdKeyboard
+parent	./src/fvkbd-keyboard.h	/^	FvkbdUnitClass parent;$/;"	m	struct:_FvkbdKeyboardClass
+parent	./src/fvkbd-panel.h	/^	FvkbdUnit parent;$/;"	m	struct:_FvkbdPanel
+parent	./src/fvkbd-panel.h	/^	FvkbdUnitClass parent;$/;"	m	struct:_FvkbdPanelClass
+parent	./src/parser-utility-libxml.h	/^	GObject parent;$/;"	m	struct:_FvkbdParser
+parent	./src/parser-utility-libxml.h	/^	GObjectClass parent;$/;"	m	struct:_FvkbdParserClass
+parent	./ui/gtk/fvkbd-key-ui-gtk.h	/^	FvkbdGtkUI parent;$/;"	m	struct:_FvkbdKeyGtkUI
+parent	./ui/gtk/fvkbd-keyboard-ui-gtk.h	/^	FvkbdGtkUI parent;$/;"	m	struct:_FvkbdKeyboardGtkUI
+parent	./ui/gtk/fvkbd-panel-ui-gtk.h	/^	FvkbdGtkUI parent;$/;"	m	struct:_FvkbdPanelGtkUI
+parent	./ui/gtk/fvkbd-panel-ui-gtk.h	/^	GtkFixed parent;$/;"	m	struct:_GtkVkbPanel
+parent	./ui/gtk/gtk-ui-base.h	/^	GObject parent;$/;"	m	struct:_FvkbdGtkUI
+parent	./ui/gtk/gtk-ui-base.h	/^	GObjectClass parent;$/;"	m	struct:_FvkbdGtkUIClass
+parent	./ui/gtk/gtk-vkb-button.h	/^	GtkBin parent;$/;"	m	struct:_GtkVkbButton
+parent_class	./ui/gtk/fvkbd-key-ui-gtk.h	/^	FvkbdGtkUIClass parent_class;$/;"	m	struct:_FvkbdKeyGtkUIClass
+parent_class	./ui/gtk/fvkbd-keyboard-ui-gtk.h	/^	FvkbdGtkUIClass parent_class;$/;"	m	struct:_FvkbdKeyboardGtkUIClass
+parent_class	./ui/gtk/fvkbd-panel-ui-gtk.h	/^	FvkbdGtkUIClass parent_class;$/;"	m	struct:_FvkbdPanelGtkUIClass
+parent_class	./ui/gtk/fvkbd-panel-ui-gtk.h	/^	GtkFixedClass parent_class;$/;"	m	struct:_GtkVkbPanelClass
+parent_class	./ui/gtk/gtk-vkb-button.h	/^	GtkBinClass parent_class;$/;"	m	struct:_GtkVkbButtonClass
+parent_ui	./ui/gtk/gtk-ui-base.h	/^	FvkbdGtkUI *parent_ui;$/;"	m	struct:_FvkbdGtkUI
+parent_unit	./src/fvkbd-base.h	/^	FvkbdUnit *parent_unit;$/;"	m	struct:_FvkbdUnit
+parse_font_property	./src/misc-utility.c	/^parse_font_property(gchar *str, gchar *default_font_family, gchar *default_font_weight, gint default_font_size)$/;"	f
+parse_shape_data_property	./src/misc-utility.c	/^parse_shape_data_property (KbdShapeInfo *info, gchar *str)$/;"	f
+parse_shape_info_property	./src/misc-utility.c	/^parse_shape_info_property (gchar *str)$/;"	f
+parse_xml	./src/fvkbd-base.h	/^	gboolean (*parse_xml)		(FvkbdUnit *unit, FvkbdParser *parser);$/;"	m	struct:_FvkbdUnitClass
+parser	./src/fvkbd-base.h	/^	gboolean (*parser)			(FvkbdUnit *unit, FvkbdParser *parser, void *data);$/;"	m	struct:_UnitParserFunc
+plug_window	./app/gtk/fvkbd-ui-gtk.c	/^	GtkWidget *plug_window;$/;"	m	struct:_kbd_data	file:
+pop_win_items_set_width_request	./ui/gtk/fvkbd-pop-win.c	/^pop_win_items_set_width_request(int width)$/;"	f
+pop_win_set_height_request	./ui/gtk/fvkbd-pop-win.c	/^pop_win_set_height_request(int height)$/;"	f
+pop_win_size_allocate	./ui/gtk/fvkbd-pop-win.c	/^pop_win_size_allocate (GtkWidget *widget, GtkAllocation *allocation, gpointer data)$/;"	f	file:
+pop_window_hide_timeout_id	./ui/gtk/fvkbd-key-ui-gtk.c	/^static guint pop_window_hide_timeout_id = 0;$/;"	v	file:
+pop_window_hide_timeout_val	./ui/gtk/fvkbd-key-ui-gtk.c	/^static guint pop_window_hide_timeout_val = 5000;$/;"	v	file:
+pressed	./ui/gtk/gtk-vkb-button.h	/^	void (*pressed)		(GtkVkbButton *button);$/;"	m	struct:_GtkVkbButtonClass
+previous_mode	./src/fvkbd-keyboard.c	/^	gint previous_mode;$/;"	m	struct:_FvkbdKeyboardPrivate	file:
+priv	./src/fvkbd-key.h	/^	FvkbdKeyPrivate *priv;$/;"	m	struct:_FvkbdKey
+priv	./src/fvkbd-keyboard.h	/^	FvkbdKeyboardPrivate *priv;$/;"	m	struct:_FvkbdKeyboard
+priv	./src/fvkbd-panel.h	/^	FvkbdPanelPrivate *priv;$/;"	m	struct:_FvkbdPanel
+quark_key_bg_file	./src/fvkbd-base.c	/^GQuark quark_key_bg_file = 0;$/;"	v
+quark_key_bg_pixmap	./ui/gtk/gtk-ui-base.c	/^GQuark quark_key_bg_pixmap = 0;$/;"	v
+quark_key_shape_bitmap	./ui/gtk/gtk-ui-base.c	/^GQuark quark_key_shape_bitmap = 0;$/;"	v
+quark_key_shape_info	./src/fvkbd-base.c	/^GQuark quark_key_shape_info = 0;$/;"	v
+quark_ui_font_descs	./ui/gtk/gtk-ui-base.c	/^GQuark quark_ui_font_descs = 0;$/;"	v
+r	./src/fvkbd-base.h	/^	gchar r;$/;"	m	struct:_KbdColor
+released	./ui/gtk/gtk-vkb-button.h	/^	void (*released)	(GtkVkbButton *button);$/;"	m	struct:_GtkVkbButtonClass
+res_x_ratio	./ui/gtk/fvkbd-panel-ui-gtk.c	/^	gfloat res_x_ratio;$/;"	m	struct:_FvkbdPanelGtkUIPrivate	file:
+res_y_ratio	./ui/gtk/fvkbd-panel-ui-gtk.c	/^	gfloat res_y_ratio;$/;"	m	struct:_FvkbdPanelGtkUIPrivate	file:
+row_height	./src/fvkbd-panel.c	/^	gint row_height;$/;"	m	struct:_PanelParserData	file:
+separator	./ui/gtk/fvkbd-pop-win.c	/^	GtkWidget *separator;$/;"	m	struct:_CandidateItem	file:
+set_candidate_item_color	./ui/gtk/fvkbd-pop-win.c	/^set_candidate_item_color(gint n, KbdColorType type, GdkColor *color)$/;"	f	file:
+set_candidate_item_dummy	./ui/gtk/fvkbd-pop-win.c	/^set_candidate_item_dummy(gint n)$/;"	f	file:
+set_candidate_item_string	./ui/gtk/fvkbd-pop-win.c	/^set_candidate_item_string(gint n, gchar *disp, gchar *str, PangoFontDescription *desc)$/;"	f	file:
+set_color	./src/fvkbd-base.h	/^	void (*set_color)		(FvkbdUnit *unit, KbdColorType type, KbdColor *color);$/;"	m	struct:_FvkbdUnitClass
+set_gtk_widget_bg_image	./ui/gtk/gtk-misc-utility.c	/^set_gtk_widget_bg_image (GtkWidget *widget, const gchar *filename, guint bgcolor)$/;"	f
+set_mode	./ui/gtk/gtk-ui-base.h	/^	gboolean (*set_mode)		(FvkbdGtkUI *ui, gint id);$/;"	m	struct:_FvkbdGtkUIClass
+set_position	./src/fvkbd-base.h	/^	gint (*set_position)		(FvkbdUnit *unit, gint x, gint y);$/;"	m	struct:_FvkbdUnitClass
+set_size	./src/fvkbd-base.h	/^	gint (*set_size)		(FvkbdUnit *unit, gint w, gint h);$/;"	m	struct:_FvkbdUnitClass
+settle_pop_window	./ui/gtk/fvkbd-key-ui-gtk.c	/^settle_pop_window(FvkbdKeyGtkUI *key_ui, gint number, gboolean reverse)$/;"	f	file:
+settle_pop_window_color	./ui/gtk/fvkbd-pop-win.c	/^settle_pop_window_color(gint number, GdkColor *bgcolor, GdkColor *fgcolor)$/;"	f
+shape_info	./src/fvkbd-key.h	/^	KbdShapeInfo shape_info;$/;"	m	struct:_FvkbdKey
+shape_type	./src/fvkbd-base.h	/^	KbdShapeType shape_type;$/;"	m	struct:_KbdShapeInfo
+show_plug_window	./app/gtk/fvkbd-ui-gtk.c	/^	gboolean show_plug_window;$/;"	m	struct:_kbd_data	file:
+show_pop_window	./ui/gtk/fvkbd-key-ui-gtk.c	/^show_pop_window(FvkbdKeyGtkUI *key_ui, gboolean longpress)$/;"	f	file:
+size	./src/fvkbd-base.h	/^	gint size;$/;"	m	struct:_KbdFontInfo
+string	./src/fvkbd-key.h	/^		gchar *string;$/;"	m	union:_FvkbdKeyAction::__anon7
+string	./ui/gtk/fvkbd-pop-win.c	/^		gchar *string;$/;"	m	union:_CandidateItem::__anon2	file:
+string_group	./src/fvkbd-key.h	/^		gchar **string_group;$/;"	m	union:_FvkbdKeyAction::__anon7
+sup_label	./src/fvkbd-key.h	/^	gchar *sup_label;$/;"	m	struct:_FvkbdKeyAction
+sup_label	./ui/gtk/fvkbd-key-ui-gtk.c	/^	GtkWidget *sup_label;$/;"	m	struct:_FvkbdKeyGtkUIPrivate	file:
+sym	./src/fvkbd-key.h	/^		KeySym sym;$/;"	m	union:_FvkbdKeyAction::__anon7
+sym	./ui/gtk/fvkbd-pop-win.c	/^		KeySym sym;$/;"	m	union:_CandidateItem::__anon2	file:
+the_keyboard_ui	./app/gtk/fvkbd-ui-gtk.c	/^FvkbdGtkUI *the_keyboard_ui = NULL;$/;"	v
+the_keyboard_ui	./ui/gtk/fvkbd-keyboard-ui-gtk.c	/^FvkbdKeyboardGtkUI *the_keyboard_ui = NULL;$/;"	v
+the_xdpy	./src/misc-utility.c	/^static Display *the_xdpy = NULL;$/;"	v	file:
+type	./src/fvkbd-base.h	/^	KbdFuncType type;$/;"	m	struct:_KbdFuncInfo
+type	./src/fvkbd-base.h	/^	gint type;$/;"	m	struct:_FvkbdUnit
+type	./src/fvkbd-key.h	/^	KbdFuncType type;$/;"	m	struct:__anon8
+type	./src/fvkbd-key.h	/^	KeyActionType type;$/;"	m	struct:_FvkbdKeyAction
+type	./ui/gtk/fvkbd-pop-win.c	/^	KeyActionType type;$/;"	m	struct:_CandidateItem	file:
+u	./src/fvkbd-base.h	/^	} u;$/;"	m	struct:_KbdShapeInfo	typeref:union:_KbdShapeInfo::__anon10
+u	./src/fvkbd-key.h	/^	} u;$/;"	m	struct:_FvkbdKeyAction	typeref:union:_FvkbdKeyAction::__anon7
+u	./ui/gtk/fvkbd-pop-win.c	/^	} u;$/;"	m	struct:_CandidateItem	typeref:union:_CandidateItem::__anon2	file:
+ui_data	./src/fvkbd-base.h	/^	void *ui_data;$/;"	m	struct:_FvkbdUnit
+uid	./src/fvkbd-base.h	/^	guint32 uid;$/;"	m	struct:_FvkbdUnit
+unique_app_cb	./app/gtk/fvkbd-ui-gtk.c	/^unique_app_cb (UniqueApp *app, gint command, UniqueMessageData *data,$/;"	f	file:
+unique_font	./src/fvkbd-key.h	/^	gboolean unique_font;$/;"	m	struct:_FvkbdKeyAction
+unit	./ui/gtk/gtk-ui-base.h	/^	FvkbdUnit *unit;$/;"	m	struct:_FvkbdGtkUI
+update_pop_win_item_none	./ui/gtk/fvkbd-pop-win.c	/^update_pop_win_item_none(void)$/;"	f
+update_pop_win_item_string	./ui/gtk/fvkbd-pop-win.c	/^update_pop_win_item_string(gchar *disp, gchar *str, PangoFontDescription *desc,$/;"	f
+update_pop_win_item_string_group	./ui/gtk/fvkbd-pop-win.c	/^update_pop_win_item_string_group(gchar **strs, PangoFontDescription *desc,$/;"	f
+update_pop_win_item_sym	./ui/gtk/fvkbd-pop-win.c	/^update_pop_win_item_sym(gchar *disp, KeySym sym, PangoFontDescription *desc,$/;"	f
+v_spacing	./src/fvkbd-panel.c	/^	gint v_spacing;$/;"	m	struct:_PanelParserData	file:
+vkb_button_set_bg	./ui/gtk/gtk-vkb-button.c	/^vkb_button_set_bg(GtkWidget *widget, GtkStateType state, const GdkColor *color)$/;"	f
+vkb_button_set_bg_pixmap	./ui/gtk/gtk-vkb-button.c	/^vkb_button_set_bg_pixmap(GtkWidget *widget, GdkPixmap *pixmap)$/;"	f
+vkb_button_signals	./ui/gtk/gtk-vkb-button.c	/^static guint vkb_button_signals[LAST_SIGNAL] = { 0, };$/;"	v	file:
+weight	./src/fvkbd-base.h	/^	gchar *weight;$/;"	m	struct:_KbdFontInfo
+widget	./ui/gtk/fvkbd-pop-win.c	/^	GtkWidget *widget;$/;"	m	struct:_CandidateItem	file:
+widget	./ui/gtk/gtk-ui-base.h	/^	GtkWidget *widget;$/;"	m	struct:_FvkbdGtkUI
+width	./src/fvkbd-key.c	/^	gint width;$/;"	m	struct:_FvkbdKeyPrivate	file:
+width	./src/fvkbd-panel.c	/^	gint width;$/;"	m	struct:_FvkbdPanelPrivate	file:
+window	./app/gtk/fvkbd-ui-gtk.c	/^	GtkWidget *window;$/;"	m	struct:_KbdWindow	file:
+window	./ui/gtk/fvkbd-pop-win.c	/^	GtkWidget *window;$/;"	m	struct:_PopWinData	file:
+x	./src/fvkbd-key.c	/^	gint x;$/;"	m	struct:_FvkbdKeyPrivate	file:
+x	./src/fvkbd-panel.c	/^	gint x;$/;"	m	struct:_FvkbdPanelPrivate	file:
+x_ratio	./ui/gtk/gtk-ui-base.h	/^	gfloat x_ratio;$/;"	m	struct:_FvkbdGtkUI
+y	./src/fvkbd-key.c	/^	gint y;$/;"	m	struct:_FvkbdKeyPrivate	file:
+y	./src/fvkbd-panel.c	/^	gint y;$/;"	m	struct:_FvkbdPanelPrivate	file:
+y_ratio	./ui/gtk/gtk-ui-base.h	/^	gfloat y_ratio;$/;"	m	struct:_FvkbdGtkUI

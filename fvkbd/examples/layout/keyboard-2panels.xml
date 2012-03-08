@@ -1,0 +1,141 @@
+<keyboard num_of_modes="1" font="Droid Sans_bold_20" efont="Droid Sans_bold_12" ofont="Droid Sans_bold_20"
+panel_bgcolor="6a6a6a" key_bgcolor="303030" key_fgcolor="fec736"
+pop_bgcolor="fec736" pop_fgcolor="303030" key_extra_fgcolor="8c8c8c">
+
+	<mode id="0" name="default"/>
+
+	<panel layout="xy" x="0" y="200" width="150" height="480" dock="none">
+		<key x="0" y="0" width="50" height="80" bgcolor="303030" fgcolor="ffff30">
+			<action disp="a">a</action>
+		</key>
+
+		<key x="50" y="0" width="50" height="80" bgcolor="909090" fgcolor="30ffff">
+			<action disp="b">b</action>
+		</key>
+
+		<key x="100" y="0" width="50" height="80" bgcolor="d0d0d0" fgcolor="0000dd">
+			<action disp="c">c</action>
+		</key>
+
+		<key x="0" y="80" width="50" height="80" bgcolor="303030" fgcolor="ffff30">
+			<action disp="d">d</action>
+		</key>
+
+		<key x="50" y="80" width="50" height="80" bgcolor="909090" fgcolor="30ffff">
+			<action disp="e">e</action>
+		</key>
+
+		<key x="100" y="80" width="50" height="80" bgcolor="d0d0d0" fgcolor="0000dd">
+			<action disp="f">f</action>
+		</key>
+
+		<key x="0" y="160" width="50" height="80" bgcolor="303030" fgcolor="ffff30">
+			<action disp="g">g</action>
+		</key>
+
+		<key x="50" y="160" width="50" height="80" bgcolor="909090" fgcolor="30ffff">
+			<action disp="h">h</action>
+		</key>
+
+		<key x="100" y="160" width="50" height="80" bgcolor="d0d0d0" fgcolor="0000dd">
+			<action disp="i">i</action>
+		</key>
+
+		<key x="0" y="240" width="50" height="80" bgcolor="303030" fgcolor="ffff30">
+			<action disp="j">j</action>
+		</key>
+
+		<key x="50" y="240" width="50" height="80" bgcolor="909090" fgcolor="30ffff">
+			<action disp="k">k</action>
+		</key>
+
+		<key x="100" y="240" width="50" height="80" bgcolor="d0d0d0" fgcolor="0000dd">
+			<action disp="l">l</action>
+		</key>
+
+		<key x="0" y="320" width="50" height="80" bgcolor="303030" fgcolor="ffff30">
+			<action disp="m">m</action>
+		</key>
+
+		<key x="50" y="320" width="50" height="80" bgcolor="909090" fgcolor="30ffff">
+			<action disp="" img="cool.png">Cool!</action>
+		</key>
+
+		<key x="100" y="320" width="50" height="80" bgcolor="d0d0d0" fgcolor="0000dd">
+			<action disp="" img="love.png">I Love it!</action>
+		</key>
+
+		<key x="0" y="400" width="150" height="80" bgcolor="303030" fgcolor="ff80ff" efont="Droid Sans_bold_4" font="Droid Sans_bold_32">
+			<action disp="space"> </action>
+		</key>
+
+	</panel>
+
+	<panel layout="xy" x="650" y="200" width="150" height="480" dock="none">
+		<key x="0" y="0" width="50" height="80" bgcolor="d0d0d0" fgcolor="0000dd">
+			<action disp="n">n</action>
+		</key>
+
+		<key x="50" y="0" width="50" height="80" bgcolor="909090" fgcolor="00ffff">
+			<action disp="o">o</action>
+		</key>
+
+		<key x="100" y="0" width="50" height="80" bgcolor="303030" fgcolor="ffff30">
+			<action disp="p">p</action>
+		</key>
+
+		<key x="0" y="80" width="50" height="80" bgcolor="d0d0d0" fgcolor="0000dd">
+			<action disp="q">q</action>
+		</key>
+
+		<key x="50" y="80" width="50" height="80" bgcolor="909090" fgcolor="00ffff">
+			<action disp="r">r</action>
+		</key>
+
+		<key x="100" y="80" width="50" height="80" bgcolor="303030" fgcolor="ffff30">
+			<action disp="s">s</action>
+		</key>
+
+		<key x="0" y="160" width="50" height="80" bgcolor="d0d0d0" fgcolor="0000dd">
+			<action disp="t">t</action>
+		</key>
+
+		<key x="50" y="160" width="50" height="80" bgcolor="909090" fgcolor="00ffff">
+			<action disp="u">u</action>
+		</key>
+
+		<key x="100" y="160" width="50" height="80" bgcolor="303030" fgcolor="ffff30">
+			<action disp="v">v</action>
+		</key>
+
+		<key x="0" y="240" width="50" height="80" bgcolor="d0d0d0" fgcolor="0000dd">
+			<action disp="w">w</action>
+		</key>
+
+		<key x="50" y="240" width="50" height="80" bgcolor="909090" fgcolor="00ffff">
+			<action disp="x">x</action>
+		</key>
+
+		<key x="100" y="240" width="50" height="80" bgcolor="303030" fgcolor="ffff30">
+			<action disp="y">y</action>
+		</key>
+
+		<key x="0" y="320" width="50" height="80" bgcolor="d0d0d0" fgcolor="0000dd">
+			<action disp=";)" img="smile.png">;)</action>
+		</key>
+
+		<key x="50" y="320" width="50" height="80" bgcolor="909090" fgcolor="00ffff">
+			<action disp=":(" img="sad.png">:(</action>
+		</key>
+
+		<key x="100" y="320" width="50" height="80" bgcolor="303030" fgcolor="ffff30">
+			<action disp="z">z</action>
+		</key>
+
+		<key x="0" y="400" width="150" height="80" bgcolor="303030" fgcolor="ff80ff" efont="Droid Sans_bold_4" font="Droid Sans_bold_32">
+			<action disp="Return" type="sym" img="enter.png">Return</action>
+		</key>
+
+	</panel>
+
+</keyboard>

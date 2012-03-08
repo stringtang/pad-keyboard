@@ -1,0 +1,488 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run aclocal-1.11$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ALL_LINGUAS	Makefile	/^ALL_LINGUAS = zh_CN $/;"	m
+AMTAR	Makefile	/^AMTAR = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run tar$/;"	m
+AM_CXXFLAGS	Makefile	/^AM_CXXFLAGS = -pthread -D_REENTRANT -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include -I\/usr\/include\/gtk-2.0 -I\/usr\/lib\/gtk-2.0\/include -I\/usr\/include\/atk-1.0 -I\/usr\/include\/cairo -I\/usr\/include\/pango-1.0 -I\/usr\/include\/gio-unix-2.0\/ -I\/usr\/include\/pixman-1 -I\/usr\/include\/freetype2 -I\/usr\/include\/directfb -I\/usr\/include\/libpng12 -I\/usr\/include\/scim-1.0 -I\/usr\/include\/dbus-1.0 -I\/usr\/lib\/dbus-1.0\/include   -Wall -Werror -ggdb -DPKGDATADIR="$(pkgdatadir)" -DLOCALEDIR=\\"$(localedir)\\"$/;"	m
+AM_LDFLAGS	Makefile	/^AM_LDFLAGS = -pthread -L\/lib -lscim-gtkutils-1.0 -lgtk-x11-2.0 -lscim-1.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lgdk_pixbuf-2.0 -lm -lpangocairo-1.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgmodule-2.0 -ldbus-glib-1 -ldbus-1 -lpthread -lgobject-2.0 -lgthread-2.0 -lrt -lglib-2.0  $/;"	m
+AR	Makefile	/^AR = ar$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run automake-1.11$/;"	m
+AWK	Makefile	/^AWK = gawk$/;"	m
+BUILT_SOURCES	Makefile	/^BUILT_SOURCES = $(DBUS_GLUE_FILES)$/;"	m
+CATALOGS	Makefile	/^CATALOGS =  zh_CN.gmo$/;"	m
+CATOBJEXT	Makefile	/^CATOBJEXT = .gmo$/;"	m
+CC	Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2$/;"	m
+CLEANFILES	Makefile	/^CLEANFILES = *~$/;"	m
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CXX	Makefile	/^CXX = g++$/;"	m
+CXXCOMPILE	Makefile	/^CXXCOMPILE = $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \\$/;"	m
+CXXCPP	Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXDEPMODE	Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXLD	Makefile	/^CXXLD = $(CXX)$/;"	m
+CXXLINK	Makefile	/^CXXLINK = $(LIBTOOL) --tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+DATADIRNAME	Makefile	/^DATADIRNAME = share$/;"	m
+DBUS_BINDING_TOOL	Makefile	/^DBUS_BINDING_TOOL = \/usr\/bin\/dbus-binding-tool$/;"	m
+DBUS_GLUE_FILES	Makefile	/^DBUS_GLUE_FILES = panel-vkb-dbus-glue.h$/;"	m
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DISTCLEANFILES	Makefile	/^DISTCLEANFILES = $(DBUS_GLUE_FILES)$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(dist_bin_SCRIPTS) $(srcdir)\/Makefile.am \\$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(scim_panel_vkb_gtk_SOURCES)$/;"	m
+DSYMUTIL	Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	Makefile	/^DUMPBIN = $/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+EXTRA_DIST	Makefile	/^EXTRA_DIST = $(DBUS_GLUE_FILES) panel-vkb-dbus.xml$/;"	m
+FGREP	Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+GETTEXT_PACKAGE	Makefile	/^GETTEXT_PACKAGE = scim-panel-vkb-gtk$/;"	m
+GMOFILES	Makefile	/^GMOFILES =  zh_CN.gmo$/;"	m
+GMSGFMT	Makefile	/^GMSGFMT = \/usr\/bin\/msgfmt$/;"	m
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+HelperPropertyInfo	scim-panel-vkb-gtk.cpp	/^    HelperPropertyInfo () : holder (0) { }$/;"	f	struct:HelperPropertyInfo
+HelperPropertyInfo	scim-panel-vkb-gtk.cpp	/^struct HelperPropertyInfo {$/;"	s	file:
+HelperPropertyRepository	scim-panel-vkb-gtk.cpp	/^typedef __gnu_cxx::hash_map <int, HelperPropertyInfo, __gnu_cxx::hash <int> > HelperPropertyRepository;$/;"	t	file:
+HelperPropertyRepository	scim-panel-vkb-gtk.cpp	/^typedef std::hash_map <int, HelperPropertyInfo, std::hash <int> >             HelperPropertyRepository;$/;"	t	file:
+HelperPropertyRepository	scim-panel-vkb-gtk.cpp	/^typedef std::map <int, HelperPropertyInfo>                                    HelperPropertyRepository;$/;"	t	file:
+INCLUDES	Makefile	/^INCLUDES = -I$(top_srcdir) \\$/;"	m
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTOBJEXT	Makefile	/^INSTOBJEXT = .mo$/;"	m
+INTLLIBS	Makefile	/^INTLLIBS = $/;"	m
+INTLTOOL_EXTRACT	Makefile	/^INTLTOOL_EXTRACT = \/usr\/bin\/intltool-extract$/;"	m
+INTLTOOL_MERGE	Makefile	/^INTLTOOL_MERGE = \/usr\/bin\/intltool-merge$/;"	m
+INTLTOOL_PERL	Makefile	/^INTLTOOL_PERL = \/usr\/bin\/perl$/;"	m
+INTLTOOL_UPDATE	Makefile	/^INTLTOOL_UPDATE = \/usr\/bin\/intltool-update$/;"	m
+LD	Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = $/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LINK	Makefile	/^LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LIPO	Makefile	/^LIPO = $/;"	m
+LN_S	Makefile	/^LN_S = ln -s$/;"	m
+LOOKUP_ICON_SIZE	scim-panel-vkb-gtk.cpp	95;"	d	file:
+LOOKUP_TABLE_MIN_HEIGHT	scim-panel-vkb-gtk.cpp	100;"	d	file:
+LTCOMPILE	Makefile	/^LTCOMPILE = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LTCXXCOMPILE	Makefile	/^LTCXXCOMPILE = $(LIBTOOL) --tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run makeinfo$/;"	m
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKINSTALLDIRS	Makefile	/^MKINSTALLDIRS = .\/mkinstalldirs$/;"	m
+MSGFMT	Makefile	/^MSGFMT = \/usr\/bin\/msgfmt$/;"	m
+MSGFMT_OPTS	Makefile	/^MSGFMT_OPTS = -c$/;"	m
+MSGMERGE	Makefile	/^MSGMERGE = \/usr\/bin\/msgmerge$/;"	m
+MapStringVectorSizeT	scim-panel-vkb-gtk.cpp	/^typedef __gnu_cxx::hash_map <String, std::vector <size_t>, scim_hash_string>  MapStringVectorSizeT;$/;"	t	file:
+MapStringVectorSizeT	scim-panel-vkb-gtk.cpp	/^typedef std::hash_map <String, std::vector <size_t>, scim_hash_string>        MapStringVectorSizeT;$/;"	t	file:
+MapStringVectorSizeT	scim-panel-vkb-gtk.cpp	/^typedef std::map <String, std::vector <size_t> >                              MapStringVectorSizeT;$/;"	t	file:
+NM	Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NMEDIT	Makefile	/^NMEDIT = $/;"	m
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+N_	panel_private.h	33;"	d
+OBJDUMP	Makefile	/^OBJDUMP = objdump$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OTOOL	Makefile	/^OTOOL = $/;"	m
+OTOOL64	Makefile	/^OTOOL64 = $/;"	m
+PACKAGE	Makefile	/^PACKAGE = scim-panel-vkb-gtk$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = scim-panel-vkb-gtk$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = scim-panel-vkb-gtk 0.1.6$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = scim-panel-vkb-gtk$/;"	m
+PACKAGE_URL	Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 0.1.6$/;"	m
+PANELVKBDBUSOBJ	panel-vkb-dbusobj.h	35;"	d
+PANEL_DEFAULT_TRIGER_DELAY	scim-panel-vkb-gtk.cpp	102;"	d	file:
+PANEL_VKB_DBUSOBJ_H	panel-vkb-dbusobj.h	24;"	d
+PANEL_VKB_DBUSOBJ_SERVICE_INTERFACE	panel-vkb-dbusobj.h	32;"	d
+PANEL_VKB_DBUSOBJ_SERVICE_NAME	panel-vkb-dbusobj.h	29;"	d
+PANEL_VKB_DBUSOBJ_SERVICE_OBJECT_PATH	panel-vkb-dbusobj.h	31;"	d
+PANEL_VKB_TYPE_DBUSOBJ	panel-vkb-dbusobj.h	34;"	d
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PKG_CONFIG	Makefile	/^PKG_CONFIG = \/usr\/bin\/pkg-config$/;"	m
+POFILES	Makefile	/^POFILES =  zh_CN.po$/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+POSUB	Makefile	/^POSUB = po$/;"	m
+PO_IN_DATADIR_FALSE	Makefile	/^PO_IN_DATADIR_FALSE = $/;"	m
+PO_IN_DATADIR_TRUE	Makefile	/^PO_IN_DATADIR_TRUE = $/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PROGRAMS	Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+PanelVkbDbusObj	panel-vkb-dbusobj.h	/^typedef struct _PanelVkbDbusObj PanelVkbDbusObj;$/;"	t	typeref:struct:_PanelVkbDbusObj
+PanelVkbDbusObjClass	panel-vkb-dbusobj.h	/^typedef struct _PanelVkbDbusObjClass PanelVkbDbusObjClass;$/;"	t	typeref:struct:_PanelVkbDbusObjClass
+PropertyInfo	scim-panel-vkb-gtk.cpp	/^    PropertyInfo () : widget (0) { }$/;"	f	struct:PropertyInfo
+PropertyInfo	scim-panel-vkb-gtk.cpp	/^struct PropertyInfo {$/;"	s	file:
+PropertyRepository	scim-panel-vkb-gtk.cpp	/^typedef std::vector <PropertyInfo>               PropertyRepository;$/;"	t	file:
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+SCIM_BINARY_VERSION	Makefile	/^SCIM_BINARY_VERSION = 1.4.0$/;"	m
+SCIM_CONFIG_PANEL_VKB_GTK_DEFAULT_STICKED	panel-settings.h	40;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_DOCK_PANEL	panel-settings.h	42;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_ENABLE_VKB	panel-settings.h	43;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_FONT	panel-settings.h	29;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_PANEL_ACTIVE_BG_COLOR	panel-settings.h	53;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_PANEL_ACTIVE_TEXT_COLOR	panel-settings.h	52;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_PANEL_EXTEND	panel-settings.h	44;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_PANEL_NORMAL_BG_COLOR	panel-settings.h	51;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_PANEL_NORMAL_FG_COLOR	panel-settings.h	50;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_PANEL_NORMAL_TEXT_COLOR	panel-settings.h	49;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_SHOW_TRAY_ICON	panel-settings.h	41;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_TOOLBAR_AUTO_SNAP	panel-settings.h	30;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_TOOLBAR_HIDE_TIMEOUT	panel-settings.h	31;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_TOOLBAR_POS_X	panel-settings.h	32;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_TOOLBAR_POS_Y	panel-settings.h	33;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_TOOLBAR_SHOW_FACTORY_ICON	panel-settings.h	34;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_TOOLBAR_SHOW_FACTORY_NAME	panel-settings.h	35;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_TOOLBAR_SHOW_HELP_ICON	panel-settings.h	37;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_TOOLBAR_SHOW_MENU_ICON	panel-settings.h	38;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_TOOLBAR_SHOW_PROPERTY_LABEL	panel-settings.h	39;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_TOOLBAR_SHOW_STICK_ICON	panel-settings.h	36;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_VKB_HEIGHT	panel-settings.h	48;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_VKB_PARAMETERS	panel-settings.h	46;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_VKB_PROGRAM	panel-settings.h	45;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_VKB_WIDTH	panel-settings.h	47;"	d
+SCIM_DEFAULT_VKB_DOCKPANEL	panel-settings.h	62;"	d
+SCIM_DEFAULT_VKB_PANEL_ACTIVE_BG_COLOR	panel-settings.h	68;"	d
+SCIM_DEFAULT_VKB_PANEL_ACTIVE_TEXT_COLOR	panel-settings.h	67;"	d
+SCIM_DEFAULT_VKB_PANEL_EXTEND	panel-settings.h	63;"	d
+SCIM_DEFAULT_VKB_PANEL_FONT	panel-settings.h	69;"	d
+SCIM_DEFAULT_VKB_PANEL_NORMAL_BG_COLOR	panel-settings.h	66;"	d
+SCIM_DEFAULT_VKB_PANEL_NORMAL_FG_COLOR	panel-settings.h	65;"	d
+SCIM_DEFAULT_VKB_PANEL_NORMAL_TEXT_COLOR	panel-settings.h	64;"	d
+SCIM_DEFAULT_VKB_PANEL_TOOLBAR_AUTO_SNAP	panel-settings.h	70;"	d
+SCIM_DEFAULT_VKB_PANEL_TOOLBAR_HIDE_TIMEOUT	panel-settings.h	71;"	d
+SCIM_DEFAULT_VKB_PANEL_TOOLBAR_SHOW_FACTORY_ICON	panel-settings.h	72;"	d
+SCIM_DEFAULT_VKB_PANEL_TOOLBAR_SHOW_FACTORY_NAME	panel-settings.h	73;"	d
+SCIM_DEFAULT_VKB_PANEL_TOOLBAR_SHOW_HELP_ICON	panel-settings.h	75;"	d
+SCIM_DEFAULT_VKB_PANEL_TOOLBAR_SHOW_MENU_ICON	panel-settings.h	74;"	d
+SCIM_DEFAULT_VKB_PANEL_TOOLBAR_SHOW_PROPERTY_LABEL	panel-settings.h	76;"	d
+SCIM_DEFAULT_VKB_PANEL_VKB_ENABLED	panel-settings.h	77;"	d
+SCIM_DEFAULT_VKB_PARAMETERS	panel-settings.h	59;"	d
+SCIM_DEFAULT_VKB_PROGRAM	panel-settings.h	58;"	d
+SCIM_DEFAULT_VKB_WINDOW_HEIGHT	panel-settings.h	61;"	d
+SCIM_DEFAULT_VKB_WINDOW_WIDTH	panel-settings.h	60;"	d
+SCIM_DOWN_ICON_FILE	scim-panel-vkb-gtk.cpp	89;"	d	file:
+SCIM_HELP_ICON_FILE	scim-panel-vkb-gtk.cpp	85;"	d	file:
+SCIM_HIDE_ICON_FILE	scim-panel-vkb-gtk.cpp	86;"	d	file:
+SCIM_ICONDIR	Makefile	/^SCIM_ICONDIR = \/usr\/share\/scim\/icons$/;"	m
+SCIM_KEYBOARD_ICON_FILE	scim-panel-vkb-gtk.cpp	82;"	d	file:
+SCIM_LEFT_ICON_FILE	scim-panel-vkb-gtk.cpp	90;"	d	file:
+SCIM_MENU_ICON_FILE	scim-panel-vkb-gtk.cpp	87;"	d	file:
+SCIM_MODULEDIR	Makefile	/^SCIM_MODULEDIR = \/usr\/lib\/scim-1.0\/1.4.0$/;"	m
+SCIM_PANEL_VKB_GTK_CFLAGS	Makefile	/^SCIM_PANEL_VKB_GTK_CFLAGS = -pthread -D_REENTRANT -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include -I\/usr\/include\/gtk-2.0 -I\/usr\/lib\/gtk-2.0\/include -I\/usr\/include\/atk-1.0 -I\/usr\/include\/cairo -I\/usr\/include\/pango-1.0 -I\/usr\/include\/gio-unix-2.0\/ -I\/usr\/include\/pixman-1 -I\/usr\/include\/freetype2 -I\/usr\/include\/directfb -I\/usr\/include\/libpng12 -I\/usr\/include\/scim-1.0 -I\/usr\/include\/dbus-1.0 -I\/usr\/lib\/dbus-1.0\/include  $/;"	m
+SCIM_PANEL_VKB_GTK_LIBS	Makefile	/^SCIM_PANEL_VKB_GTK_LIBS = -pthread -L\/lib -lscim-gtkutils-1.0 -lgtk-x11-2.0 -lscim-1.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lgdk_pixbuf-2.0 -lm -lpangocairo-1.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgmodule-2.0 -ldbus-glib-1 -ldbus-1 -lpthread -lgobject-2.0 -lgthread-2.0 -lrt -lglib-2.0  $/;"	m
+SCIM_RIGHT_ICON_FILE	scim-panel-vkb-gtk.cpp	91;"	d	file:
+SCIM_SETUP_ICON_FILE	scim-panel-vkb-gtk.cpp	84;"	d	file:
+SCIM_TRADEMARK_ICON_FILE	scim-panel-vkb-gtk.cpp	83;"	d	file:
+SCIM_UP_ICON_FILE	scim-panel-vkb-gtk.cpp	88;"	d	file:
+SCIM_VERSION	Makefile	/^SCIM_VERSION = 1.4.9$/;"	m
+SCRIPTS	Makefile	/^SCRIPTS = $(dist_bin_SCRIPTS)$/;"	m
+SED	Makefile	/^SED = \/bin\/sed$/;"	m
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
+SMALL_LOOKUP_ICON_SIZE	scim-panel-vkb-gtk.cpp	98;"	d	file:
+SMALL_TOOLBAR_ICON_SIZE	scim-panel-vkb-gtk.cpp	96;"	d	file:
+SMALL_TRAY_ICON_SIZE	scim-panel-vkb-gtk.cpp	97;"	d	file:
+SOURCES	Makefile	/^SOURCES = $(scim_panel_vkb_gtk_SOURCES)$/;"	m
+STRIP	Makefile	/^STRIP = strip$/;"	m
+STRUT_BOTTOM	panel-utility.cpp	39;"	d	file:
+STRUT_BOTTOM_END	panel-utility.cpp	47;"	d	file:
+STRUT_BOTTOM_START	panel-utility.cpp	46;"	d	file:
+STRUT_LEFT	panel-utility.cpp	36;"	d	file:
+STRUT_LEFT_END	panel-utility.cpp	41;"	d	file:
+STRUT_LEFT_START	panel-utility.cpp	40;"	d	file:
+STRUT_RIGHT	panel-utility.cpp	37;"	d	file:
+STRUT_RIGHT_END	panel-utility.cpp	43;"	d	file:
+STRUT_RIGHT_START	panel-utility.cpp	42;"	d	file:
+STRUT_TOP	panel-utility.cpp	38;"	d	file:
+STRUT_TOP_END	panel-utility.cpp	45;"	d	file:
+STRUT_TOP_START	panel-utility.cpp	44;"	d	file:
+TOOLBAR_ICON_SIZE	scim-panel-vkb-gtk.cpp	93;"	d	file:
+TRAY_ICON_SIZE	scim-panel-vkb-gtk.cpp	94;"	d	file:
+USE_NLS	Makefile	/^USE_NLS = yes$/;"	m
+Uses_C_STDIO	scim-panel-vkb-gtk.cpp	45;"	d	file:
+Uses_C_STDLIB	scim-panel-vkb-gtk.cpp	46;"	d	file:
+Uses_SCIM_COMPOSE_KEY	scim-panel-vkb-gtk.cpp	59;"	d	file:
+Uses_SCIM_CONFIG	scim-panel-vkb-gtk.cpp	51;"	d	file:
+Uses_SCIM_CONFIG_BASE	scim-panel-vkb-gtk.cpp	61;"	d	file:
+Uses_SCIM_CONFIG_MODULE	scim-panel-vkb-gtk.cpp	52;"	d	file:
+Uses_SCIM_CONFIG_PATH	scim-panel-vkb-gtk.cpp	60;"	d	file:
+Uses_SCIM_DEBUG	scim-panel-vkb-gtk.cpp	53;"	d	file:
+Uses_SCIM_HELPER	scim-panel-vkb-gtk.cpp	54;"	d	file:
+Uses_SCIM_HELPER_MODULE	scim-panel-vkb-gtk.cpp	55;"	d	file:
+Uses_SCIM_IMENGINE	scim-panel-vkb-gtk.cpp	58;"	d	file:
+Uses_SCIM_LOOKUP_TABLE	scim-panel-vkb-gtk.cpp	47;"	d	file:
+Uses_SCIM_PANEL_AGENT	scim-panel-vkb-gtk.cpp	56;"	d	file:
+Uses_SCIM_PROPERTY	scim-panel-vkb-gtk.cpp	57;"	d	file:
+Uses_SCIM_SOCKET	scim-panel-vkb-gtk.cpp	48;"	d	file:
+Uses_SCIM_TRANSACTION	scim-panel-vkb-gtk.cpp	49;"	d	file:
+Uses_SCIM_TRANS_COMMANDS	scim-panel-vkb-gtk.cpp	50;"	d	file:
+VERSION	Makefile	/^VERSION = 0.1.6$/;"	m
+VKB_PID	scim-panel-vkb-gtk.cpp	/^int VKB_PID = 0;$/;"	v
+XGETTEXT	Makefile	/^XGETTEXT = \/usr\/bin\/xgettext$/;"	m
+_	panel_private.h	32;"	d
+_PanelVkbDbusObj	panel-vkb-dbusobj.h	/^struct _PanelVkbDbusObj {$/;"	s
+_PanelVkbDbusObjClass	panel-vkb-dbusobj.h	/^struct _PanelVkbDbusObjClass {$/;"	s
+__PANEL_KEYBOARD_H	panel-keyboard.h	23;"	d
+__PANEL_PRIVATE_H	panel_private.h	23;"	d
+__PANEL_SETTINGS_H	panel-settings.h	25;"	d
+__PANEL_UTILITY_H	panel-utility.h	18;"	d
+__dbus_glib_marshal_panel_vkb_MARSHAL_H__	panel-vkb-dbus-glue.h	5;"	d
+_active_bg	scim-panel-vkb-gtk.cpp	/^static GdkColor           _active_bg;$/;"	v	file:
+_active_text	scim-panel-vkb-gtk.cpp	/^static GdkColor           _active_text;$/;"	v	file:
+_aux_area	scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_aux_area                    = 0;$/;"	v	file:
+_check_exit_timeout	scim-panel-vkb-gtk.cpp	/^static guint              _check_exit_timeout          = 0;$/;"	v	file:
+_client_properties_area	scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_client_properties_area      = 0;$/;"	v	file:
+_command_menu	scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_command_menu                = 0;$/;"	v	file:
+_command_menu_activated	scim-panel-vkb-gtk.cpp	/^static bool               _command_menu_activated      = false;$/;"	v	file:
+_config	scim-panel-vkb-gtk.cpp	/^static ConfigPointer      _config;$/;"	v	file:
+_config_module	scim-panel-vkb-gtk.cpp	/^static ConfigModule      *_config_module               = 0;$/;"	v	file:
+_current_screen	scim-panel-vkb-gtk.cpp	/^static GdkScreen         *_current_screen              = 0;$/;"	v	file:
+_default_font_desc	scim-panel-vkb-gtk.cpp	/^static PangoFontDescription *_default_font_desc        = 0;$/;"	v	file:
+_factory_button	scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_factory_button              = 0;$/;"	v	file:
+_factory_menu	scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_factory_menu                = 0;$/;"	v	file:
+_factory_menu_activated	scim-panel-vkb-gtk.cpp	/^static bool               _factory_menu_activated      = false;$/;"	v	file:
+_factory_menu_uuids	scim-panel-vkb-gtk.cpp	/^static std::vector<String> _factory_menu_uuids;$/;"	v	file:
+_frontend_properties_area	scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_frontend_properties_area    = 0;$/;"	v	file:
+_frontend_property_repository	scim-panel-vkb-gtk.cpp	/^static PropertyRepository            _frontend_property_repository;$/;"	v	file:
+_global_resource_lock	scim-panel-vkb-gtk.cpp	/^G_LOCK_DEFINE_STATIC     (_global_resource_lock);$/;"	v
+_help_area	scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_help_area                   = 0;$/;"	v	file:
+_help_button	scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_help_button                 = 0;$/;"	v	file:
+_help_dialog	scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_help_dialog                 = 0;$/;"	v	file:
+_help_scroll	scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_help_scroll                 = 0;$/;"	v	file:
+_helper_list	scim-panel-vkb-gtk.cpp	/^static std::vector<HelperInfo>       _helper_list;$/;"	v	file:
+_helper_property_repository	scim-panel-vkb-gtk.cpp	/^static HelperPropertyRepository      _helper_property_repository;$/;"	v	file:
+_hide_button	scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_hide_button                 = 0;$/;"	v	file:
+_input_window	scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_input_window                = 0;$/;"	v	file:
+_input_window_drag_x	scim-panel-vkb-gtk.cpp	/^static gint               _input_window_drag_x         = 0;$/;"	v	file:
+_input_window_drag_y	scim-panel-vkb-gtk.cpp	/^static gint               _input_window_drag_y         = 0;$/;"	v	file:
+_input_window_draging	scim-panel-vkb-gtk.cpp	/^static gboolean           _input_window_draging        = FALSE;$/;"	v	file:
+_input_window_height	scim-panel-vkb-gtk.cpp	/^static gint               _input_window_height         = 0;$/;"	v	file:
+_input_window_width	scim-panel-vkb-gtk.cpp	/^static gint               _input_window_width          = 0;$/;"	v	file:
+_input_window_x	scim-panel-vkb-gtk.cpp	/^static gint               _input_window_x              = 0;$/;"	v	file:
+_input_window_y	scim-panel-vkb-gtk.cpp	/^static gint               _input_window_y              = 0;$/;"	v	file:
+_last_menu_deactivate_time	scim-panel-vkb-gtk.cpp	/^static struct timeval     _last_menu_deactivate_time = {0, 0};$/;"	v	typeref:struct:timeval	file:
+_lookup_table_down_button	scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_lookup_table_down_button    = 0;$/;"	v	file:
+_lookup_table_index	scim-panel-vkb-gtk.cpp	/^static int                _lookup_table_index [SCIM_LOOKUP_TABLE_MAX_PAGESIZE+1];$/;"	v	file:
+_lookup_table_items	scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_lookup_table_items [SCIM_LOOKUP_TABLE_MAX_PAGESIZE];$/;"	v	file:
+_lookup_table_parent	scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_lookup_table_parent         = 0;$/;"	v	file:
+_lookup_table_up_button	scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_lookup_table_up_button      = 0;$/;"	v	file:
+_lookup_table_width	scim-panel-vkb-gtk.cpp	/^static gint               _lookup_table_width          = -1;$/;"	v	file:
+_lookup_table_window	scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_lookup_table_window         = 0;$/;"	v	file:
+_menu_button	scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_menu_button                 = 0;$/;"	v	file:
+_normal_bg	scim-panel-vkb-gtk.cpp	/^static GdkColor           _normal_bg;$/;"	v	file:
+_normal_fg	scim-panel-vkb-gtk.cpp	/^static GdkColor           _normal_fg;$/;"	v	file:
+_normal_text	scim-panel-vkb-gtk.cpp	/^static GdkColor           _normal_text;$/;"	v	file:
+_panel_agent	scim-panel-vkb-gtk.cpp	/^static PanelAgent        *_panel_agent                 = 0;$/;"	v	file:
+_panel_agent_lock	scim-panel-vkb-gtk.cpp	/^G_LOCK_DEFINE_STATIC     (_panel_agent_lock);$/;"	v
+_panel_agent_thread	scim-panel-vkb-gtk.cpp	/^static GThread           *_panel_agent_thread          = 0;$/;"	v	file:
+_panel_is_on	scim-panel-vkb-gtk.cpp	/^static bool               _panel_is_on                 = false;$/;"	v	file:
+_panel_strut_size	scim-panel-vkb-gtk.cpp	/^static gint               _panel_strut_size            = 0;$/;"	v	file:
+_preedit_area	scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_preedit_area                = 0;$/;"	v	file:
+_property_menu_activated	scim-panel-vkb-gtk.cpp	/^static bool               _property_menu_activated     = false;$/;"	v	file:
+_recent_factory_uuids	scim-panel-vkb-gtk.cpp	/^static std::list<String>  _recent_factory_uuids;$/;"	v	file:
+_scim_panel_vkb_gtk_set_strut	panel-utility.cpp	/^_scim_panel_vkb_gtk_set_strut (GtkWidget *widget, guint32 size,$/;"	f
+_should_exit	scim-panel-vkb-gtk.cpp	/^static bool               _should_exit                 = false;$/;"	v	file:
+_show_tray_icon	scim-panel-vkb-gtk.cpp	/^static bool               _show_tray_icon              = true;$/;"	v	file:
+_spot_location_x	scim-panel-vkb-gtk.cpp	/^static int                _spot_location_x             = -1;$/;"	v	file:
+_spot_location_y	scim-panel-vkb-gtk.cpp	/^static int                _spot_location_y             = -1;$/;"	v	file:
+_toolbar_auto_snap	scim-panel-vkb-gtk.cpp	/^static bool               _toolbar_auto_snap         = bool (SCIM_DEFAULT_VKB_PANEL_TOOLBAR_AUTO_SNAP);$/;"	v	file:
+_toolbar_hidden	scim-panel-vkb-gtk.cpp	/^static bool               _toolbar_hidden              = false;$/;"	v	file:
+_toolbar_hide_timeout	scim-panel-vkb-gtk.cpp	/^static guint              _toolbar_hide_timeout        = 0;$/;"	v	file:
+_toolbar_hide_timeout_count	scim-panel-vkb-gtk.cpp	/^static int                _toolbar_hide_timeout_count  = 0;$/;"	v	file:
+_toolbar_hide_timeout_max	scim-panel-vkb-gtk.cpp	/^static int                _toolbar_hide_timeout_max  = gint (SCIM_DEFAULT_VKB_PANEL_TOOLBAR_HIDE_TIMEOUT);$/;"	v	file:
+_toolbar_should_hide	scim-panel-vkb-gtk.cpp	/^static bool               _toolbar_should_hide         = false;$/;"	v	file:
+_toolbar_show_factory_icon	scim-panel-vkb-gtk.cpp	/^static bool               _toolbar_show_factory_icon = bool (SCIM_DEFAULT_VKB_PANEL_TOOLBAR_SHOW_FACTORY_ICON);$/;"	v	file:
+_toolbar_show_factory_name	scim-panel-vkb-gtk.cpp	/^static bool               _toolbar_show_factory_name = bool (SCIM_DEFAULT_VKB_PANEL_TOOLBAR_SHOW_FACTORY_NAME);$/;"	v	file:
+_toolbar_show_help_icon	scim-panel-vkb-gtk.cpp	/^static bool               _toolbar_show_help_icon    = bool (SCIM_DEFAULT_VKB_PANEL_TOOLBAR_SHOW_HELP_ICON);$/;"	v	file:
+_toolbar_show_menu_icon	scim-panel-vkb-gtk.cpp	/^static bool               _toolbar_show_menu_icon    = bool (SCIM_DEFAULT_VKB_PANEL_TOOLBAR_SHOW_MENU_ICON);$/;"	v	file:
+_toolbar_show_property_label	scim-panel-vkb-gtk.cpp	/^static bool               _toolbar_show_property_label = bool (SCIM_DEFAULT_VKB_PANEL_TOOLBAR_SHOW_PROPERTY_LABEL);$/;"	v	file:
+_toolbar_window	scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_toolbar_window              = 0;$/;"	v	file:
+_toolbar_window_drag_x	scim-panel-vkb-gtk.cpp	/^static gint               _toolbar_window_drag_x       = 0;$/;"	v	file:
+_toolbar_window_drag_y	scim-panel-vkb-gtk.cpp	/^static gint               _toolbar_window_drag_y       = 0;$/;"	v	file:
+_toolbar_window_draging	scim-panel-vkb-gtk.cpp	/^static gboolean           _toolbar_window_draging      = FALSE;$/;"	v	file:
+_toolbar_window_x	scim-panel-vkb-gtk.cpp	/^static int                _toolbar_window_x            = -1;$/;"	v	file:
+_toolbar_window_y	scim-panel-vkb-gtk.cpp	/^static int                _toolbar_window_y            = -1;$/;"	v	file:
+_tooltips	scim-panel-vkb-gtk.cpp	/^static GtkTooltips       *_tooltips                    = 0;$/;"	v	file:
+_tray_icon	scim-panel-vkb-gtk.cpp	/^static ScimTrayIcon      *_tray_icon                   = 0;$/;"	v	file:
+_tray_icon_destroy_signal_id	scim-panel-vkb-gtk.cpp	/^static gulong             _tray_icon_destroy_signal_id = 0;$/;"	v	file:
+_tray_icon_factory_button	scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_tray_icon_factory_button    = 0;$/;"	v	file:
+_ui_initialized	scim-panel-vkb-gtk.cpp	/^static bool               _ui_initialized              = false;$/;"	v	file:
+_vkb_dock_panel	scim-panel-vkb-gtk.cpp	/^static bool               _vkb_dock_panel              = bool (SCIM_DEFAULT_VKB_DOCKPANEL);$/;"	v	file:
+_vkb_embedded	scim-panel-vkb-gtk.cpp	/^static bool               _vkb_embedded                = bool (SCIM_DEFAULT_VKB_PANEL_VKB_ENABLED);$/;"	v	file:
+_vkb_is_alone	scim-panel-vkb-gtk.cpp	/^static bool               _vkb_is_alone                = false;$/;"	v	file:
+_vkb_panel_extend	scim-panel-vkb-gtk.cpp	/^static bool               _vkb_panel_extend            = bool (SCIM_DEFAULT_VKB_PANEL_EXTEND);$/;"	v	file:
+_vkb_parameters	scim-panel-vkb-gtk.cpp	/^static String             _vkb_parameters              = String (SCIM_DEFAULT_VKB_PARAMETERS);$/;"	v	file:
+_vkb_program	scim-panel-vkb-gtk.cpp	/^static String             _vkb_program                 = String (SCIM_DEFAULT_VKB_PROGRAM);$/;"	v	file:
+_vkb_socket	scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_vkb_socket                  = 0;$/;"	v	file:
+_vkb_window	scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_vkb_window                  = 0;$/;"	v	file:
+_vkb_window_height	scim-panel-vkb-gtk.cpp	/^static gint               _vkb_window_height           = gint (SCIM_DEFAULT_VKB_WINDOW_HEIGHT);$/;"	v	file:
+_vkb_window_width	scim-panel-vkb-gtk.cpp	/^static gint               _vkb_window_width            = gint (SCIM_DEFAULT_VKB_WINDOW_WIDTH);$/;"	v	file:
+_workarea_height	scim-panel-vkb-gtk.cpp	/^static gint               _workarea_height             = 600;$/;"	v	file:
+_workarea_width	scim-panel-vkb-gtk.cpp	/^static gint               _workarea_width              = 800;$/;"	v	file:
+_workarea_x	scim-panel-vkb-gtk.cpp	/^static gint               _workarea_x                  = 0;$/;"	v	file:
+_workarea_y	scim-panel-vkb-gtk.cpp	/^static gint               _workarea_y                  = 0;$/;"	v	file:
+abs_builddir	Makefile	/^abs_builddir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/src$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/src$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CXX	Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_DUMPBIN	Makefile	/^ac_ct_DUMPBIN = $/;"	m
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/m4\/as-linguas.m4 \\$/;"	m
+am__base_list	Makefile	/^am__base_list = \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__install_max	Makefile	/^am__install_max = 40$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)" "$(DESTDIR)$(bindir)"$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__mv	Makefile	/^am__mv = mv -f$/;"	m
+am__nobase_list	Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_strip	Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip_setup	Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__strip_dir	Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__tar	Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__untar	Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__vpath_adj	Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj_setup	Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am_scim_panel_vkb_gtk_OBJECTS	Makefile	/^am_scim_panel_vkb_gtk_OBJECTS = scim-panel-vkb-gtk.$(OBJEXT) \\$/;"	m
+bin_PROGRAMS	Makefile	/^bin_PROGRAMS = scim-panel-vkb-gtk$(EXEEXT)$/;"	m
+bind_textdomain_codeset	panel_private.h	36;"	d
+bindir	Makefile	/^bindir = \/usr\/local\/lib\/scim-1.0$/;"	m
+bindtextdomain	panel_private.h	34;"	d
+build	Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = i686$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = pc$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+class_name	panel-vkb-dbusobj.h	/^	gchar * class_name;$/;"	m	struct:_PanelVkbDbusObjClass
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+dbus_glib_marshal_panel_vkb_BOOLEAN__POINTER	panel-vkb-dbus-glue.h	/^dbus_glib_marshal_panel_vkb_BOOLEAN__POINTER (GClosure     *closure,$/;"	f
+dbus_glib_panel_vkb_methods	panel-vkb-dbus-glue.h	/^static const DBusGMethodInfo dbus_glib_panel_vkb_methods[] = {$/;"	v
+dbus_glib_panel_vkb_object_info	panel-vkb-dbus-glue.h	/^const DBusGObjectInfo dbus_glib_panel_vkb_object_info = {  1,$/;"	v
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+dist_bin_SCRIPTS	Makefile	/^dist_bin_SCRIPTS = hack-scim-global-config$/;"	m
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+g_marshal_value_peek_boolean	panel-vkb-dbus-glue.h	12;"	d
+g_marshal_value_peek_boxed	panel-vkb-dbus-glue.h	27;"	d
+g_marshal_value_peek_char	panel-vkb-dbus-glue.h	13;"	d
+g_marshal_value_peek_double	panel-vkb-dbus-glue.h	24;"	d
+g_marshal_value_peek_enum	panel-vkb-dbus-glue.h	21;"	d
+g_marshal_value_peek_flags	panel-vkb-dbus-glue.h	22;"	d
+g_marshal_value_peek_float	panel-vkb-dbus-glue.h	23;"	d
+g_marshal_value_peek_int	panel-vkb-dbus-glue.h	15;"	d
+g_marshal_value_peek_int64	panel-vkb-dbus-glue.h	19;"	d
+g_marshal_value_peek_long	panel-vkb-dbus-glue.h	17;"	d
+g_marshal_value_peek_object	panel-vkb-dbus-glue.h	29;"	d
+g_marshal_value_peek_param	panel-vkb-dbus-glue.h	26;"	d
+g_marshal_value_peek_pointer	panel-vkb-dbus-glue.h	28;"	d
+g_marshal_value_peek_string	panel-vkb-dbus-glue.h	25;"	d
+g_marshal_value_peek_uchar	panel-vkb-dbus-glue.h	14;"	d
+g_marshal_value_peek_uint	panel-vkb-dbus-glue.h	16;"	d
+g_marshal_value_peek_uint64	panel-vkb-dbus-glue.h	20;"	d
+g_marshal_value_peek_ulong	panel-vkb-dbus-glue.h	18;"	d
+holder	scim-panel-vkb-gtk.cpp	/^    GtkWidget           *holder;$/;"	m	struct:HelperPropertyInfo	file:
+host	Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = i686$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = pc$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+install_sh	Makefile	/^install_sh = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+killchilds	panel-keyboard.cpp	/^killchilds(int sig)$/;"	f	file:
+launch_keyboard	panel-keyboard.cpp	/^launch_keyboard(const char *cmd, const char *params, int *vkb_pid)$/;"	f
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+lt_ECHO	Makefile	/^lt_ECHO = echo$/;"	m
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mkdir_p	Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(SHELL) $(top_srcdir)\/mkinstalldirs$/;"	m
+name	panel-vkb-dbusobj.h	/^	gchar * name;$/;"	m	struct:_PanelVkbDbusObj
+net_wm_strut	panel-utility.cpp	/^static Atom net_wm_strut              = None;$/;"	v	file:
+net_wm_strut_partial	panel-utility.cpp	/^static Atom net_wm_strut_partial      = None;$/;"	v	file:
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+panel_vkb_dbus_init	panel-vkb-dbusobj.cpp	/^PanelVkbDbusObj * panel_vkb_dbus_init()$/;"	f
+panel_vkb_dbusobj_class_init	panel-vkb-dbusobj.cpp	/^void panel_vkb_dbusobj_class_init(PanelVkbDbusObjClass *objclass)$/;"	f
+panel_vkb_dbusobj_get_type	panel-vkb-dbusobj.cpp	/^GType panel_vkb_dbusobj_get_type(void)$/;"	f
+panel_vkb_dbusobj_init	panel-vkb-dbusobj.cpp	/^void panel_vkb_dbusobj_init(PanelVkbDbusObj *obj)$/;"	f
+panel_vkb_toggle_vkb_alone	scim-panel-vkb-gtk.cpp	/^gboolean panel_vkb_toggle_vkb_alone(PanelVkbDbusObj * dbusobj, GError **error)$/;"	f
+panel_vkb_turn_off_panel	scim-panel-vkb-gtk.cpp	/^gboolean panel_vkb_turn_off_panel(PanelVkbDbusObj * dbusobj, GError **error)$/;"	f
+panel_vkb_turn_on_panel	scim-panel-vkb-gtk.cpp	/^gboolean panel_vkb_turn_on_panel(PanelVkbDbusObj * dbusobj, GError **error)$/;"	f
+parent	panel-vkb-dbusobj.h	/^	GObject parent;$/;"	m	struct:_PanelVkbDbusObj
+parent_class	panel-vkb-dbusobj.h	/^	GObjectClass parent_class;$/;"	m	struct:_PanelVkbDbusObjClass
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/scim-panel-vkb-gtk$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/scim-panel-vkb-gtk$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/scim-panel-vkb-gtk$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/scim-panel-vkb-gtk$/;"	m
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+property	scim-panel-vkb-gtk.cpp	/^    Property   property;$/;"	m	struct:PropertyInfo	file:
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+repository	scim-panel-vkb-gtk.cpp	/^    PropertyRepository   repository;$/;"	m	struct:HelperPropertyInfo	file:
+root_window	scim-panel-vkb-gtk.cpp	/^    GdkWindow *root_window = gdk_get_default_root_window ();$/;"	v
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+scim_panel_vkb_gtk_LDADD	Makefile	/^scim_panel_vkb_gtk_LDADD = $(LDADD)$/;"	m
+scim_panel_vkb_gtk_OBJECTS	Makefile	/^scim_panel_vkb_gtk_OBJECTS = $(am_scim_panel_vkb_gtk_OBJECTS)$/;"	m
+scim_panel_vkb_gtk_SOURCES	Makefile	/^scim_panel_vkb_gtk_SOURCES = scim-panel-vkb-gtk.cpp \\$/;"	m
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+srcdir	Makefile	/^srcdir = .$/;"	m
+subdir	Makefile	/^subdir = src$/;"	m
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+textdomain	panel_private.h	35;"	d
+top_build_prefix	Makefile	/^top_build_prefix = ..\/$/;"	m
+top_builddir	Makefile	/^top_builddir = ..$/;"	m
+top_srcdir	Makefile	/^top_srcdir = ..$/;"	m
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+triger_delay	scim-panel-vkb-gtk.cpp	/^static guint triger_delay = PANEL_DEFAULT_TRIGER_DELAY;$/;"	v	file:
+triger_delay_timeout_id	scim-panel-vkb-gtk.cpp	/^static guint triger_delay_timeout_id = 0;$/;"	v	file:
+triger_on	scim-panel-vkb-gtk.cpp	/^static gboolean triger_on;$/;"	v	file:
+ui_config_reload_callback	scim-panel-vkb-gtk.cpp	/^ui_config_reload_callback (const ConfigPointer &config)$/;"	f	file:
+ui_event_filter	scim-panel-vkb-gtk.cpp	/^ui_event_filter (GdkXEvent *gdk_xevent, GdkEvent *event, gpointer data)$/;"	f	file:
+ui_initialize	scim-panel-vkb-gtk.cpp	/^ui_initialize (void)$/;"	f	file:
+ui_load_config	scim-panel-vkb-gtk.cpp	/^ui_load_config (void)$/;"	f	file:
+widget	scim-panel-vkb-gtk.cpp	/^    GtkWidget *widget;$/;"	m	struct:PropertyInfo	file:

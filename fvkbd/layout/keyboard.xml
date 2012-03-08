@@ -1,0 +1,271 @@
+<keyboard num_of_modes="4" font="Droid Sans_bold_18" efont="Droid Sans_bold_12" ofont="Droid Sans_bold_26"
+panel_bgcolor="2e2e2e" key_bgcolor="2e2e2e" key_fgcolor="2e2e2e"
+pop_bgcolor="fcc536" pop_fgcolor="303030" key_extra_fgcolor="838383">
+
+	<mode id="0" name="default"/>
+	<mode id="1" name="CapsLock"/>
+	<mode id="2" name="symbol"/>
+	<mode id="3" name="test"/>
+
+	<panel layout="xy" x="0" y="0" width="800" height="265" key_shape="chamfer" dock="bottom"> 
+	    <!--first line-->
+
+		<key x="6" y="5" width="78" height="58">
+		    <action  img="normal-hide-up.png" img_dn="press-hide-up.png"   type="script">move-keyboard.py</action>  
+		</key>
+
+		<key x="92" y="5" width="56" height="58">
+		    	<action img="normal-q.png" img_dn="press-q.png">q</action> 
+			<action mode_id="1" img="normal-Q.png" img_dn="press-Q.png">Q</action>
+			<action mode_id="2" img="normal-1.png" img_dn="press-1.png">1</action>
+			<action mode_id="3" img="normal-left-square.png" img_dn="press-left-square.png">[</action>
+		</key>
+
+		<key x="156" y="5" width="56" height="58">
+			<action img="normal-w.png" img_dn="press-w.png">w</action>
+			<action mode_id="1" img="normal-W.png" img_dn="press-W.png">W</action>
+			<action mode_id="2" img="normal-2.png" img_dn="press-2.png">2</action>
+			<action mode_id="3" img="normal-right-square.png" img_dn="press-right-square.png">]</action>
+		</key>
+
+		<key x="220" y="5" width="56" height="58">
+			<action img="normal-e.png" img_dn="press-e.png">e</action>
+			<action mode_id="1" img="normal-E.png" img_dn="press-E.png">E</action>
+			<action mode_id="2" img="normal-3.png" img_dn="press-3.png">3</action>
+			<action mode_id="3" img="normal-{.png" img_dn="press-{.png">{</action>
+		</key>
+
+		<key x="280" y="5" width="54" height="58">
+			<action img="normal-r.png" img_dn="press-r.png">r</action>
+			<action mode_id="1" img="normal-R.png" img_dn="press-R.png">R</action>
+			<action mode_id="2" img="normal-4.png" img_dn="press-4.png">4</action>
+			<action mode_id="3" img="normal-}.png" img_dn="press-}.png">}</action>
+		</key>
+
+		<key x="342" y="5" width="54" height="58">
+			<action img="normal-t.png" img_dn="press-t.png">t</action>
+			<action mode_id="1" img="normal-T.png" img_dn="press-T.png">T</action>
+			<action mode_id="2" img="normal-5.png" img_dn="press-5.png">5</action>
+			<action mode_id="3" img="normal-^.png" img_dn="press-^png">^</action>
+		</key>
+
+		<key x="404" y="5" width="54" height="58">
+			<action img="normal-y.png" img_dn="press-y.png">y</action>
+			<action mode_id="1" img="normal-Y.png" img_dn="press-Y.png">Y</action>
+			<action mode_id="2" img="normal-6.png" img_dn="press-6.png">6</action>
+			<action mode_id="3" img="normal-ellipsis.png" img_dn="press-ellipsis.png">...</action>
+		</key>
+
+		<key x="466" y="5" width="54" height="58">
+			<action img="normal-u.png" img_dn="press-u.png">u</action>
+			<action mode_id="1" img="normal-U.png" img_dn="press-U.png">U</action>
+			<action mode_id="2" img="normal-7.png" img_dn="press-7.png">7</action>
+			<action mode_id="3" img="normal-add.png" img_dn="press-add.png">+</action>
+		</key>
+
+		<key x="528" y="5" width="54" height="58">
+			<action img="normal-i.png" img_dn="press-i.png">i</action>
+			<action mode_id="1" img="normal-I.png" img_dn="press-I.png">I</action>
+			<action mode_id="2" img="normal-8.png" img_dn="press-8.png">8</action>
+			<action mode_id="3" img="normal-multi.png" img_dn="press-multi.png">✕</action>
+		</key>
+
+		<key x="590" y="5" width="54" height="58">
+			<action img="normal-o.png" img_dn="press-o.png">o</action>
+			<action mode_id="1" img="normal-O.png" img_dn="press-O.png">O</action>
+			<action mode_id="2" img="normal-9.png" img_dn="press-9.png">9</action>
+			<action mode_id="3" img="normal-divi.png" img_dn="press-divi.png">÷</action>
+		</key>
+
+		<key x="652" y="5" width="54" height="58">
+		    	<action img="normal-p.png" img_dn="press-p.png">p</action>
+			<action mode_id="1" img="normal-P.png" img_dn="press-P.png">P</action>
+			<action mode_id="2" img="normal-0.png" img_dn="press-0.png">0</action>
+			<action mode_id="3" img="normal-equal.png" img_dn="press-equal.png">=</action>
+		</key>
+
+		<key x="714" y="5" width="78" height="58">
+			<action  img="normal-key-bs.png"  img_dn="press-key-bs.png" type="sym">BackSpace</action>
+		</key>
+
+		<!--second line -->
+
+		<key x="6" y="69" width="98" height="58">
+		    <action img="ying.png" img_dn="zhong.png" disp="IM" sup_label="aa" type="script">toggle-scim-ime.py</action> 
+		    <action mode_id="1" img="ying.png"   disp="IM" sup_label="aa" ></action>   
+		    <action mode_id="2" img="ying.png"   disp="IM" sup_label="aa" ></action>   
+		    <action mode_id="3" img="ying.png"    disp="IM" sup_label="aa" ></action>   
+		</key>
+
+		<key x="110" y="69" width="54" height="58">
+			<action img="normal-a.png" img_dn="press-a.png">a</action>
+			<action mode_id="1" img="normal-A.png" img_dn="press-A.png">A</action>
+			<action mode_id="2" img="normal-slash.png" img_dn="press-slash.png">/</action>
+			<action mode_id="3" img="normal-comma1.png" img_dn="press-comma1.png">`</action>
+		</key>
+
+		<key x="172" y="69" width="54" height="58">
+			<action  img="normal-s.png" img_dn="press-s.png">s</action>
+			<action mode_id="1"  img="normal-S.png" img_dn="press-S.png">S</action>
+			<action mode_id="2"  img="normal-at.png" img_dn="press-at.png">@</action>
+			<action mode_id="3" img="normal-dot1.png" img_dn="press-dot1.png">'</action>
+		</key>
+
+		<key x="234" y="69" width="54" height="58">
+			<action  img="normal-d.png" img_dn="press-d.png">d</action>
+			<action mode_id="1"  img="normal-D.png" img_dn="press-D.png">D</action>
+			<action mode_id="2" img="normal-sharp.png" img_dn="press-sharp.png">#</action>
+			<action mode_id="3" img="normal-ab-slash.png" img_dn="press-ab-slash.png">\</action>
+		</key>
+
+		<key x="296" y="69" width="54" height="58">
+			<action  img="normal-f.png" img_dn="press-f.png">f</action>
+			<action mode_id="1"  img="normal-F.png" img_dn="press-F.png">F</action>
+			<action mode_id="2"  img="normal-dollar.png" img_dn="press-dollar.png">$</action>
+			<action mode_id="3" img="normal-ab-bar.png" img_dn="press-ab-bar.png">|</action>
+		</key>
+
+		<key x="358" y="69" width="54" height="58">
+			<action  img="normal-g.png" img_dn="press-g.png">g</action>
+			<action mode_id="1"  img="normal-G.png" img_dn="press-G.png">G</action>
+			<action mode_id="2" img="normal-percent.png" img_dn="press-percent.png">%</action>
+			<action mode_id="3" img="normal-pound.png" img_dn="press-pound.png">£</action>  
+		</key>
+
+		<key x="420" y="69" width="54" height="58">
+			<action  img="normal-h.png" img_dn="press-h.png">h</action>
+			<action mode_id="1"  img="normal-H.png" img_dn="press-H.png">H</action>
+			<action mode_id="2" img="normal-ampersand.png" img_dn="press-ampersand.png">&amp;</action>
+			<action mode_id="3" img="normal-euro.png" img_dn="press-euro.png">€</action>
+		</key>
+
+		<key x="482" y="69" width="54" height="58">
+			<action  img="normal-j.png" img_dn="press-j.png">j</action>
+			<action mode_id="1"  img="normal-J.png" img_dn="press-J.png">J</action>
+			<action mode_id="2" img="normal-asterisk.png" img_dn="press-asterisk.png">*</action>
+			<action mode_id="3" img="normal-pigeon.png" img_dn="press-pigeon.png">✓</action>
+		</key>
+
+		<key x="544" y="69" width="54" height="58">
+			<action  img="normal-k.png" img_dn="press-k.png">k</action>
+			<action mode_id="1"  img="normal-K.png" img_dn="press-K.png">K</action>
+			<action mode_id="2" img="normal-left-parenthese.png" img_dn="press-left-parenthese.png" >(</action>
+			<action mode_id="3" img="normal-less.png" img_dn="press-less.png">&lt;</action>
+		</key>
+
+		<key x="606" y="69" width="54" height="58">
+			<action   img="normal-l.png" img_dn="press-l.png">l</action>
+			<action mode_id="1"   img="normal-L.png" img_dn="press-L.png">L</action>
+			<action mode_id="2" img="normal-right-parenthese.png" img_dn="press-right-parenthese.png">)</action>
+			<action mode_id="3" img="normal-greater.png" img_dn="press-greater.png">&gt;</action>
+		</key>
+
+		<key x="668" y="69" width="124" height="58" pop="none">
+			<action img="normal-return.png" img_dn="press-return.png" type="sym">Return</action>
+		</key>
+
+		<!-- third line-->
+		<key x="6" y="133" width="109" height="58">
+		    <action  img="normal-shift.png"  disp="IM"  shift="yes" type="func">mode:1</action>  
+		    <action  mode_id="1" img="press-shift.png"  disp="IM"  shift="yes" ></action>  
+		    <action  mode_id="2" img="move-down.png"  disp="IM"  shift="yes" type="func">mode:3</action>  
+		    <action  mode_id="3" img="move-up.png"  disp="IM"  shift="yes" type="func">mode:2</action>  
+		</key>
+
+		<key x="123" y="133" width="54" height="58">
+			<action  img="normal-z.png" img_dn="press-z.png">z</action>
+			<action mode_id="1"  img="normal-Z.png" img_dn="press-Z.png">Z</action>
+			<action mode_id="2" img="normal-middle-bar.png" img_dn="press-middle-bar.png">-</action>
+			<action mode_id="3"  img="normal-addsub.png" img_dn="press-addsub.png">±</action>
+		</key>
+
+		<key x="185" y="133" width="54" height="58">
+			<action  img="normal-x.png" img_dn="press-x.png">x</action>
+			<action mode_id="1"  img="normal-X.png" img_dn="press-X.png">X</action>
+			<action mode_id="2" img="normal-under-bar.png" img_dn="press-under-bar.png">_</action>
+			<action mode_id="3"  img="normal-lesseq.png" img_dn="press-lesseq.png">≼</action>
+		</key>
+
+		<key x="247" y="133" width="54" height="58">
+			<action  img="normal-c.png" img_dn="press-c.png">c</action>
+			<action mode_id="1"  img="normal-C.png" img_dn="press-C.png">C</action>
+			<action mode_id="2" img="normal-colon.png" img_dn="press-colon.png">:</action>
+			<action mode_id="3"  img="normal-greatereq.png" img_dn="press-greatereq.png">≽</action>
+		</key>
+
+		<key x="309" y="133" width="54" height="58">
+		    <action  img="normal-v.png" img_dn="press-v.png" >v</action>
+			<action mode_id="1" img="normal-V.png" img_dn="press-V.png">V</action>
+			<action mode_id="2" img="normal-semicolon.png" img_dn="press-semicolon.png">;</action>
+			<action mode_id="3"  img="normal-12.png" img_dn="press-12.png">½</action>
+		</key>
+
+		<key x="371" y="133" width="54" height="58">
+		    <action img="normal-b.png" img_dn="press-b.png">b</action>
+		    <action mode_id="1" img="normal-B.png" img_dn="press-B.png" >B</action>
+		    <action mode_id="2" img="normal-sin-quotation.png" img_dn="press-sin-quotation.png" >'</action>
+			<action mode_id="3"  img="normal-34.png" img_dn="press-34.png">¾</action>
+		</key>
+
+		<key x="433" y="133" width="54" height="58">
+			<action  img="normal-n.png" img_dn="press-n.png" >n</action>
+			<action mode_id="1"  img="normal-N.png" img_dn="press-N.png" >N</action>
+		    	<action mode_id="2" img="normal-dou-quotation.png" img_dn="press-dou-quotation.png" >"</action>
+			<action mode_id="3"  img="normal-14.png" img_dn="press-14.png">¼</action>
+		</key>
+
+		<key x="495" y="133" width="54" height="58">
+			<action img="normal-m.png" img_dn="press-m.png" >m</action>
+			<action mode_id="1" img="normal-M.png" img_dn="press-M.png" >M</action>
+			<action mode_id="2" img="normal-swung.png" img_dn="press-swung.png">~</action>
+			<action mode_id="3"  img="normal-hua.png" img_dn="press-hua.png">℉</action>
+		</key>
+
+		<key x="557" y="133" width="54" height="58">
+			<action  img="normal-exclamation.png" img_dn="press-exclamation.png">!</action>
+			<action mode_id="3"  img="normal-sheshi.png" img_dn="press-sheshi.png">℃</action>
+		</key>
+
+		<key x="619" y="133" width="54" height="58">
+			<action img="normal-question.png" img_dn="press-question.png">?</action>
+			<action mode_id="3"  img="normal-wendu.png" img_dn="press-wendu.png">°</action>
+		</key>
+
+		<key x="681" y="133" width="111" height="58">
+		    <action  img="normal-shift.png" img_dn="normal-shift.png" disp="IM"  shift="yes" type="func">mode:1</action>  
+		    <action  mode_id="1" img="press-shift.png"  disp="IM"  shift="yes" ></action>  
+		    <action  mode_id="2" img="move-down.png"  disp="IM"  shift="yes" type="func">mode:3</action>  
+		    <action  mode_id="3" img="move-up.png"  disp="IM"  shift="yes" type="func">mode:2</action>  
+		</key>
+
+		<!-- fourth line -->	
+		<key x="6" y="197" width="171" height="58"> 
+			<action img="left-normal-123.png" img_dn="left-normal-123.png" disp="IM" symbol123="yes" type="func">mode:2</action>  
+			<action mode_id="2" img="normal-left-abc.png" img_dn="normal-left-abc.png" disp="IM" symbol123="yes" ></action>  
+			<action mode_id="3" img="normal-left-abc.png" img_dn="normal-left-abc.png" disp="IM" symbol123="yes" ></action>  
+		</key>
+
+		<key x="185" y="197" width="302" height="58" pop="none">
+			<action img="normal-space.png" img_dn="press-space.png"> </action>
+		</key>
+
+		<key x="495" y="197" width="54" height="58">
+		    	<action  img="normal-comma.png" img_dn="press-comma.png">,</action>
+		</key>
+
+		<key x="557" y="197" width="54" height="58">
+		    	<action  img="normal-dot.png" img_dn="press-dot.png">.</action>
+		</key>
+
+		<key x="619" y="197" width="98" height="58">
+			<action img="left-normal-123.png" img_dn="left-normal-123.png" disp="IM" symbol123="yes" type="func">mode:2</action>  
+			<action mode_id="2" img="normal-right-abc.png" img_dn="normal-right-abc.png" disp="IM" symbol123="yes" ></action>  
+			<action mode_id="3" img="normal-left-abc.png" img_dn="normal-left-abc.png" disp="IM" symbol123="yes" ></action>  
+		</key>
+
+		<key x="725" y="197" width="67" height="58">
+			<action img="normal-hide.png"  img_dn="press-hide.png" type="script">disable-scim.py</action>
+		</key>  
+	</panel>
+
+</keyboard>

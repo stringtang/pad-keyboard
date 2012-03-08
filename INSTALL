@@ -1,0 +1,30 @@
+To pre-install:
+sudo apt-get install libfakekey-dev
+sudo apt-get install intltool
+sudo apt-get install scim
+sudo apt-get install scim-pinyin
+
+1. Install fvkbd-gtk
+1) To build:
+cd ./fvkbd
+./autogen.sh 
+./configure
+make
+
+2) To install:
+sudo make install
+export LD_LIBRARY_PATH=/usr/local/lib
+
+3) To run it:
+fvkbd-gtk
+
+2. Install scim-panel-vkb-gtk
+1) To build:
+cd ./scim-panel-vkb-gtk-0.1.6
+./autogen.sh
+make
+sudo make install
+
+2) To run it:
+cd src/
+./scim-panel-vkb-gtk

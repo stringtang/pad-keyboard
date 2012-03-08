@@ -1,0 +1,1829 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run aclocal-1.11$/;"	m
+ACLOCAL	data/Makefile	/^ACLOCAL = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run aclocal-1.11$/;"	m
+ACLOCAL	data/icons/Makefile	/^ACLOCAL = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run aclocal-1.11$/;"	m
+ACLOCAL	modules/Makefile	/^ACLOCAL = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run aclocal-1.11$/;"	m
+ACLOCAL	modules/SetupUI/Makefile	/^ACLOCAL = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run aclocal-1.11$/;"	m
+ACLOCAL	src/Makefile	/^ACLOCAL = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run aclocal-1.11$/;"	m
+ACLOCAL_AMFLAGS	Makefile	/^ACLOCAL_AMFLAGS = -I m4$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	data/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	data/icons/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	modules/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	modules/SetupUI/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	src/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ALL_LINGUAS	Makefile	/^ALL_LINGUAS = zh_CN $/;"	m
+ALL_LINGUAS	data/Makefile	/^ALL_LINGUAS = zh_CN $/;"	m
+ALL_LINGUAS	data/icons/Makefile	/^ALL_LINGUAS = zh_CN $/;"	m
+ALL_LINGUAS	modules/Makefile	/^ALL_LINGUAS = zh_CN $/;"	m
+ALL_LINGUAS	modules/SetupUI/Makefile	/^ALL_LINGUAS = zh_CN $/;"	m
+ALL_LINGUAS	po/Makefile	/^ALL_LINGUAS = zh_CN $/;"	m
+ALL_LINGUAS	src/Makefile	/^ALL_LINGUAS = zh_CN $/;"	m
+AMTAR	Makefile	/^AMTAR = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run tar$/;"	m
+AMTAR	data/Makefile	/^AMTAR = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run tar$/;"	m
+AMTAR	data/icons/Makefile	/^AMTAR = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run tar$/;"	m
+AMTAR	modules/Makefile	/^AMTAR = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run tar$/;"	m
+AMTAR	modules/SetupUI/Makefile	/^AMTAR = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run tar$/;"	m
+AMTAR	src/Makefile	/^AMTAR = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run tar$/;"	m
+AM_CXXFLAGS	modules/SetupUI/Makefile	/^AM_CXXFLAGS = -pthread -D_REENTRANT -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include -I\/usr\/include\/gtk-2.0 -I\/usr\/lib\/gtk-2.0\/include -I\/usr\/include\/atk-1.0 -I\/usr\/include\/cairo -I\/usr\/include\/pango-1.0 -I\/usr\/include\/gio-unix-2.0\/ -I\/usr\/include\/pixman-1 -I\/usr\/include\/freetype2 -I\/usr\/include\/directfb -I\/usr\/include\/libpng12 -I\/usr\/include\/scim-1.0 -I\/usr\/include\/dbus-1.0 -I\/usr\/lib\/dbus-1.0\/include   -Wall -Werror -DLOCALEDIR=\\"$(localedir)\\"$/;"	m
+AM_CXXFLAGS	src/Makefile	/^AM_CXXFLAGS = -pthread -D_REENTRANT -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include -I\/usr\/include\/gtk-2.0 -I\/usr\/lib\/gtk-2.0\/include -I\/usr\/include\/atk-1.0 -I\/usr\/include\/cairo -I\/usr\/include\/pango-1.0 -I\/usr\/include\/gio-unix-2.0\/ -I\/usr\/include\/pixman-1 -I\/usr\/include\/freetype2 -I\/usr\/include\/directfb -I\/usr\/include\/libpng12 -I\/usr\/include\/scim-1.0 -I\/usr\/include\/dbus-1.0 -I\/usr\/lib\/dbus-1.0\/include   -Wall -Werror -ggdb -DPKGDATADIR="$(pkgdatadir)" -DLOCALEDIR=\\"$(localedir)\\"$/;"	m
+AM_LDFLAGS	src/Makefile	/^AM_LDFLAGS = -pthread -L\/lib -lscim-gtkutils-1.0 -lgtk-x11-2.0 -lscim-1.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lgdk_pixbuf-2.0 -lm -lpangocairo-1.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgmodule-2.0 -ldbus-glib-1 -ldbus-1 -lpthread -lgobject-2.0 -lgthread-2.0 -lrt -lglib-2.0  $/;"	m
+AM_RECURSIVE_TARGETS	Makefile	/^AM_RECURSIVE_TARGETS = $(RECURSIVE_TARGETS:-recursive=) \\$/;"	m
+AM_RECURSIVE_TARGETS	data/Makefile	/^AM_RECURSIVE_TARGETS = $(RECURSIVE_TARGETS:-recursive=) \\$/;"	m
+AM_RECURSIVE_TARGETS	modules/Makefile	/^AM_RECURSIVE_TARGETS = $(RECURSIVE_TARGETS:-recursive=) \\$/;"	m
+AR	Makefile	/^AR = ar$/;"	m
+AR	data/Makefile	/^AR = ar$/;"	m
+AR	data/icons/Makefile	/^AR = ar$/;"	m
+AR	modules/Makefile	/^AR = ar$/;"	m
+AR	modules/SetupUI/Makefile	/^AR = ar$/;"	m
+AR	src/Makefile	/^AR = ar$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run autoconf$/;"	m
+AUTOCONF	data/Makefile	/^AUTOCONF = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run autoconf$/;"	m
+AUTOCONF	data/icons/Makefile	/^AUTOCONF = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run autoconf$/;"	m
+AUTOCONF	modules/Makefile	/^AUTOCONF = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run autoconf$/;"	m
+AUTOCONF	modules/SetupUI/Makefile	/^AUTOCONF = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run autoconf$/;"	m
+AUTOCONF	src/Makefile	/^AUTOCONF = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run autoheader$/;"	m
+AUTOHEADER	data/Makefile	/^AUTOHEADER = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run autoheader$/;"	m
+AUTOHEADER	data/icons/Makefile	/^AUTOHEADER = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run autoheader$/;"	m
+AUTOHEADER	modules/Makefile	/^AUTOHEADER = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run autoheader$/;"	m
+AUTOHEADER	modules/SetupUI/Makefile	/^AUTOHEADER = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run autoheader$/;"	m
+AUTOHEADER	src/Makefile	/^AUTOHEADER = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run automake-1.11$/;"	m
+AUTOMAKE	data/Makefile	/^AUTOMAKE = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run automake-1.11$/;"	m
+AUTOMAKE	data/icons/Makefile	/^AUTOMAKE = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run automake-1.11$/;"	m
+AUTOMAKE	modules/Makefile	/^AUTOMAKE = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run automake-1.11$/;"	m
+AUTOMAKE	modules/SetupUI/Makefile	/^AUTOMAKE = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run automake-1.11$/;"	m
+AUTOMAKE	src/Makefile	/^AUTOMAKE = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run automake-1.11$/;"	m
+AWK	Makefile	/^AWK = gawk$/;"	m
+AWK	data/Makefile	/^AWK = gawk$/;"	m
+AWK	data/icons/Makefile	/^AWK = gawk$/;"	m
+AWK	modules/Makefile	/^AWK = gawk$/;"	m
+AWK	modules/SetupUI/Makefile	/^AWK = gawk$/;"	m
+AWK	src/Makefile	/^AWK = gawk$/;"	m
+BUILT_SOURCES	src/Makefile	/^BUILT_SOURCES = $(DBUS_GLUE_FILES)$/;"	m
+CATALOGS	Makefile	/^CATALOGS =  zh_CN.gmo$/;"	m
+CATALOGS	data/Makefile	/^CATALOGS =  zh_CN.gmo$/;"	m
+CATALOGS	data/icons/Makefile	/^CATALOGS =  zh_CN.gmo$/;"	m
+CATALOGS	modules/Makefile	/^CATALOGS =  zh_CN.gmo$/;"	m
+CATALOGS	modules/SetupUI/Makefile	/^CATALOGS =  zh_CN.gmo$/;"	m
+CATALOGS	po/Makefile	/^CATALOGS=$(shell LINGUAS="$(USE_LINGUAS)"; for lang in $$LINGUAS; do printf "$$lang.gmo "; done)$/;"	m
+CATALOGS	src/Makefile	/^CATALOGS =  zh_CN.gmo$/;"	m
+CATOBJEXT	Makefile	/^CATOBJEXT = .gmo$/;"	m
+CATOBJEXT	data/Makefile	/^CATOBJEXT = .gmo$/;"	m
+CATOBJEXT	data/icons/Makefile	/^CATOBJEXT = .gmo$/;"	m
+CATOBJEXT	modules/Makefile	/^CATOBJEXT = .gmo$/;"	m
+CATOBJEXT	modules/SetupUI/Makefile	/^CATOBJEXT = .gmo$/;"	m
+CATOBJEXT	src/Makefile	/^CATOBJEXT = .gmo$/;"	m
+CC	Makefile	/^CC = gcc$/;"	m
+CC	data/Makefile	/^CC = gcc$/;"	m
+CC	data/icons/Makefile	/^CC = gcc$/;"	m
+CC	modules/Makefile	/^CC = gcc$/;"	m
+CC	modules/SetupUI/Makefile	/^CC = gcc$/;"	m
+CC	src/Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	data/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	data/icons/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	modules/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	modules/SetupUI/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	src/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	src/Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	data/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	data/icons/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	modules/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	modules/SetupUI/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	src/Makefile	/^CFLAGS = -g -O2$/;"	m
+CLEANFILES	Makefile	/^CLEANFILES = *~$/;"	m
+CLEANFILES	modules/Makefile	/^CLEANFILES = *.bak$/;"	m
+CLEANFILES	modules/SetupUI/Makefile	/^CLEANFILES = *.bak$/;"	m
+CLEANFILES	src/Makefile	/^CLEANFILES = *~$/;"	m
+COMPILE	src/Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	data/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	data/icons/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	modules/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	modules/SetupUI/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	src/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	data/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	data/icons/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	modules/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	modules/SetupUI/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	src/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = config.h$/;"	m
+CONFIG_HEADER	data/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	data/icons/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	modules/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	modules/SetupUI/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	src/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_PANEL_SETUP_MODULE	modules/SetupUI/Makefile	/^CONFIG_PANEL_SETUP_MODULE = aaa-panel-setup.la$/;"	m
+CONFIG_PANEL_VKB_SETUP_MODULE	modules/SetupUI/Makefile	/^CONFIG_PANEL_VKB_SETUP_MODULE = panel-vkb-setup.la$/;"	m
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPP	data/Makefile	/^CPP = gcc -E$/;"	m
+CPP	data/icons/Makefile	/^CPP = gcc -E$/;"	m
+CPP	modules/Makefile	/^CPP = gcc -E$/;"	m
+CPP	modules/SetupUI/Makefile	/^CPP = gcc -E$/;"	m
+CPP	src/Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	data/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	data/icons/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	modules/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	modules/SetupUI/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	src/Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	data/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	modules/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	modules/SetupUI/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	src/Makefile	/^CTAGS = ctags$/;"	m
+CXX	Makefile	/^CXX = g++$/;"	m
+CXX	data/Makefile	/^CXX = g++$/;"	m
+CXX	data/icons/Makefile	/^CXX = g++$/;"	m
+CXX	modules/Makefile	/^CXX = g++$/;"	m
+CXX	modules/SetupUI/Makefile	/^CXX = g++$/;"	m
+CXX	src/Makefile	/^CXX = g++$/;"	m
+CXXCOMPILE	modules/SetupUI/Makefile	/^CXXCOMPILE = $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \\$/;"	m
+CXXCOMPILE	src/Makefile	/^CXXCOMPILE = $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \\$/;"	m
+CXXCPP	Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXCPP	data/Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXCPP	data/icons/Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXCPP	modules/Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXCPP	modules/SetupUI/Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXCPP	src/Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXDEPMODE	Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	data/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	data/icons/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	modules/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	modules/SetupUI/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	src/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	data/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	data/icons/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	modules/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	modules/SetupUI/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	src/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXLD	modules/SetupUI/Makefile	/^CXXLD = $(CXX)$/;"	m
+CXXLD	src/Makefile	/^CXXLD = $(CXX)$/;"	m
+CXXLINK	modules/SetupUI/Makefile	/^CXXLINK = $(LIBTOOL) --tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+CXXLINK	src/Makefile	/^CXXLINK = $(LIBTOOL) --tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	data/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	data/icons/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	modules/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	modules/SetupUI/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	src/Makefile	/^CYGPATH_W = echo$/;"	m
+DATA	data/icons/Makefile	/^DATA = $(icon_DATA)$/;"	m
+DATADIRNAME	Makefile	/^DATADIRNAME = share$/;"	m
+DATADIRNAME	data/Makefile	/^DATADIRNAME = share$/;"	m
+DATADIRNAME	data/icons/Makefile	/^DATADIRNAME = share$/;"	m
+DATADIRNAME	modules/Makefile	/^DATADIRNAME = share$/;"	m
+DATADIRNAME	modules/SetupUI/Makefile	/^DATADIRNAME = share$/;"	m
+DATADIRNAME	po/Makefile	/^DATADIRNAME = share$/;"	m
+DATADIRNAME	src/Makefile	/^DATADIRNAME = share$/;"	m
+DBUS_BINDING_TOOL	Makefile	/^DBUS_BINDING_TOOL = \/usr\/bin\/dbus-binding-tool$/;"	m
+DBUS_BINDING_TOOL	data/Makefile	/^DBUS_BINDING_TOOL = \/usr\/bin\/dbus-binding-tool$/;"	m
+DBUS_BINDING_TOOL	data/icons/Makefile	/^DBUS_BINDING_TOOL = \/usr\/bin\/dbus-binding-tool$/;"	m
+DBUS_BINDING_TOOL	modules/Makefile	/^DBUS_BINDING_TOOL = \/usr\/bin\/dbus-binding-tool$/;"	m
+DBUS_BINDING_TOOL	modules/SetupUI/Makefile	/^DBUS_BINDING_TOOL = \/usr\/bin\/dbus-binding-tool$/;"	m
+DBUS_BINDING_TOOL	src/Makefile	/^DBUS_BINDING_TOOL = \/usr\/bin\/dbus-binding-tool$/;"	m
+DBUS_GLUE_FILES	src/Makefile	/^DBUS_GLUE_FILES = panel-vkb-dbus-glue.h$/;"	m
+DEFAULT_INCLUDES	modules/SetupUI/Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFAULT_INCLUDES	src/Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	data/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	data/icons/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	modules/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	modules/SetupUI/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	src/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	data/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	data/icons/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	modules/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	modules/SetupUI/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	src/Makefile	/^DEPDIR = .deps$/;"	m
+DISTCLEANFILES	src/Makefile	/^DISTCLEANFILES = $(DBUS_GLUE_FILES)$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	data/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	data/icons/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	modules/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	modules/SetupUI/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	po/Makefile	/^DISTFILES = Makefile.in.in POTFILES.in $(POFILES)$/;"	m
+DISTFILES	src/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_ARCHIVES	Makefile	/^DIST_ARCHIVES = $(distdir).tar.gz$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = README $(am__configure_deps) $(srcdir)\/Makefile.am \\$/;"	m
+DIST_COMMON	data/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_COMMON	data/icons/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_COMMON	modules/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_COMMON	modules/SetupUI/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_COMMON	src/Makefile	/^DIST_COMMON = $(dist_bin_SCRIPTS) $(srcdir)\/Makefile.am \\$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	data/Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	data/icons/Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	modules/Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	modules/SetupUI/Makefile	/^DIST_SOURCES = $(aaa_panel_setup_la_SOURCES) \\$/;"	m
+DIST_SOURCES	src/Makefile	/^DIST_SOURCES = $(scim_panel_vkb_gtk_SOURCES)$/;"	m
+DIST_SUBDIRS	Makefile	/^DIST_SUBDIRS = $(SUBDIRS)$/;"	m
+DIST_SUBDIRS	data/Makefile	/^DIST_SUBDIRS = $(SUBDIRS)$/;"	m
+DIST_SUBDIRS	modules/Makefile	/^DIST_SUBDIRS = $(SUBDIRS)$/;"	m
+DSYMUTIL	Makefile	/^DSYMUTIL = $/;"	m
+DSYMUTIL	data/Makefile	/^DSYMUTIL = $/;"	m
+DSYMUTIL	data/icons/Makefile	/^DSYMUTIL = $/;"	m
+DSYMUTIL	modules/Makefile	/^DSYMUTIL = $/;"	m
+DSYMUTIL	modules/SetupUI/Makefile	/^DSYMUTIL = $/;"	m
+DSYMUTIL	src/Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	Makefile	/^DUMPBIN = $/;"	m
+DUMPBIN	data/Makefile	/^DUMPBIN = $/;"	m
+DUMPBIN	data/icons/Makefile	/^DUMPBIN = $/;"	m
+DUMPBIN	modules/Makefile	/^DUMPBIN = $/;"	m
+DUMPBIN	modules/SetupUI/Makefile	/^DUMPBIN = $/;"	m
+DUMPBIN	src/Makefile	/^DUMPBIN = $/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_C	data/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	data/icons/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	modules/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	modules/SetupUI/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	src/Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	data/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	data/icons/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	modules/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	modules/SetupUI/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	src/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+ECHO_T	data/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	data/icons/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	modules/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	modules/SetupUI/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	src/Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	data/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	data/icons/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	modules/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	modules/SetupUI/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	src/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ENABLE_NLS	config.h	8;"	d
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+ETAGS	data/Makefile	/^ETAGS = etags$/;"	m
+ETAGS	modules/Makefile	/^ETAGS = etags$/;"	m
+ETAGS	modules/SetupUI/Makefile	/^ETAGS = etags$/;"	m
+ETAGS	src/Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+EXEEXT	data/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	data/icons/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	modules/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	modules/SetupUI/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	src/Makefile	/^EXEEXT = $/;"	m
+EXTRA_DIST	Makefile	/^EXTRA_DIST = autogen.sh$/;"	m
+EXTRA_DIST	data/icons/Makefile	/^EXTRA_DIST = $(NOINST_ICONS) \\$/;"	m
+EXTRA_DIST	src/Makefile	/^EXTRA_DIST = $(DBUS_GLUE_FILES) panel-vkb-dbus.xml$/;"	m
+EXTRA_DISTFILES	po/Makefile	/^EXTRA_DISTFILES = ChangeLog POTFILES.skip Makevars LINGUAS$/;"	m
+FGREP	Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FGREP	data/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FGREP	data/icons/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FGREP	modules/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FGREP	modules/SetupUI/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FGREP	src/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+GENPOT	po/Makefile	/^GENPOT   = INTLTOOL_EXTRACT=$(INTLTOOL_EXTRACT) srcdir=$(srcdir) $(INTLTOOL_UPDATE) --gettext-package $(GETTEXT_PACKAGE) --pot$/;"	m
+GETTEXT_PACKAGE	Makefile	/^GETTEXT_PACKAGE = scim-panel-vkb-gtk$/;"	m
+GETTEXT_PACKAGE	config.h	11;"	d
+GETTEXT_PACKAGE	data/Makefile	/^GETTEXT_PACKAGE = scim-panel-vkb-gtk$/;"	m
+GETTEXT_PACKAGE	data/icons/Makefile	/^GETTEXT_PACKAGE = scim-panel-vkb-gtk$/;"	m
+GETTEXT_PACKAGE	modules/Makefile	/^GETTEXT_PACKAGE = scim-panel-vkb-gtk$/;"	m
+GETTEXT_PACKAGE	modules/SetupUI/Makefile	/^GETTEXT_PACKAGE = scim-panel-vkb-gtk$/;"	m
+GETTEXT_PACKAGE	po/Makefile	/^GETTEXT_PACKAGE = scim-panel-vkb-gtk$/;"	m
+GETTEXT_PACKAGE	src/Makefile	/^GETTEXT_PACKAGE = scim-panel-vkb-gtk$/;"	m
+GMOFILES	Makefile	/^GMOFILES =  zh_CN.gmo$/;"	m
+GMOFILES	data/Makefile	/^GMOFILES =  zh_CN.gmo$/;"	m
+GMOFILES	data/icons/Makefile	/^GMOFILES =  zh_CN.gmo$/;"	m
+GMOFILES	modules/Makefile	/^GMOFILES =  zh_CN.gmo$/;"	m
+GMOFILES	modules/SetupUI/Makefile	/^GMOFILES =  zh_CN.gmo$/;"	m
+GMOFILES	src/Makefile	/^GMOFILES =  zh_CN.gmo$/;"	m
+GMSGFMT	Makefile	/^GMSGFMT = \/usr\/bin\/msgfmt$/;"	m
+GMSGFMT	data/Makefile	/^GMSGFMT = \/usr\/bin\/msgfmt$/;"	m
+GMSGFMT	data/icons/Makefile	/^GMSGFMT = \/usr\/bin\/msgfmt$/;"	m
+GMSGFMT	modules/Makefile	/^GMSGFMT = \/usr\/bin\/msgfmt$/;"	m
+GMSGFMT	modules/SetupUI/Makefile	/^GMSGFMT = \/usr\/bin\/msgfmt$/;"	m
+GMSGFMT	po/Makefile	/^GMSGFMT = \/usr\/bin\/msgfmt$/;"	m
+GMSGFMT	src/Makefile	/^GMSGFMT = \/usr\/bin\/msgfmt$/;"	m
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	data/Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	data/icons/Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	modules/Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	modules/SetupUI/Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	src/Makefile	/^GREP = \/bin\/grep$/;"	m
+GZIP_ENV	Makefile	/^GZIP_ENV = --best$/;"	m
+HAVE_BIND_TEXTDOMAIN_CODESET	config.h	14;"	d
+HAVE_DCGETTEXT	config.h	17;"	d
+HAVE_DLFCN_H	config.h	20;"	d
+HAVE_GETTEXT	config.h	23;"	d
+HAVE_INTTYPES_H	config.h	26;"	d
+HAVE_LC_MESSAGES	config.h	29;"	d
+HAVE_LOCALE_H	config.h	32;"	d
+HAVE_MEMORY_H	config.h	35;"	d
+HAVE_STDINT_H	config.h	38;"	d
+HAVE_STDLIB_H	config.h	41;"	d
+HAVE_STRINGS_H	config.h	44;"	d
+HAVE_STRING_H	config.h	47;"	d
+HAVE_SYS_STAT_H	config.h	50;"	d
+HAVE_SYS_TYPES_H	config.h	53;"	d
+HAVE_UNISTD_H	config.h	56;"	d
+HelperPropertyInfo	src/scim-panel-vkb-gtk.cpp	/^    HelperPropertyInfo () : holder (0) { }$/;"	f	struct:HelperPropertyInfo
+HelperPropertyInfo	src/scim-panel-vkb-gtk.cpp	/^struct HelperPropertyInfo {$/;"	s	file:
+HelperPropertyRepository	src/scim-panel-vkb-gtk.cpp	/^typedef __gnu_cxx::hash_map <int, HelperPropertyInfo, __gnu_cxx::hash <int> > HelperPropertyRepository;$/;"	t	file:
+HelperPropertyRepository	src/scim-panel-vkb-gtk.cpp	/^typedef std::hash_map <int, HelperPropertyInfo, std::hash <int> >             HelperPropertyRepository;$/;"	t	file:
+HelperPropertyRepository	src/scim-panel-vkb-gtk.cpp	/^typedef std::map <int, HelperPropertyInfo>                                    HelperPropertyRepository;$/;"	t	file:
+INCLUDES	modules/SetupUI/Makefile	/^INCLUDES = -I$(top_builddir) \\$/;"	m
+INCLUDES	src/Makefile	/^INCLUDES = -I$(top_srcdir) \\$/;"	m
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	data/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	data/icons/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	modules/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	modules/SetupUI/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	po/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	src/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	data/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	data/icons/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	modules/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	modules/SetupUI/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	po/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	src/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	data/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	data/icons/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	modules/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	modules/SetupUI/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	src/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	data/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	data/icons/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	modules/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	modules/SetupUI/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	src/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	data/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	data/icons/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	modules/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	modules/SetupUI/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	src/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	data/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	data/icons/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	modules/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	modules/SetupUI/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	src/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTOBJEXT	Makefile	/^INSTOBJEXT = .mo$/;"	m
+INSTOBJEXT	data/Makefile	/^INSTOBJEXT = .mo$/;"	m
+INSTOBJEXT	data/icons/Makefile	/^INSTOBJEXT = .mo$/;"	m
+INSTOBJEXT	modules/Makefile	/^INSTOBJEXT = .mo$/;"	m
+INSTOBJEXT	modules/SetupUI/Makefile	/^INSTOBJEXT = .mo$/;"	m
+INSTOBJEXT	src/Makefile	/^INSTOBJEXT = .mo$/;"	m
+INST_ICONS	data/icons/Makefile	/^INST_ICONS = $/;"	m
+INTLLIBS	Makefile	/^INTLLIBS = $/;"	m
+INTLLIBS	data/Makefile	/^INTLLIBS = $/;"	m
+INTLLIBS	data/icons/Makefile	/^INTLLIBS = $/;"	m
+INTLLIBS	modules/Makefile	/^INTLLIBS = $/;"	m
+INTLLIBS	modules/SetupUI/Makefile	/^INTLLIBS = $/;"	m
+INTLLIBS	src/Makefile	/^INTLLIBS = $/;"	m
+INTLTOOL_EXTRACT	Makefile	/^INTLTOOL_EXTRACT = \/usr\/bin\/intltool-extract$/;"	m
+INTLTOOL_EXTRACT	data/Makefile	/^INTLTOOL_EXTRACT = \/usr\/bin\/intltool-extract$/;"	m
+INTLTOOL_EXTRACT	data/icons/Makefile	/^INTLTOOL_EXTRACT = \/usr\/bin\/intltool-extract$/;"	m
+INTLTOOL_EXTRACT	modules/Makefile	/^INTLTOOL_EXTRACT = \/usr\/bin\/intltool-extract$/;"	m
+INTLTOOL_EXTRACT	modules/SetupUI/Makefile	/^INTLTOOL_EXTRACT = \/usr\/bin\/intltool-extract$/;"	m
+INTLTOOL_EXTRACT	po/Makefile	/^INTLTOOL_EXTRACT = \/usr\/bin\/intltool-extract$/;"	m
+INTLTOOL_EXTRACT	src/Makefile	/^INTLTOOL_EXTRACT = \/usr\/bin\/intltool-extract$/;"	m
+INTLTOOL_MERGE	Makefile	/^INTLTOOL_MERGE = \/usr\/bin\/intltool-merge$/;"	m
+INTLTOOL_MERGE	data/Makefile	/^INTLTOOL_MERGE = \/usr\/bin\/intltool-merge$/;"	m
+INTLTOOL_MERGE	data/icons/Makefile	/^INTLTOOL_MERGE = \/usr\/bin\/intltool-merge$/;"	m
+INTLTOOL_MERGE	modules/Makefile	/^INTLTOOL_MERGE = \/usr\/bin\/intltool-merge$/;"	m
+INTLTOOL_MERGE	modules/SetupUI/Makefile	/^INTLTOOL_MERGE = \/usr\/bin\/intltool-merge$/;"	m
+INTLTOOL_MERGE	src/Makefile	/^INTLTOOL_MERGE = \/usr\/bin\/intltool-merge$/;"	m
+INTLTOOL_PERL	Makefile	/^INTLTOOL_PERL = \/usr\/bin\/perl$/;"	m
+INTLTOOL_PERL	data/Makefile	/^INTLTOOL_PERL = \/usr\/bin\/perl$/;"	m
+INTLTOOL_PERL	data/icons/Makefile	/^INTLTOOL_PERL = \/usr\/bin\/perl$/;"	m
+INTLTOOL_PERL	modules/Makefile	/^INTLTOOL_PERL = \/usr\/bin\/perl$/;"	m
+INTLTOOL_PERL	modules/SetupUI/Makefile	/^INTLTOOL_PERL = \/usr\/bin\/perl$/;"	m
+INTLTOOL_PERL	src/Makefile	/^INTLTOOL_PERL = \/usr\/bin\/perl$/;"	m
+INTLTOOL_UPDATE	Makefile	/^INTLTOOL_UPDATE = \/usr\/bin\/intltool-update$/;"	m
+INTLTOOL_UPDATE	data/Makefile	/^INTLTOOL_UPDATE = \/usr\/bin\/intltool-update$/;"	m
+INTLTOOL_UPDATE	data/icons/Makefile	/^INTLTOOL_UPDATE = \/usr\/bin\/intltool-update$/;"	m
+INTLTOOL_UPDATE	modules/Makefile	/^INTLTOOL_UPDATE = \/usr\/bin\/intltool-update$/;"	m
+INTLTOOL_UPDATE	modules/SetupUI/Makefile	/^INTLTOOL_UPDATE = \/usr\/bin\/intltool-update$/;"	m
+INTLTOOL_UPDATE	po/Makefile	/^INTLTOOL_UPDATE = \/usr\/bin\/intltool-update$/;"	m
+INTLTOOL_UPDATE	src/Makefile	/^INTLTOOL_UPDATE = \/usr\/bin\/intltool-update$/;"	m
+LD	Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LD	data/Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LD	data/icons/Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LD	modules/Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LD	modules/SetupUI/Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LD	src/Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	data/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	data/icons/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	modules/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	modules/SetupUI/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	src/Makefile	/^LDFLAGS = $/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	data/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	data/icons/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	modules/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	modules/SetupUI/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	src/Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = $/;"	m
+LIBS	data/Makefile	/^LIBS = $/;"	m
+LIBS	data/icons/Makefile	/^LIBS = $/;"	m
+LIBS	modules/Makefile	/^LIBS = $/;"	m
+LIBS	modules/SetupUI/Makefile	/^LIBS = $/;"	m
+LIBS	src/Makefile	/^LIBS = $/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	data/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	data/icons/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	modules/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	modules/SetupUI/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	src/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LINK	src/Makefile	/^LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LIPO	Makefile	/^LIPO = $/;"	m
+LIPO	data/Makefile	/^LIPO = $/;"	m
+LIPO	data/icons/Makefile	/^LIPO = $/;"	m
+LIPO	modules/Makefile	/^LIPO = $/;"	m
+LIPO	modules/SetupUI/Makefile	/^LIPO = $/;"	m
+LIPO	src/Makefile	/^LIPO = $/;"	m
+LN_S	Makefile	/^LN_S = ln -s$/;"	m
+LN_S	data/Makefile	/^LN_S = ln -s$/;"	m
+LN_S	data/icons/Makefile	/^LN_S = ln -s$/;"	m
+LN_S	modules/Makefile	/^LN_S = ln -s$/;"	m
+LN_S	modules/SetupUI/Makefile	/^LN_S = ln -s$/;"	m
+LN_S	src/Makefile	/^LN_S = ln -s$/;"	m
+LOOKUP_ICON_SIZE	src/scim-panel-vkb-gtk.cpp	95;"	d	file:
+LOOKUP_TABLE_MIN_HEIGHT	src/scim-panel-vkb-gtk.cpp	103;"	d	file:
+LTCOMPILE	src/Makefile	/^LTCOMPILE = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LTCXXCOMPILE	modules/SetupUI/Makefile	/^LTCXXCOMPILE = $(LIBTOOL) --tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LTCXXCOMPILE	src/Makefile	/^LTCXXCOMPILE = $(LIBTOOL) --tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	data/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	data/icons/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	modules/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	modules/SetupUI/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	src/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBRARIES	modules/SetupUI/Makefile	/^LTLIBRARIES = $(setupmodule_LTLIBRARIES)$/;"	m
+LT_OBJDIR	config.h	60;"	d
+MAINTAINERCLEANFILES	data/Makefile	/^MAINTAINERCLEANFILES = Makefile.in$/;"	m
+MAINTAINERCLEANFILES	data/icons/Makefile	/^MAINTAINERCLEANFILES = Makefile.in$/;"	m
+MAINTAINERCLEANFILES	modules/Makefile	/^MAINTAINERCLEANFILES = Makefile.in$/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run makeinfo$/;"	m
+MAKEINFO	data/Makefile	/^MAKEINFO = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run makeinfo$/;"	m
+MAKEINFO	data/icons/Makefile	/^MAKEINFO = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run makeinfo$/;"	m
+MAKEINFO	modules/Makefile	/^MAKEINFO = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run makeinfo$/;"	m
+MAKEINFO	modules/SetupUI/Makefile	/^MAKEINFO = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run makeinfo$/;"	m
+MAKEINFO	src/Makefile	/^MAKEINFO = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/missing --run makeinfo$/;"	m
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	data/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	data/icons/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	modules/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	modules/SetupUI/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	src/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKINSTALLDIRS	Makefile	/^MKINSTALLDIRS = .\/mkinstalldirs$/;"	m
+MKINSTALLDIRS	data/Makefile	/^MKINSTALLDIRS = .\/mkinstalldirs$/;"	m
+MKINSTALLDIRS	data/icons/Makefile	/^MKINSTALLDIRS = .\/mkinstalldirs$/;"	m
+MKINSTALLDIRS	modules/Makefile	/^MKINSTALLDIRS = .\/mkinstalldirs$/;"	m
+MKINSTALLDIRS	modules/SetupUI/Makefile	/^MKINSTALLDIRS = .\/mkinstalldirs$/;"	m
+MKINSTALLDIRS	src/Makefile	/^MKINSTALLDIRS = .\/mkinstalldirs$/;"	m
+MSGFMT	Makefile	/^MSGFMT = \/usr\/bin\/msgfmt$/;"	m
+MSGFMT	data/Makefile	/^MSGFMT = \/usr\/bin\/msgfmt$/;"	m
+MSGFMT	data/icons/Makefile	/^MSGFMT = \/usr\/bin\/msgfmt$/;"	m
+MSGFMT	modules/Makefile	/^MSGFMT = \/usr\/bin\/msgfmt$/;"	m
+MSGFMT	modules/SetupUI/Makefile	/^MSGFMT = \/usr\/bin\/msgfmt$/;"	m
+MSGFMT	po/Makefile	/^MSGFMT = \/usr\/bin\/msgfmt$/;"	m
+MSGFMT	src/Makefile	/^MSGFMT = \/usr\/bin\/msgfmt$/;"	m
+MSGFMT_OPTS	Makefile	/^MSGFMT_OPTS = -c$/;"	m
+MSGFMT_OPTS	data/Makefile	/^MSGFMT_OPTS = -c$/;"	m
+MSGFMT_OPTS	data/icons/Makefile	/^MSGFMT_OPTS = -c$/;"	m
+MSGFMT_OPTS	modules/Makefile	/^MSGFMT_OPTS = -c$/;"	m
+MSGFMT_OPTS	modules/SetupUI/Makefile	/^MSGFMT_OPTS = -c$/;"	m
+MSGFMT_OPTS	src/Makefile	/^MSGFMT_OPTS = -c$/;"	m
+MSGMERGE	Makefile	/^MSGMERGE = \/usr\/bin\/msgmerge$/;"	m
+MSGMERGE	data/Makefile	/^MSGMERGE = \/usr\/bin\/msgmerge$/;"	m
+MSGMERGE	data/icons/Makefile	/^MSGMERGE = \/usr\/bin\/msgmerge$/;"	m
+MSGMERGE	modules/Makefile	/^MSGMERGE = \/usr\/bin\/msgmerge$/;"	m
+MSGMERGE	modules/SetupUI/Makefile	/^MSGMERGE = \/usr\/bin\/msgmerge$/;"	m
+MSGMERGE	po/Makefile	/^MSGMERGE = INTLTOOL_EXTRACT=$(INTLTOOL_EXTRACT) srcdir=$(srcdir) $(INTLTOOL_UPDATE) --gettext-package $(GETTEXT_PACKAGE) --dist$/;"	m
+MSGMERGE	src/Makefile	/^MSGMERGE = \/usr\/bin\/msgmerge$/;"	m
+MapStringVectorSizeT	src/scim-panel-vkb-gtk.cpp	/^typedef __gnu_cxx::hash_map <String, std::vector <size_t>, scim_hash_string>  MapStringVectorSizeT;$/;"	t	file:
+MapStringVectorSizeT	src/scim-panel-vkb-gtk.cpp	/^typedef std::hash_map <String, std::vector <size_t>, scim_hash_string>        MapStringVectorSizeT;$/;"	t	file:
+MapStringVectorSizeT	src/scim-panel-vkb-gtk.cpp	/^typedef std::map <String, std::vector <size_t> >                              MapStringVectorSizeT;$/;"	t	file:
+NM	Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NM	data/Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NM	data/icons/Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NM	modules/Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NM	modules/SetupUI/Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NM	src/Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NMEDIT	Makefile	/^NMEDIT = $/;"	m
+NMEDIT	data/Makefile	/^NMEDIT = $/;"	m
+NMEDIT	data/icons/Makefile	/^NMEDIT = $/;"	m
+NMEDIT	modules/Makefile	/^NMEDIT = $/;"	m
+NMEDIT	modules/SetupUI/Makefile	/^NMEDIT = $/;"	m
+NMEDIT	src/Makefile	/^NMEDIT = $/;"	m
+NOINST_ICONS	data/icons/Makefile	/^NOINST_ICONS = setup.xpm \\$/;"	m
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	data/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	data/icons/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	modules/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	modules/SetupUI/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	src/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	data/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	data/icons/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	modules/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	modules/SetupUI/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	src/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+N_	modules/SetupUI/scim_panel_setup.cpp	43;"	d	file:
+N_	modules/SetupUI/scim_panel_vkb_setup.cpp	40;"	d	file:
+N_	src/panel_private.h	33;"	d
+OBJDUMP	Makefile	/^OBJDUMP = objdump$/;"	m
+OBJDUMP	data/Makefile	/^OBJDUMP = objdump$/;"	m
+OBJDUMP	data/icons/Makefile	/^OBJDUMP = objdump$/;"	m
+OBJDUMP	modules/Makefile	/^OBJDUMP = objdump$/;"	m
+OBJDUMP	modules/SetupUI/Makefile	/^OBJDUMP = objdump$/;"	m
+OBJDUMP	src/Makefile	/^OBJDUMP = objdump$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	data/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	data/icons/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	modules/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	modules/SetupUI/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	src/Makefile	/^OBJEXT = o$/;"	m
+OTOOL	Makefile	/^OTOOL = $/;"	m
+OTOOL	data/Makefile	/^OTOOL = $/;"	m
+OTOOL	data/icons/Makefile	/^OTOOL = $/;"	m
+OTOOL	modules/Makefile	/^OTOOL = $/;"	m
+OTOOL	modules/SetupUI/Makefile	/^OTOOL = $/;"	m
+OTOOL	src/Makefile	/^OTOOL = $/;"	m
+OTOOL64	Makefile	/^OTOOL64 = $/;"	m
+OTOOL64	data/Makefile	/^OTOOL64 = $/;"	m
+OTOOL64	data/icons/Makefile	/^OTOOL64 = $/;"	m
+OTOOL64	modules/Makefile	/^OTOOL64 = $/;"	m
+OTOOL64	modules/SetupUI/Makefile	/^OTOOL64 = $/;"	m
+OTOOL64	src/Makefile	/^OTOOL64 = $/;"	m
+PACKAGE	Makefile	/^PACKAGE = scim-panel-vkb-gtk$/;"	m
+PACKAGE	config.h	63;"	d
+PACKAGE	data/Makefile	/^PACKAGE = scim-panel-vkb-gtk$/;"	m
+PACKAGE	data/icons/Makefile	/^PACKAGE = scim-panel-vkb-gtk$/;"	m
+PACKAGE	modules/Makefile	/^PACKAGE = scim-panel-vkb-gtk$/;"	m
+PACKAGE	modules/SetupUI/Makefile	/^PACKAGE = scim-panel-vkb-gtk$/;"	m
+PACKAGE	po/Makefile	/^PACKAGE = scim-panel-vkb-gtk$/;"	m
+PACKAGE	src/Makefile	/^PACKAGE = scim-panel-vkb-gtk$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_BUGREPORT	config.h	66;"	d
+PACKAGE_BUGREPORT	data/Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_BUGREPORT	data/icons/Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_BUGREPORT	modules/Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_BUGREPORT	modules/SetupUI/Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_BUGREPORT	src/Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = scim-panel-vkb-gtk$/;"	m
+PACKAGE_NAME	config.h	69;"	d
+PACKAGE_NAME	data/Makefile	/^PACKAGE_NAME = scim-panel-vkb-gtk$/;"	m
+PACKAGE_NAME	data/icons/Makefile	/^PACKAGE_NAME = scim-panel-vkb-gtk$/;"	m
+PACKAGE_NAME	modules/Makefile	/^PACKAGE_NAME = scim-panel-vkb-gtk$/;"	m
+PACKAGE_NAME	modules/SetupUI/Makefile	/^PACKAGE_NAME = scim-panel-vkb-gtk$/;"	m
+PACKAGE_NAME	src/Makefile	/^PACKAGE_NAME = scim-panel-vkb-gtk$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = scim-panel-vkb-gtk 0.1.6$/;"	m
+PACKAGE_STRING	config.h	72;"	d
+PACKAGE_STRING	data/Makefile	/^PACKAGE_STRING = scim-panel-vkb-gtk 0.1.6$/;"	m
+PACKAGE_STRING	data/icons/Makefile	/^PACKAGE_STRING = scim-panel-vkb-gtk 0.1.6$/;"	m
+PACKAGE_STRING	modules/Makefile	/^PACKAGE_STRING = scim-panel-vkb-gtk 0.1.6$/;"	m
+PACKAGE_STRING	modules/SetupUI/Makefile	/^PACKAGE_STRING = scim-panel-vkb-gtk 0.1.6$/;"	m
+PACKAGE_STRING	src/Makefile	/^PACKAGE_STRING = scim-panel-vkb-gtk 0.1.6$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = scim-panel-vkb-gtk$/;"	m
+PACKAGE_TARNAME	config.h	75;"	d
+PACKAGE_TARNAME	data/Makefile	/^PACKAGE_TARNAME = scim-panel-vkb-gtk$/;"	m
+PACKAGE_TARNAME	data/icons/Makefile	/^PACKAGE_TARNAME = scim-panel-vkb-gtk$/;"	m
+PACKAGE_TARNAME	modules/Makefile	/^PACKAGE_TARNAME = scim-panel-vkb-gtk$/;"	m
+PACKAGE_TARNAME	modules/SetupUI/Makefile	/^PACKAGE_TARNAME = scim-panel-vkb-gtk$/;"	m
+PACKAGE_TARNAME	src/Makefile	/^PACKAGE_TARNAME = scim-panel-vkb-gtk$/;"	m
+PACKAGE_URL	Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	config.h	78;"	d
+PACKAGE_URL	data/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	data/icons/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	modules/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	modules/SetupUI/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	src/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 0.1.6$/;"	m
+PACKAGE_VERSION	config.h	81;"	d
+PACKAGE_VERSION	data/Makefile	/^PACKAGE_VERSION = 0.1.6$/;"	m
+PACKAGE_VERSION	data/icons/Makefile	/^PACKAGE_VERSION = 0.1.6$/;"	m
+PACKAGE_VERSION	modules/Makefile	/^PACKAGE_VERSION = 0.1.6$/;"	m
+PACKAGE_VERSION	modules/SetupUI/Makefile	/^PACKAGE_VERSION = 0.1.6$/;"	m
+PACKAGE_VERSION	src/Makefile	/^PACKAGE_VERSION = 0.1.6$/;"	m
+PANELVKBDBUSOBJ	src/panel-vkb-dbusobj.h	35;"	d
+PANEL_DEFAULT_TRIGER_DELAY	src/scim-panel-vkb-gtk.cpp	105;"	d	file:
+PANEL_VKB_DBUSOBJ_H	src/panel-vkb-dbusobj.h	24;"	d
+PANEL_VKB_DBUSOBJ_SERVICE_INTERFACE	src/panel-vkb-dbusobj.h	32;"	d
+PANEL_VKB_DBUSOBJ_SERVICE_NAME	src/panel-vkb-dbusobj.h	29;"	d
+PANEL_VKB_DBUSOBJ_SERVICE_OBJECT_PATH	src/panel-vkb-dbusobj.h	31;"	d
+PANEL_VKB_TYPE_DBUSOBJ	src/panel-vkb-dbusobj.h	34;"	d
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	data/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	data/icons/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	modules/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	modules/SetupUI/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	src/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PKG_CONFIG	Makefile	/^PKG_CONFIG = \/usr\/bin\/pkg-config$/;"	m
+PKG_CONFIG	data/Makefile	/^PKG_CONFIG = \/usr\/bin\/pkg-config$/;"	m
+PKG_CONFIG	data/icons/Makefile	/^PKG_CONFIG = \/usr\/bin\/pkg-config$/;"	m
+PKG_CONFIG	modules/Makefile	/^PKG_CONFIG = \/usr\/bin\/pkg-config$/;"	m
+PKG_CONFIG	modules/SetupUI/Makefile	/^PKG_CONFIG = \/usr\/bin\/pkg-config$/;"	m
+PKG_CONFIG	src/Makefile	/^PKG_CONFIG = \/usr\/bin\/pkg-config$/;"	m
+POFILES	Makefile	/^POFILES =  zh_CN.po$/;"	m
+POFILES	data/Makefile	/^POFILES =  zh_CN.po$/;"	m
+POFILES	data/icons/Makefile	/^POFILES =  zh_CN.po$/;"	m
+POFILES	modules/Makefile	/^POFILES =  zh_CN.po$/;"	m
+POFILES	modules/SetupUI/Makefile	/^POFILES =  zh_CN.po$/;"	m
+POFILES	po/Makefile	/^POFILES=$(shell LINGUAS="$(PO_LINGUAS)"; for lang in $$LINGUAS; do printf "$$lang.po "; done)$/;"	m
+POFILES	src/Makefile	/^POFILES =  zh_CN.po$/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	data/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	data/icons/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	modules/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	modules/SetupUI/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	src/Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	data/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	data/icons/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	modules/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	modules/SetupUI/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	src/Makefile	/^POST_UNINSTALL = :$/;"	m
+POSUB	Makefile	/^POSUB = po$/;"	m
+POSUB	data/Makefile	/^POSUB = po$/;"	m
+POSUB	data/icons/Makefile	/^POSUB = po$/;"	m
+POSUB	modules/Makefile	/^POSUB = po$/;"	m
+POSUB	modules/SetupUI/Makefile	/^POSUB = po$/;"	m
+POSUB	src/Makefile	/^POSUB = po$/;"	m
+POTFILES	po/Makefile	/^POTFILES = \\$/;"	m
+PO_IN_DATADIR_FALSE	Makefile	/^PO_IN_DATADIR_FALSE = $/;"	m
+PO_IN_DATADIR_FALSE	data/Makefile	/^PO_IN_DATADIR_FALSE = $/;"	m
+PO_IN_DATADIR_FALSE	data/icons/Makefile	/^PO_IN_DATADIR_FALSE = $/;"	m
+PO_IN_DATADIR_FALSE	modules/Makefile	/^PO_IN_DATADIR_FALSE = $/;"	m
+PO_IN_DATADIR_FALSE	modules/SetupUI/Makefile	/^PO_IN_DATADIR_FALSE = $/;"	m
+PO_IN_DATADIR_FALSE	src/Makefile	/^PO_IN_DATADIR_FALSE = $/;"	m
+PO_IN_DATADIR_TRUE	Makefile	/^PO_IN_DATADIR_TRUE = $/;"	m
+PO_IN_DATADIR_TRUE	data/Makefile	/^PO_IN_DATADIR_TRUE = $/;"	m
+PO_IN_DATADIR_TRUE	data/icons/Makefile	/^PO_IN_DATADIR_TRUE = $/;"	m
+PO_IN_DATADIR_TRUE	modules/Makefile	/^PO_IN_DATADIR_TRUE = $/;"	m
+PO_IN_DATADIR_TRUE	modules/SetupUI/Makefile	/^PO_IN_DATADIR_TRUE = $/;"	m
+PO_IN_DATADIR_TRUE	src/Makefile	/^PO_IN_DATADIR_TRUE = $/;"	m
+PO_LINGUAS	po/Makefile	/^PO_LINGUAS=$(shell if test -r $(srcdir)\/LINGUAS; then grep -v "^\\#" $(srcdir)\/LINGUAS; else echo "$(ALL_LINGUAS)"; fi)$/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	data/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	data/icons/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	modules/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	modules/SetupUI/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	src/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	data/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	data/icons/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	modules/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	modules/SetupUI/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	src/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PROGRAMS	src/Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+PanelVkbDbusObj	src/panel-vkb-dbusobj.h	/^typedef struct _PanelVkbDbusObj PanelVkbDbusObj;$/;"	t	typeref:struct:_PanelVkbDbusObj
+PanelVkbDbusObjClass	src/panel-vkb-dbusobj.h	/^typedef struct _PanelVkbDbusObjClass PanelVkbDbusObjClass;$/;"	t	typeref:struct:_PanelVkbDbusObjClass
+PropertyInfo	src/scim-panel-vkb-gtk.cpp	/^    PropertyInfo () : widget (0) { }$/;"	f	struct:PropertyInfo
+PropertyInfo	src/scim-panel-vkb-gtk.cpp	/^struct PropertyInfo {$/;"	s	file:
+PropertyRepository	src/scim-panel-vkb-gtk.cpp	/^typedef std::vector <PropertyInfo>               PropertyRepository;$/;"	t	file:
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	data/Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	data/icons/Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	modules/Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	modules/SetupUI/Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	src/Makefile	/^RANLIB = ranlib$/;"	m
+RECURSIVE_CLEAN_TARGETS	Makefile	/^RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\\$/;"	m
+RECURSIVE_CLEAN_TARGETS	data/Makefile	/^RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\\$/;"	m
+RECURSIVE_CLEAN_TARGETS	modules/Makefile	/^RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\\$/;"	m
+RECURSIVE_TARGETS	Makefile	/^RECURSIVE_TARGETS = all-recursive check-recursive dvi-recursive \\$/;"	m
+RECURSIVE_TARGETS	data/Makefile	/^RECURSIVE_TARGETS = all-recursive check-recursive dvi-recursive \\$/;"	m
+RECURSIVE_TARGETS	modules/Makefile	/^RECURSIVE_TARGETS = all-recursive check-recursive dvi-recursive \\$/;"	m
+SCIM_BINARY_VERSION	Makefile	/^SCIM_BINARY_VERSION = 1.4.0$/;"	m
+SCIM_BINARY_VERSION	data/Makefile	/^SCIM_BINARY_VERSION = 1.4.0$/;"	m
+SCIM_BINARY_VERSION	data/icons/Makefile	/^SCIM_BINARY_VERSION = 1.4.0$/;"	m
+SCIM_BINARY_VERSION	modules/Makefile	/^SCIM_BINARY_VERSION = 1.4.0$/;"	m
+SCIM_BINARY_VERSION	modules/SetupUI/Makefile	/^SCIM_BINARY_VERSION = 1.4.0$/;"	m
+SCIM_BINARY_VERSION	src/Makefile	/^SCIM_BINARY_VERSION = 1.4.0$/;"	m
+SCIM_CONFIG_PANEL_VKB_GTK_DEFAULT_STICKED	src/panel-settings.h	40;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_DOCK_PANEL	src/panel-settings.h	42;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_ENABLE_VKB	src/panel-settings.h	43;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_FONT	src/panel-settings.h	29;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_PANEL_ACTIVE_BG_COLOR	src/panel-settings.h	53;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_PANEL_ACTIVE_TEXT_COLOR	src/panel-settings.h	52;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_PANEL_EXTEND	src/panel-settings.h	44;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_PANEL_NORMAL_BG_COLOR	src/panel-settings.h	51;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_PANEL_NORMAL_FG_COLOR	src/panel-settings.h	50;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_PANEL_NORMAL_TEXT_COLOR	src/panel-settings.h	49;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_SHOW_TRAY_ICON	src/panel-settings.h	41;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_TOOLBAR_AUTO_SNAP	src/panel-settings.h	30;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_TOOLBAR_HIDE_TIMEOUT	src/panel-settings.h	31;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_TOOLBAR_POS_X	src/panel-settings.h	32;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_TOOLBAR_POS_Y	src/panel-settings.h	33;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_TOOLBAR_SHOW_FACTORY_ICON	src/panel-settings.h	34;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_TOOLBAR_SHOW_FACTORY_NAME	src/panel-settings.h	35;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_TOOLBAR_SHOW_HELP_ICON	src/panel-settings.h	37;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_TOOLBAR_SHOW_MENU_ICON	src/panel-settings.h	38;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_TOOLBAR_SHOW_PROPERTY_LABEL	src/panel-settings.h	39;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_TOOLBAR_SHOW_STICK_ICON	src/panel-settings.h	36;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_VKB_HEIGHT	src/panel-settings.h	48;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_VKB_PARAMETERS	src/panel-settings.h	46;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_VKB_PROGRAM	src/panel-settings.h	45;"	d
+SCIM_CONFIG_PANEL_VKB_GTK_VKB_WIDTH	src/panel-settings.h	47;"	d
+SCIM_DEFAULT_VKB_DOCKPANEL	src/panel-settings.h	62;"	d
+SCIM_DEFAULT_VKB_PANEL_ACTIVE_BG_COLOR	src/panel-settings.h	68;"	d
+SCIM_DEFAULT_VKB_PANEL_ACTIVE_TEXT_COLOR	src/panel-settings.h	67;"	d
+SCIM_DEFAULT_VKB_PANEL_EXTEND	src/panel-settings.h	63;"	d
+SCIM_DEFAULT_VKB_PANEL_FONT	src/panel-settings.h	69;"	d
+SCIM_DEFAULT_VKB_PANEL_NORMAL_BG_COLOR	src/panel-settings.h	66;"	d
+SCIM_DEFAULT_VKB_PANEL_NORMAL_FG_COLOR	src/panel-settings.h	65;"	d
+SCIM_DEFAULT_VKB_PANEL_NORMAL_TEXT_COLOR	src/panel-settings.h	64;"	d
+SCIM_DEFAULT_VKB_PANEL_TOOLBAR_AUTO_SNAP	src/panel-settings.h	70;"	d
+SCIM_DEFAULT_VKB_PANEL_TOOLBAR_HIDE_TIMEOUT	src/panel-settings.h	71;"	d
+SCIM_DEFAULT_VKB_PANEL_TOOLBAR_SHOW_FACTORY_ICON	src/panel-settings.h	72;"	d
+SCIM_DEFAULT_VKB_PANEL_TOOLBAR_SHOW_FACTORY_NAME	src/panel-settings.h	73;"	d
+SCIM_DEFAULT_VKB_PANEL_TOOLBAR_SHOW_HELP_ICON	src/panel-settings.h	75;"	d
+SCIM_DEFAULT_VKB_PANEL_TOOLBAR_SHOW_MENU_ICON	src/panel-settings.h	74;"	d
+SCIM_DEFAULT_VKB_PANEL_TOOLBAR_SHOW_PROPERTY_LABEL	src/panel-settings.h	76;"	d
+SCIM_DEFAULT_VKB_PANEL_VKB_ENABLED	src/panel-settings.h	77;"	d
+SCIM_DEFAULT_VKB_PARAMETERS	src/panel-settings.h	59;"	d
+SCIM_DEFAULT_VKB_PROGRAM	src/panel-settings.h	58;"	d
+SCIM_DEFAULT_VKB_WINDOW_HEIGHT	src/panel-settings.h	61;"	d
+SCIM_DEFAULT_VKB_WINDOW_WIDTH	src/panel-settings.h	60;"	d
+SCIM_DOWN_ICON_FILE	src/scim-panel-vkb-gtk.cpp	89;"	d	file:
+SCIM_HELP_ICON_FILE	src/scim-panel-vkb-gtk.cpp	85;"	d	file:
+SCIM_HIDE_ICON_FILE	src/scim-panel-vkb-gtk.cpp	86;"	d	file:
+SCIM_ICONDIR	Makefile	/^SCIM_ICONDIR = \/usr\/share\/scim\/icons$/;"	m
+SCIM_ICONDIR	data/Makefile	/^SCIM_ICONDIR = \/usr\/share\/scim\/icons$/;"	m
+SCIM_ICONDIR	data/icons/Makefile	/^SCIM_ICONDIR = \/usr\/share\/scim\/icons$/;"	m
+SCIM_ICONDIR	modules/Makefile	/^SCIM_ICONDIR = \/usr\/share\/scim\/icons$/;"	m
+SCIM_ICONDIR	modules/SetupUI/Makefile	/^SCIM_ICONDIR = \/usr\/share\/scim\/icons$/;"	m
+SCIM_ICONDIR	src/Makefile	/^SCIM_ICONDIR = \/usr\/share\/scim\/icons$/;"	m
+SCIM_KEYBOARD_ICON_FILE	src/scim-panel-vkb-gtk.cpp	82;"	d	file:
+SCIM_LEFT_ICON_FILE	src/scim-panel-vkb-gtk.cpp	90;"	d	file:
+SCIM_MENU_ICON_FILE	src/scim-panel-vkb-gtk.cpp	87;"	d	file:
+SCIM_MODULEDIR	Makefile	/^SCIM_MODULEDIR = \/usr\/lib\/scim-1.0\/1.4.0$/;"	m
+SCIM_MODULEDIR	data/Makefile	/^SCIM_MODULEDIR = \/usr\/lib\/scim-1.0\/1.4.0$/;"	m
+SCIM_MODULEDIR	data/icons/Makefile	/^SCIM_MODULEDIR = \/usr\/lib\/scim-1.0\/1.4.0$/;"	m
+SCIM_MODULEDIR	modules/Makefile	/^SCIM_MODULEDIR = \/usr\/lib\/scim-1.0\/1.4.0$/;"	m
+SCIM_MODULEDIR	modules/SetupUI/Makefile	/^SCIM_MODULEDIR = \/usr\/lib\/scim-1.0\/1.4.0$/;"	m
+SCIM_MODULEDIR	src/Makefile	/^SCIM_MODULEDIR = \/usr\/lib\/scim-1.0\/1.4.0$/;"	m
+SCIM_PANEL_PROGRAM_PREFIX	modules/SetupUI/scim_panel_setup.cpp	61;"	d	file:
+SCIM_PANEL_UNKNOWN	modules/SetupUI/scim_panel_setup.cpp	62;"	d	file:
+SCIM_PANEL_VKB_GTK_CFLAGS	Makefile	/^SCIM_PANEL_VKB_GTK_CFLAGS = -pthread -D_REENTRANT -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include -I\/usr\/include\/gtk-2.0 -I\/usr\/lib\/gtk-2.0\/include -I\/usr\/include\/atk-1.0 -I\/usr\/include\/cairo -I\/usr\/include\/pango-1.0 -I\/usr\/include\/gio-unix-2.0\/ -I\/usr\/include\/pixman-1 -I\/usr\/include\/freetype2 -I\/usr\/include\/directfb -I\/usr\/include\/libpng12 -I\/usr\/include\/scim-1.0 -I\/usr\/include\/dbus-1.0 -I\/usr\/lib\/dbus-1.0\/include  $/;"	m
+SCIM_PANEL_VKB_GTK_CFLAGS	data/Makefile	/^SCIM_PANEL_VKB_GTK_CFLAGS = -pthread -D_REENTRANT -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include -I\/usr\/include\/gtk-2.0 -I\/usr\/lib\/gtk-2.0\/include -I\/usr\/include\/atk-1.0 -I\/usr\/include\/cairo -I\/usr\/include\/pango-1.0 -I\/usr\/include\/gio-unix-2.0\/ -I\/usr\/include\/pixman-1 -I\/usr\/include\/freetype2 -I\/usr\/include\/directfb -I\/usr\/include\/libpng12 -I\/usr\/include\/scim-1.0 -I\/usr\/include\/dbus-1.0 -I\/usr\/lib\/dbus-1.0\/include  $/;"	m
+SCIM_PANEL_VKB_GTK_CFLAGS	data/icons/Makefile	/^SCIM_PANEL_VKB_GTK_CFLAGS = -pthread -D_REENTRANT -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include -I\/usr\/include\/gtk-2.0 -I\/usr\/lib\/gtk-2.0\/include -I\/usr\/include\/atk-1.0 -I\/usr\/include\/cairo -I\/usr\/include\/pango-1.0 -I\/usr\/include\/gio-unix-2.0\/ -I\/usr\/include\/pixman-1 -I\/usr\/include\/freetype2 -I\/usr\/include\/directfb -I\/usr\/include\/libpng12 -I\/usr\/include\/scim-1.0 -I\/usr\/include\/dbus-1.0 -I\/usr\/lib\/dbus-1.0\/include  $/;"	m
+SCIM_PANEL_VKB_GTK_CFLAGS	modules/Makefile	/^SCIM_PANEL_VKB_GTK_CFLAGS = -pthread -D_REENTRANT -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include -I\/usr\/include\/gtk-2.0 -I\/usr\/lib\/gtk-2.0\/include -I\/usr\/include\/atk-1.0 -I\/usr\/include\/cairo -I\/usr\/include\/pango-1.0 -I\/usr\/include\/gio-unix-2.0\/ -I\/usr\/include\/pixman-1 -I\/usr\/include\/freetype2 -I\/usr\/include\/directfb -I\/usr\/include\/libpng12 -I\/usr\/include\/scim-1.0 -I\/usr\/include\/dbus-1.0 -I\/usr\/lib\/dbus-1.0\/include  $/;"	m
+SCIM_PANEL_VKB_GTK_CFLAGS	modules/SetupUI/Makefile	/^SCIM_PANEL_VKB_GTK_CFLAGS = -pthread -D_REENTRANT -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include -I\/usr\/include\/gtk-2.0 -I\/usr\/lib\/gtk-2.0\/include -I\/usr\/include\/atk-1.0 -I\/usr\/include\/cairo -I\/usr\/include\/pango-1.0 -I\/usr\/include\/gio-unix-2.0\/ -I\/usr\/include\/pixman-1 -I\/usr\/include\/freetype2 -I\/usr\/include\/directfb -I\/usr\/include\/libpng12 -I\/usr\/include\/scim-1.0 -I\/usr\/include\/dbus-1.0 -I\/usr\/lib\/dbus-1.0\/include  $/;"	m
+SCIM_PANEL_VKB_GTK_CFLAGS	src/Makefile	/^SCIM_PANEL_VKB_GTK_CFLAGS = -pthread -D_REENTRANT -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include -I\/usr\/include\/gtk-2.0 -I\/usr\/lib\/gtk-2.0\/include -I\/usr\/include\/atk-1.0 -I\/usr\/include\/cairo -I\/usr\/include\/pango-1.0 -I\/usr\/include\/gio-unix-2.0\/ -I\/usr\/include\/pixman-1 -I\/usr\/include\/freetype2 -I\/usr\/include\/directfb -I\/usr\/include\/libpng12 -I\/usr\/include\/scim-1.0 -I\/usr\/include\/dbus-1.0 -I\/usr\/lib\/dbus-1.0\/include  $/;"	m
+SCIM_PANEL_VKB_GTK_LIBS	Makefile	/^SCIM_PANEL_VKB_GTK_LIBS = -pthread -L\/lib -lscim-gtkutils-1.0 -lgtk-x11-2.0 -lscim-1.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lgdk_pixbuf-2.0 -lm -lpangocairo-1.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgmodule-2.0 -ldbus-glib-1 -ldbus-1 -lpthread -lgobject-2.0 -lgthread-2.0 -lrt -lglib-2.0  $/;"	m
+SCIM_PANEL_VKB_GTK_LIBS	data/Makefile	/^SCIM_PANEL_VKB_GTK_LIBS = -pthread -L\/lib -lscim-gtkutils-1.0 -lgtk-x11-2.0 -lscim-1.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lgdk_pixbuf-2.0 -lm -lpangocairo-1.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgmodule-2.0 -ldbus-glib-1 -ldbus-1 -lpthread -lgobject-2.0 -lgthread-2.0 -lrt -lglib-2.0  $/;"	m
+SCIM_PANEL_VKB_GTK_LIBS	data/icons/Makefile	/^SCIM_PANEL_VKB_GTK_LIBS = -pthread -L\/lib -lscim-gtkutils-1.0 -lgtk-x11-2.0 -lscim-1.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lgdk_pixbuf-2.0 -lm -lpangocairo-1.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgmodule-2.0 -ldbus-glib-1 -ldbus-1 -lpthread -lgobject-2.0 -lgthread-2.0 -lrt -lglib-2.0  $/;"	m
+SCIM_PANEL_VKB_GTK_LIBS	modules/Makefile	/^SCIM_PANEL_VKB_GTK_LIBS = -pthread -L\/lib -lscim-gtkutils-1.0 -lgtk-x11-2.0 -lscim-1.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lgdk_pixbuf-2.0 -lm -lpangocairo-1.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgmodule-2.0 -ldbus-glib-1 -ldbus-1 -lpthread -lgobject-2.0 -lgthread-2.0 -lrt -lglib-2.0  $/;"	m
+SCIM_PANEL_VKB_GTK_LIBS	modules/SetupUI/Makefile	/^SCIM_PANEL_VKB_GTK_LIBS = -pthread -L\/lib -lscim-gtkutils-1.0 -lgtk-x11-2.0 -lscim-1.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lgdk_pixbuf-2.0 -lm -lpangocairo-1.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgmodule-2.0 -ldbus-glib-1 -ldbus-1 -lpthread -lgobject-2.0 -lgthread-2.0 -lrt -lglib-2.0  $/;"	m
+SCIM_PANEL_VKB_GTK_LIBS	src/Makefile	/^SCIM_PANEL_VKB_GTK_LIBS = -pthread -L\/lib -lscim-gtkutils-1.0 -lgtk-x11-2.0 -lscim-1.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lgdk_pixbuf-2.0 -lm -lpangocairo-1.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgmodule-2.0 -ldbus-glib-1 -ldbus-1 -lpthread -lgobject-2.0 -lgthread-2.0 -lrt -lglib-2.0  $/;"	m
+SCIM_RIGHT_ICON_FILE	src/scim-panel-vkb-gtk.cpp	91;"	d	file:
+SCIM_SETUP_ICON_FILE	src/scim-panel-vkb-gtk.cpp	84;"	d	file:
+SCIM_TOOLBAR_SHOW_ALWAYS	modules/SetupUI/scim_panel_vkb_setup.cpp	/^    SCIM_TOOLBAR_SHOW_ALWAYS,$/;"	e	enum:ToolbarShowFlavourType	file:
+SCIM_TOOLBAR_SHOW_NEVER	modules/SetupUI/scim_panel_vkb_setup.cpp	/^    SCIM_TOOLBAR_SHOW_NEVER$/;"	e	enum:ToolbarShowFlavourType	file:
+SCIM_TOOLBAR_SHOW_ON_DEMAND	modules/SetupUI/scim_panel_vkb_setup.cpp	/^    SCIM_TOOLBAR_SHOW_ON_DEMAND,$/;"	e	enum:ToolbarShowFlavourType	file:
+SCIM_TRADEMARK_ICON_FILE	src/scim-panel-vkb-gtk.cpp	83;"	d	file:
+SCIM_UP_ICON_FILE	src/scim-panel-vkb-gtk.cpp	88;"	d	file:
+SCIM_VERSION	Makefile	/^SCIM_VERSION = 1.4.9$/;"	m
+SCIM_VERSION	data/Makefile	/^SCIM_VERSION = 1.4.9$/;"	m
+SCIM_VERSION	data/icons/Makefile	/^SCIM_VERSION = 1.4.9$/;"	m
+SCIM_VERSION	modules/Makefile	/^SCIM_VERSION = 1.4.9$/;"	m
+SCIM_VERSION	modules/SetupUI/Makefile	/^SCIM_VERSION = 1.4.9$/;"	m
+SCIM_VERSION	src/Makefile	/^SCIM_VERSION = 1.4.9$/;"	m
+SCRIPTS	src/Makefile	/^SCRIPTS = $(dist_bin_SCRIPTS)$/;"	m
+SED	Makefile	/^SED = \/bin\/sed$/;"	m
+SED	data/Makefile	/^SED = \/bin\/sed$/;"	m
+SED	data/icons/Makefile	/^SED = \/bin\/sed$/;"	m
+SED	modules/Makefile	/^SED = \/bin\/sed$/;"	m
+SED	modules/SetupUI/Makefile	/^SED = \/bin\/sed$/;"	m
+SED	src/Makefile	/^SED = \/bin\/sed$/;"	m
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	data/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	data/icons/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	modules/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	modules/SetupUI/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	src/Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	data/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	data/icons/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	modules/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	modules/SetupUI/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	po/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	src/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SMALL_LOOKUP_ICON_SIZE	src/scim-panel-vkb-gtk.cpp	98;"	d	file:
+SMALL_TOOLBAR_ICON_SIZE	src/scim-panel-vkb-gtk.cpp	96;"	d	file:
+SMALL_TRAY_ICON_SIZE	src/scim-panel-vkb-gtk.cpp	97;"	d	file:
+SOURCES	Makefile	/^SOURCES =$/;"	m
+SOURCES	data/Makefile	/^SOURCES =$/;"	m
+SOURCES	data/icons/Makefile	/^SOURCES =$/;"	m
+SOURCES	modules/Makefile	/^SOURCES =$/;"	m
+SOURCES	modules/SetupUI/Makefile	/^SOURCES = $(aaa_panel_setup_la_SOURCES) $(panel_vkb_setup_la_SOURCES)$/;"	m
+SOURCES	src/Makefile	/^SOURCES = $(scim_panel_vkb_gtk_SOURCES)$/;"	m
+STDC_HEADERS	config.h	84;"	d
+STRIP	Makefile	/^STRIP = strip$/;"	m
+STRIP	data/Makefile	/^STRIP = strip$/;"	m
+STRIP	data/icons/Makefile	/^STRIP = strip$/;"	m
+STRIP	modules/Makefile	/^STRIP = strip$/;"	m
+STRIP	modules/SetupUI/Makefile	/^STRIP = strip$/;"	m
+STRIP	src/Makefile	/^STRIP = strip$/;"	m
+STRUT_BOTTOM	src/panel-utility.cpp	39;"	d	file:
+STRUT_BOTTOM_END	src/panel-utility.cpp	47;"	d	file:
+STRUT_BOTTOM_START	src/panel-utility.cpp	46;"	d	file:
+STRUT_LEFT	src/panel-utility.cpp	36;"	d	file:
+STRUT_LEFT_END	src/panel-utility.cpp	41;"	d	file:
+STRUT_LEFT_START	src/panel-utility.cpp	40;"	d	file:
+STRUT_RIGHT	src/panel-utility.cpp	37;"	d	file:
+STRUT_RIGHT_END	src/panel-utility.cpp	43;"	d	file:
+STRUT_RIGHT_START	src/panel-utility.cpp	42;"	d	file:
+STRUT_TOP	src/panel-utility.cpp	38;"	d	file:
+STRUT_TOP_END	src/panel-utility.cpp	45;"	d	file:
+STRUT_TOP_START	src/panel-utility.cpp	44;"	d	file:
+SUBDIRS	Makefile	/^SUBDIRS = po src data modules$/;"	m
+SUBDIRS	data/Makefile	/^SUBDIRS = icons$/;"	m
+SUBDIRS	modules/Makefile	/^SUBDIRS = SetupUI$/;"	m
+TOOLBAR_ICON_SIZE	src/scim-panel-vkb-gtk.cpp	93;"	d	file:
+TRAY_ICON_SIZE	src/scim-panel-vkb-gtk.cpp	94;"	d	file:
+ToolbarShowFlavourType	modules/SetupUI/scim_panel_vkb_setup.cpp	/^enum ToolbarShowFlavourType {$/;"	g	file:
+USER_LINGUAS	po/Makefile	/^USER_LINGUAS=$(shell if test -n "$(LINGUAS)"; then LLINGUAS="$(LINGUAS)"; ALINGUAS="$(ALL_LINGUAS)"; for lang in $$LLINGUAS; do if test -n "`grep \\^$$lang$$ $(srcdir)\/LINGUAS 2>\/dev\/null`" -o -n "`echo $$ALINGUAS|tr ' ' '\\n'|grep \\^$$lang$$`"; then printf "$$lang "; fi; done; fi)$/;"	m
+USE_LINGUAS	po/Makefile	/^USE_LINGUAS=$(shell if test -n "$(USER_LINGUAS)" -o -n "$(LINGUAS)"; then LLINGUAS="$(USER_LINGUAS)"; else if test -n "$(PO_LINGUAS)"; then LLINGUAS="$(PO_LINGUAS)"; else LLINGUAS="$(ALL_LINGUAS)"; fi; fi; for lang in $$LLINGUAS; do printf "$$lang "; done)$/;"	m
+USE_NLS	Makefile	/^USE_NLS = yes$/;"	m
+USE_NLS	data/Makefile	/^USE_NLS = yes$/;"	m
+USE_NLS	data/icons/Makefile	/^USE_NLS = yes$/;"	m
+USE_NLS	modules/Makefile	/^USE_NLS = yes$/;"	m
+USE_NLS	modules/SetupUI/Makefile	/^USE_NLS = yes$/;"	m
+USE_NLS	src/Makefile	/^USE_NLS = yes$/;"	m
+Uses_C_STDIO	src/scim-panel-vkb-gtk.cpp	45;"	d	file:
+Uses_C_STDLIB	src/scim-panel-vkb-gtk.cpp	46;"	d	file:
+Uses_SCIM_COMPOSE_KEY	src/scim-panel-vkb-gtk.cpp	59;"	d	file:
+Uses_SCIM_CONFIG	src/scim-panel-vkb-gtk.cpp	51;"	d	file:
+Uses_SCIM_CONFIG_BASE	modules/SetupUI/scim_panel_setup.cpp	26;"	d	file:
+Uses_SCIM_CONFIG_BASE	modules/SetupUI/scim_panel_vkb_setup.cpp	26;"	d	file:
+Uses_SCIM_CONFIG_BASE	src/scim-panel-vkb-gtk.cpp	61;"	d	file:
+Uses_SCIM_CONFIG_MODULE	src/scim-panel-vkb-gtk.cpp	52;"	d	file:
+Uses_SCIM_CONFIG_PATH	modules/SetupUI/scim_panel_setup.cpp	25;"	d	file:
+Uses_SCIM_CONFIG_PATH	src/scim-panel-vkb-gtk.cpp	60;"	d	file:
+Uses_SCIM_DEBUG	src/scim-panel-vkb-gtk.cpp	53;"	d	file:
+Uses_SCIM_EVENT	modules/SetupUI/scim_panel_setup.cpp	27;"	d	file:
+Uses_SCIM_HELPER	src/scim-panel-vkb-gtk.cpp	54;"	d	file:
+Uses_SCIM_HELPER_MODULE	src/scim-panel-vkb-gtk.cpp	55;"	d	file:
+Uses_SCIM_IMENGINE	src/scim-panel-vkb-gtk.cpp	58;"	d	file:
+Uses_SCIM_LOOKUP_TABLE	src/scim-panel-vkb-gtk.cpp	47;"	d	file:
+Uses_SCIM_PANEL	modules/SetupUI/scim_panel_setup.cpp	28;"	d	file:
+Uses_SCIM_PANEL	modules/SetupUI/scim_panel_vkb_setup.cpp	27;"	d	file:
+Uses_SCIM_PANEL_AGENT	src/scim-panel-vkb-gtk.cpp	56;"	d	file:
+Uses_SCIM_PROPERTY	src/scim-panel-vkb-gtk.cpp	57;"	d	file:
+Uses_SCIM_SOCKET	src/scim-panel-vkb-gtk.cpp	48;"	d	file:
+Uses_SCIM_TRANSACTION	src/scim-panel-vkb-gtk.cpp	49;"	d	file:
+Uses_SCIM_TRANS_COMMANDS	src/scim-panel-vkb-gtk.cpp	50;"	d	file:
+VERSION	Makefile	/^VERSION = 0.1.6$/;"	m
+VERSION	config.h	87;"	d
+VERSION	data/Makefile	/^VERSION = 0.1.6$/;"	m
+VERSION	data/icons/Makefile	/^VERSION = 0.1.6$/;"	m
+VERSION	modules/Makefile	/^VERSION = 0.1.6$/;"	m
+VERSION	modules/SetupUI/Makefile	/^VERSION = 0.1.6$/;"	m
+VERSION	po/Makefile	/^VERSION = 0.1.6$/;"	m
+VERSION	src/Makefile	/^VERSION = 0.1.6$/;"	m
+VKB_PID	src/scim-panel-vkb-gtk.cpp	/^int VKB_PID = 0;$/;"	v
+XGETTEXT	Makefile	/^XGETTEXT = \/usr\/bin\/xgettext$/;"	m
+XGETTEXT	data/Makefile	/^XGETTEXT = \/usr\/bin\/xgettext$/;"	m
+XGETTEXT	data/icons/Makefile	/^XGETTEXT = \/usr\/bin\/xgettext$/;"	m
+XGETTEXT	modules/Makefile	/^XGETTEXT = \/usr\/bin\/xgettext$/;"	m
+XGETTEXT	modules/SetupUI/Makefile	/^XGETTEXT = \/usr\/bin\/xgettext$/;"	m
+XGETTEXT	po/Makefile	/^XGETTEXT = \/usr\/bin\/xgettext$/;"	m
+XGETTEXT	src/Makefile	/^XGETTEXT = \/usr\/bin\/xgettext$/;"	m
+_	modules/SetupUI/scim_panel_setup.cpp	42;"	d	file:
+_	modules/SetupUI/scim_panel_vkb_setup.cpp	39;"	d	file:
+_	src/panel_private.h	32;"	d
+_PanelVkbDbusObj	src/panel-vkb-dbusobj.h	/^struct _PanelVkbDbusObj {$/;"	s
+_PanelVkbDbusObjClass	src/panel-vkb-dbusobj.h	/^struct _PanelVkbDbusObjClass {$/;"	s
+__PANEL_KEYBOARD_H	src/panel-keyboard.h	23;"	d
+__PANEL_PRIVATE_H	src/panel_private.h	23;"	d
+__PANEL_SETTINGS_H	src/panel-settings.h	25;"	d
+__PANEL_UTILITY_H	src/panel-utility.h	18;"	d
+__config_font	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static String __config_font                      = String (SCIM_DEFAULT_VKB_PANEL_FONT);$/;"	v	file:
+__config_panel_program	modules/SetupUI/scim_panel_setup.cpp	/^static String __config_panel_program     = String (SCIM_PANEL_UNKNOWN);$/;"	v	file:
+__config_toolbar_auto_snap	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static bool   __config_toolbar_auto_snap         = bool (SCIM_DEFAULT_VKB_PANEL_TOOLBAR_AUTO_SNAP);$/;"	v	file:
+__config_toolbar_hide_timeout	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static int    __config_toolbar_hide_timeout      = gint (SCIM_DEFAULT_VKB_PANEL_TOOLBAR_HIDE_TIMEOUT);$/;"	v	file:
+__config_toolbar_show_factory_icon	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static bool   __config_toolbar_show_factory_icon = bool (SCIM_DEFAULT_VKB_PANEL_TOOLBAR_SHOW_FACTORY_ICON);$/;"	v	file:
+__config_toolbar_show_factory_name	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static bool   __config_toolbar_show_factory_name = bool (SCIM_DEFAULT_VKB_PANEL_TOOLBAR_SHOW_FACTORY_NAME);$/;"	v	file:
+__config_toolbar_show_help_icon	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static bool   __config_toolbar_show_help_icon    = bool (SCIM_DEFAULT_VKB_PANEL_TOOLBAR_SHOW_HELP_ICON);$/;"	v	file:
+__config_toolbar_show_menu_icon	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static bool   __config_toolbar_show_menu_icon    = bool (SCIM_DEFAULT_VKB_PANEL_TOOLBAR_SHOW_MENU_ICON);$/;"	v	file:
+__config_toolbar_show_property_label	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static bool   __config_toolbar_show_property_label = bool (SCIM_DEFAULT_VKB_PANEL_TOOLBAR_SHOW_PROPERTY_LABEL);$/;"	v	file:
+__config_vkb_dockpanel	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static bool   __config_vkb_dockpanel             = bool (SCIM_DEFAULT_VKB_DOCKPANEL);$/;"	v	file:
+__config_vkb_enable	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static bool   __config_vkb_enable                = bool (SCIM_DEFAULT_VKB_PANEL_VKB_ENABLED);$/;"	v	file:
+__config_vkb_panel_active_bg_color	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static String __config_vkb_panel_active_bg_color    = String (SCIM_DEFAULT_VKB_PANEL_ACTIVE_BG_COLOR);$/;"	v	file:
+__config_vkb_panel_active_text_color	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static String __config_vkb_panel_active_text_color  = String (SCIM_DEFAULT_VKB_PANEL_ACTIVE_TEXT_COLOR);$/;"	v	file:
+__config_vkb_panel_extend	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static bool   __config_vkb_panel_extend          = bool (SCIM_DEFAULT_VKB_PANEL_EXTEND);$/;"	v	file:
+__config_vkb_panel_normal_bg_color	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static String __config_vkb_panel_normal_bg_color    = String (SCIM_DEFAULT_VKB_PANEL_NORMAL_BG_COLOR);$/;"	v	file:
+__config_vkb_panel_normal_text_color	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static String __config_vkb_panel_normal_text_color  = String (SCIM_DEFAULT_VKB_PANEL_NORMAL_TEXT_COLOR);$/;"	v	file:
+__config_vkb_parameters	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static String __config_vkb_parameters            = String (SCIM_DEFAULT_VKB_PARAMETERS);$/;"	v	file:
+__config_vkb_program	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static String __config_vkb_program               = String (SCIM_DEFAULT_VKB_PROGRAM);$/;"	v	file:
+__config_vkb_window_height	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static gint   __config_vkb_window_height         = gint (SCIM_DEFAULT_VKB_WINDOW_HEIGHT);$/;"	v	file:
+__config_vkb_window_width	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static gint   __config_vkb_window_width          = gint (SCIM_DEFAULT_VKB_WINDOW_WIDTH);$/;"	v	file:
+__dbus_glib_marshal_panel_vkb_MARSHAL_H__	src/panel-vkb-dbus-glue.h	5;"	d
+__default_drawarea_height	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static gint   __default_drawarea_height          = 20;$/;"	v	file:
+__default_drawarea_width	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static gint   __default_drawarea_width           = 30;$/;"	v	file:
+__default_screen_height	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static gint   __default_screen_height            = gint (SCIM_DEFAULT_VKB_WINDOW_HEIGHT);$/;"	v	file:
+__default_screen_width	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static gint   __default_screen_width             = gint (SCIM_DEFAULT_VKB_WINDOW_WIDTH);$/;"	v	file:
+__have_changed	modules/SetupUI/scim_panel_setup.cpp	/^static bool   __have_changed             = false;$/;"	v	file:
+__have_changed	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static bool   __have_changed                     = false;$/;"	v	file:
+__widget_font	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static GtkWidget * __widget_font                      = 0;$/;"	v	file:
+__widget_panel_program	modules/SetupUI/scim_panel_setup.cpp	/^static GtkWidget *    __widget_panel_program = NULL;$/;"	v	file:
+__widget_toolbar_hide_timeout	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static GtkWidget * __widget_toolbar_hide_timeout      = 0;$/;"	v	file:
+__widget_toolbar_show_factory_icon	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static GtkWidget * __widget_toolbar_show_factory_icon  = 0;$/;"	v	file:
+__widget_toolbar_show_factory_name	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static GtkWidget * __widget_toolbar_show_factory_name  = 0;$/;"	v	file:
+__widget_toolbar_show_help_icon	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static GtkWidget * __widget_toolbar_show_help_icon    = 0;$/;"	v	file:
+__widget_toolbar_show_menu_icon	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static GtkWidget * __widget_toolbar_show_menu_icon   = 0;$/;"	v	file:
+__widget_toolbar_show_property_label	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static GtkWidget * __widget_toolbar_show_property_label = 0;$/;"	v	file:
+__widget_tooltips	modules/SetupUI/scim_panel_setup.cpp	/^static GtkTooltips *  __widget_tooltips      = 0;$/;"	v	file:
+__widget_tooltips	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static GtkTooltips * __widget_tooltips                = 0;$/;"	v	file:
+__widget_vkb_active_bg_color	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static GtkWidget * __widget_vkb_active_bg_color       = 0;$/;"	v	file:
+__widget_vkb_active_text_color	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static GtkWidget * __widget_vkb_active_text_color     = 0;$/;"	v	file:
+__widget_vkb_dockpanel	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static GtkWidget * __widget_vkb_dockpanel             = 0;$/;"	v	file:
+__widget_vkb_enable	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static GtkWidget * __widget_vkb_enable                = 0;$/;"	v	file:
+__widget_vkb_normal_bg_color	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static GtkWidget * __widget_vkb_normal_bg_color       = 0;$/;"	v	file:
+__widget_vkb_normal_text_color	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static GtkWidget * __widget_vkb_normal_text_color     = 0;$/;"	v	file:
+__widget_vkb_pager	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static GtkWidget * __widget_vkb_pager                 = 0;$/;"	v	file:
+__widget_vkb_panel_extend	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static GtkWidget * __widget_vkb_panel_extend          = 0;$/;"	v	file:
+__widget_vkb_parameters	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static GtkWidget * __widget_vkb_parameters            = 0;$/;"	v	file:
+__widget_vkb_program	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static GtkWidget * __widget_vkb_program               = 0;$/;"	v	file:
+__widget_vkb_program_selection	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static GtkWidget * __widget_vkb_program_selection     = 0;$/;"	v	file:
+__widget_vkb_set_default	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static GtkWidget * __widget_vkb_set_default           = 0;$/;"	v	file:
+__widget_vkb_window_height	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static GtkWidget * __widget_vkb_window_height         = 0;$/;"	v	file:
+__widget_vkb_window_width	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static GtkWidget * __widget_vkb_window_width          = 0;$/;"	v	file:
+_active_bg	src/scim-panel-vkb-gtk.cpp	/^static GdkColor           _active_bg;$/;"	v	file:
+_active_text	src/scim-panel-vkb-gtk.cpp	/^static GdkColor           _active_text;$/;"	v	file:
+_aux_area	src/scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_aux_area                    = 0;$/;"	v	file:
+_check_exit_timeout	src/scim-panel-vkb-gtk.cpp	/^static guint              _check_exit_timeout          = 0;$/;"	v	file:
+_client_properties_area	src/scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_client_properties_area      = 0;$/;"	v	file:
+_command_menu	src/scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_command_menu                = 0;$/;"	v	file:
+_command_menu_activated	src/scim-panel-vkb-gtk.cpp	/^static bool               _command_menu_activated      = false;$/;"	v	file:
+_config	src/scim-panel-vkb-gtk.cpp	/^static ConfigPointer      _config;$/;"	v	file:
+_config_module	src/scim-panel-vkb-gtk.cpp	/^static ConfigModule      *_config_module               = 0;$/;"	v	file:
+_current_screen	src/scim-panel-vkb-gtk.cpp	/^static GdkScreen         *_current_screen              = 0;$/;"	v	file:
+_default_font_desc	src/scim-panel-vkb-gtk.cpp	/^static PangoFontDescription *_default_font_desc        = 0;$/;"	v	file:
+_factory_button	src/scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_factory_button              = 0;$/;"	v	file:
+_factory_menu	src/scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_factory_menu                = 0;$/;"	v	file:
+_factory_menu_activated	src/scim-panel-vkb-gtk.cpp	/^static bool               _factory_menu_activated      = false;$/;"	v	file:
+_factory_menu_uuids	src/scim-panel-vkb-gtk.cpp	/^static std::vector<String> _factory_menu_uuids;$/;"	v	file:
+_frontend_properties_area	src/scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_frontend_properties_area    = 0;$/;"	v	file:
+_frontend_property_repository	src/scim-panel-vkb-gtk.cpp	/^static PropertyRepository            _frontend_property_repository;$/;"	v	file:
+_global_resource_lock	src/scim-panel-vkb-gtk.cpp	/^G_LOCK_DEFINE_STATIC     (_global_resource_lock);$/;"	v
+_help_area	src/scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_help_area                   = 0;$/;"	v	file:
+_help_button	src/scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_help_button                 = 0;$/;"	v	file:
+_help_dialog	src/scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_help_dialog                 = 0;$/;"	v	file:
+_help_scroll	src/scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_help_scroll                 = 0;$/;"	v	file:
+_helper_list	src/scim-panel-vkb-gtk.cpp	/^static std::vector<HelperInfo>       _helper_list;$/;"	v	file:
+_helper_property_repository	src/scim-panel-vkb-gtk.cpp	/^static HelperPropertyRepository      _helper_property_repository;$/;"	v	file:
+_hide_button	src/scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_hide_button                 = 0;$/;"	v	file:
+_input_window	src/scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_input_window                = 0;$/;"	v	file:
+_input_window_drag_x	src/scim-panel-vkb-gtk.cpp	/^static gint               _input_window_drag_x         = 0;$/;"	v	file:
+_input_window_drag_y	src/scim-panel-vkb-gtk.cpp	/^static gint               _input_window_drag_y         = 0;$/;"	v	file:
+_input_window_draging	src/scim-panel-vkb-gtk.cpp	/^static gboolean           _input_window_draging        = FALSE;$/;"	v	file:
+_input_window_height	src/scim-panel-vkb-gtk.cpp	/^static gint               _input_window_height         = 0;$/;"	v	file:
+_input_window_width	src/scim-panel-vkb-gtk.cpp	/^static gint               _input_window_width          = 0;$/;"	v	file:
+_input_window_x	src/scim-panel-vkb-gtk.cpp	/^static gint               _input_window_x              = 0;$/;"	v	file:
+_input_window_y	src/scim-panel-vkb-gtk.cpp	/^static gint               _input_window_y              = 0;$/;"	v	file:
+_last_menu_deactivate_time	src/scim-panel-vkb-gtk.cpp	/^static struct timeval     _last_menu_deactivate_time = {0, 0};$/;"	v	typeref:struct:timeval	file:
+_lookup_table_down_button	src/scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_lookup_table_down_button    = 0;$/;"	v	file:
+_lookup_table_index	src/scim-panel-vkb-gtk.cpp	/^static int                _lookup_table_index [SCIM_LOOKUP_TABLE_MAX_PAGESIZE+1];$/;"	v	file:
+_lookup_table_items	src/scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_lookup_table_items [SCIM_LOOKUP_TABLE_MAX_PAGESIZE];$/;"	v	file:
+_lookup_table_parent	src/scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_lookup_table_parent         = 0;$/;"	v	file:
+_lookup_table_up_button	src/scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_lookup_table_up_button      = 0;$/;"	v	file:
+_lookup_table_width	src/scim-panel-vkb-gtk.cpp	/^static gint               _lookup_table_width          = -1;$/;"	v	file:
+_lookup_table_window	src/scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_lookup_table_window         = 0;$/;"	v	file:
+_menu_button	src/scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_menu_button                 = 0;$/;"	v	file:
+_normal_bg	src/scim-panel-vkb-gtk.cpp	/^static GdkColor           _normal_bg;$/;"	v	file:
+_normal_fg	src/scim-panel-vkb-gtk.cpp	/^static GdkColor           _normal_fg;$/;"	v	file:
+_normal_text	src/scim-panel-vkb-gtk.cpp	/^static GdkColor           _normal_text;$/;"	v	file:
+_panel_agent	src/scim-panel-vkb-gtk.cpp	/^static PanelAgent        *_panel_agent                 = 0;$/;"	v	file:
+_panel_agent_lock	src/scim-panel-vkb-gtk.cpp	/^G_LOCK_DEFINE_STATIC     (_panel_agent_lock);$/;"	v
+_panel_agent_thread	src/scim-panel-vkb-gtk.cpp	/^static GThread           *_panel_agent_thread          = 0;$/;"	v	file:
+_panel_is_on	src/scim-panel-vkb-gtk.cpp	/^static bool               _panel_is_on                 = false;$/;"	v	file:
+_panel_strut_size	src/scim-panel-vkb-gtk.cpp	/^static gint               _panel_strut_size            = 0;$/;"	v	file:
+_preedit_area	src/scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_preedit_area                = 0;$/;"	v	file:
+_property_menu_activated	src/scim-panel-vkb-gtk.cpp	/^static bool               _property_menu_activated     = false;$/;"	v	file:
+_recent_factory_uuids	src/scim-panel-vkb-gtk.cpp	/^static std::list<String>  _recent_factory_uuids;$/;"	v	file:
+_scim_panel_vkb_gtk_set_strut	src/panel-utility.cpp	/^_scim_panel_vkb_gtk_set_strut (GtkWidget *widget, guint32 size,$/;"	f
+_should_exit	src/scim-panel-vkb-gtk.cpp	/^static bool               _should_exit                 = false;$/;"	v	file:
+_show_tray_icon	src/scim-panel-vkb-gtk.cpp	/^static bool               _show_tray_icon              = true;$/;"	v	file:
+_spot_location_x	src/scim-panel-vkb-gtk.cpp	/^static int                _spot_location_x             = -1;$/;"	v	file:
+_spot_location_y	src/scim-panel-vkb-gtk.cpp	/^static int                _spot_location_y             = -1;$/;"	v	file:
+_toolbar_auto_snap	src/scim-panel-vkb-gtk.cpp	/^static bool               _toolbar_auto_snap         = bool (SCIM_DEFAULT_VKB_PANEL_TOOLBAR_AUTO_SNAP);$/;"	v	file:
+_toolbar_hidden	src/scim-panel-vkb-gtk.cpp	/^static bool               _toolbar_hidden              = false;$/;"	v	file:
+_toolbar_hide_timeout	src/scim-panel-vkb-gtk.cpp	/^static guint              _toolbar_hide_timeout        = 0;$/;"	v	file:
+_toolbar_hide_timeout_count	src/scim-panel-vkb-gtk.cpp	/^static int                _toolbar_hide_timeout_count  = 0;$/;"	v	file:
+_toolbar_hide_timeout_max	src/scim-panel-vkb-gtk.cpp	/^static int                _toolbar_hide_timeout_max  = gint (SCIM_DEFAULT_VKB_PANEL_TOOLBAR_HIDE_TIMEOUT);$/;"	v	file:
+_toolbar_should_hide	src/scim-panel-vkb-gtk.cpp	/^static bool               _toolbar_should_hide         = false;$/;"	v	file:
+_toolbar_show_factory_icon	src/scim-panel-vkb-gtk.cpp	/^static bool               _toolbar_show_factory_icon = bool (SCIM_DEFAULT_VKB_PANEL_TOOLBAR_SHOW_FACTORY_ICON);$/;"	v	file:
+_toolbar_show_factory_name	src/scim-panel-vkb-gtk.cpp	/^static bool               _toolbar_show_factory_name = bool (SCIM_DEFAULT_VKB_PANEL_TOOLBAR_SHOW_FACTORY_NAME);$/;"	v	file:
+_toolbar_show_help_icon	src/scim-panel-vkb-gtk.cpp	/^static bool               _toolbar_show_help_icon    = bool (SCIM_DEFAULT_VKB_PANEL_TOOLBAR_SHOW_HELP_ICON);$/;"	v	file:
+_toolbar_show_menu_icon	src/scim-panel-vkb-gtk.cpp	/^static bool               _toolbar_show_menu_icon    = bool (SCIM_DEFAULT_VKB_PANEL_TOOLBAR_SHOW_MENU_ICON);$/;"	v	file:
+_toolbar_show_property_label	src/scim-panel-vkb-gtk.cpp	/^static bool               _toolbar_show_property_label = bool (SCIM_DEFAULT_VKB_PANEL_TOOLBAR_SHOW_PROPERTY_LABEL);$/;"	v	file:
+_toolbar_window	src/scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_toolbar_window              = 0;$/;"	v	file:
+_toolbar_window_drag_x	src/scim-panel-vkb-gtk.cpp	/^static gint               _toolbar_window_drag_x       = 0;$/;"	v	file:
+_toolbar_window_drag_y	src/scim-panel-vkb-gtk.cpp	/^static gint               _toolbar_window_drag_y       = 0;$/;"	v	file:
+_toolbar_window_draging	src/scim-panel-vkb-gtk.cpp	/^static gboolean           _toolbar_window_draging      = FALSE;$/;"	v	file:
+_toolbar_window_x	src/scim-panel-vkb-gtk.cpp	/^static int                _toolbar_window_x            = -1;$/;"	v	file:
+_toolbar_window_y	src/scim-panel-vkb-gtk.cpp	/^static int                _toolbar_window_y            = -1;$/;"	v	file:
+_tooltips	src/scim-panel-vkb-gtk.cpp	/^static GtkTooltips       *_tooltips                    = 0;$/;"	v	file:
+_tray_icon	src/scim-panel-vkb-gtk.cpp	/^static ScimTrayIcon      *_tray_icon                   = 0;$/;"	v	file:
+_tray_icon_destroy_signal_id	src/scim-panel-vkb-gtk.cpp	/^static gulong             _tray_icon_destroy_signal_id = 0;$/;"	v	file:
+_tray_icon_factory_button	src/scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_tray_icon_factory_button    = 0;$/;"	v	file:
+_ui_initialized	src/scim-panel-vkb-gtk.cpp	/^static bool               _ui_initialized              = false;$/;"	v	file:
+_vkb_dock_panel	src/scim-panel-vkb-gtk.cpp	/^static bool               _vkb_dock_panel              = bool (SCIM_DEFAULT_VKB_DOCKPANEL);$/;"	v	file:
+_vkb_embedded	src/scim-panel-vkb-gtk.cpp	/^static bool               _vkb_embedded                = bool (SCIM_DEFAULT_VKB_PANEL_VKB_ENABLED);$/;"	v	file:
+_vkb_is_alone	src/scim-panel-vkb-gtk.cpp	/^static bool               _vkb_is_alone                = false;$/;"	v	file:
+_vkb_panel_extend	src/scim-panel-vkb-gtk.cpp	/^static bool               _vkb_panel_extend            = bool (SCIM_DEFAULT_VKB_PANEL_EXTEND);$/;"	v	file:
+_vkb_parameters	src/scim-panel-vkb-gtk.cpp	/^static String             _vkb_parameters              = String (SCIM_DEFAULT_VKB_PARAMETERS);$/;"	v	file:
+_vkb_program	src/scim-panel-vkb-gtk.cpp	/^static String             _vkb_program                 = String (SCIM_DEFAULT_VKB_PROGRAM);$/;"	v	file:
+_vkb_socket	src/scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_vkb_socket                  = 0;$/;"	v	file:
+_vkb_window	src/scim-panel-vkb-gtk.cpp	/^static GtkWidget         *_vkb_window                  = 0;$/;"	v	file:
+_vkb_window_height	src/scim-panel-vkb-gtk.cpp	/^static gint               _vkb_window_height           = gint (SCIM_DEFAULT_VKB_WINDOW_HEIGHT);$/;"	v	file:
+_vkb_window_width	src/scim-panel-vkb-gtk.cpp	/^static gint               _vkb_window_width            = gint (SCIM_DEFAULT_VKB_WINDOW_WIDTH);$/;"	v	file:
+_workarea_height	src/scim-panel-vkb-gtk.cpp	/^static gint               _workarea_height             = 600;$/;"	v	file:
+_workarea_width	src/scim-panel-vkb-gtk.cpp	/^static gint               _workarea_width              = 800;$/;"	v	file:
+_workarea_x	src/scim-panel-vkb-gtk.cpp	/^static gint               _workarea_x                  = 0;$/;"	v	file:
+_workarea_y	src/scim-panel-vkb-gtk.cpp	/^static gint               _workarea_y                  = 0;$/;"	v	file:
+aaa_panel_setup_la_CFLAGS	modules/SetupUI/Makefile	/^aaa_panel_setup_la_CFLAGS = -pthread -D_REENTRANT -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include -I\/usr\/include\/gtk-2.0 -I\/usr\/lib\/gtk-2.0\/include -I\/usr\/include\/atk-1.0 -I\/usr\/include\/cairo -I\/usr\/include\/pango-1.0 -I\/usr\/include\/gio-unix-2.0\/ -I\/usr\/include\/pixman-1 -I\/usr\/include\/freetype2 -I\/usr\/include\/directfb -I\/usr\/include\/libpng12 -I\/usr\/include\/scim-1.0 -I\/usr\/include\/dbus-1.0 -I\/usr\/lib\/dbus-1.0\/include  $/;"	m
+aaa_panel_setup_la_LDFLAGS	modules/SetupUI/Makefile	/^aaa_panel_setup_la_LDFLAGS = -avoid-version \\$/;"	m
+aaa_panel_setup_la_LIBADD	modules/SetupUI/Makefile	/^aaa_panel_setup_la_LIBADD =$/;"	m
+aaa_panel_setup_la_LINK	modules/SetupUI/Makefile	/^aaa_panel_setup_la_LINK = $(LIBTOOL) --tag=CXX $(AM_LIBTOOLFLAGS) \\$/;"	m
+aaa_panel_setup_la_OBJECTS	modules/SetupUI/Makefile	/^aaa_panel_setup_la_OBJECTS = $(am_aaa_panel_setup_la_OBJECTS)$/;"	m
+aaa_panel_setup_la_SOURCES	modules/SetupUI/Makefile	/^aaa_panel_setup_la_SOURCES = scim_panel_setup.cpp$/;"	m
+abs_builddir	Makefile	/^abs_builddir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6$/;"	m
+abs_builddir	data/Makefile	/^abs_builddir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/data$/;"	m
+abs_builddir	data/icons/Makefile	/^abs_builddir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/data\/icons$/;"	m
+abs_builddir	modules/Makefile	/^abs_builddir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/modules$/;"	m
+abs_builddir	modules/SetupUI/Makefile	/^abs_builddir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/modules\/SetupUI$/;"	m
+abs_builddir	src/Makefile	/^abs_builddir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/src$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6$/;"	m
+abs_srcdir	data/Makefile	/^abs_srcdir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/data$/;"	m
+abs_srcdir	data/icons/Makefile	/^abs_srcdir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/data\/icons$/;"	m
+abs_srcdir	modules/Makefile	/^abs_srcdir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/modules$/;"	m
+abs_srcdir	modules/SetupUI/Makefile	/^abs_srcdir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/modules\/SetupUI$/;"	m
+abs_srcdir	src/Makefile	/^abs_srcdir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/src$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6$/;"	m
+abs_top_builddir	data/Makefile	/^abs_top_builddir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6$/;"	m
+abs_top_builddir	data/icons/Makefile	/^abs_top_builddir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6$/;"	m
+abs_top_builddir	modules/Makefile	/^abs_top_builddir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6$/;"	m
+abs_top_builddir	modules/SetupUI/Makefile	/^abs_top_builddir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6$/;"	m
+abs_top_builddir	src/Makefile	/^abs_top_builddir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6$/;"	m
+abs_top_srcdir	data/Makefile	/^abs_top_srcdir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6$/;"	m
+abs_top_srcdir	data/icons/Makefile	/^abs_top_srcdir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6$/;"	m
+abs_top_srcdir	modules/Makefile	/^abs_top_srcdir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6$/;"	m
+abs_top_srcdir	modules/SetupUI/Makefile	/^abs_top_srcdir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6$/;"	m
+abs_top_srcdir	src/Makefile	/^abs_top_srcdir = \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	data/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	data/icons/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	modules/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	modules/SetupUI/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	src/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CXX	Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	data/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	data/icons/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	modules/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	modules/SetupUI/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	src/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_DUMPBIN	Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_ct_DUMPBIN	data/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_ct_DUMPBIN	data/icons/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_ct_DUMPBIN	modules/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_ct_DUMPBIN	modules/SetupUI/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_ct_DUMPBIN	src/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_fn_c_check_func	configure	/^ac_fn_c_check_func ()$/;"	f
+ac_fn_c_check_header_compile	configure	/^ac_fn_c_check_header_compile ()$/;"	f
+ac_fn_c_check_header_mongrel	configure	/^ac_fn_c_check_header_mongrel ()$/;"	f
+ac_fn_c_try_compile	configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_c_try_cpp	configure	/^ac_fn_c_try_cpp ()$/;"	f
+ac_fn_c_try_link	configure	/^ac_fn_c_try_link ()$/;"	f
+ac_fn_c_try_run	configure	/^ac_fn_c_try_run ()$/;"	f
+ac_fn_cxx_try_compile	configure	/^ac_fn_cxx_try_compile ()$/;"	f
+ac_fn_cxx_try_cpp	configure	/^ac_fn_cxx_try_cpp ()$/;"	f
+ac_fn_cxx_try_link	configure	/^ac_fn_cxx_try_link ()$/;"	f
+am__CONFIG_DISTCLEAN_FILES	Makefile	/^am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \\$/;"	m
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/m4\/as-linguas.m4 \\$/;"	m
+am__aclocal_m4_deps	data/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/m4\/as-linguas.m4 \\$/;"	m
+am__aclocal_m4_deps	data/icons/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/m4\/as-linguas.m4 \\$/;"	m
+am__aclocal_m4_deps	modules/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/m4\/as-linguas.m4 \\$/;"	m
+am__aclocal_m4_deps	modules/SetupUI/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/m4\/as-linguas.m4 \\$/;"	m
+am__aclocal_m4_deps	src/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/m4\/as-linguas.m4 \\$/;"	m
+am__base_list	data/icons/Makefile	/^am__base_list = \\$/;"	m
+am__base_list	modules/SetupUI/Makefile	/^am__base_list = \\$/;"	m
+am__base_list	src/Makefile	/^am__base_list = \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	data/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	data/icons/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	modules/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	modules/SetupUI/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	src/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	data/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	data/icons/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	modules/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	modules/SetupUI/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	src/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	modules/SetupUI/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__depfiles_maybe	src/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__include	data/Makefile	/^am__include = include$/;"	m
+am__include	data/icons/Makefile	/^am__include = include$/;"	m
+am__include	modules/Makefile	/^am__include = include$/;"	m
+am__include	modules/SetupUI/Makefile	/^am__include = include$/;"	m
+am__include	src/Makefile	/^am__include = include$/;"	m
+am__install_max	data/icons/Makefile	/^am__install_max = 40$/;"	m
+am__install_max	modules/SetupUI/Makefile	/^am__install_max = 40$/;"	m
+am__install_max	src/Makefile	/^am__install_max = 40$/;"	m
+am__installdirs	data/icons/Makefile	/^am__installdirs = "$(DESTDIR)$(icondir)"$/;"	m
+am__installdirs	modules/SetupUI/Makefile	/^am__installdirs = "$(DESTDIR)$(setupmoduledir)"$/;"	m
+am__installdirs	src/Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)" "$(DESTDIR)$(bindir)"$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	data/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	data/icons/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	modules/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	modules/SetupUI/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	src/Makefile	/^am__leading_dot = .$/;"	m
+am__mv	modules/SetupUI/Makefile	/^am__mv = mv -f$/;"	m
+am__mv	src/Makefile	/^am__mv = mv -f$/;"	m
+am__nobase_list	data/icons/Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_list	modules/SetupUI/Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_list	src/Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_strip	data/icons/Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip	modules/SetupUI/Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip	src/Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip_setup	data/icons/Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__nobase_strip_setup	modules/SetupUI/Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__nobase_strip_setup	src/Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__quote	data/Makefile	/^am__quote = $/;"	m
+am__quote	data/icons/Makefile	/^am__quote = $/;"	m
+am__quote	modules/Makefile	/^am__quote = $/;"	m
+am__quote	modules/SetupUI/Makefile	/^am__quote = $/;"	m
+am__quote	src/Makefile	/^am__quote = $/;"	m
+am__relativize	Makefile	/^am__relativize = \\$/;"	m
+am__relativize	data/Makefile	/^am__relativize = \\$/;"	m
+am__relativize	modules/Makefile	/^am__relativize = \\$/;"	m
+am__remove_distdir	Makefile	/^am__remove_distdir = \\$/;"	m
+am__strip_dir	data/icons/Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__strip_dir	modules/SetupUI/Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__strip_dir	src/Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__tar	Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__tar	data/Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__tar	data/icons/Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__tar	modules/Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__tar	modules/SetupUI/Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__tar	src/Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__untar	Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__untar	data/Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__untar	data/icons/Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__untar	modules/Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__untar	modules/SetupUI/Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__untar	src/Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__vpath_adj	data/icons/Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj	modules/SetupUI/Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj	src/Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj_setup	data/icons/Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am__vpath_adj_setup	modules/SetupUI/Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am__vpath_adj_setup	src/Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am_aaa_panel_setup_la_OBJECTS	modules/SetupUI/Makefile	/^am_aaa_panel_setup_la_OBJECTS = scim_panel_setup.lo$/;"	m
+am_panel_vkb_setup_la_OBJECTS	modules/SetupUI/Makefile	/^am_panel_vkb_setup_la_OBJECTS = scim_panel_vkb_setup.lo$/;"	m
+am_scim_panel_vkb_gtk_OBJECTS	src/Makefile	/^am_scim_panel_vkb_gtk_OBJECTS = scim-panel-vkb-gtk.$(OBJEXT) \\$/;"	m
+as_fn_append	config.status	/^  as_fn_append ()$/;"	f
+as_fn_append	configure	/^  as_fn_append ()$/;"	f
+as_fn_arith	config.status	/^  as_fn_arith ()$/;"	f
+as_fn_arith	configure	/^  as_fn_arith ()$/;"	f
+as_fn_error	config.status	/^as_fn_error ()$/;"	f
+as_fn_error	configure	/^as_fn_error ()$/;"	f
+as_fn_exit	config.status	/^as_fn_exit ()$/;"	f
+as_fn_exit	configure	/^as_fn_exit ()$/;"	f
+as_fn_failure	configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_mkdir_p	config.status	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_ret_failure	configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_success	configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_set_status	config.status	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	configure	/^as_fn_set_status ()$/;"	f
+as_fn_success	configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_unset	config.status	/^as_fn_unset ()$/;"	f
+as_fn_unset	configure	/^as_fn_unset ()$/;"	f
+bin_PROGRAMS	src/Makefile	/^bin_PROGRAMS = scim-panel-vkb-gtk$(EXEEXT)$/;"	m
+bind_textdomain_codeset	modules/SetupUI/scim_panel_setup.cpp	45;"	d	file:
+bind_textdomain_codeset	modules/SetupUI/scim_panel_vkb_setup.cpp	42;"	d	file:
+bind_textdomain_codeset	src/panel_private.h	36;"	d
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	data/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	data/icons/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	modules/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	modules/SetupUI/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	src/Makefile	/^bindir = \/usr\/local\/lib\/scim-1.0$/;"	m
+bindtextdomain	modules/SetupUI/scim_panel_setup.cpp	44;"	d	file:
+bindtextdomain	modules/SetupUI/scim_panel_vkb_setup.cpp	41;"	d	file:
+bindtextdomain	src/panel_private.h	34;"	d
+build	Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	data/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	data/icons/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	modules/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	modules/SetupUI/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	src/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_alias	data/Makefile	/^build_alias = $/;"	m
+build_alias	data/icons/Makefile	/^build_alias = $/;"	m
+build_alias	modules/Makefile	/^build_alias = $/;"	m
+build_alias	modules/SetupUI/Makefile	/^build_alias = $/;"	m
+build_alias	src/Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = i686$/;"	m
+build_cpu	data/Makefile	/^build_cpu = i686$/;"	m
+build_cpu	data/icons/Makefile	/^build_cpu = i686$/;"	m
+build_cpu	modules/Makefile	/^build_cpu = i686$/;"	m
+build_cpu	modules/SetupUI/Makefile	/^build_cpu = i686$/;"	m
+build_cpu	src/Makefile	/^build_cpu = i686$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_os	data/Makefile	/^build_os = linux-gnu$/;"	m
+build_os	data/icons/Makefile	/^build_os = linux-gnu$/;"	m
+build_os	modules/Makefile	/^build_os = linux-gnu$/;"	m
+build_os	modules/SetupUI/Makefile	/^build_os = linux-gnu$/;"	m
+build_os	src/Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	data/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	data/icons/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	modules/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	modules/SetupUI/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	src/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = pc$/;"	m
+build_vendor	data/Makefile	/^build_vendor = pc$/;"	m
+build_vendor	data/icons/Makefile	/^build_vendor = pc$/;"	m
+build_vendor	modules/Makefile	/^build_vendor = pc$/;"	m
+build_vendor	modules/SetupUI/Makefile	/^build_vendor = pc$/;"	m
+build_vendor	src/Makefile	/^build_vendor = pc$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+builddir	data/Makefile	/^builddir = .$/;"	m
+builddir	data/icons/Makefile	/^builddir = .$/;"	m
+builddir	modules/Makefile	/^builddir = .$/;"	m
+builddir	modules/SetupUI/Makefile	/^builddir = .$/;"	m
+builddir	src/Makefile	/^builddir = .$/;"	m
+class_name	src/panel-vkb-dbusobj.h	/^	gchar * class_name;$/;"	m	struct:_PanelVkbDbusObjClass
+create_setup_window	modules/SetupUI/scim_panel_setup.cpp	/^static GtkWidget * create_setup_window ()$/;"	f	file:
+create_setup_window	modules/SetupUI/scim_panel_vkb_setup.cpp	/^create_setup_window ()$/;"	f
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	data/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	data/icons/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	modules/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	modules/SetupUI/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	po/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	src/Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	data/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	data/icons/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	modules/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	modules/SetupUI/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	po/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	src/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+dbus_glib_marshal_panel_vkb_BOOLEAN__POINTER	src/panel-vkb-dbus-glue.h	/^dbus_glib_marshal_panel_vkb_BOOLEAN__POINTER (GClosure     *closure,$/;"	f
+dbus_glib_panel_vkb_methods	src/panel-vkb-dbus-glue.h	/^static const DBusGMethodInfo dbus_glib_panel_vkb_methods[] = {$/;"	v
+dbus_glib_panel_vkb_object_info	src/panel-vkb-dbus-glue.h	/^const DBusGObjectInfo dbus_glib_panel_vkb_object_info = {  1,$/;"	v
+depcomp	modules/SetupUI/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+depcomp	src/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+dist_bin_SCRIPTS	src/Makefile	/^dist_bin_SCRIPTS = hack-scim-global-config$/;"	m
+distcleancheck_listfiles	Makefile	/^distcleancheck_listfiles = find . -type f -print$/;"	m
+distdir	Makefile	/^distdir = $(PACKAGE)-$(VERSION)$/;"	m
+distdir	po/Makefile	/^distdir = ..\/$(PACKAGE)-$(VERSION)\/$(subdir)$/;"	m
+distuninstallcheck_listfiles	Makefile	/^distuninstallcheck_listfiles = find . -type f -print$/;"	m
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	data/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	data/icons/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	modules/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	modules/SetupUI/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	src/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	data/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	data/icons/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	modules/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	modules/SetupUI/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	src/Makefile	/^dvidir = ${docdir}$/;"	m
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	data/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	data/icons/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	modules/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	modules/SetupUI/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	po/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	src/Makefile	/^exec_prefix = ${prefix}$/;"	m
+func_append	config.status	/^func_append ()$/;"	f
+func_append	configure	/^func_append ()$/;"	f
+func_append	libtool	/^func_append ()$/;"	f
+func_arith	config.status	/^func_arith ()$/;"	f
+func_arith	configure	/^func_arith ()$/;"	f
+func_arith	libtool	/^func_arith ()$/;"	f
+func_basename	config.status	/^func_basename ()$/;"	f
+func_basename	configure	/^func_basename ()$/;"	f
+func_basename	libtool	/^func_basename ()$/;"	f
+func_check_version_match	libtool	/^func_check_version_match ()$/;"	f
+func_check_version_match	ltmain.sh	/^func_check_version_match ()$/;"	f
+func_config	libtool	/^func_config ()$/;"	f
+func_config	ltmain.sh	/^func_config ()$/;"	f
+func_dirname	config.status	/^func_dirname ()$/;"	f
+func_dirname	configure	/^func_dirname ()$/;"	f
+func_dirname	libtool	/^func_dirname ()$/;"	f
+func_dirname_and_basename	config.status	/^func_dirname_and_basename ()$/;"	f
+func_dirname_and_basename	configure	/^func_dirname_and_basename ()$/;"	f
+func_dirname_and_basename	libtool	/^func_dirname_and_basename ()$/;"	f
+func_dirname_and_basename	ltmain.sh	/^func_dirname_and_basename ()$/;"	f
+func_echo	libtool	/^func_echo ()$/;"	f
+func_echo	ltmain.sh	/^func_echo ()$/;"	f
+func_emit_cwrapperexe_src	libtool	/^func_emit_cwrapperexe_src ()$/;"	f
+func_emit_cwrapperexe_src	ltmain.sh	/^func_emit_cwrapperexe_src ()$/;"	f
+func_emit_wrapper	libtool	/^func_emit_wrapper ()$/;"	f
+func_emit_wrapper	ltmain.sh	/^func_emit_wrapper ()$/;"	f
+func_emit_wrapper_part1	libtool	/^func_emit_wrapper_part1 ()$/;"	f
+func_emit_wrapper_part1	ltmain.sh	/^func_emit_wrapper_part1 ()$/;"	f
+func_emit_wrapper_part2	libtool	/^func_emit_wrapper_part2 ()$/;"	f
+func_emit_wrapper_part2	ltmain.sh	/^func_emit_wrapper_part2 ()$/;"	f
+func_enable_tag	libtool	/^func_enable_tag ()$/;"	f
+func_enable_tag	ltmain.sh	/^func_enable_tag ()$/;"	f
+func_error	libtool	/^func_error ()$/;"	f
+func_error	ltmain.sh	/^func_error ()$/;"	f
+func_execute_cmds	libtool	/^func_execute_cmds ()$/;"	f
+func_execute_cmds	ltmain.sh	/^func_execute_cmds ()$/;"	f
+func_extract_an_archive	libtool	/^func_extract_an_archive ()$/;"	f
+func_extract_an_archive	ltmain.sh	/^func_extract_an_archive ()$/;"	f
+func_extract_archives	libtool	/^func_extract_archives ()$/;"	f
+func_extract_archives	ltmain.sh	/^func_extract_archives ()$/;"	f
+func_fatal_configuration	libtool	/^func_fatal_configuration ()$/;"	f
+func_fatal_configuration	ltmain.sh	/^func_fatal_configuration ()$/;"	f
+func_fatal_error	libtool	/^func_fatal_error ()$/;"	f
+func_fatal_error	ltmain.sh	/^func_fatal_error ()$/;"	f
+func_fatal_help	libtool	/^func_fatal_help ()$/;"	f
+func_fatal_help	ltmain.sh	/^func_fatal_help ()$/;"	f
+func_features	libtool	/^func_features ()$/;"	f
+func_features	ltmain.sh	/^func_features ()$/;"	f
+func_generate_dlsyms	libtool	/^func_generate_dlsyms ()$/;"	f
+func_generate_dlsyms	ltmain.sh	/^func_generate_dlsyms ()$/;"	f
+func_grep	libtool	/^func_grep ()$/;"	f
+func_grep	ltmain.sh	/^func_grep ()$/;"	f
+func_help	libtool	/^func_help ()$/;"	f
+func_help	ltmain.sh	/^func_help ()$/;"	f
+func_infer_tag	libtool	/^func_infer_tag ()$/;"	f
+func_infer_tag	ltmain.sh	/^func_infer_tag ()$/;"	f
+func_lalib_p	libtool	/^func_lalib_p ()$/;"	f
+func_lalib_p	ltmain.sh	/^func_lalib_p ()$/;"	f
+func_lalib_unsafe_p	libtool	/^func_lalib_unsafe_p ()$/;"	f
+func_lalib_unsafe_p	ltmain.sh	/^func_lalib_unsafe_p ()$/;"	f
+func_len	config.status	/^func_len ()$/;"	f
+func_len	configure	/^func_len ()$/;"	f
+func_len	libtool	/^func_len ()$/;"	f
+func_lo2o	config.status	/^func_lo2o ()$/;"	f
+func_lo2o	configure	/^func_lo2o ()$/;"	f
+func_lo2o	libtool	/^func_lo2o ()$/;"	f
+func_ltwrapper_executable_p	libtool	/^func_ltwrapper_executable_p ()$/;"	f
+func_ltwrapper_executable_p	ltmain.sh	/^func_ltwrapper_executable_p ()$/;"	f
+func_ltwrapper_p	libtool	/^func_ltwrapper_p ()$/;"	f
+func_ltwrapper_p	ltmain.sh	/^func_ltwrapper_p ()$/;"	f
+func_ltwrapper_script_p	libtool	/^func_ltwrapper_script_p ()$/;"	f
+func_ltwrapper_script_p	ltmain.sh	/^func_ltwrapper_script_p ()$/;"	f
+func_ltwrapper_scriptname	libtool	/^func_ltwrapper_scriptname ()$/;"	f
+func_ltwrapper_scriptname	ltmain.sh	/^func_ltwrapper_scriptname ()$/;"	f
+func_missing_arg	libtool	/^func_missing_arg ()$/;"	f
+func_missing_arg	ltmain.sh	/^func_missing_arg ()$/;"	f
+func_mkdir_p	libtool	/^func_mkdir_p ()$/;"	f
+func_mkdir_p	ltmain.sh	/^func_mkdir_p ()$/;"	f
+func_mktempdir	libtool	/^func_mktempdir ()$/;"	f
+func_mktempdir	ltmain.sh	/^func_mktempdir ()$/;"	f
+func_mode_compile	libtool	/^func_mode_compile ()$/;"	f
+func_mode_compile	ltmain.sh	/^func_mode_compile ()$/;"	f
+func_mode_execute	libtool	/^func_mode_execute ()$/;"	f
+func_mode_execute	ltmain.sh	/^func_mode_execute ()$/;"	f
+func_mode_finish	libtool	/^func_mode_finish ()$/;"	f
+func_mode_finish	ltmain.sh	/^func_mode_finish ()$/;"	f
+func_mode_help	libtool	/^func_mode_help ()$/;"	f
+func_mode_help	ltmain.sh	/^func_mode_help ()$/;"	f
+func_mode_install	libtool	/^func_mode_install ()$/;"	f
+func_mode_install	ltmain.sh	/^func_mode_install ()$/;"	f
+func_mode_link	libtool	/^func_mode_link ()$/;"	f
+func_mode_link	ltmain.sh	/^func_mode_link ()$/;"	f
+func_mode_uninstall	libtool	/^func_mode_uninstall ()$/;"	f
+func_mode_uninstall	ltmain.sh	/^func_mode_uninstall ()$/;"	f
+func_opt_split	config.status	/^func_opt_split ()$/;"	f
+func_opt_split	configure	/^func_opt_split ()$/;"	f
+func_opt_split	libtool	/^func_opt_split ()$/;"	f
+func_quote_for_eval	libtool	/^func_quote_for_eval ()$/;"	f
+func_quote_for_eval	ltmain.sh	/^func_quote_for_eval ()$/;"	f
+func_quote_for_expand	libtool	/^func_quote_for_expand ()$/;"	f
+func_quote_for_expand	ltmain.sh	/^func_quote_for_expand ()$/;"	f
+func_show_eval	libtool	/^func_show_eval ()$/;"	f
+func_show_eval	ltmain.sh	/^func_show_eval ()$/;"	f
+func_show_eval_locale	libtool	/^func_show_eval_locale ()$/;"	f
+func_show_eval_locale	ltmain.sh	/^func_show_eval_locale ()$/;"	f
+func_source	libtool	/^func_source ()$/;"	f
+func_source	ltmain.sh	/^func_source ()$/;"	f
+func_stripname	config.status	/^func_stripname ()$/;"	f
+func_stripname	configure	/^func_stripname ()$/;"	f
+func_stripname	libtool	/^func_stripname ()$/;"	f
+func_to_host_path	libtool	/^func_to_host_path ()$/;"	f
+func_to_host_path	ltmain.sh	/^func_to_host_path ()$/;"	f
+func_to_host_pathlist	libtool	/^func_to_host_pathlist ()$/;"	f
+func_to_host_pathlist	ltmain.sh	/^func_to_host_pathlist ()$/;"	f
+func_usage	libtool	/^func_usage ()$/;"	f
+func_usage	ltmain.sh	/^func_usage ()$/;"	f
+func_verbose	libtool	/^func_verbose ()$/;"	f
+func_verbose	ltmain.sh	/^func_verbose ()$/;"	f
+func_version	libtool	/^func_version ()$/;"	f
+func_version	ltmain.sh	/^func_version ()$/;"	f
+func_warning	libtool	/^func_warning ()$/;"	f
+func_warning	ltmain.sh	/^func_warning ()$/;"	f
+func_win32_libid	libtool	/^func_win32_libid ()$/;"	f
+func_win32_libid	ltmain.sh	/^func_win32_libid ()$/;"	f
+func_write_libtool_object	libtool	/^func_write_libtool_object ()$/;"	f
+func_write_libtool_object	ltmain.sh	/^func_write_libtool_object ()$/;"	f
+func_xform	config.status	/^func_xform ()$/;"	f
+func_xform	configure	/^func_xform ()$/;"	f
+func_xform	libtool	/^func_xform ()$/;"	f
+g_marshal_value_peek_boolean	src/panel-vkb-dbus-glue.h	12;"	d
+g_marshal_value_peek_boxed	src/panel-vkb-dbus-glue.h	27;"	d
+g_marshal_value_peek_char	src/panel-vkb-dbus-glue.h	13;"	d
+g_marshal_value_peek_double	src/panel-vkb-dbus-glue.h	24;"	d
+g_marshal_value_peek_enum	src/panel-vkb-dbus-glue.h	21;"	d
+g_marshal_value_peek_flags	src/panel-vkb-dbus-glue.h	22;"	d
+g_marshal_value_peek_float	src/panel-vkb-dbus-glue.h	23;"	d
+g_marshal_value_peek_int	src/panel-vkb-dbus-glue.h	15;"	d
+g_marshal_value_peek_int64	src/panel-vkb-dbus-glue.h	19;"	d
+g_marshal_value_peek_long	src/panel-vkb-dbus-glue.h	17;"	d
+g_marshal_value_peek_object	src/panel-vkb-dbus-glue.h	29;"	d
+g_marshal_value_peek_param	src/panel-vkb-dbus-glue.h	26;"	d
+g_marshal_value_peek_pointer	src/panel-vkb-dbus-glue.h	28;"	d
+g_marshal_value_peek_string	src/panel-vkb-dbus-glue.h	25;"	d
+g_marshal_value_peek_uchar	src/panel-vkb-dbus-glue.h	14;"	d
+g_marshal_value_peek_uint	src/panel-vkb-dbus-glue.h	16;"	d
+g_marshal_value_peek_uint64	src/panel-vkb-dbus-glue.h	20;"	d
+g_marshal_value_peek_ulong	src/panel-vkb-dbus-glue.h	18;"	d
+holder	src/scim-panel-vkb-gtk.cpp	/^    GtkWidget           *holder;$/;"	m	struct:HelperPropertyInfo	file:
+host	Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	data/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	data/icons/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	modules/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	modules/SetupUI/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	src/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+host_alias	data/Makefile	/^host_alias = $/;"	m
+host_alias	data/icons/Makefile	/^host_alias = $/;"	m
+host_alias	modules/Makefile	/^host_alias = $/;"	m
+host_alias	modules/SetupUI/Makefile	/^host_alias = $/;"	m
+host_alias	src/Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = i686$/;"	m
+host_cpu	data/Makefile	/^host_cpu = i686$/;"	m
+host_cpu	data/icons/Makefile	/^host_cpu = i686$/;"	m
+host_cpu	modules/Makefile	/^host_cpu = i686$/;"	m
+host_cpu	modules/SetupUI/Makefile	/^host_cpu = i686$/;"	m
+host_cpu	src/Makefile	/^host_cpu = i686$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_os	data/Makefile	/^host_os = linux-gnu$/;"	m
+host_os	data/icons/Makefile	/^host_os = linux-gnu$/;"	m
+host_os	modules/Makefile	/^host_os = linux-gnu$/;"	m
+host_os	modules/SetupUI/Makefile	/^host_os = linux-gnu$/;"	m
+host_os	src/Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	data/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	data/icons/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	modules/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	modules/SetupUI/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	src/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = pc$/;"	m
+host_vendor	data/Makefile	/^host_vendor = pc$/;"	m
+host_vendor	data/icons/Makefile	/^host_vendor = pc$/;"	m
+host_vendor	modules/Makefile	/^host_vendor = pc$/;"	m
+host_vendor	modules/SetupUI/Makefile	/^host_vendor = pc$/;"	m
+host_vendor	src/Makefile	/^host_vendor = pc$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	data/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	data/icons/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	modules/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	modules/SetupUI/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	src/Makefile	/^htmldir = ${docdir}$/;"	m
+icon_DATA	data/icons/Makefile	/^icon_DATA = $(INST_ICONS)$/;"	m
+icondir	data/icons/Makefile	/^icondir = \/usr\/share\/scim\/icons$/;"	m
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	data/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	data/icons/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	modules/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	modules/SetupUI/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	src/Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	data/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	data/icons/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	modules/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	modules/SetupUI/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	src/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+install_sh	Makefile	/^install_sh = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/install-sh$/;"	m
+install_sh	data/Makefile	/^install_sh = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/install-sh$/;"	m
+install_sh	data/icons/Makefile	/^install_sh = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/install-sh$/;"	m
+install_sh	modules/Makefile	/^install_sh = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/install-sh$/;"	m
+install_sh	modules/SetupUI/Makefile	/^install_sh = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/install-sh$/;"	m
+install_sh	po/Makefile	/^install_sh = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/install-sh$/;"	m
+install_sh	src/Makefile	/^install_sh = ${SHELL} \/home\/jimu\/keyboard_packages\/scim-panel-vkb-gtk-0.1.6\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	data/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	data/icons/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	modules/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	modules/SetupUI/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	src/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	data/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	data/icons/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	modules/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	modules/SetupUI/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	src/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	data/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	data/icons/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	modules/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	modules/SetupUI/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	src/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+itlocaledir	po/Makefile	/^itlocaledir = $(prefix)\/$(DATADIRNAME)\/locale$/;"	m
+killchilds	src/panel-keyboard.cpp	/^killchilds(int sig)$/;"	f	file:
+launch_keyboard	src/panel-keyboard.cpp	/^launch_keyboard(const char *cmd, const char *params, int *vkb_pid)$/;"	f
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	data/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	data/icons/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	modules/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	modules/SetupUI/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	po/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	src/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	data/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	data/icons/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	modules/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	modules/SetupUI/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	src/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+linguas	po/Makefile	/^	linguas="$(USE_LINGUAS)"; \\$/;"	m
+load_config	modules/SetupUI/scim_panel_setup.cpp	/^load_config (const ConfigPointer &config)$/;"	f	file:
+load_config	modules/SetupUI/scim_panel_vkb_setup.cpp	/^load_config (const ConfigPointer &config)$/;"	f
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	data/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	data/icons/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	modules/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	modules/SetupUI/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	src/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	data/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	data/icons/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	modules/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	modules/SetupUI/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	src/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+lt_ECHO	Makefile	/^lt_ECHO = echo$/;"	m
+lt_ECHO	data/Makefile	/^lt_ECHO = echo$/;"	m
+lt_ECHO	data/icons/Makefile	/^lt_ECHO = echo$/;"	m
+lt_ECHO	modules/Makefile	/^lt_ECHO = echo$/;"	m
+lt_ECHO	modules/SetupUI/Makefile	/^lt_ECHO = echo$/;"	m
+lt_ECHO	src/Makefile	/^lt_ECHO = echo$/;"	m
+main	config.guess	/^		main()$/;"	f
+main	config.guess	/^	main ()$/;"	f
+main	config.guess	/^main ()$/;"	f
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	data/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	data/icons/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	modules/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	modules/SetupUI/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	src/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mkdir_p	Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkdir_p	data/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkdir_p	data/icons/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkdir_p	modules/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkdir_p	modules/SetupUI/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkdir_p	po/Makefile	/^mkdir_p = $(install_sh) -d$/;"	m
+mkdir_p	src/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(SHELL) $(top_srcdir)\/mkinstalldirs$/;"	m
+mkinstalldirs	data/Makefile	/^mkinstalldirs = $(SHELL) $(top_srcdir)\/mkinstalldirs$/;"	m
+mkinstalldirs	data/icons/Makefile	/^mkinstalldirs = $(SHELL) $(top_srcdir)\/mkinstalldirs$/;"	m
+mkinstalldirs	modules/Makefile	/^mkinstalldirs = $(SHELL) $(top_srcdir)\/mkinstalldirs$/;"	m
+mkinstalldirs	modules/SetupUI/Makefile	/^mkinstalldirs = $(SHELL) $(top_srcdir)\/mkinstalldirs$/;"	m
+mkinstalldirs	src/Makefile	/^mkinstalldirs = $(SHELL) $(top_srcdir)\/mkinstalldirs$/;"	m
+name	src/panel-vkb-dbusobj.h	/^	gchar * name;$/;"	m	struct:_PanelVkbDbusObj
+net_wm_strut	src/panel-utility.cpp	/^static Atom net_wm_strut              = None;$/;"	v	file:
+net_wm_strut_partial	src/panel-utility.cpp	/^static Atom net_wm_strut_partial      = None;$/;"	v	file:
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	data/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	data/icons/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	modules/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	modules/SetupUI/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	src/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+on_color_selection_clicked	modules/SetupUI/scim_panel_vkb_setup.cpp	/^on_color_selection_clicked(GtkButton *button,$/;"	f	file:
+on_default_spin_button_changed	modules/SetupUI/scim_panel_vkb_setup.cpp	/^on_default_spin_button_changed (GtkSpinButton *spinbutton,$/;"	f	file:
+on_default_toggle_button_toggled	modules/SetupUI/scim_panel_vkb_setup.cpp	/^on_default_toggle_button_toggled (GtkToggleButton *togglebutton,$/;"	f	file:
+on_enable_vkb_button_toggled	modules/SetupUI/scim_panel_vkb_setup.cpp	/^on_enable_vkb_button_toggled (GtkToggleButton *togglebutton,$/;"	f	file:
+on_font_selection_clicked	modules/SetupUI/scim_panel_vkb_setup.cpp	/^on_font_selection_clicked (GtkButton *button,$/;"	f	file:
+on_panel_program_changed	modules/SetupUI/scim_panel_setup.cpp	/^on_panel_program_changed (GtkComboBox *combobox,$/;"	f	file:
+on_vkb_parameters_changed	modules/SetupUI/scim_panel_vkb_setup.cpp	/^on_vkb_parameters_changed (GtkEntry *entry,$/;"	f	file:
+on_vkb_program_changed	modules/SetupUI/scim_panel_vkb_setup.cpp	/^on_vkb_program_changed (GtkEntry *entry,$/;"	f	file:
+on_vkb_program_selection_clicked	modules/SetupUI/scim_panel_vkb_setup.cpp	/^on_vkb_program_selection_clicked (GtkButton *button,$/;"	f	file:
+on_vkb_set_default	modules/SetupUI/scim_panel_vkb_setup.cpp	/^on_vkb_set_default(GtkButton *button,$/;"	f	file:
+panel_list	modules/SetupUI/scim_panel_setup.cpp	/^static std::vector <String> panel_list;$/;"	v	file:
+panel_vkb_dbus_init	src/panel-vkb-dbusobj.cpp	/^PanelVkbDbusObj * panel_vkb_dbus_init()$/;"	f
+panel_vkb_dbusobj_class_init	src/panel-vkb-dbusobj.cpp	/^void panel_vkb_dbusobj_class_init(PanelVkbDbusObjClass *objclass)$/;"	f
+panel_vkb_dbusobj_get_type	src/panel-vkb-dbusobj.cpp	/^GType panel_vkb_dbusobj_get_type(void)$/;"	f
+panel_vkb_dbusobj_init	src/panel-vkb-dbusobj.cpp	/^void panel_vkb_dbusobj_init(PanelVkbDbusObj *obj)$/;"	f
+panel_vkb_setup_la_CFLAGS	modules/SetupUI/Makefile	/^panel_vkb_setup_la_CFLAGS = -pthread -D_REENTRANT -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include -I\/usr\/include\/gtk-2.0 -I\/usr\/lib\/gtk-2.0\/include -I\/usr\/include\/atk-1.0 -I\/usr\/include\/cairo -I\/usr\/include\/pango-1.0 -I\/usr\/include\/gio-unix-2.0\/ -I\/usr\/include\/pixman-1 -I\/usr\/include\/freetype2 -I\/usr\/include\/directfb -I\/usr\/include\/libpng12 -I\/usr\/include\/scim-1.0 -I\/usr\/include\/dbus-1.0 -I\/usr\/lib\/dbus-1.0\/include  $/;"	m
+panel_vkb_setup_la_LDFLAGS	modules/SetupUI/Makefile	/^panel_vkb_setup_la_LDFLAGS = -avoid-version \\$/;"	m
+panel_vkb_setup_la_LIBADD	modules/SetupUI/Makefile	/^panel_vkb_setup_la_LIBADD =$/;"	m
+panel_vkb_setup_la_LINK	modules/SetupUI/Makefile	/^panel_vkb_setup_la_LINK = $(LIBTOOL) --tag=CXX $(AM_LIBTOOLFLAGS) \\$/;"	m
+panel_vkb_setup_la_OBJECTS	modules/SetupUI/Makefile	/^panel_vkb_setup_la_OBJECTS = $(am_panel_vkb_setup_la_OBJECTS)$/;"	m
+panel_vkb_setup_la_SOURCES	modules/SetupUI/Makefile	/^panel_vkb_setup_la_SOURCES = scim_panel_vkb_setup.cpp$/;"	m
+panel_vkb_toggle_vkb_alone	src/scim-panel-vkb-gtk.cpp	/^gboolean panel_vkb_toggle_vkb_alone(PanelVkbDbusObj * dbusobj, GError **error)$/;"	f
+panel_vkb_turn_off_panel	src/scim-panel-vkb-gtk.cpp	/^gboolean panel_vkb_turn_off_panel(PanelVkbDbusObj * dbusobj, GError **error)$/;"	f
+panel_vkb_turn_on_panel	src/scim-panel-vkb-gtk.cpp	/^gboolean panel_vkb_turn_on_panel(PanelVkbDbusObj * dbusobj, GError **error)$/;"	f
+parent	src/panel-vkb-dbusobj.h	/^	GObject parent;$/;"	m	struct:_PanelVkbDbusObj
+parent_class	src/panel-vkb-dbusobj.h	/^	GObjectClass parent_class;$/;"	m	struct:_PanelVkbDbusObjClass
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	data/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	data/icons/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	modules/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	modules/SetupUI/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	src/Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/scim-panel-vkb-gtk$/;"	m
+pkgdatadir	data/Makefile	/^pkgdatadir = $(datadir)\/scim-panel-vkb-gtk$/;"	m
+pkgdatadir	data/icons/Makefile	/^pkgdatadir = $(datadir)\/scim-panel-vkb-gtk$/;"	m
+pkgdatadir	modules/Makefile	/^pkgdatadir = $(datadir)\/scim-panel-vkb-gtk$/;"	m
+pkgdatadir	modules/SetupUI/Makefile	/^pkgdatadir = $(datadir)\/scim-panel-vkb-gtk$/;"	m
+pkgdatadir	src/Makefile	/^pkgdatadir = $(datadir)\/scim-panel-vkb-gtk$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/scim-panel-vkb-gtk$/;"	m
+pkgincludedir	data/Makefile	/^pkgincludedir = $(includedir)\/scim-panel-vkb-gtk$/;"	m
+pkgincludedir	data/icons/Makefile	/^pkgincludedir = $(includedir)\/scim-panel-vkb-gtk$/;"	m
+pkgincludedir	modules/Makefile	/^pkgincludedir = $(includedir)\/scim-panel-vkb-gtk$/;"	m
+pkgincludedir	modules/SetupUI/Makefile	/^pkgincludedir = $(includedir)\/scim-panel-vkb-gtk$/;"	m
+pkgincludedir	src/Makefile	/^pkgincludedir = $(includedir)\/scim-panel-vkb-gtk$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/scim-panel-vkb-gtk$/;"	m
+pkglibdir	data/Makefile	/^pkglibdir = $(libdir)\/scim-panel-vkb-gtk$/;"	m
+pkglibdir	data/icons/Makefile	/^pkglibdir = $(libdir)\/scim-panel-vkb-gtk$/;"	m
+pkglibdir	modules/Makefile	/^pkglibdir = $(libdir)\/scim-panel-vkb-gtk$/;"	m
+pkglibdir	modules/SetupUI/Makefile	/^pkglibdir = $(libdir)\/scim-panel-vkb-gtk$/;"	m
+pkglibdir	src/Makefile	/^pkglibdir = $(libdir)\/scim-panel-vkb-gtk$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/scim-panel-vkb-gtk$/;"	m
+pkglibexecdir	data/Makefile	/^pkglibexecdir = $(libexecdir)\/scim-panel-vkb-gtk$/;"	m
+pkglibexecdir	data/icons/Makefile	/^pkglibexecdir = $(libexecdir)\/scim-panel-vkb-gtk$/;"	m
+pkglibexecdir	modules/Makefile	/^pkglibexecdir = $(libexecdir)\/scim-panel-vkb-gtk$/;"	m
+pkglibexecdir	modules/SetupUI/Makefile	/^pkglibexecdir = $(libexecdir)\/scim-panel-vkb-gtk$/;"	m
+pkglibexecdir	src/Makefile	/^pkglibexecdir = $(libexecdir)\/scim-panel-vkb-gtk$/;"	m
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	data/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	data/icons/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	modules/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	modules/SetupUI/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	po/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	src/Makefile	/^prefix = \/usr\/local$/;"	m
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	data/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	data/icons/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	modules/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	modules/SetupUI/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	src/Makefile	/^program_transform_name = s,x,x,$/;"	m
+property	src/scim-panel-vkb-gtk.cpp	/^    Property   property;$/;"	m	struct:PropertyInfo	file:
+prototypes	configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+psdir	data/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	data/icons/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	modules/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	modules/SetupUI/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	src/Makefile	/^psdir = ${docdir}$/;"	m
+query_changed	modules/SetupUI/scim_panel_setup.cpp	/^query_changed ()$/;"	f	file:
+query_changed	modules/SetupUI/scim_panel_vkb_setup.cpp	/^query_changed ()$/;"	f
+repository	src/scim-panel-vkb-gtk.cpp	/^    PropertyRepository   repository;$/;"	m	struct:HelperPropertyInfo	file:
+root_window	src/scim-panel-vkb-gtk.cpp	/^    GdkWindow *root_window = gdk_get_default_root_window ();$/;"	v
+save_config	modules/SetupUI/scim_panel_setup.cpp	/^save_config (const ConfigPointer &config)$/;"	f	file:
+save_config	modules/SetupUI/scim_panel_vkb_setup.cpp	/^save_config (const ConfigPointer &config)$/;"	f
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	data/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	data/icons/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	modules/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	modules/SetupUI/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	src/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+scim_get_panel_program_list	modules/SetupUI/scim_panel_setup.cpp	/^scim_get_panel_program_list (std::vector <String>& panel_list)$/;"	f	file:
+scim_get_panel_program_paths	modules/SetupUI/scim_panel_setup.cpp	/^scim_get_panel_program_paths (std::vector <String> &paths)$/;"	f	file:
+scim_module_exit	modules/SetupUI/scim_panel_setup.cpp	/^    void scim_module_exit (void)$/;"	f
+scim_module_exit	modules/SetupUI/scim_panel_setup.cpp	51;"	d	file:
+scim_module_exit	modules/SetupUI/scim_panel_vkb_setup.cpp	/^    void scim_module_exit (void)$/;"	f
+scim_module_exit	modules/SetupUI/scim_panel_vkb_setup.cpp	48;"	d	file:
+scim_module_init	modules/SetupUI/scim_panel_setup.cpp	/^    void scim_module_init (void)$/;"	f
+scim_module_init	modules/SetupUI/scim_panel_setup.cpp	50;"	d	file:
+scim_module_init	modules/SetupUI/scim_panel_vkb_setup.cpp	/^    void scim_module_init (void)$/;"	f
+scim_module_init	modules/SetupUI/scim_panel_vkb_setup.cpp	47;"	d	file:
+scim_panel_vkb_gtk_LDADD	src/Makefile	/^scim_panel_vkb_gtk_LDADD = $(LDADD)$/;"	m
+scim_panel_vkb_gtk_OBJECTS	src/Makefile	/^scim_panel_vkb_gtk_OBJECTS = $(am_scim_panel_vkb_gtk_OBJECTS)$/;"	m
+scim_panel_vkb_gtk_SOURCES	src/Makefile	/^scim_panel_vkb_gtk_SOURCES = scim-panel-vkb-gtk.cpp \\$/;"	m
+scim_setup_module_create_ui	modules/SetupUI/scim_panel_setup.cpp	/^    GtkWidget * scim_setup_module_create_ui (void)$/;"	f
+scim_setup_module_create_ui	modules/SetupUI/scim_panel_setup.cpp	53;"	d	file:
+scim_setup_module_create_ui	modules/SetupUI/scim_panel_vkb_setup.cpp	/^    GtkWidget * scim_setup_module_create_ui (void)$/;"	f
+scim_setup_module_create_ui	modules/SetupUI/scim_panel_vkb_setup.cpp	50;"	d	file:
+scim_setup_module_get_category	modules/SetupUI/scim_panel_setup.cpp	/^    String scim_setup_module_get_category (void)$/;"	f
+scim_setup_module_get_category	modules/SetupUI/scim_panel_setup.cpp	54;"	d	file:
+scim_setup_module_get_category	modules/SetupUI/scim_panel_vkb_setup.cpp	/^    String scim_setup_module_get_category (void)$/;"	f
+scim_setup_module_get_category	modules/SetupUI/scim_panel_vkb_setup.cpp	51;"	d	file:
+scim_setup_module_get_description	modules/SetupUI/scim_panel_setup.cpp	/^    String scim_setup_module_get_description (void)$/;"	f
+scim_setup_module_get_description	modules/SetupUI/scim_panel_setup.cpp	56;"	d	file:
+scim_setup_module_get_description	modules/SetupUI/scim_panel_vkb_setup.cpp	/^    String scim_setup_module_get_description (void)$/;"	f
+scim_setup_module_get_description	modules/SetupUI/scim_panel_vkb_setup.cpp	53;"	d	file:
+scim_setup_module_get_name	modules/SetupUI/scim_panel_setup.cpp	/^    String scim_setup_module_get_name (void)$/;"	f
+scim_setup_module_get_name	modules/SetupUI/scim_panel_setup.cpp	55;"	d	file:
+scim_setup_module_get_name	modules/SetupUI/scim_panel_vkb_setup.cpp	/^    String scim_setup_module_get_name (void)$/;"	f
+scim_setup_module_get_name	modules/SetupUI/scim_panel_vkb_setup.cpp	52;"	d	file:
+scim_setup_module_load_config	modules/SetupUI/scim_panel_setup.cpp	/^    void scim_setup_module_load_config (const ConfigPointer &config)$/;"	f
+scim_setup_module_load_config	modules/SetupUI/scim_panel_setup.cpp	57;"	d	file:
+scim_setup_module_load_config	modules/SetupUI/scim_panel_vkb_setup.cpp	/^    void scim_setup_module_load_config (const ConfigPointer &config)$/;"	f
+scim_setup_module_load_config	modules/SetupUI/scim_panel_vkb_setup.cpp	54;"	d	file:
+scim_setup_module_query_changed	modules/SetupUI/scim_panel_setup.cpp	/^    bool scim_setup_module_query_changed ()$/;"	f
+scim_setup_module_query_changed	modules/SetupUI/scim_panel_setup.cpp	59;"	d	file:
+scim_setup_module_query_changed	modules/SetupUI/scim_panel_vkb_setup.cpp	/^    bool scim_setup_module_query_changed ()$/;"	f
+scim_setup_module_query_changed	modules/SetupUI/scim_panel_vkb_setup.cpp	56;"	d	file:
+scim_setup_module_save_config	modules/SetupUI/scim_panel_setup.cpp	/^    void scim_setup_module_save_config (const ConfigPointer &config)$/;"	f
+scim_setup_module_save_config	modules/SetupUI/scim_panel_setup.cpp	58;"	d	file:
+scim_setup_module_save_config	modules/SetupUI/scim_panel_vkb_setup.cpp	/^    void scim_setup_module_save_config (const ConfigPointer &config)$/;"	f
+scim_setup_module_save_config	modules/SetupUI/scim_panel_vkb_setup.cpp	55;"	d	file:
+setup_widget_value	modules/SetupUI/scim_panel_setup.cpp	/^setup_widget_value ()$/;"	f	file:
+setup_widget_value	modules/SetupUI/scim_panel_vkb_setup.cpp	/^setup_widget_value ()$/;"	f
+setupmodule_LTLIBRARIES	modules/SetupUI/Makefile	/^setupmodule_LTLIBRARIES = $(CONFIG_PANEL_SETUP_MODULE) \\$/;"	m
+setupmoduledir	modules/SetupUI/Makefile	/^setupmoduledir = \/usr\/lib\/scim-1.0\/1.4.0\/SetupUI$/;"	m
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	data/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	data/icons/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	modules/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	modules/SetupUI/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	src/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+srcdir	Makefile	/^srcdir = .$/;"	m
+srcdir	data/Makefile	/^srcdir = .$/;"	m
+srcdir	data/icons/Makefile	/^srcdir = .$/;"	m
+srcdir	modules/Makefile	/^srcdir = .$/;"	m
+srcdir	modules/SetupUI/Makefile	/^srcdir = .$/;"	m
+srcdir	po/Makefile	/^	srcdir=$(srcdir) $(INTLTOOL_UPDATE) -m$/;"	m
+srcdir	po/Makefile	/^srcdir = .$/;"	m
+srcdir	src/Makefile	/^srcdir = .$/;"	m
+subdir	Makefile	/^subdir = .$/;"	m
+subdir	data/Makefile	/^subdir = data$/;"	m
+subdir	data/icons/Makefile	/^subdir = data\/icons$/;"	m
+subdir	modules/Makefile	/^subdir = modules$/;"	m
+subdir	modules/SetupUI/Makefile	/^subdir = modules\/SetupUI$/;"	m
+subdir	po/Makefile	/^subdir = po$/;"	m
+subdir	src/Makefile	/^subdir = src$/;"	m
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	data/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	data/icons/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	modules/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	modules/SetupUI/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	src/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | GZIP=$(GZIP_ENV) gzip -c >$(distdir).tar.gz$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | bzip2 -9 -c >$(distdir).tar.bz2$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | compress -c >$(distdir).tar.Z$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | lzma -9 -c >$(distdir).tar.lzma$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | xz -c >$(distdir).tar.xz$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+target_alias	data/Makefile	/^target_alias = $/;"	m
+target_alias	data/icons/Makefile	/^target_alias = $/;"	m
+target_alias	modules/Makefile	/^target_alias = $/;"	m
+target_alias	modules/SetupUI/Makefile	/^target_alias = $/;"	m
+target_alias	src/Makefile	/^target_alias = $/;"	m
+textdomain	src/panel_private.h	35;"	d
+top_build_prefix	Makefile	/^top_build_prefix = $/;"	m
+top_build_prefix	data/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_build_prefix	data/icons/Makefile	/^top_build_prefix = ..\/..\/$/;"	m
+top_build_prefix	modules/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_build_prefix	modules/SetupUI/Makefile	/^top_build_prefix = ..\/..\/$/;"	m
+top_build_prefix	src/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_builddir	Makefile	/^top_builddir = .$/;"	m
+top_builddir	data/Makefile	/^top_builddir = ..$/;"	m
+top_builddir	data/icons/Makefile	/^top_builddir = ..\/..$/;"	m
+top_builddir	modules/Makefile	/^top_builddir = ..$/;"	m
+top_builddir	modules/SetupUI/Makefile	/^top_builddir = ..\/..$/;"	m
+top_builddir	po/Makefile	/^top_builddir = ..$/;"	m
+top_builddir	src/Makefile	/^top_builddir = ..$/;"	m
+top_distdir	Makefile	/^top_distdir = $(distdir)$/;"	m
+top_srcdir	Makefile	/^top_srcdir = .$/;"	m
+top_srcdir	data/Makefile	/^top_srcdir = ..$/;"	m
+top_srcdir	data/icons/Makefile	/^top_srcdir = ..\/..$/;"	m
+top_srcdir	modules/Makefile	/^top_srcdir = ..$/;"	m
+top_srcdir	modules/SetupUI/Makefile	/^top_srcdir = ..\/..$/;"	m
+top_srcdir	po/Makefile	/^top_srcdir = ..$/;"	m
+top_srcdir	src/Makefile	/^top_srcdir = ..$/;"	m
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	data/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	data/icons/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	modules/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	modules/SetupUI/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	src/Makefile	/^transform = $(program_transform_name)$/;"	m
+triger_delay	src/scim-panel-vkb-gtk.cpp	/^static guint triger_delay = PANEL_DEFAULT_TRIGER_DELAY;$/;"	v	file:
+triger_delay_timeout_id	src/scim-panel-vkb-gtk.cpp	/^static guint triger_delay_timeout_id = 0;$/;"	v	file:
+triger_on	src/scim-panel-vkb-gtk.cpp	/^static gboolean triger_on;$/;"	v	file:
+ui_config_reload_callback	src/scim-panel-vkb-gtk.cpp	/^ui_config_reload_callback (const ConfigPointer &config)$/;"	f	file:
+ui_event_filter	src/scim-panel-vkb-gtk.cpp	/^ui_event_filter (GdkXEvent *gdk_xevent, GdkEvent *event, gpointer data)$/;"	f	file:
+ui_initialize	src/scim-panel-vkb-gtk.cpp	/^ui_initialize (void)$/;"	f	file:
+ui_load_config	src/scim-panel-vkb-gtk.cpp	/^ui_load_config (void)$/;"	f	file:
+widget	src/scim-panel-vkb-gtk.cpp	/^    GtkWidget *widget;$/;"	m	struct:PropertyInfo	file:
+window	modules/SetupUI/scim_panel_vkb_setup.cpp	/^static GtkWidget * window                              = 0;$/;"	v	file:

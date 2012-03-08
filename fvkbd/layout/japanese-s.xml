@@ -1,0 +1,220 @@
+<!-- This layout is for Japanese with Hiragana keys -->
+
+<keyboard num_of_modes="3" font="Droid Sans_bold_16" efont="Droid Sans_bold_12" ofont="Droid Sans_bold_24"
+panel_bgcolor="6a6a6a" key_bgcolor="303030" key_fgcolor="fcc536"
+pop_bgcolor="fcc536" pop_fgcolor="303030" key_extra_fgcolor="838383">
+
+	<mode id="0" name="default"/>
+	<mode id="1" name="CapsLock"/>
+	<mode id="2" name="symbol"/>
+
+	<panel layout="xy" x="0" y="0" width="800" height="196" key_shape="chamfer" dock="none">
+		<key x="4" y="5" width="55" height="58">
+			<action disp="↑" type="func">mode:1</action>
+			<action mode_id="1" disp="↑" type="func">mode:0</action>
+			<action mode_id="2" disp="↑" type="func">mode:0</action>
+		</key>
+
+		<key x="65" y="5" width="55" height="58">
+			<action disp="q" type="strings">q た</action>
+			<action mode_id="1" disp="Q" type="strings">Q た</action>
+			<action mode_id="2" disp="1" type="strings">1 ぬ</action>
+		</key>
+
+		<key x="126" y="5" width="55" height="58">
+			<action disp="w" type="strings">w て</action>
+			<action mode_id="1" disp="W" type="strings">W て</action>
+			<action mode_id="2" disp="2" type="strings">2 ふ</action>
+		</key>
+
+		<key x="187" y="5" width="55" height="58">
+			<action disp="e" type="strings">e い é è ê ë</action>
+			<action mode_id="1" disp="E" type="strings">E ぃ É È Ê Ë</action>
+			<action mode_id="2" disp="3" type="strings">3 あ</action>
+		</key>
+
+		<key x="248" y="5" width="55" height="58">
+			<action disp="r" type="strings">r す</action>
+			<action mode_id="1" disp="R" type="strings">R す</action>
+			<action mode_id="2" disp="4" type="strings">4 う</action>
+		</key>
+
+		<key x="309" y="5" width="55" height="58">
+			<action disp="t" type="strings">t か</action>
+			<action mode_id="1" disp="T" type="strings">T ヵ</action>
+			<action mode_id="2" disp="5" type="strings">5 え</action>
+		</key>
+
+		<key x="370" y="5" width="55" height="58">
+			<action disp="y" type="strings">y ん ÿ</action>
+			<action mode_id="1" disp="Y" type="strings">Y ん Ÿ</action>
+			<action mode_id="2" disp="6" type="strings">6 お</action>
+		</key>
+
+		<key x="431" y="5" width="55" height="58">
+			<action disp="u" type="strings">u な û ù ü ú</action>
+			<action mode_id="1" disp="U" type="strings">U な Û Ù Ü Ú</action>
+			<action mode_id="2" disp="7" type="strings">7 や</action>
+		</key>
+
+		<key x="492" y="5" width="55" height="58">
+			<action disp="i" type="strings">i に î ï í</action>
+			<action mode_id="1" disp="I" type="strings">I に Î Ï Í</action>
+			<action mode_id="2" disp="8" type="strings">8 ゆ</action>
+		</key>
+
+		<key x="553" y="5" width="55" height="58">
+			<action disp="o" type="strings">o ら ô ö ó õ</action>
+			<action mode_id="1" disp="O" type="strings">O ら Ô Ö Ó Õ</action>
+			<action mode_id="2" disp="9" type="strings">9 よ</action>
+		</key>
+
+		<key x="614" y="5" width="55" height="58">
+			<action disp="p" type="strings">p せ</action>
+			<action mode_id="1" disp="P" type="strings">P せ</action>
+			<action mode_id="2" disp="0" type="strings">0 わ</action>
+		</key>
+
+		<key x="675" y="5" width="55" height="58">
+		<action disp="←" img="key_bs.png" img_dn="key_bs_dn.png" type="sym">BackSpace</action>
+		</key>
+
+		<key x="736" y="5" width="60" height="58">
+			<action img="key_set.png" img_dn="key_set_dn.png" disp="IM" type="script">menu</action>
+		</key>
+
+		<!--next row-->
+
+		<key x="4" y="69" width="55" height="58">
+			<action disp="123" type="func">mode:2</action>
+			<action mode_id="2" disp="123" type="func">mode:0</action>
+		</key>
+
+		<key x="65" y="69" width="55" height="58">
+			<action disp="a" type="strings">a ち à â ä ã á å</action>
+			<action mode_id="1" disp="A" type="strings">A ち À Â Ä Ã Á Å</action>
+			<action mode_id="2" disp="-" type="strings">- ほ</action>
+		</key>
+
+		<key x="126" y="69" width="55" height="58">
+			<action disp="s" type="strings">s と ß</action>
+			<action mode_id="1" disp="S" type="strings">S と ß</action>
+			<action mode_id="2" disp="/" type="strings">/ め</action>
+		</key>
+
+		<key x="187" y="69" width="55" height="58">
+			<action disp="d" type="strings">d し</action>
+			<action mode_id="1" disp="D" type="strings">D し</action>
+			<action mode_id="2" disp=":" type="strings">: け</action>
+		</key>
+
+		<key x="248" y="69" width="55" height="58">
+			<action disp="f" type="strings">f は</action>
+			<action mode_id="1" disp="F" type="strings">F ゎ</action>
+			<action mode_id="2" disp=";" type="strings">; れ</action>
+		</key>
+
+		<key x="309" y="69" width="55" height="58">
+			<action disp="g" type="strings">g き</action>
+			<action mode_id="1" disp="G" type="strings">G き</action>
+			<action mode_id="2" disp="(" type="strings">( ゅ [ ゜ { 「 《 ﹤</action>
+		</key>
+
+		<key x="370" y="69" width="55" height="58">
+			<action disp="h" type="strings">h く</action>
+			<action mode_id="1" disp="H" type="strings">H く</action>
+			<action mode_id="2" disp=")" type="strings">) ょ ] む } 」 》 ﹥</action>
+		</key>
+
+		<key x="431" y="69" width="55" height="58">
+			<action disp="j" type="strings">j ま</action>
+			<action mode_id="1" disp="J" type="strings">J ま</action>
+			<action mode_id="2" disp="£" type="strings">£ $ € ¥</action>
+		</key>
+
+		<key x="492" y="69" width="55" height="58">
+			<action disp="k" type="strings">k の</action>
+			<action mode_id="1" disp="K" type="strings">K の</action>
+			<action mode_id="2" disp="&amp;" type="strings">&amp; ぉ</action>
+		</key>
+
+		<key x="553" y="69" width="55" height="58">
+			<action disp="l" type="strings">l り</action>
+			<action mode_id="1" disp="L" type="strings">L り</action>
+			<action mode_id="2" disp="#" type="strings"># ぁ</action>
+		</key>
+
+		<key x="614" y="69" width="55" height="58">
+			<action disp="." type="strings">. る</action>
+			<action mode_id="2" disp="$" type="strings">$ ぅ</action>
+		</key>
+
+		<key x="675" y="69" width="55" height="58">
+			<action disp="?" type="strings">? め</action>
+			<action mode_id="2" disp="!" type="strings">! ぬ</action>
+		</key>
+
+		<key x="736" y="69" width="60" height="122" pop="none">
+			<action img="key_return.png" img_dn="key_return_dn.png" disp="◀┛" type="sym">Return</action>
+		</key>
+
+		<!--next row-->
+
+		<key x="4" y="133" width="55" height="58">
+			<action img="key_hide.png" img_dn="key_hide_dn.png" disp="↧" type="func">exit</action>
+		</key>
+
+		<key x="65" y="133" width="55" height="58">
+			<action disp="z" type="strings">z つ</action>
+			<action mode_id="1" disp="Z" type="strings">Z っ</action>
+			<action mode_id="2" disp='"' type="strings">" ふ “ ” ‘ ’</action>
+		</key>
+
+		<key x="126" y="133" width="55" height="58">
+			<action disp="x" type="strings">x さ</action>
+			<action mode_id="1" disp="X" type="strings">X さ</action>
+			<action mode_id="2" disp="%" type="strings">% ぇ</action>
+		</key>
+
+		<key x="187" y="133" width="55" height="58">
+			<action disp="c" type="strings">c そ ç</action>
+			<action mode_id="1" disp="C" type="strings">C そ Ç</action>
+			<action mode_id="2" disp="&lt;" type="strings">&lt; 、</action>
+		</key>
+
+		<key x="248" y="133" width="55" height="58">
+			<action disp="v" type="strings">v ひ</action>
+			<action mode_id="1" disp="V" type="strings">V ゐ</action>
+			<action mode_id="2" disp="&gt;" type="strings">&gt; 。</action>
+		</key>
+
+		<key x="309" y="133" width="55" height="58">
+			<action disp="b" type="strings">b こ</action>
+			<action mode_id="1" disp="B" type="strings">B こ</action>
+			<action mode_id="2" disp="_" type="strings">_ ろ</action>
+		</key>
+
+		<key x="370" y="133" width="55" height="58">
+			<action disp="n" type="strings">n み</action>
+			<action mode_id="1" disp="N" type="strings">N み</action>
+			<action mode_id="2" disp="+" type="strings">+ れ</action>
+		</key>
+
+		<key x="431" y="133" width="55" height="58">
+			<action disp="m" type="strings">m も</action>
+			<action mode_id="1" disp="M" type="strings">M も</action>
+			<action mode_id="2" disp=".com" type="strings" font="Droid Sans_bold_14" ofont="Droid Sans_bold_14">.com .net .org .edu</action>
+		</key>
+
+		<key x="492" y="133" width="175" height="58" pop="none">
+			<action disp=""> </action>
+		</key>
+
+		<key x="675" y="133" width="55" height="58">
+			<action disp="@" type="strings">@ ゛</action>
+		</key>
+
+
+	</panel>
+
+</keyboard>

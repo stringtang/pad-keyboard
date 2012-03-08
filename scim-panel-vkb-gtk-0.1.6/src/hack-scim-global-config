@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+CONFIGFILE="/etc/scim/global"
+TMPFILE=$(mktemp -t "scim-panel.XXXXXXXXXX")
+
+echo -n "Hacking scim global config file..."
+sed s/DefaultPanelProgram\ =\ scim-panel-gtk/DefaultPanelProgram\ =\ scim-panel-vkb-gtk/ $CONFIGFILE > $TMPFILE
+cp "$TMPFILE" "$CONFIGFILE"
+rm -f "$TMPFILE"
+echo "done"

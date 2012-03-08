@@ -1,0 +1,33 @@
+# Chinese translations for fvkbd package.
+# Copyright (C) 2009 THE fvkbd'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the fvkbd package.
+# raymond <raymond.liu@intel.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fvkbd 0.1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-11-27 15:07+0800\n"
+"PO-Revision-Date: 2009-11-27 14:05+0800\n"
+"Last-Translator: raymond <raymond.liu@intel.com>\n"
+"Language-Team: Chinese (simplified)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../app/gtk/fvkbd-gtk.desktop.in.h:1
+msgid "A Flexible On Screen Virtual Keyboard"
+msgstr "一个灵活的虚拟键盘程序"
+
+#: ../app/gtk/fvkbd-gtk.desktop.in.h:2
+msgid "Soft Keyboard"
+msgstr "虚拟键盘"
+
+#: ../app/gtk/fvkbd-ui-gtk.c:225
+msgid "Change Layout"
+msgstr "改变布局"
+
+#. create menu item Exit
+#: ../app/gtk/fvkbd-ui-gtk.c:249
+msgid "Exit"
+msgstr "退出"

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<node name="/org/moblin/scim/vkb">
+  <interface name="org.moblin.scim.vkb">
+
+    <!-- Method definitions -->
+
+    <method name="TurnOnPanel">
+    </method>
+
+    <method name="TurnOffPanel">
+    </method>
+
+    <method name="ToggleVkbAlone">
+    </method>
+
+    <method name="MovePanel">
+    </method>
+
+    <method name="ChangeInputmethod">
+    </method>
+
+  </interface>
+</node>

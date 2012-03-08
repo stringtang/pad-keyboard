@@ -1,0 +1,215 @@
+<keyboard num_of_modes="3" font="Droid Sans_bold_12" efont="Droid Sans_bold_10" ofont="Droid Sans_bold_12"
+key_fgcolor="4e4706" pop_bgcolor="72adfa">
+
+	<mode id="0" name="default"/>
+	<mode id="1" name="CapsLock"/>
+	<mode id="2" name="symbol"/>
+
+	<panel layout="xy" x="0" y="0" width="720" height="170" img="line_rainbow.png">
+		<key x="5" y="5" width="50" height="50" bgcolor="ff2b28" fgcolor="fec736">
+			<action disp="↑" type="func">mode:1</action>
+			<action mode_id="1" disp="↑" type="func">mode:0</action>
+			<action mode_id="2" disp="↑" type="func">mode:0</action>
+		</key>
+
+		<key x="60" y="5" width="50" height="50" bgcolor="ff3308" fgcolor="fec736">
+			<action disp="q">q</action>
+			<action mode_id="1" disp="Q">Q</action>
+			<action mode_id="2" disp="1">1</action>
+		</key>
+
+		<key x="115" y="5" width="50" height="50" bgcolor="ffc008">
+			<action disp="w">w</action>
+			<action mode_id="1" disp="W">W</action>
+			<action mode_id="2" disp="2">2</action>
+		</key>
+
+		<key x="170" y="5" width="50" height="50" bgcolor="e0fc0d" fgcolor="ee3b38">
+			<action disp="e" type="strings">e é è ê ë</action>
+			<action mode_id="1" disp="E" type="strings">E É È Ê Ë</action>
+			<action mode_id="2" disp="3">3</action>
+		</key>
+
+		<key x="225" y="5" width="50" height="50" bgcolor="5fd61e" fgcolor="ee3b38">
+			<action disp="r">r</action>
+			<action mode_id="1" disp="R">R</action>
+			<action mode_id="2" disp="4">4</action>
+		</key>
+
+		<key x="280" y="5" width="50" height="50" bgcolor="08b749" fgcolor="ee3b38">
+			<action disp="t">t</action>
+			<action mode_id="1" disp="T">T</action>
+			<action mode_id="2" disp="5">5</action>
+		</key>
+
+		<key x="335" y="5" width="50" height="50" bgcolor="07b8a6" fgcolor="ee3b38">
+			<action disp="y" type="strings">y ÿ</action>
+			<action mode_id="1" disp="Y" type="strings">Y Ÿ</action>
+			<action mode_id="2" disp="6">6</action>
+		</key>
+
+		<key x="390" y="5" width="50" height="50" bgcolor="08d5fd" fgcolor="ee3b38">
+			<action disp="u" type="strings">u û ù ü ú</action>
+			<action mode_id="1" disp="U" type="strings">U Û Ù Ü Ú</action>
+			<action mode_id="2" disp="7">7</action>
+		</key>
+
+		<key x="445" y="5" width="50" height="50" bgcolor="3b96fb" fgcolor="e0fc0d">
+			<action disp="i" type="strings">i î ï í</action>
+			<action mode_id="1" disp="I" type="strings">I Î Ï Í</action>
+			<action mode_id="2" disp="8">8</action>
+		</key>
+
+		<key x="500" y="5" width="50" height="50" bgcolor="6a3cfc" fgcolor="e0fc0d">
+			<action disp="o" type="strings">o ô ö ó õ</action>
+			<action mode_id="1" disp="O" type="strings">O Ô Ö Ó Õ</action>
+			<action mode_id="2" disp="9">9</action>
+		</key>
+
+		<key x="555" y="5" width="50" height="50" bgcolor="bd08b6" fgcolor="e0fc0d">
+			<action disp="p">p</action>
+			<action mode_id="1" disp="P">P</action>
+			<action mode_id="2" disp="0">0</action>
+		</key>
+
+		<key x="610" y="5" width="50" height="50" bgcolor="ff32ce" fgcolor="e0fc0d">
+			<action disp="?">?</action>
+		</key>
+
+		<key x="665" y="5" width="50" height="50" bgcolor="fffb01" fgcolor="6a3cfc">
+		<action disp="←|" type="sym">BackSpace</action>
+		</key>
+
+		<!--next row-->
+
+		<key x="5" y="60" width="50" height="50" bgcolor="ff4542" fgcolor="fec736">
+			<action disp="123" type="func">mode:2</action>
+			<action mode_id="2" disp="123" type="func">mode:0</action>
+		</key>
+
+		<key x="60" y="60" width="50" height="50" bgcolor="ff4726" fgcolor="fec736">
+			<action disp="a" type="strings">a à â ä ã á å</action>
+			<action mode_id="1" disp="A" type="strings">A À Â Ä Ã Á Å</action>
+			<action mode_id="2" disp="-">-</action>
+		</key>
+
+		<key x="115" y="60" width="50" height="50" bgcolor="ffc725">
+			<action disp="s" type="strings">s ß</action>
+			<action mode_id="1" disp="S" type="strings">S ß</action>
+			<action mode_id="2" disp="/">/</action>
+		</key>
+
+		<key x="170" y="60" width="50" height="50" bgcolor="e6fc28" fgcolor="ee3b38">
+			<action disp="d">d</action>
+			<action mode_id="1" disp="D">D</action>
+			<action mode_id="2" disp=":">:</action>
+		</key>
+
+		<key x="225" y="60" width="50" height="50" bgcolor="73db39" fgcolor="ee3b38">
+			<action disp="f">f</action>
+			<action mode_id="1" disp="F">F</action>
+			<action mode_id="2" disp=";">;</action>
+		</key>
+
+		<key x="280" y="60" width="50" height="50" bgcolor="26bf5e" fgcolor="ee3b38">
+			<action disp="g">g</action>
+			<action mode_id="1" disp="G">G</action>
+			<action mode_id="2" disp="(" type="strings">( [ { 《 ﹤</action>
+		</key>
+
+		<key x="335" y="60" width="50" height="50" bgcolor="26ddb1" fgcolor="ee3b38">
+			<action disp="h">h</action>
+			<action mode_id="1" disp="H">H</action>
+			<action mode_id="2" disp=")" type="strings">) ] } 》 ﹥</action>
+		</key>
+
+		<key x="390" y="60" width="50" height="50" bgcolor="25dafd" fgcolor="ee3b38">
+			<action disp="j">j</action>
+			<action mode_id="1" disp="J">J</action>
+			<action mode_id="2" disp="$" type="strings">$ £ € ¥</action>
+		</key>
+
+		<key x="445" y="60" width="50" height="50" bgcolor="3b96fb" fgcolor="e0fc0d">
+			<action disp="k">k</action>
+			<action mode_id="1" disp="K">K</action>
+			<action mode_id="2" disp="&amp;">&amp;</action>
+		</key>
+
+		<key x="500" y="60" width="50" height="50" bgcolor="6a3cfc" fgcolor="e0fc0d">
+			<action disp="l">l</action>
+			<action mode_id="1" disp="L">L</action>
+			<action mode_id="2" disp="#">#</action>
+		</key>
+
+		<key x="555" y="60" width="50" height="50" bgcolor="c126be" fgcolor="e0fc0d">
+			<action disp=".">.</action>
+		</key>
+
+		<key x="610" y="60" width="50" height="50" bgcolor="ff49d3" fgcolor="e0fc0d">
+			<action disp="!">!</action>
+		</key>
+
+		<key x="665" y="60" width="50" height="105" bgcolor="d0fa16" fgcolor="6a3cfc">
+			<action disp="  ┃&#xD;◀┛" type="sym">Return</action>
+		</key>
+
+		<!--next row-->
+
+		<key x="5" y="115" width="50" height="50" bgcolor="ff4542" fgcolor="fec736">
+			<action disp="Set" type="func">menu</action>
+		</key>
+
+		<key x="60" y="115" width="50" height="50" bgcolor="ff4726" fgcolor="fec736">
+			<action disp="z">z</action>
+			<action mode_id="1" disp="Z">Z</action>
+			<action mode_id="2" disp='"' type="strings">" “ ” ‘ ’</action>
+		</key>
+
+		<key x="115" y="115" width="50" height="50" bgcolor="ffc725">
+			<action disp="x">x</action>
+			<action mode_id="1" disp="X">X</action>
+			<action mode_id="2" disp="%">%</action>
+		</key>
+
+		<key x="170" y="115" width="50" height="50" bgcolor="e6fc28" fgcolor="ee3b38">
+			<action disp="c" type="strings">c ç</action>
+			<action mode_id="1" disp="C" type="strings">C Ç</action>
+			<action mode_id="2" disp="&lt;">&lt;</action>
+		</key>
+
+		<key x="225" y="115" width="50" height="50" bgcolor="73db39" fgcolor="ee3b38">
+			<action disp="v">v</action>
+			<action mode_id="1" disp="V">V</action>
+			<action mode_id="2" disp="&gt;">&gt;</action>
+		</key>
+
+		<key x="280" y="115" width="50" height="50" bgcolor="26bf5e" fgcolor="ee3b38">
+			<action disp="b">b</action>
+			<action mode_id="1" disp="B">B</action>
+			<action mode_id="2" disp="_">_</action>
+		</key>
+
+		<key x="335" y="115" width="50" height="50" bgcolor="26ddb1" fgcolor="ee3b38">
+			<action disp="n">n</action>
+			<action mode_id="1" disp="N">N</action>
+			<action mode_id="2" disp="+">+</action>
+		</key>
+
+		<key x="390" y="115" width="50" height="50" bgcolor="31d6f2" fgcolor="ee3b38">
+			<action disp="m">m</action>
+			<action mode_id="1" disp="M">M</action>
+			<action mode_id="2" disp=".com" type="strings">.com .net .org .gov</action>
+		</key>
+
+		<key x="445" y="115" width="160" height="50" bgcolor="c126be" fgcolor="e0fc0d">
+			<action disp="space"> </action>
+		</key>
+
+		<key x="610" y="115" width="50" height="50" bgcolor="ff49d3" fgcolor="e0fc0d">
+			<action disp="@">@</action>
+		</key>
+
+
+	</panel>
+
+</keyboard>
