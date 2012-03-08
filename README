@@ -1,0 +1,9 @@
+This is a project from ijimu linux team. For enhance fvkbd and scim and supply a virtual keyboard for touch feature device like pad.
+
+It is a project to enhance the fvkdb project and scim project. It has been tested on Ubuntu 10.04 and Ubuntu 11.10. To trigger it, press ctrl + space, and the pad-keyboard would remember when and where to auto-popup. You could also call it by some third party program. Any advice and bugs report would be welcomed.
+
+As an open source project, it is LGPL license, which almost means that do whatever you would like to do with it.
+
+Happy to hack :)
+
+http://www.ijimu.com
