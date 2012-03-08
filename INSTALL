@@ -1,7 +1,9 @@
 To pre-install:
 sudo apt-get install libfakekey-dev
 sudo apt-get install intltool
+sudo apt-get install libxml2-dev
 sudo apt-get install scim
+sudo apt-get install scim-dev
 sudo apt-get install scim-pinyin
 
 1. Install fvkbd-gtk
