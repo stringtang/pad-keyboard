@@ -27,6 +27,6 @@ cd ./scim-panel-vkb-gtk-0.1.6
 make
 sudo make install
 
-2) To run it:
+2) To run it(remember to uninstall other input method for testing):
 cd src/
 ./scim-panel-vkb-gtk
